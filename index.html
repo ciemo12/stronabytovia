@@ -17,19 +17,15 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-<body style="background-image:url(photos/tlo.jpg) ">
+<body>
 <article>
   <header>
     <div class="container"> 
       <div class="row">
        <div class="col-md-12  panel panel-default">
         <div class="header1">
-          <img src="photos/herb.jpg">
+          <img src="photos/herb.jpg" style="width:80px;">
         </div>
-    
-        <div class="header2">
-
-          <img src="photos/logo-drutex1.png ">
         </div>
       </div>
     </div>
@@ -41,7 +37,13 @@
         <div class="container-fluid">
          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li><a href="#">Aktualności</a></li> 
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Aktualności<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">qwe</a></li>
+                <li><a href="#">qwe</a></li>
+              </ul>
+            </li> 
             <li><a href="#">Bilety</a></li> 
             <li><a href="#">Sezon</a></li> 
             <li><a href="#">Klub</a></li> 
@@ -121,14 +123,11 @@
     </div>
   </section>
   <aside>
-    <div class="container aside">
-      <div class="row">
-        <div class="col-md-4 panel panel-default">
+    <div class="aside">
+      <div class="row heightaside">
+        
           <div class="tabela">
           <table>
-            <div class="tabletitle">
-            <h4>Tabela I Liga</h4>
-            </div>
             <thead>
               <tr class="tlohead" >
                 <th class="center">POZ.</th>
@@ -307,6 +306,7 @@
           </table>
           </div>   
         </div>
+      </div>
       </div>
     </div>
   </aside>
