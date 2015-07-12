@@ -41,14 +41,14 @@ body {
 }
 
 #ostatnieWydarzenia{
-	width: 700px;
-	margin-left: 22px;
+	width: 778px;
+	margin-left: -15px;
 }
 .obramowanie {
 	float:left;
 	background-color: rgba(88,179,220,0.9);
-	width:699px;
-	margin-left:-140px;
+	width:779px;
+	margin-left:-155px;
 }
 .aside {
 	float: left;
