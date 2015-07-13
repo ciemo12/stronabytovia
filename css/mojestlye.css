@@ -1,3 +1,10 @@
+body {
+	font-family: Verdana ;
+	margin:0;
+}
+.pattern {
+
+}
 .panel {
 	margin-top: 0;
 	margin-bottom: 0;
@@ -9,23 +16,42 @@
 	float:left;
 
  }
+ .headsponsor {
+ 	position: relative;
+ 	float: left;
+ 	margin-left: 1055px;
+ }
+
  .header1 {
- 	margin-left: 0px;
- 	margin-top: 10px;
+ 	margin-left: 15px;
+ 	margin-right: 15px;
  	float: left;
  	width: 100%;
  	height: 80px;
+ 	margin-top: 10px;
+ 	
+ 	
  }
+ .headertext {
+ 	position: relative;
+	float: left;
+	margin-top: -80px;
+	text-transform:uppercase;
+	margin-left:520px;
+	font-size: 20px;
+
+
+}
 
 #ostatnieWydarzenia{
-	width: 700px;
-	margin-left: 22px;
+	width: 778px;
+	margin-left: -15px;
 }
 .obramowanie {
 	float:left;
 	background-color: rgba(88,179,220,0.9);
-	width:699px;
-	margin-left:-140px;
+	width:779px;
+	margin-left:-155px;
 }
 .aside {
 	float: left;
@@ -63,10 +89,14 @@ table, th, td {
 	text-align: center;
 }
 .text {
-	
+	border: solid 1px;
 	float: left;
-	margin-left: 0px;
-	height: 20px;
+	height: 132px;
+	width: 260px;
+	text-align: center;
+	border-radius: 5px;
+	color: #727272;
+	border-color: #727272;
 }
 .logo {
 	text-align: center;
@@ -79,11 +109,12 @@ table, th, td {
    	margin-left: 0px;
 }
 .kontakt {
-	width: 100%;
+	width: 1170px;
 	float: left;
 	background: #242420;
 	color:#d9d9d9;
 	padding: 10px; 
+	margin-left: -15px;
 }
 .herb {
 	width: 100%;
@@ -92,9 +123,10 @@ table, th, td {
 	margin-top: -100px;
 }
 .stopka {
-	width: 100%;
+	width: 1170px;
 	float: left;
 	text-align: center;
-	background: #242420;
+	background: #242430;
 	color:#d9d9d9;
+	margin-left: -15px;
 }
