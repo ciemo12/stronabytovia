@@ -1,11 +1,8 @@
 body {
 	font-family: Verdana ;
 	margin:0;
-	background-image: url('pattern.png');
 }
-.pattern {
 
-}
 .panel {
 	margin-top: 0;
 	margin-bottom: 0;
@@ -110,11 +107,12 @@ table, th, td {
    	margin-left: 0px;
 }
 .kontakt {
-	width: 100%;
+	width: 1170px;
 	float: left;
 	background: #242420;
 	color:#d9d9d9;
 	padding: 10px; 
+	margin-left: -15px;
 }
 .herb {
 	width: 100%;
@@ -123,9 +121,11 @@ table, th, td {
 	margin-top: -100px;
 }
 .stopka {
-	width: 100%;
+	width: 1170px;
 	float: left;
 	text-align: center;
-	background: #242420;
+	background: #242430;
 	color:#d9d9d9;
+	margin-left: -15px;
+
 }
