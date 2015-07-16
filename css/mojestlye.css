@@ -58,8 +58,9 @@ body {
 }
 .aside {
 	float: left;
-	margin-left: 930px;
-	margin-top: -407px; 
+	margin-left: 929px;
+	margin-top: -585px; 
+	width:330px;
 }
 
 .tabela{ 
