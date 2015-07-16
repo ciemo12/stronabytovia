@@ -88,6 +88,9 @@ table, th, td {
 	width: 100%;
 	text-align: center;
 }
+.zdjecieJunior {
+	padding: 10px;
+}
 .text {
 	border: solid 1px;
 	float: left;
