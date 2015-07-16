@@ -89,10 +89,10 @@ table, th, td {
 	text-align: center;
 }
 .zdjecieJunior {
-	padding: 10px;
+	margin:10px;
 }
 .text {
-	border: solid 1px;
+	
 	float: left;
 	height: 132px;
 	width: 260px;
