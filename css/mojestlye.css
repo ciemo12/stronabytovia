@@ -98,12 +98,12 @@ table, th, td {
 .logo {
 	text-align: center;
 	list-style: none;
-	margin-bottom: 40px;
 }
 .logos {
 	float: left;
    	list-style: none;	
-   	margin-left: 0px;
+   	margin-left: 39px;
+   	margin-top: 40px;
 }
 .kontakt {
 	width: 1170px;
