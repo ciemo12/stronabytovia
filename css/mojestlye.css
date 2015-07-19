@@ -59,19 +59,12 @@ body {
 .aside {
 	float: left;
 	margin-left: 929px;
-	margin-top: -585px; 
-	width:330px;
+	margin-top: -600px; 
+	width:292,5px;
 }
-.asideBorder {
-	border-right: solid 1px;
-}
-
 .tabela{ 
 	font-size: 10px;
-	margin-top: 5px;
-	margin-left: 2px;
-	height: auto;
-	width:100%;
+	width:292,5px;	
 	text-transform: uppercase
 }
 table, th, td {
@@ -80,20 +73,19 @@ table, th, td {
 .filmyoutube{
 	position: relative;
 	float: left;
-	margin-left: 916px;
-	margin-top: -170px;
+	margin-left: 929px;
+	margin-top: -265px;
 	margin-bottom: -15px;
 }
-.filmyoutube h2 {
+h2 {
 	font-size: 15px;
 	background-color: #FF0010;
 	margin-bottom: 0px;
-	margin-top: -39px;
 	height: 30px;
 	color: #fff;
 	text-transform: uppercase;
 	line-height: 30px;
-}
+} 
 
 
 .center {
