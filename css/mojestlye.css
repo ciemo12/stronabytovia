@@ -84,9 +84,10 @@ table, th, td {
 .filmyoutube{
 	position: relative;
 	float: left;
-	margin-left: 929px;
-	margin-top: -265px;
+	margin-left: 870px;
+	margin-top: -270px;
 	margin-bottom: -15px;
+	width: 390px;
 }
 h2 {
 	font-size: 15px;
