@@ -89,6 +89,16 @@ table, th, td {
 	margin-bottom: -15px;
 	width: 390px;
 }
+.asideReklama {
+	float: left;
+	margin-left: 870px;
+	margin-top: -70px;
+	border-right:  1.5px solid transparent;
+	width: 390px;
+	border-right-color: #ddd;
+  	height: 70px;
+  	text-align: center;
+}
 h2 {
 	font-size: 15px;
 	background-color: #FF0010;
