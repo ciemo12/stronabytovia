@@ -57,18 +57,29 @@ body {
 	margin-left:-155px;
 }
 .aside {
+	position: relative;
 	float: left;
-	margin-left: 929px;
-	margin-top: -600px; 
-	width:292,5px;
+	margin-left: 870px;
+	margin-top: -587px; 
+	border-right: 1.5px solid transparent;
+	width: 390px;
+	border-right-color: #ddd;
+	border-bottom: 1.5px solid transparent;
+	border-bottom-color: #ddd;
+	background-color: #F8F8F8;
 }
 .tabela{ 
 	font-size: 10px;
-	width:292,5px;	
-	text-transform: uppercase
+	width:100%;	
+	text-transform: uppercase;
+	margin-left: 56px;
 }
 table, th, td {
     border: 1px solid black;
+}
+.positionButtonTable {
+	float: left;
+	margin-left: 205px;
 }
 .filmyoutube{
 	position: relative;
@@ -81,6 +92,7 @@ h2 {
 	font-size: 15px;
 	background-color: #FF0010;
 	margin-bottom: 0px;
+	margin-top: 0px;
 	height: 30px;
 	color: #fff;
 	text-transform: uppercase;
