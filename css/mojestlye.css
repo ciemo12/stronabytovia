@@ -167,3 +167,31 @@ h2 {
 	margin-left: -15px;
 
 }
+.main {
+	height: 66px;
+    line-height: 67px;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+	display: inline-block;
+}
+nav {
+	position: relative;
+	width: 100%;
+	display: block;
+
+}
+nav.main ul.menu {
+	position: absolute;
+	right: 0;
+}
+.right {
+	float: right;
+}
+.menu > li  {
+	float: left;
+
+}
+li {
+	list-style: none;
+}
