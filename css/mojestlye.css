@@ -188,10 +188,20 @@ nav.main ul.menu {
 .right {
 	float: right;
 }
-.menu > li  {
-	float: left;
 
-}
 li {
+	float: left;
 	list-style: none;
+	width: 80px;
+}
+ul > li:after {
+    border-right: 1px solid rgba(0, 0, 0, 0.05);
+    content: "";
+    display: block;
+    float: right;
+    height: 35px;
+    position: absolute;
+    right: 333px;
+    top: 15px;
+    width: 34px;
 }
