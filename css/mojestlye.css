@@ -183,7 +183,8 @@ h2 {
 	display: block;
 	list-style: none;
 	margin: 0;
-	padding: 0;}
+	padding: 0;
+}
 .main li {
     float: left;
 	list-style: none;
@@ -197,4 +198,9 @@ h2 {
 }
 .main li:last-child {
 	border-right: none;
+}
+.menuafterscroll {
+	width: 100%;
+	background: yellow;
+	height: 60px;
 }
