@@ -172,36 +172,29 @@ h2 {
     line-height: 67px;
     font-size: 14px;
     text-transform: uppercase;
-    text-decoration: none;
-	display: inline-block;
+	background: #F8F8F8;
 }
-nav {
-	position: relative;
-	width: 100%;
-	display: block;
 
-}
-nav.main ul.menu {
-	position: absolute;
-	right: 0;
-}
+
 .right {
 	float: right;
 }
-
-li {
-	float: left;
+.main, ul li {
+	display: block;
 	list-style: none;
-	width: 80px;
-}
-ul > li:after {
-    border-right: 1px solid rgba(0, 0, 0, 0.05);
+	margin: 0;
+	padding: 0;}
+.main li {
+    float: left;
+	list-style: none;
+	border-right: 1px solid rgba(0, 0, 0, 0.05);
     content: "";
     display: block;
-    float: right;
-    height: 35px;
-    position: absolute;
-    right: 333px;
-    top: 15px;
-    width: 34px;
+    height: 66px;
+    top: 155px;
+    width: 85px;
+    text-align: center;
+}
+.main li:last-child {
+	border-right: none;
 }
