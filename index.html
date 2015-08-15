@@ -7,6 +7,22 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Bytovia Bytów</title>
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<<<<<<< HEAD
+=======
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('#menuafterscroll').hide();
+      $(window).scroll(function(){
+        if ($(this).scrollTop() > 140) {
+          $('#menuafterscroll').fadeIn(0);
+      }
+      else {
+         $('#menuafterscroll').fadeOut(0);
+      }
+      });
+    });
+    </script>
+>>>>>>> menu
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/mojestlye.css" rel="stylesheet">
@@ -57,18 +73,33 @@
     </div>
   </header>
   <section>
-    <nav class="main">
-      <ul class="menu right">
+  <nav>
+    <div class="main">
+    <div class="container">
+    <div class="row">
+      <ul class="right">
             <li><a href="#">Bilety</a></li> 
             <li><a href="#">Sezon</a></li> 
             <li><a href="#">Klub</a></li> 
             <li><a href="#">Drużyny</a></li>  
-            <li><a href="#">Bilety</a></li>
       </ul>
-      <div class="menuafterscroll" > 
       </div>
-    </nav>
-   
+      </div>
+
+      <div id="menuafterscroll" > 
+        <div class="container">
+        <div class="row">
+        <ul class="right">
+            <li><a href="#">Bilety</a></li> 
+            <li><a href="#">Sezon</a></li> 
+            <li><a href="#">Klub</a></li> 
+            <li><a href="#">Drużyny</a></li>  
+        </ul>
+        </div>
+        </div>
+      </div>
+      </div>
+    </nav> 
   </section>
   <section>
     <div cljass="container">
