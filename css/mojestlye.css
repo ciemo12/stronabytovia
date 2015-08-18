@@ -1,8 +1,8 @@
 body {
 	font-family: Verdana ;
 	margin:0;
-}
 
+}
 .panel {
 	margin-top: 0;
 	margin-bottom: 0;
@@ -52,22 +52,58 @@ body {
 	margin-left:-155px;
 }
 .aside {
+	position: relative;
 	float: left;
-	margin-left: 930px;
-	margin-top: -407px; 
+	margin-left: 870px;
+	margin-top: -585px; 
+	border-right: 1.5px solid transparent;
+	width: 390px;
+	border-right-color: #ddd;
+	border-bottom: 1.5px solid transparent;
+	border-bottom-color: #ddd;
+	background-color: #F8F8F8;
 }
-
 .tabela{ 
 	font-size: 10px;
-	margin-top: 5px;
-	margin-left: 2px;
-	height: auto;
-	width:100%;
-	text-transform: uppercase
+	width:100%;	
+	text-transform: uppercase;
+	margin-left: 56px;
 }
 table, th, td {
     border: 1px solid black;
 }
+.positionButtonTable {
+	float: left;
+	margin-left: 205px;
+}
+.filmyoutube{
+	position: relative;
+	float: left;
+	margin-left: 870px;
+	margin-top: -270px;
+	margin-bottom: -15px;
+	width: 390px;
+}
+.asideReklama {
+	float: left;
+	margin-left: 870px;
+	margin-top: -70px;
+	border-right:  1.5px solid transparent;
+	width: 390px;
+	border-right-color: #ddd;
+  	height: 70px;
+  	text-align: center;
+}
+h2 {
+	font-size: 15px;
+	background-color: #FF0010;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	height: 30px;
+	color: #fff;
+	text-transform: uppercase;
+	line-height: 30px;
+} 
 
 
 .center {
@@ -102,19 +138,20 @@ table, th, td {
 .logo {
 	text-align: center;
 	list-style: none;
-	margin-bottom: 40px;
 }
 .logos {
 	float: left;
    	list-style: none;	
-   	margin-left: 0px;
+   	margin-left: 39px;
+   	margin-top: 40px;
 }
 .kontakt {
-	width: 100%;
+	width: 1170px;
 	float: left;
 	background: #242420;
 	color:#d9d9d9;
 	padding: 10px; 
+	margin-left: -15px;
 }
 .herb {
 	width: 100%;
@@ -123,9 +160,69 @@ table, th, td {
 	margin-top: -100px;
 }
 .stopka {
-	width: 100%;
+	width: 1170px;
 	float: left;
 	text-align: center;
-	background: #242420;
+	background: #242430;
 	color:#d9d9d9;
+	margin-left: -15px;
+
+}
+.main {
+	height: 66px;
+    line-height: 67px;
+    font-size: 14px;
+    text-transform: uppercase;
+	background: #F8F8F8;
+}
+
+
+.right {
+	float: right;
+}
+.main, ul li {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.main li {
+    float: left;
+	list-style: none;
+	border-right: 1px solid rgba(0, 0, 0, 0.05);
+    content: "";
+    display: block;
+    height: 66px;
+    top: 155px;
+    width: 85px;
+    text-align: center;
+}
+.main li:last-child {
+	border-right: none;
+}
+#menuafterscroll {
+	opacity:1.0;
+	position: fixed;
+	width: 100%;
+	background:  #F8F8F8;
+	height: 66px;
+   	padding: 0;
+   	margin-top: -218px;
+   	visibility: visible;
+   	display: block;
+   	float: left;
+   	z-index: 1;
+   	
+   }
+#gototop {
+   position: fixed;
+   bottom: 9px;
+   right: 9px;
+   padding: 0;
+   width: 40px;
+   height: 40px;
+   background: none;
+   z-index: 1;
+   text-align: center;
+   opacity: 0.3;
 }
