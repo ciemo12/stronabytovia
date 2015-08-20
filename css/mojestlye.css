@@ -349,14 +349,6 @@ h2 {
 .big {
 	    cursor: pointer;
 }
-<<<<<<< HEAD
-.big:hover {
-	opacity: 0.9;
-}
-=======
-.big {
-	    cursor: pointer;
-}
 .big:hover {
 	opacity: 0.9;
 }
@@ -383,4 +375,4 @@ h2 {
 .logo:hover {
 	opacity: 0.2;
 }
->>>>>>> sponsorzy
+
