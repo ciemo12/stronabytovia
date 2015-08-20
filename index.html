@@ -6,6 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Bytovia Bytów</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('#menuafterscroll').hide();
+      $(window).scroll(function(){
+        if ($(this).scrollTop() > 140) {
+          $('#menuafterscroll').fadeIn(0);
+      }
+      else {
+         $('#menuafterscroll').fadeOut(0);
+      }
+      });
+    
+      });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+   $('#gototop').hide();
+   $(window).scroll(function(){
+      if ($(this).scrollTop() > 100) {
+         $('#gototop').fadeIn(500);
+      }
+      else {
+         $('#gototop').fadeOut(500);
+      }
+   });
+   $('#gototop').click(function(){
+      $('html, body').animate({ scrollTop: 0 }, 1000);
+      return false;
+   });
+});
+
+    </script>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -19,8 +52,9 @@
   </head>
 <body>
 <article>
+<a id="gototop" title="Do góry" href="#"> <img src="photos/strzałkawgore.png" style="width:40px; height:35px;"> </a>
   <header>
-  <div class="container"> 
+  <div class="container-fluid"> 
       <div class="row">
        <div class="col-md-12  panel panel-default">
         <div class="headsponsor">
@@ -33,7 +67,7 @@
         </div>
       </div>
     </div>
-    <div class="container"> 
+    <div class="container-fluid"> 
       <div class="row">
        <div class="col-md-12  panel panel-default">
         <div class="header1">
@@ -49,43 +83,33 @@
     </div>
   </header>
   <section>
+  <nav>
+    <div class="main">
     <div class="container">
-      <div class="row">
-        <nav class="navbar navbar-default">
-        <div class="container-fluid">
-         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Aktualności<b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">qwe</a></li>
-                <li><a href="#">qwe</a></li>
-              </ul>
-            </li> 
+    <div class="row">
+      <ul class="right">
             <li><a href="#">Bilety</a></li> 
             <li><a href="#">Sezon</a></li> 
             <li><a href="#">Klub</a></li> 
             <li><a href="#">Drużyny</a></li>  
-            <li><a href="#">Bilety <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Strefa kibica</a></li> 
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#"></a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Twoje konto <span class="caret"></span></a>
-            </li>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Zaloguj się</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Wyloguj</a></li>
-          </ul>
-          </ul>
-        </div><!-- /.navbar-collapse -->
+      </ul>
+      </div>
+      </div>
+
+      <div id="menuafterscroll" > 
+        <div class="container">
+        <div class="row">
+        <ul class="right">
+            <li><a href="#">Bilety</a></li> 
+            <li><a href="#">Sezon</a></li> 
+            <li><a href="#">Klub</a></li> 
+            <li><a href="#">Drużyny</a></li>  
+        </ul>
         </div>
-      </div><!-- /.container-fluid -->
-      </nav>
-    </div>
-  </div>
+        </div>
+      </div>
+      </div>
+    </nav> 
   </section>
   <section>
     <div class="container">
@@ -142,7 +166,7 @@
   </section>
   <aside>
     <div class="aside">
-      <div class="row heightaside">
+        <h2> Tabela - I liga </h2>
           <div class="tabela">
           <table>
             <thead>
@@ -195,7 +219,7 @@
               </tr>
               <tr>
                 <td class="center">5</td>
-                <td>Chojniczanka Chojnice</td>
+                <td>Chojniczanka Ch</td>
                 <td class="center">34</td>
                 <td class="center">13</td>
                 <td class="center">11</td>
@@ -256,129 +280,49 @@
                 <td class="center">13</td>
                 <td class="center">41</td>
               </tr>
-              <tr>
-                <td class="center">12</td>
-                <td>Miedź Legnica</td>
-                <td class="center">34</td>
-                <td class="center">11</td>
-                <td class="center">7</td>
-                <td class="center">16</td>
-                <td class="center">40</td>
-              </tr>
-              <tr>
-                <td class="center">13</td>
-                <td>Bytovia-Bytów</td>
-                <td class="center">34</td>
-                <td class="center">10</td>
-                <td class="center">10</td>
-                <td class="center">14</td>
-                <td class="center">40</td>
-              </tr>
-              <tr>
-                <td class="center">14</td>
-                <td>Sandecja Nowy Sącz</td>
-                <td class="center">34</td>
-                <td class="center">9</td>
-                <td class="center">8</td>
-                <td class="center">17</td>
-                <td class="center">35</td>
-              </tr>
-              <tr>
-                <td class="center">15</td>
-                <td>Pogoń Siedlce</td>
-                <td class="center">34</td>
-                <td class="center">7</td>
-                <td class="center">9</td>
-                <td class="center">18</td>
-                <td class="center">34</td>
-              </tr>
-              <tr class="spadek">
-                <td class="center">16</td>
-                <td>GKS Tychy</td>
-                <td class="center">34</td>
-                <td class="center">6</td>
-                <td class="center">10</td>
-                <td class="center">18</td>
-                <td class="center">28</td>
-              </tr>
-              <tr  class="spadek">
-                <td class="center">17</td>
-                <td>Widzew Łódź</td>
-                <td class="center">34</td>
-                <td class="center">4</td>
-                <td class="center">10</td>
-                <td class="center">20</td>
-                <td class="center">22</td>
-              </tr>
-              <tr class="spadek">
-                <td class="center">18</td>
-                <td>Flota Świnoujscie</td>
-                <td class="center">34</td>
-                <td class="center">9</td>
-                <td class="center">9</td>
-                <td class="center">16</td>
-                <td class="center">0</td>
-              </tr>
             </tbody>
           </table>
-          </div>   
-        </div>
-      </div>
+          </div> 
+          <div class="positionButtonTable">
+            <a href="#" class="btn btn-primary"> PEŁNA TABELA </a>
+          </div>
       </div>
     </div>
+      <div class="filmyoutube">
+        <h2> Najnowsze wideo </h2>
+          <p><iframe width="390" height="170" src="https://www.youtube.com/embed/r-6llm7AA6Y" frameborder="0" allowfullscreen></iframe>
+          </p>
+      </div>
+      <div class="asideReklama">
+        <a href="http://drutex.eu" target="_blank">
+          <img src="photos/logo-drutex1.png" style="width:250px; height:58px;">
+        </a>
+      </div>
   </aside>
-  <section class="container"> 
+  <section>
+  <div id="juniorzy">
+    <div class="container"> 
       <div class="row">
-        <div class="col-md-3 panel panel-default">
-          <div class="wrapper">
-            <div class="zdjecieJuniorA">
-              <img width="260" height="165" src="photos/baltyk.jpg">
-            </div>
-          </div>  
-        <h3 style="text-align:center;">JUNIOR A </h3>
-        <div class="text">
-        <p>OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje   </p>
+        <div class="col-md-5 panel panel-default odstep big">
+          
+            <h3 style="text-align:left;">Rezerwy </h3>
+              <div class="zdjecieJunior">
+                <img src="photos/rezerwy.jpg">
+              </div>
         </div>
-        <a href="#" class="btn btn-primary"> więcej </a>
-        </div>
-        <div class="col-md-3 panel panel-default">
+        <div class="col-md-5 panel panel-default odstep big">
           <div class="wrapper">
-            <div class="zdjecieJuniorA">
-              <img width="260" height="165" src="photos/JuniorB.jpg">
-            </div>
+            <h3 style="text-align:left;">Grupy juniorskie </h3>
+              <div class="zdjecieJunior">
+                <img src="photos/juniorE1.jpg">
+              </div>
           </div>
-        <h3 style="text-align:center;">JUNIOR B</h3>
-        <div class="text">
-        <p>OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje   </p>
-        </div>
-        <a href="#" class="btn btn-primary"> więcej </a>
-        </div>
-        <div class="col-md-3 panel panel-default">
-          <div class="wrapper">
-            <div class="zdjecieJuniorB">
-              <img width="260" height="165" src="photos/juniorC.jpg">
-            </div>
-          </div>
-        <h3 style="text-align:center;">JUNIOR C</h3>
-        <div class="text">
-        <p>OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje   </p>
-        </div>
-        <a href="#" class="btn btn-primary"> więcej </a>
-        </div>
-        <div class="col-md-3 panel panel-default">
-          <div class="wrapper">
-            <div class="zdjecieJuniorA">
-              <img width="260" height="165" src="photos/juniorD.jpg">
-            </div>
-          </div>
-        <h3 style="text-align:center;">JUNIOR D</h3>
-        <div class="text">   
-      <p>OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje   </p>
-        </div>
-        <a href="#" class="btn btn-primary"> więcej </a>        </div>
-        </div>
+      </div>
+    </div>
+  </div>
+  </div>
   </section>
-  <section class="container">
+  <section class="container-fluid">
       <div class="row">
         <div class="col-md-12 panel panel-default">
           <h3 style="text-align:center";>
@@ -418,7 +362,7 @@
       </div> 
   </section>
   <footer>
-    <div class="container"> 
+    <div class="container-fluid"> 
       <div class="row">
         <div class="col-md-12 panel panel-default">
           <div class="kontakt">
