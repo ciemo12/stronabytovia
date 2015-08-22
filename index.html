@@ -18,10 +18,6 @@
          $('#menuafterscroll').fadeOut(0);
       }
       });
-
-   
-      });
-
     });
   $(document).ready(function() {
     $('.dropdown').css('opacity', 0.5);
@@ -33,27 +29,7 @@
       $(this).stop().animate({'opacity': 0.5}, "fast");
     });
   });
-
     </script>
-    <script type="text/javascript">
-        $(document).ready(function(){
-   $('#gototop').hide();
-   $(window).scroll(function(){
-      if ($(this).scrollTop() > 100) {
-         $('#gototop').fadeIn(500);
-      }
-      else {
-         $('#gototop').fadeOut(500);
-      }
-   });
-   $('#gototop').click(function(){
-      $('html, body').animate({ scrollTop: 0 }, 1000);
-      return false;
-   });
-});
-
-    </script>
-
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/mojestlye.css" rel="stylesheet">
@@ -65,8 +41,8 @@
     <![endif]-->
   </head>
 <body>
+
 <article>
-<a id="gototop" title="Do góry" href="#"> <img src="photos/strzałkawgore.png" style="width:40px; height:35px;"> </a>
   <header>
   <div class="container-fluid"> 
       <div class="row">
@@ -440,33 +416,58 @@
         </a>
       </div>
   </aside>
-  <section>
-  <div id="juniorzy">
-    <div class="container"> 
+  <section class="container-fluid"> 
       <div class="row">
-        <div class="col-md-5 panel panel-default odstep big">
-          
-            <h3 style="text-align:left;">Rezerwy </h3>
-              <div class="zdjecieJunior">
-                <img src="photos/rezerwy.jpg">
-              </div>
-        </div>
-        <div class="col-md-5 panel panel-default odstep big">
+        <div class="col-md-3 panel panel-default">
           <div class="wrapper">
-            <h3 style="text-align:left;">Grupy juniorskie </h3>
-              <div class="zdjecieJunior">
-                <img src="photos/juniorE1.jpg">
-              </div>
+          <h5 style="text-align:left;">JUNIOR A </h5>
+            <div class="zdjecieJunior">
+              <img width="242" height="165" src="photos/baltyk.jpg">
+            </div>
+          </div>  
+        <div class="text">
+        <p>OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje   </p>
+        </div>
+        <a href="#" class="btn btn-primary"> więcej </a>
+        </div>
+        <div class="col-md-3 panel panel-default">
+          <div class="wrapper">
+          <h5 style="text-align:left;">JUNIOR B </h5>
+            <div class="zdjecieJunior">
+              <img width="242" height="165" src="photos/JuniorB.jpg">
+            </div>
           </div>
-      </div>
-    </div>
-  </div>
-  </div>
+        <div class="text">
+        <p>OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje   </p>
+        </div>
+        <a href="#" class="btn btn-primary"> więcej </a>
+        </div>
+        <div class="col-md-3 panel panel-default">
+          <div class="wrapper">
+          <h5 style="text-align:left;">JUNIOR C </h5>
+            <div class="zdjecieJunior">
+              <img width="242" height="165" src="photos/juniorC.jpg">
+            </div>
+          </div>
+        <div class="text">
+        <p>OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje   </p>
+        </div>
+        <a href="#" class="btn btn-primary"> więcej </a>
+        </div>
+        <div class="col-md-3 panel panel-default">
+          <div class="wrapper">
+          <h5 style="text-align:left;">JUNIOR D </h5>
+            <div class="zdjecieJunior">
+              <img width="242" height="165" src="photos/juniorD.jpg">
+            </div>
+          </div>
+        <div class="text">   
+      <p>OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje OStatnie informacje   </p>
+        </div>
+        <a href="#" class="btn btn-primary"> więcej </a>        </div>
+        </div>
   </section>
-  <section>
-    <div id="sponsors"> 
-    <div class="container">
-
+  <section class="container-fluid">
       <div class="row">
         <div class="col-md-12 panel panel-default">
           <h3 style="text-align:center";>
@@ -485,10 +486,25 @@
                 </span>
               </a>
             </li>
+          <ul class="logos">
+            <li>
+            <h3 style="text-align:center";>
+            <span> Partnerzy strategiczni </span>
+            <hr width="300"/>
+            </h3>
+              <a href="#" target="blank">
+                <img src="photos/herbBytowa.png" height="220px" alt="asd">
+                <img src="photos/dabew.png" height="220px" alt="asd">
+                <img src="photos/polmor.jpg" height="220px" alt="asd">
+                <span class="hover">
+                  <img src alt>
+              </a>
+            </span>
+            </h3>   
+            </li>
           </ul>
-      </div>
-    </div>
-    </div>   
+        </div>
+      </div> 
   </section>
   <footer>
     <div class="container-fluid"> 
