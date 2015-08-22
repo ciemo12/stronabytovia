@@ -24,9 +24,9 @@
     $('.dropdown').css('cursor', 'pointer');
  
     $('.dropdown').hover(function() { //kursor wchodzi
-      $(this).stop().animate({'opacity': 1}, "slow");
+      $(this).stop().animate({'opacity': 1}, "fast");
     },function() { //kursor wychodzi
-      $(this).stop().animate({'opacity': 0.5}, "slow");
+      $(this).stop().animate({'opacity': 0.5}, "fast");
     });
   });
     </script>
@@ -75,71 +75,80 @@
   <section>
   <nav>
     <div class="main">
-      <div class="container">
-        <div class="row">
+        <div class="container">
+          <div class="row">
           <ul>
-            <li>
-              <div class="dropdown border">
-                <a data-toggle="dropdown" data-target="#" href="#" >Aktualności</a>
+              <li>
+                <div class="dropdown">
+                  <a data-toggle="dropdown" data-target="#" href="#" >Aktualności</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Komunikaty klubu</a></li>
+                      <li><a href="#">Mecze</a></li>
+                      <li><a href="#">Dla mediów</a></li>
+                    </ul>
+                </div>
+              </li>
+              <li>
+                <div class="dropdown">
+                  <a data-toggle="dropdown" data-target="#" href="http://www.google.com" >Bilety</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Bilety</a></li>
+                      <li><a href="#">Sprzedaż online</a></li>
+                      <li><a href="#">Sektor rodzinny</a></li>
+                    </ul>
+                </div>
+              </li>
+              <li>
+                <div class="dropdown">
+                  <a data-toggle="dropdown" data-target="#" href="http://www.google.com" >Klub</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">O klubie</a></li>
+                      <li><a href="#">Władze klubu</a></li>
+                      <li><a href="#">Sponsorzy</a></li>
+                    </ul>
+                </div>
+              </li>
+              <li>
+                <div class="dropdown">
+                  <a data-toggle="dropdown" data-target="#" href="http://www.google.com" >Drużyny</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Drutex-Bytovia Bytów</a></li>
+                      <li><a href="#">Drutex-Bytovia II Bytów</a></li>
+                      <li><a href="#">Grupy juniorskie</a></li>
+                    </ul>
+                </div>
+              </li>
+              <li>
+                <div class="dropdown">
+                  <a data-toggle="dropdown" data-target="#" href="http://www.google.com" >Stadion</a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Komunikaty klubu</a></li>
-                    <li><a href="#">Mecze</a></li>
-                    <li><a href="#">Dla mediów</a></li>
+                      <li><a href="#">GALERIA</a></li>
                   </ul>
-              </div>
-            </li>
-            <li>
-              <div class="dropdown">
-                <a data-toggle="dropdown" data-target="#" href="http://www.google.com" >Bilety</a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Bilety</a></li>
-                    <li><a href="#">Sprzedaż online</a></li>
-                    <li><a href="#">Sektor rodzinny</a></li>
-                  </ul>
-              </div>
-            </li>
-            <li>
-              <div class="dropdown">
-                <a data-toggle="dropdown" data-target="#" href="http://www.google.com" >Klub</a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">O klubie</a></li>
-                    <li><a href="#">Władze klubu</a></li>
-                    <li><a href="#">Sponsorzy</a></li>
-                  </ul>
-              </div>
-            <li>
-              <div class="dropdown">
-                <a data-toggle="dropdown" data-target="#" href="http://www.google.com" >Drużyny</a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Drutex-Bytovia Bytów</a></li>
-                    <li><a href="#">Drutex-Bytovia II Bytów</a></li>
-                    <li><a href="#">Grupy juniorskie</a></li>
-                  </ul>
-              </div>
-            <li><a href="#">Stadion</a></li>
-            <li>
-              <div class="dropdown">
-                <a data-toggle="dropdown" data-target="#" href="http://www.google.com" >Dla dzieci</a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Akademia</a></li>
-                    <li><a href="#">Obozy piłkarskie</a></li>
-                  </ul>
-              </div>
-            </li>
-            <li>
-              <div class="dropdown">
-                <a data-toggle="dropdown" data-target="#" href="http://www.google.com" >Sezon</a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Terminarze</a></li>
-                    <li><a href="#">Tabele</a></li>
-                  </ul>
-              </div>
-            </li>
-            </div>
+                </div>
+
+              </li>
+              <li>
+                <div class="dropdown">
+                  <a data-toggle="dropdown" data-target="#" href="http://www.google.com" >Dla dzieci</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Akademia</a></li>
+                      <li><a href="#">Obozy piłkarskie</a></li>
+                    </ul>
+                </div>
+              </li>
+              <li>
+                <div class="dropdown">
+                  <a data-toggle="dropdown" data-target="#" href="http://www.google.com" >Sezon</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Terminarze</a></li>
+                      <li><a href="#">Tabele</a></li>
+                    </ul>
+                </div>
+              </li>
           </ul>
+          </div>    
         </div>    
-      </div>    
-    </div>     
+      </div> 
     <div id="menuafterscroll" >
       <div class="main">
         <div class="container">
@@ -174,6 +183,7 @@
                       <li><a href="#">Sponsorzy</a></li>
                     </ul>
                 </div>
+              </li>
               <li>
                 <div class="dropdown">
                   <a data-toggle="dropdown" data-target="#" href="http://www.google.com" >Drużyny</a>
@@ -183,7 +193,16 @@
                       <li><a href="#">Grupy juniorskie</a></li>
                     </ul>
                 </div>
-              <li><a href="#">Stadion</a></li>
+              </li>
+              <li>
+                <div class="dropdown">
+                  <a data-toggle="dropdown" data-target="#" href="http://www.google.com" >Stadion</a>
+                  <ul class="dropdown-menu">
+                      <li><a href="#">GALERIA</a></li>
+                  </ul>
+                </div>
+
+              </li>
               <li>
                 <div class="dropdown">
                   <a data-toggle="dropdown" data-target="#" href="http://www.google.com" >Dla dzieci</a>
