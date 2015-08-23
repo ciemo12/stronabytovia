@@ -12,7 +12,6 @@
   $(document).ready(function() {
     $('.dropdown').css('opacity', 0.5);
     $('.dropdown').css('cursor', 'pointer');
- 
     $('.dropdown').hover(function() { //kursor wchodzi
       $(this).stop().animate({'opacity': 1}, "fast");
     },function() { //kursor wychodzi
