@@ -12,7 +12,6 @@
   $(document).ready(function() {
     $('.dropdown').css('opacity', 0.5);
     $('.dropdown').css('cursor', 'pointer');
- 
     $('.dropdown').hover(function() { //kursor wchodzi
       $(this).stop().animate({'opacity': 1}, "fast");
     },function() { //kursor wychodzi
@@ -34,7 +33,8 @@
       return false;
    });
  });
-  $(document).ready(function() {
+        $(document).ready(function() {
+
     $( '.dropdown' ).hover(
         function(){
             $(this).children('.dropdown-menu').slideDown(200);
@@ -43,4 +43,6 @@
             $(this).children('.dropdown-menu').slideUp(200);
         }
     );
+
 });
+
