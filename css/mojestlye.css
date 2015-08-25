@@ -13,11 +13,10 @@ body {
 	float:left;
 
  }
- header {
- 	background-image: url ("photos/tactics.jpg");
- }
- .header1tlo {
+  .header1tlo {
  	background-color: red;
+ 	background-image: url (..photos/tactics.jpg);
+ 	
  }
  .headeradidas {
  	position: relative;
