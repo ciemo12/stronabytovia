@@ -24,6 +24,11 @@
  	border-bottom: 3.5px solid #B70C0C;
  	background-color: #4D4D4D;
 }
+.obramowaniefooter {
+	padding-top: 5px;
+ 	border-top: 3.5px solid #B70C0C;
+ 	background-color: #4D4D4D;
+}
 .logoheader1 {
 	margin-top: 4px;
 }
@@ -58,6 +63,11 @@
 .wallper {
 	background-image: url('../photos/wallpaper.jpg');
 	border-bottom: 3.5px solid;
+
+}
+.wallper1 {
+	background-image: url('../photos/wallpaper.jpg');
+	border-top: 3.5px solid;
 
 }
  .header1 {
@@ -174,12 +184,9 @@ h2 {
    	margin-top: 40px;
 }
 .kontakt {
-	width: 1170px;
-	float: left;
-	background: #242420;
+	width: 100%;
 	color:#d9d9d9;
-	padding: 10px; 
-	margin-left: -15px;
+	border-top: 3.5px solid;
 }
 .herb {
 	width: 100%;
@@ -381,3 +388,26 @@ h2 {
  .borderleft {
  	border-left: solid 1px #FFFFFF;
  }
+
+ .social {
+ 	padding: 30px 0;
+  	text-align: center;
+ }
+ .social .lit-follow {
+ 	width: 275px;
+ }
+.social .list-follow li {
+	height: 31px;
+	z-index: 1;
+}
+.list-follow {
+	position: relative;
+	float: right;
+	margin-right: 10px;
+	overflow: hidden;
+}
+.social .list-follow li a {
+	width: 34px; 
+	height: 31px;
+	color:#202121;
+}
