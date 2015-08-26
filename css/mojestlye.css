@@ -7,16 +7,33 @@
 .panel {
 	margin-top: 0;
 	margin-bottom: 0;
+
 }
- }
  .news1 {
 	height: 300px;
 	width: 100%;
 	float:left;
 
  }
- .headsponsor {
+  .header1tlo {
+ 	background-color: red;
+ 	background-image: url (..photos/tactics.jpg);
+ 	
+ }
+ .headeradidas {
  	position: relative;
+ 	float: left;
+ 	margin-left: 800px;
+ }
+ .headerpzpn {
+ 	position: absolute;
+ 	float: left;
+ 	margin-left: 950px;
+ }
+
+
+ .headsponsor {
+ 	position: absolute;
  	float: left;
  	margin-left: 1055px;
  }
