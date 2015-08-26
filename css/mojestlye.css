@@ -21,7 +21,7 @@
  }
 .obramowanieheader {
  	padding-bottom: 5px;
- 	border-bottom: .1875rem solid #B70C0C;
+ 	border-bottom: 3.5px solid #B70C0C;
  	background-color: #4D4D4D;
 }
 .logoheader1 {
@@ -55,7 +55,10 @@
  	margin-left: 1055px;
  	opacity: 0.4;
  }
+.wallper {
+	background-image: url('../photos/wallpaper.jpg');
 
+}
  .header1 {
  	margin-left: 15px;
  	margin-right: 15px;
@@ -73,6 +76,7 @@
 	text-transform:uppercase;
 	margin-left:520px;
 	font-size: 20px;
+	color: white;
 
 
 }
