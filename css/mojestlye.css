@@ -17,8 +17,7 @@
  }
   .header1tlo {
  	width: 100%;
- 
- 	
+ 	background-image: url('../photos/patternHeader.png');
  }
  .headeradidas {
  	position: relative;
