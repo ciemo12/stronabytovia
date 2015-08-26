@@ -57,6 +57,7 @@
  }
 .wallper {
 	background-image: url('../photos/wallpaper.jpg');
+	border-bottom: 3.5px solid;
 
 }
  .header1 {
