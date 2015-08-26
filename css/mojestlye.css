@@ -15,6 +15,23 @@
 	float:left;
 
  }
+ .tloheader1 {
+ 	background-color: #AD0005;
+ 	z-index: 2;
+ }
+.obramowanieheader {
+ 	padding-bottom: 5px;
+ 	border-bottom: .1875rem solid #B70C0C;
+ 	background-color: #4D4D4D;
+}
+.logoheader1 {
+	margin-top: 4px;
+}
+.logoheader1 li {
+	display:inline;
+	margin-right: 35px;
+    float: right;
+}
   .header1tlo {
  	width: 100%;
  	background-image: url('../photos/patternHeader.png');
@@ -23,6 +40,7 @@
  	position: relative;
  	float: left;
  	margin-left: 800px;
+ 	margin-right: 5px;
  }
  .headerpzpn {
  	position: absolute;
@@ -35,6 +53,7 @@
  	position: absolute;
  	float: left;
  	margin-left: 1055px;
+ 	opacity: 0.4;
  }
 
  .header1 {
