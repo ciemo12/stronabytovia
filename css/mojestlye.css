@@ -272,7 +272,7 @@ h2 {
 	margin:0;
 	opacity: 0.6;
 	border-radius: 0.5px;
-}
+} 
 .main {
 	height: 66px;
     line-height: 67px;
@@ -414,11 +414,12 @@ h2 {
 	color: #CCCCCC;
 }
 .herbfooter {
-	margin-top: 40px;
+	margin-top: 22px;
 	width: 150px;
 	float: left;
 	margin-bottom: 20px;
-	margin-left: -111px;
+	margin-left: 0;
+	margin-top: 0;
 }
 .textfooter1 {
 	margin-top: 10px;
@@ -430,7 +431,18 @@ h2 {
 .daneklubu {
 	position: relative;
 	color: #CCCCCC;
-	float: left;
-	margin-top: 33px;
-	margin-left: 45px;
+	float: right;
+	margin-top: 0;
+	margin-left: 1px;
+}
+.panel1 {background-color: #fff;
+    border: 1px solid transparent;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    width: 100%;}
+.widget-title {
+	font-size: 20px;
+	margin-top: 25px;
+	margin-bottom: 22px;
+	text-transform: uppercase;
 }
