@@ -446,3 +446,30 @@ h2 {
 	margin-bottom: 22px;
 	text-transform: uppercase;
 }
+.menumini {
+	margin:0;
+	padding: 0;
+	margin-top: 66px;
+	width: 120%;
+	text-decoration: none;
+
+}
+.menumini li {
+	width: 40%;
+	float: left;
+	margin-bottom: 15px;
+	margin-right: 10px;
+
+}
+.menumini li a {
+	text-decoration: none;
+		color: #CCCCCC;
+}
+.menumini li:first-child a{
+	color: #A70000;
+}
+.menumini > li > a:hover {
+	color:#A70000;
+ 	background: none;
+ 	transition:0.2s;
+}
