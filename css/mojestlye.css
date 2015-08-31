@@ -162,7 +162,6 @@ h2 {
 
 .center {
 	padding: 3px;
-	text-align: center;
 }
 
 .awans {
@@ -300,8 +299,17 @@ h2 {
 	width: 300px;
 	height: 250px;
 	margin:5px ;
-	background: black;
+	border: none;
 
+}
+table, tr, td {
+border: 0px solid #DDDDDD;
+}
+.buttontable {
+	position: relative;
+	float: left;
+	width: 100px;
+	height: 34px;
 }
 .odstep {
 	margin:40px;
