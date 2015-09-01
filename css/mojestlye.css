@@ -255,10 +255,9 @@ h2 {
 	float: left;
 	width:780px;
 	height: 400px; 
-	border: solid 1px;
 	margin-top: 30px;
 	margin-bottom: 30px;
-	margin-left: -16px;
+	margin-left: -16px;	
 }
 .headernextmatch {
 	float: left;
@@ -266,35 +265,74 @@ h2 {
 	height: 80px;
 	background-color: red;
 }
+.matchtitle {
+	position: relative;
+    margin-left: 315px;
+    float: left;
+	text-align: center;
+	height: 30px;
+	margin-top: 30px;
+	text-transform: uppercase;
+
+}
 .centernextmatch {
 	float: left;
 	position: relative;
-	top: 110px;
-	left:250px;
+	top: 30px;
+	left:0;
 	text-align: center;
-	width: 300px;
+	width: 778px;
 	height:100px;
-	border: solid 1px;
 }
 .positioncrest1 {
 	position: relative;
 	top: 20px;
-    left: 0px;
+    left: 180px;
     float: left;
 }
 .positioncrest2 {
 	position: relative;
 	float: right;
 	top:20px;
-	right:0px;
+	right:180px;
 }
 .centernextmatch p {
 	position: relative;
-	left: 90px;
-	top: 30px;
+	left: 275px;
+	top: 54px;
 	float: left;
 	width:20px;
+	text-transform: uppercase;
+	font-size: 2rem;
 
+}
+.button-prev {
+	float: left;
+    height: 110px;
+    width: 70px;
+    background-color: black;
+    position: relative;
+    border: none;
+    left: -141px;
+    top: 20px;
+}
+.button-next {
+	float: right;
+    height: 110px;
+    width: 70px;
+    background-color: black;
+    position: relative;
+    border: none;
+    right: -121px;
+    top: 20px;
+}
+.footernextmatch {
+	position: relative;
+	top: 99px;
+	float: left;
+	width: 780px;
+	height: 60px;
+	background-color: black;
 }
 .table1 {
 	float: left;
