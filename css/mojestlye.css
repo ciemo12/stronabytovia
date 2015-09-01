@@ -276,6 +276,26 @@ h2 {
 	height:100px;
 	border: solid 1px;
 }
+.positioncrest1 {
+	position: relative;
+	top: 20px;
+    left: 0px;
+    float: left;
+}
+.positioncrest2 {
+	position: relative;
+	float: right;
+	top:20px;
+	right:0px;
+}
+.centernextmatch p {
+	position: relative;
+	left: 90px;
+	top: 30px;
+	float: left;
+	width:20px;
+
+}
 .table1 {
 	float: left;
 	width:370px;
@@ -307,9 +327,12 @@ border: 0px solid #DDDDDD;
 }
 .buttontable {
 	position: relative;
-	float: left;
+	top: 10px;
+    left: 160px;
 	width: 100px;
 	height: 34px;
+	background-color: black;
+    color: white;
 }
 .odstep {
 	margin:40px;
