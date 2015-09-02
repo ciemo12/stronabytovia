@@ -101,9 +101,10 @@
 }
 .obramowanie {
 	float:left;
-	background-color: rgba(88,179,220,0.9);
-	width:779px;
-	margin-left:-155px;
+	background-color:#EDADAD;
+	width:1170px;
+	margin-left:-234px;
+	opacity: 0.9;
 }
 .aside {
 	position: relative;
