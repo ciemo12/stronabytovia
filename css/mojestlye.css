@@ -263,7 +263,7 @@ h2 {
 	float: left;
 	width: 780px;
 	height: 80px;
-	background-color: red;
+	background-color: #EDADAD;
 }
 .matchtitle {
 	position: relative;
@@ -293,7 +293,7 @@ h2 {
 .positioncrest2 {
 	position: relative;
 	float: right;
-	top:20px;
+	top:20px;:x;
 	right:180px;
 }
 .centernextmatch p {
@@ -310,7 +310,7 @@ h2 {
 	float: left;
     height: 110px;
     width: 70px;
-    background-color: black;
+    background-color: #F6F6F6;
     position: relative;
     border: none;
     left: -141px;
@@ -320,7 +320,7 @@ h2 {
 	float: right;
     height: 110px;
     width: 70px;
-    background-color: black;
+    background-color:  #F6F6F6;;
     position: relative;
     border: none;
     right: -121px;
@@ -332,7 +332,18 @@ h2 {
 	float: left;
 	width: 780px;
 	height: 60px;
-	background-color: black;
+	background-color: #6D0505;
+}
+.fixtures {
+	position: relative;
+    float: right;
+    right: 15px;
+    top: 25px;
+}
+.fixtures p a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color:#FCFCFC;
 }
 .table1 {
 	float: left;
