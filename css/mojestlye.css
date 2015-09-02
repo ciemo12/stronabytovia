@@ -427,13 +427,6 @@ border: 0px solid #DDDDDD;
 	opacity: 0.6;
 	border-radius: 0.5px;
 } 
-.main {
-	height: 66px;
-    line-height: 67px;
-    font-size: 14px;
-    text-transform: uppercase;
-	background: #111111;
-}
 
 .main, ul li {
 	display: block;
