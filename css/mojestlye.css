@@ -252,23 +252,34 @@ h2 {
    text-align: center;
    opacity: 0.3;
 }
+#tloaside {
+	background-color: #E4E6E7;
+	padding: 20px;
+}
+.col-md-8.panel.width {
+    width: 750px;
+    margin-right: 50px;
+}
 .nextmatch {
 	float: left;
-	width:780px;
+	width:750px;
 	height: 400px; 
-	margin-top: 30px;
-	margin-bottom: 30px;
 	margin-left: -16px;	
 }
 .headernextmatch {
+	position: relative;
+	top: -2px;
 	float: left;
-	width: 780px;
+	width: 749px;
 	height: 80px;
 	background-color: #EDADAD;
 }
+.headernextmatch h4{
+	margin-left: 10px;
+}
 .matchtitle {
 	position: relative;
-    margin-left: 315px;
+    margin-left: 279px;
     float: left;
 	text-align: center;
 	height: 30px;
@@ -282,7 +293,7 @@ h2 {
 	top: 30px;
 	left:0;
 	text-align: center;
-	width: 778px;
+	width: 750px;
 	height:100px;
 }
 .positioncrest1 {
@@ -294,17 +305,19 @@ h2 {
 .positioncrest2 {
 	position: relative;
 	float: right;
-	top:20px;:x;
+	top:20px;
 	right:180px;
 }
 .centernextmatch p {
 	position: relative;
-	left: 275px;
+	left: 245px;
 	top: 54px;
 	float: left;
 	width:20px;
 	text-transform: uppercase;
 	font-size: 2rem;
+	font-weight: 900;
+	color: #D2D5D6;
 
 }
 .button-prev {
@@ -314,7 +327,7 @@ h2 {
     background-color: #F6F6F6;
     position: relative;
     border: none;
-    left: -141px;
+    left: -140px;
     top: 20px;
 }
 .button-next {
@@ -324,14 +337,14 @@ h2 {
     background-color:  #F6F6F6;;
     position: relative;
     border: none;
-    right: -121px;
+    right: -119px;
     top: 20px;
 }
 .footernextmatch {
 	position: relative;
-	top: 99px;
+	top: 101px;
 	float: left;
-	width: 780px;
+	width: 749px;
 	height: 60px;
 	background-color: #6D0505;
 }
@@ -346,25 +359,29 @@ h2 {
 	text-decoration: none;
 	color:#FCFCFC;
 }
+.width2 {
+	width:370px;
+}
 .table1 {
+	position: relative; 
+	top: -2px;
+	left: -16px;
 	float: left;
 	width:370px;
-	height: 400px;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	margin-left: 5px;
-	border: solid 1px;
 }
 .headertable1 {
 	float: left;
-	width: 370px;
+	width: 369px;
 	height: 80px;
-	background-color: red;
+	background-color: #EDADAD;
 	}
+.headertable1 h4 {
+	margin-left: 10px;
+} 
 .intable {
 	position: relative;
-	top: 10px;
-	left: 29px;
+	top: -4px;
+	left: 60px;
 	float: left;
 	width: 300px;
 	height: 250px;
@@ -377,12 +394,19 @@ border: 0px solid #DDDDDD;
 }
 .buttontable {
 	position: relative;
-	top: 10px;
-    left: 160px;
-	width: 100px;
+	top: 24px;
+    left: 249px;
 	height: 34px;
-	background-color: black;
     color: white;
+    text-transform: uppercase;
+}
+.footertable {
+	position: relative;
+	top: 3px;
+    float: left;
+    width: 369px;
+    height: 60px;
+    background-color: #6D0505;
 }
 .odstep {
 	margin:40px;
