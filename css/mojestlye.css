@@ -40,6 +40,7 @@
   .header1tlo {
  	width: 100%;
  	background-image: url('../photos/patternHeader.png');
+ 	background-repeat:space;
  }
  .headeradidas {
  	position: relative;
@@ -454,6 +455,7 @@ border: 0px solid #DDDDDD;
 }
 #juniorzy {
 	background: url(../photos/tlo.jpg);
+	background-repeat: repeat-x;
 }
 #juniorzy img {
 	width: 100%;
@@ -484,6 +486,7 @@ border: 0px solid #DDDDDD;
 }
 #sponsors {
 	background: url(../photos/footboll_pattern.png);
+	background-repeat: space;
 }
 .txt-center {
 	text-align: center;
