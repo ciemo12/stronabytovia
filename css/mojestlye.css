@@ -39,8 +39,7 @@
 }
   .header1tlo {
  	width: 100%;
- 	background-image: url('../photos/patternHeader.png');
- 	background-repeat:space;
+ 	background-color: #6C6C6C;
  }
  .headeradidas {
  	position: relative;
@@ -92,17 +91,20 @@
 
 
 }
-
+.carouselcolorbackground{
+	background-color: #DEB3B2;
+}
 #ostatnieWydarzenia{
 	width: 1170px;
 	margin-left: -16px;
 	height: 600px;
 	background-color: #222733;
-	top:-2px;
+	top:-2px;'
+	opacity: 1;
 }
 .obramowanie {
 	float:left;
-	background-color:#EDADAD;
+	background-color:#9D0C0A;
 	width:1170px;
 	margin-left:-234px;
 	opacity: 0.9;
