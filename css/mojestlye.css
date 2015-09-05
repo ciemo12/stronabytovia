@@ -410,7 +410,6 @@ border: 0px solid #DDDDDD;
 	position: relative;
 	float: left;
 	top: 10px;
-	border: solid 1px;
 	height:300px;
 	width: 380px;
 }
@@ -435,34 +434,55 @@ border: 0px solid #DDDDDD;
 	position: relative;
 	float: left;
 	top: 10px;
-	border: solid 1px;
 	height:300px;
 	width: 350px;
+}
+.titlestadium {
+	width:350px;
+	height: 56px;
+	position: relative;
+ 	background-color:#6D0505;
+	opacity: 0.9; 
+}
+.sponsorwindow {
+	position: relative;
+	float: left;
+
+	width: 369px;
 }
 .reserves {
 	position: relative;
 	float: left;
 	top: 10px;
-	border: solid 1px;
-	height:300px;
+	height:400px;
 	width: 380px;
 	margin-top: 10px;
+}
+.reserveslastinformation {
+	position: relative;
+	width: 380px;
+	height: 200px;
+	background-color:#4D5258; 
 }
 .juniorteams {
 	position: relative;
 	float: left;
 	top: 10px;
-	border: solid 1px;
 	height:200px;
 	width: 350px;
 	margin-top: 10px;
+}
+.juniorlastinformation {
+	position: relative;
+	width: 350px;
+	height: 200px;
+	background-color:#4D5258; 
 }
 .sponsorbaner {
 	position: relative;
 	top: 20px;
 	width:750px;
 	height: 70px;
-	border: solid 1px;
 	margin-bottom: 10px;
 }
 .zdjecieJunior {
