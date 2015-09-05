@@ -357,7 +357,7 @@ table, th, td {
 }
 .headertable1 {
 	float: left;
-	width: 369px;
+	width: 370px;
 	height: 80px;
 	background-color: #EDADAD;
 	}
@@ -390,7 +390,7 @@ border: 0px solid #DDDDDD;
 	position: relative;
 	top: 3px;
     float: left;
-    width: 369px;
+    width: 370px;
     height: 60px;
     background-color: #6D0505;
     opacity: 0.9;
@@ -462,13 +462,21 @@ border: 0px solid #DDDDDD;
 	height:85px;
 	background-color: #060606;
 }
-.qwe {
+.enteradidasshop {
+	position: relative;
+	width: 370px;
+	height: 100px;
+	background-color:#131313;
+	top: -100px;
+	opacity: 0.6;
+}
+.adidasshopofficial {
 	position: relative;
 	float: left;
 	top: 20px;
 	width: 370px;
 	height: 300px;
-	background-color: red;
+
 }
 .reserves {
 	position: relative;
