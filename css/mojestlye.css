@@ -255,7 +255,7 @@ table, th, td {
 	position: relative;
 	top: -2px;
 	float: left;
-	width: 749px;
+	width: 750px;
 	height: 80px;
 	background-color: #EDADAD;
 }
@@ -322,14 +322,14 @@ table, th, td {
     background-color:  #F6F6F6;;
     position: relative;
     border: none;
-    right: -119px;
+    right: -120px;
     top: 20px;
 }
 .footernextmatch {
 	position: relative;
 	top: 101px;
 	float: left;
-	width: 749px;
+	width: 750px;
 	height: 60px;
 	background-color: #6D0505;
 	opacity: 0.9;
