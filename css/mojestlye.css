@@ -422,6 +422,14 @@ border: 0px solid #DDDDDD;
 	background-color:#6D0505;
 	opacity: 0.8; 
 }
+.subtitleslastmatch {
+	position: relative;
+	float: left;
+	color: #F5F0F0;
+}
+.subtitleslastmatch p{
+	margin-left: 40px;
+}
 .authorlastmatch p{
 	position: relative;
 	top:-100px;
@@ -436,6 +444,14 @@ border: 0px solid #DDDDDD;
 	top: 10px;
 	height:300px;
 	width: 350px;
+}
+.subtitlestadium {
+	position: relative;
+	float: left;
+	color: #F5F0F0;
+}
+.subtitlestadium p {
+	margin-left: 70px;
 }
 .titlestadium {
 	width:350px;
@@ -492,6 +508,28 @@ border: 0px solid #DDDDDD;
 	height: 100px;
 	background-color:#4D5258; 
 }
+#ostatnieWydarzeniaReserve {
+	position: relative;
+	float: left;
+	width: 380px;
+	height: 100px;
+	top:20px;
+}
+.caption1 {
+	position: relative;
+	float: left;
+	top: 0px;
+	background-color: #6D0505;
+	width: 380px;
+	margin-left: -76px;
+	height: 100px;
+}
+.control1 {
+	height: 200px;
+}
+.control2 {
+	height: 200px;
+}
 .juniorteams {
 	position: relative;
 	float: left;
@@ -500,18 +538,19 @@ border: 0px solid #DDDDDD;
 	width: 350px;
 	margin-top: 10px;
 }
-.juniorlastinformation {
+#ostatnieWydarzeniaJunior {
 	position: relative;
+	float: left;
 	width: 350px;
 	height: 100px;
-	background-color:#4D5258; 
+	top:20px;
 }
 .sponsorbaner {
 	position: relative;
-	top: -80px;
+	top: 30px;
 	width:1170px;
 	height: 119px;
-	margin-bottom:-75px;
+	margin-bottom:20	px;
 }
 .zdjecieJunior {
 	margin:0;
