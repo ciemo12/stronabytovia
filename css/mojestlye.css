@@ -363,7 +363,61 @@ table, th, td {
 	}
 .headertable1 h4 {
 	margin-left: 10px;
+}
+.dropdown-menu {
+	background-color: #E4E6E7;
+	display: block;
 } 
+.dropdown-menu1 {
+	position: absolute;
+	float: left;
+	width: 1170px;
+	height: 200px;
+	left: 0;
+	margin-top: 10px;	
+}
+.dropdown-menu2 {
+	position: absolute;
+	float: left;
+	width: 1170px;
+	height: 200px;
+	left:-149px;	
+}
+.dropdown-menu3 {
+	position: absolute;
+	float: left;
+	width: 1170px;
+	height: 200px;
+	left: -299px;	
+}
+.dropdown-menu4 {
+	position: absolute;
+	float: left;
+	width: 1170px;
+	height: 200px;
+	left: -449px;	
+}
+.dropdown-menu5 {
+	position: absolute;
+	float: left;
+	width: 1170px;
+	height: 200px;
+	left: -599px;	
+}
+.dropdown-menu6 {
+	position: absolute;
+	float: left;
+	width: 1170px;
+	height: 200px;
+	left:-749px;	
+}
+.dropdown-menu7 {
+	position: absolute;
+	float: left;
+	width: 1170px;
+	height: 200px;
+	left:-899px;	
+}
 .intable {
 	position: relative;
 	top: -4px;
@@ -426,6 +480,7 @@ border: 0px solid #DDDDDD;
 	position: relative;
 	float: left;
 	color: #F5F0F0;
+	margin-left: 10px;
 }
 .subtitleslastmatch p{
 	margin-left: 40px;
