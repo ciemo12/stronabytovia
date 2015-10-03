@@ -330,6 +330,7 @@ table, th, td {
 .headertable1 h4 {
 	margin-left: 10px;
 }
+
 .main {
 	height: 68px;
     line-height: 67px;
@@ -340,18 +341,22 @@ table, th, td {
 .main li {
     float: left;
 	list-style: none;
-	border-right: 1px solid rgba(0, 0, 0, 0.05);
     content: "";
     display: block;
     top: 155px;
     width:150px;
     text-align: center;
-   
 }
-.main li:first-child {
-	border-left: 1px solid rgba(0, 0, 0, 0.05);
-	margin-left:-41px;
-}
+.main a {
+  	text-decoration: none;
+  	color: #CCCCCC;
+  }
+
+ .dropdown-menu > li > a:hover {
+ 	color:red;
+ 	background: none;
+ 	transition:0.2s;
+ }
 #menuafterscroll {
 	opacity:1.0;
 	position: fixed;
@@ -368,13 +373,37 @@ table, th, td {
 .menu-upright {
 	position:relative;
 	float: left;
-	left: 10px;
 	width: 300px;
-	height: 100%;
-	border: 1px solid;
-	margin: 0;
+	border-right: 1px solid;
+	margin-top: -6px;
 }
+.menu-upright li{
+	position: relative;
+	text-align: center;
+	left: 0;
+	float: left;
+	
+	width: 250px;
+	height: 68px;
 
+}
+.menu-upright a {
+	color: #888;
+	display: block;
+	text-decoration: none;
+	position: relative;
+	float: left;
+	top:-155px;
+	border-bottom: 1px solid;
+	width: 300px;
+	margin-left: -41px;
+}
+.menu-advertisement {
+	position: relative;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
  .dropdown-menu {
 	background-color: #E4E6E7;
 	display: block;
@@ -384,50 +413,50 @@ table, th, td {
 	position: absolute;
 	float: left;
 	width: 1170px;
-	height: 300px;
-	left: 0;	
+	height: 205px;
+	left: -41px;	
 }
 .dropdown-menu2 {
 	position: absolute;
 	float: left;
 	width: 1170px;
-	height: 300px;
-	left:-149px;	
+	height: 204px;
+	left:-190px;	
 }
 .dropdown-menu3 {
 	position: absolute;
 	float: left;
 	width: 1170px;
 	height: 300px;
-	left: -299px;	
+	left: -340px;	
 }
 .dropdown-menu4 {
 	position: absolute;
 	float: left;
 	width: 1170px;
 	height: 300px;
-	left: -449px;	
+	left: -490px;	
 }
 .dropdown-menu5 {
 	position: absolute;
 	float: left;
 	width: 1170px;
 	height: 300px;
-	left: -599px;	
+	left: -640px;	
 }
 .dropdown-menu6 {
 	position: absolute;
 	float: left;
 	width: 1170px;
 	height: 300px;
-	left:-749px;	
+	left:-790px;	
 }
 .dropdown-menu7 {
 	position: absolute;
 	float: left;
 	width: 1170px;
 	height: 300px;
-	left:-899px;	
+	left:-940px;	
 }
 .intable {
 	position: relative;
@@ -697,16 +726,7 @@ border: 0px solid #DDDDDD;
 .logo:hover {
 	opacity: 0.2;
 }
-.main a {
-  	text-decoration: none;
-  	color: #CCCCCC;
-  }
 
- .dropdown-menu > li > a:hover {
- 	color:red;
- 	background: none;
- 	transition:0.2s;
- }
 .social {
  	margin-top: 0;
   	text-align: center;
