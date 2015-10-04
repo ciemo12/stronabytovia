@@ -190,41 +190,7 @@ table, th, td {
 	color:#d9d9d9;
 	margin-left: -15px;
 }
-.main {
-	height: 68px;
-    line-height: 67px;
-    font-size: 14px;
-    text-transform: uppercase;
-	background: #111111;
-}
-.main li {
-    float: left;
-	list-style: none;
-	border-right: 1px solid rgba(0, 0, 0, 0.05);
-    content: "";
-    display: block;
-    top: 155px;
-    width:150px;
-    text-align: center;
-   
-}
-.main li:first-child {
-	border-left: 1px solid rgba(0, 0, 0, 0.05);
-	margin-left:-41px;
-}
-#menuafterscroll {
-	opacity:1.0;
-	position: fixed;
-	width: 100%;
-	background:  #F8F8F8;
-	height: 40px;
-   	padding: 0;
-   	margin-top: -218px;
-   	visibility: visible;
-   	display: block;
-   	float: left;
-   	z-index: 1;   	
-   }
+
 #gototop {
    position: fixed;
    bottom: 9px;
@@ -364,60 +330,145 @@ table, th, td {
 .headertable1 h4 {
 	margin-left: 10px;
 }
-.dropdown-menu {
+
+.main {
+	height: 68px;
+    line-height: 67px;
+    font-size: 14px;
+    text-transform: uppercase;
+	background: #111111;
+}
+.main li {
+    float: left;
+	list-style: none;
+    content: "";
+    display: block;
+    top: 155px;
+    width:150px;
+    text-align: center;
+}
+.main a {
+  	text-decoration: none;
+  	color: #CCCCCC;
+  }
+
+ .dropdown-menu > li > a:hover {
+ 	color:red;
+ 	background: none;
+ 	transition:0.2s;
+ }
+#menuafterscroll {
+	opacity:1.0;
+	position: fixed;
+	width: 100%;
+	background:  #F8F8F8;
+	height: 40px;
+   	padding: 0;
+   	margin-top: -218px;
+   	visibility: visible;
+   	display: block;
+   	float: left;
+   	z-index: 1;   	
+   }
+.menu-upright {
+	position:relative;
+	float: left;
+	width: 300px;
+	border-right: 1px solid;
+	margin-top: -6px;
+}
+.menu-upright li{
+	position: relative;
+	text-align: center;
+	left: 0;
+	float: left;
+	
+	width: 250px;
+	height: 68px;
+
+}
+.menu-upright a {
+	color: #888;
+	display: block;
+	text-decoration: none;
+	position: relative;
+	float: left;
+	top:-155px;
+	border-bottom: 1px solid;
+	width: 300px;
+	margin-left: -41px;
+}
+.menu-advertisement {
+	position: relative;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+ .dropdown-menu {
 	background-color: #E4E6E7;
 	display: block;
+<<<<<<< HEAD
 	margin-bottom: 10px;
 	margin-top: 0;
  }
 
+=======
+	margin-top: 0px;
+}
+>>>>>>> menu
 .dropdown-menu1 {
 	position: absolute;
 	float: left;
 	width: 1170px;
+<<<<<<< HEAD
 	height: 200px;
 	left: 0;}
+=======
+	height: 205px;
+	left: -41px;	
+}
+>>>>>>> menu
 .dropdown-menu2 {
 	position: absolute;
 	float: left;
 	width: 1170px;
-	height: 200px;
-	left:-149px;	
+	height: 204px;
+	left:-190px;	
 }
 .dropdown-menu3 {
 	position: absolute;
 	float: left;
 	width: 1170px;
-	height: 200px;
-	left: -299px;	
+	height: 300px;
+	left: -340px;	
 }
 .dropdown-menu4 {
 	position: absolute;
 	float: left;
 	width: 1170px;
-	height: 200px;
-	left: -449px;	
+	height: 300px;
+	left: -490px;	
 }
 .dropdown-menu5 {
 	position: absolute;
 	float: left;
 	width: 1170px;
-	height: 200px;
-	left: -599px;	
+	height: 300px;
+	left: -640px;	
 }
 .dropdown-menu6 {
 	position: absolute;
 	float: left;
 	width: 1170px;
-	height: 200px;
-	left:-749px;	
+	height: 300px;
+	left:-790px;	
 }
 .dropdown-menu7 {
 	position: absolute;
 	float: left;
 	width: 1170px;
-	height: 200px;
-	left:-899px;	
+	height: 300px;
+	left:-940px;	
 }
 .intable {
 	position: relative;
@@ -687,6 +738,7 @@ border: 0px solid #DDDDDD;
 .logo:hover {
 	opacity: 0.2;
 }
+<<<<<<< HEAD
 .main a {
   	text-decoration: none;
   	color: #CCCCCC;
@@ -706,13 +758,9 @@ border: 0px solid #DDDDDD;
  	margin:0;
  	margin-bottom: 10px;
  	margin-top: 10px;
+=======
+>>>>>>> menu
 
- }
- .dropdown-menu > li > a:hover {
- 	color:red;
- 	background: none;
- 	transition:0.2s;
- }
 .social {
  	margin-top: 0;
   	text-align: center;
