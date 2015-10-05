@@ -454,13 +454,6 @@ table, th, td {
 	height: 204px;
 	left:-190px;	
 }
-.dropdown-menu3 {
-	position: absolute;
-	float: left;
-	width: 1170px;
-	height: 300px;
-	left: -340px;	
-}
 .dropdown-menu4 {
 	position: absolute;
 	float: left;
@@ -468,11 +461,35 @@ table, th, td {
 	height: 300px;
 	left: -490px;	
 }
+.firstTeam {
+	position: relative;
+	float: left;
+	left: 9px;
+	height: 287px;
+	width: 380px;
+	background-color: red;
+}
+.secondTeam {
+	position: relative;
+	float: left;
+	left: 14px;
+	height: 287px;
+	width: 380px;
+	background-color: black;
+}
+.juniorTeams {
+	position: relative;
+	float: left;
+	left: 19px;
+	height: 287px;
+	width: 380px;
+	background-color: red;
+}
 .dropdown-menu5 {
 	position: absolute;
 	float: left;
 	width: 1170px;
-	height: 300px;
+	height: 204px;
 	left: -640px;	
 }
 .dropdown-menu6 {
