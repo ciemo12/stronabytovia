@@ -373,7 +373,7 @@ table, th, td {
 .menu-upright {
 	position:relative;
 	float: left;
-	width: 300px;
+	width: 400px;
 	border-right: 1px solid;
 	margin-top: -6px;
 }
@@ -395,17 +395,35 @@ table, th, td {
 	float: left;
 	top:-155px;
 	border-bottom: 1px solid;
-	width: 300px;
+	width: 400px;
 	margin-left: -41px;
 }
-.menu-advertisement {
+.menu-advertisement1 {
 	position: relative;
 	float: left;
-	margin-top: 10px;
-	margin:10px;
+	left: 10px;
+	text-align: center;
+	margin: 10px;
 }
+.menu-advertisement2 {
+	position: relative;
+	left:10px;
+	top: 0;
+	float: left;
+	text-align: center;
+	margin: 10px;
+}
+
 .menu-advertisement a {
 	display: inline;
+}
+.subtitles-advertisement strong{
+	position: relative;
+	left: 5px;
+	top: 5px;
+	float: left;
+	color:black;
+
 }
  .dropdown-menu {
 	background-color: #E4E6E7;
@@ -416,7 +434,7 @@ table, th, td {
 	position: absolute;
 	float: left;
 	width: 1170px;
-	height: 205px;
+	height: 273px;
 	left: -41px;	
 }
 .dropdown-menu2 {
