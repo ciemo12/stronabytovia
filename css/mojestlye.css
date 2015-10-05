@@ -372,7 +372,7 @@ table, th, td {
 .menu-upright {
 	position:relative;
 	float: left;
-	width: 300px;
+	width: 400px;
 	border-right: 1px solid;
 	margin-top: -6px;
 }
@@ -394,15 +394,46 @@ table, th, td {
 	float: left;
 	top:-155px;
 	border-bottom: 1px solid;
-	width: 300px;
+	width: 400px;
 	margin-left: -41px;
 }
-.menu-advertisement {
+.menu-advertisement1 {
 	position: relative;
-	float: right;
-	margin-top: 10px;
-	margin-right: 10px;
+	float: left;
+	left: 10px;
+	text-align: center;
+	margin: 10px;
 }
+.menu-advertisement2 {
+	position: relative;
+	left:10px;
+	top: 0;
+	float: left;
+	text-align: center;
+	margin: 10px;
+}
+
+.menu-advertisement a {
+	display: inline;
+}
+.subtitles-advertisement strong{
+	position: relative;
+	left: 5px;
+	top: 5px;
+	float: left;
+	color:black;
+
+}
+.ticket {
+	position: relative;
+	float: left;
+	opacity: 0.3;
+	top: -198px;
+	left: 410px;
+	width: 1170px;
+	height: 190px;
+}
+
  .dropdown-menu {
 	background-color: #E4E6E7;
 	display: block;
@@ -412,7 +443,7 @@ table, th, td {
 	position: absolute;
 	float: left;
 	width: 1170px;
-	height: 205px;
+	height: 273px;
 	left: -41px;	
 }
 .dropdown-menu2 {
@@ -422,13 +453,6 @@ table, th, td {
 	height: 204px;
 	left:-190px;	
 }
-.dropdown-menu3 {
-	position: absolute;
-	float: left;
-	width: 1170px;
-	height: 300px;
-	left: -340px;	
-}
 .dropdown-menu4 {
 	position: absolute;
 	float: left;
@@ -436,11 +460,35 @@ table, th, td {
 	height: 300px;
 	left: -490px;	
 }
+.firstTeam {
+	position: relative;
+	float: left;
+	left: 9px;
+	height: 287px;
+	width: 380px;
+	background-color: red;
+}
+.secondTeam {
+	position: relative;
+	float: left;
+	left: 14px;
+	height: 287px;
+	width: 380px;
+	background-color: black;
+}
+.juniorTeams {
+	position: relative;
+	float: left;
+	left: 19px;
+	height: 287px;
+	width: 380px;
+	background-color: red;
+}
 .dropdown-menu5 {
 	position: absolute;
 	float: left;
 	width: 1170px;
-	height: 300px;
+	height: 204px;
 	left: -640px;	
 }
 .dropdown-menu6 {
