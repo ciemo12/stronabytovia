@@ -400,9 +400,12 @@ table, th, td {
 }
 .menu-advertisement {
 	position: relative;
-	float: right;
+	float: left;
 	margin-top: 10px;
-	margin-right: 10px;
+	margin:10px;
+}
+.menu-advertisement a {
+	display: inline;
 }
  .dropdown-menu {
 	background-color: #E4E6E7;
