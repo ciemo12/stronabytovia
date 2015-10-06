@@ -546,6 +546,12 @@ table, th, td {
 	height: 204px;
 	left:-940px;	
 }
+.tactics {
+	position: relative;
+	top: -5px;
+	left: 0;
+	float: left;
+}
 .intable {
 	position: relative;
 	top: -4px;
