@@ -491,6 +491,15 @@ table, th, td {
 	height: 204px;
 	left: -640px;	
 }
+.stadiumimages {
+	position: relative;
+	float: left;
+	opacity: 0.5;
+	top: -198px;
+	left: 410px;
+	width: 1170px;
+	height: 190px;
+}
 .dropdown-menu6 {
 	position: absolute;
 	float: left;
