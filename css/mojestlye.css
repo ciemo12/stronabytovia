@@ -465,7 +465,21 @@ table, th, td {
 	left: 9px;
 	height: 287px;
 	width: 380px;
-	background-color: red;
+}
+.firstTeam img {
+	width: 380px;
+	height: 287px;
+	opacity: 0.7;
+} 
+.firstTeamNews { 
+	position: relative;
+	float: left;
+	top: -100px;
+	left: 0;
+	width: 380px;
+	height:100px;
+	background-color: #292929;
+	opacity: 0.7;
 }
 .secondTeam {
 	position: relative;
@@ -473,7 +487,21 @@ table, th, td {
 	left: 14px;
 	height: 287px;
 	width: 380px;
-	background-color: black;
+}
+.secondTeam img {
+	width: 380px;
+	height: 287px;
+	opacity: 0.7;
+} 
+.secondTeamNews { 
+	position: relative;
+	float: left;
+	top: -100px;
+	left: 0;
+	width: 380px;
+	height:100px;
+	background-color: #292929;
+	opacity: 0.7;
 }
 .juniorTeams {
 	position: relative;
@@ -481,7 +509,21 @@ table, th, td {
 	left: 19px;
 	height: 287px;
 	width: 380px;
-	background-color: red;
+}
+.juniorTeams img {
+	width: 380px;
+	height: 287px;
+	opacity: 0.7;
+} 
+.juniorTeamsNews { 
+	position: relative;
+	float: left;
+	top: -100px;
+	left: 0;
+	width: 380px;
+	height:100px;
+	background-color: #292929;
+	opacity: 0.7;
 }
 .dropdown-menu5 {
 	position: absolute;
