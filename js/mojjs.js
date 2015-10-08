@@ -56,11 +56,11 @@ $(document).ready(function() {
   });
 
 $(document).ready(function() {
-    $('.firstTeam').css('opacity', 0.7);
+    $('.firstTeam').css('opacity', 0.8);
     $('.firstTeam').hover(function() { //kursor wchodzi
       $(this).stop().animate({'opacity': 1}, "fast");
     },function() { //kursor wychodzi
-      $(this).stop().animate({'opacity': 0.7}, "fast");
+      $(this).stop().animate({'opacity': 0.8}, "fast");
     });
   });
 $(document).ready(function() {

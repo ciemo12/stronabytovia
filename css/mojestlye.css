@@ -478,14 +478,20 @@ table, th, td {
 	width: 380px;
 	height:100px;
 	background-color: #292929;
-	opacity: 0.7;
+	opacity: 0.9;
 }
 .name1 {
+	opacity: 1;
+	top:15px;
+	font-weight: bold;
+	font-size: 24px;
+	margin-left: 15px;
 	width: 380px;
 	height: 100px;
 	z-index: 1;
 	position: relative;
 	float: left;
+	color: #B70C0C;
 }
 .secondTeam {
 	position: relative;
@@ -506,7 +512,20 @@ table, th, td {
 	width: 380px;
 	height:100px;
 	background-color: #292929;
-	opacity: 0.7;
+	opacity: 0.9;
+}
+.name2 {
+	opacity: 1;
+	top:15px;
+	font-weight: bold;
+	font-size: 21px;
+	margin-left: 19px;
+	width: 380px;
+	height: 100px;
+	z-index: 1;
+	position: relative;
+	float: left;
+	color: #B70C0C;
 }
 .juniorTeams {
 	position: relative;
@@ -528,7 +547,20 @@ table, th, td {
 	width: 380px;
 	height:100px;
 	background-color: #292929;
-	opacity: 0.7;
+	opacity: 0.9;
+}
+.name3 {
+	opacity: 1;
+	top:15px;
+	font-weight: bold;
+	font-size: 24px;
+	margin-left: 25px;
+	width: 380px;
+	height: 100px;
+	z-index: 1;
+	position: relative;
+	float: left;
+	color: #B70C0C;
 }
 
 .dropdown-menu5 {
