@@ -55,3 +55,36 @@ $(document).ready(function() {
     });
   });
 
+$(document).ready(function() {
+    $('.firstTeam').css('opacity', 0.7);
+    $('.firstTeam').hover(function() { //kursor wchodzi
+      $(this).stop().animate({'opacity': 1}, "fast");
+    },function() { //kursor wychodzi
+      $(this).stop().animate({'opacity': 0.7}, "fast");
+    });
+  });
+$(document).ready(function() {
+    $('.secondTeam').css('opacity', 0.7);
+    $('.secondTeam').hover(function() { //kursor wchodzi
+      $(this).stop().animate({'opacity': 1}, "fast");
+    },function() { //kursor wychodzi
+      $(this).stop().animate({'opacity': 0.7}, "fast");
+    });
+  });
+$(document).ready(function() {
+    $('.juniorTeams').css('opacity', 0.7);
+    $('.juniorTeams').hover(function() { //kursor wchodzi
+      $(this).stop().animate({'opacity': 1}, "fast");
+    },function() { //kursor wychodzi
+      $(this).stop().animate({'opacity': 0.7}, "fast");
+    });
+  });
+
+$(".firstTeamNews").toggle(
+    function(){
+        $(this).not(':animated').animate({width:300}, 500);
+    },
+    function(){
+        $(this).not(':animated').animate({width:200}, 500);
+    }
+);
