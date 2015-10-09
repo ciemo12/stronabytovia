@@ -336,6 +336,7 @@ table, th, td {
     font-size: 14px;
     text-transform: uppercase;
 	background: #111111;
+	z-index: 1;
 }
 .main li {
     float: left;
@@ -345,17 +346,80 @@ table, th, td {
     top: 155px;
     width:150px;
     text-align: center;
+    z-index: 1;
 }
+
 .main a {
   	text-decoration: none;
   	color: #CCCCCC;
   }
-
-.dropdown-menu > li > a:hover {
- 	color:red;
- 	background: none;
- 	transition:0.2s;
+ .borderbottom1 {
+ 	width: 151px;
+    border-bottom: 5px solid white;
+    height: 71px;
+    position: absolute;
+    top: -71px;
+    left: 40px;
+    float: left;
+    overflow: hidden;
  }
+ .borderbottom2 {
+ 	width: 151px;
+ 	border-bottom: 5px solid white;
+ 	height: 71px;
+ 	position: absolute;
+ 	top: -71px;
+    left: 190px;
+    float: left;
+    overflow: hidden;
+ }
+  .borderbottom3 {
+ 	width: 151px;
+ 	border-bottom: 5px solid white;
+ 	height: 71px;
+ 	position: absolute;	
+ 	top: -4px;
+    left: 0px;
+    float: left;
+ }
+ .borderbottom4 {
+ 	width: 151px;
+    border-bottom: 5px solid white;
+    height: 71px;
+    position: absolute;
+    top: -4px;
+    left: 0px;
+    float: left;
+ }
+ .borderbottom5 {
+ 	width: 151px;
+ 	border-bottom: 5px solid white;
+ 	height: 71px;
+ 	position: absolute;
+ 	top: -71px;
+    left: 640px;
+    float: left;
+ }
+ .borderbottom6 {
+ 	width: 151px;
+ 	border-bottom: 5px solid white;
+ 	height: 71px;
+ 	position: absolute;	
+ 	top: -71px;
+    left:790px;
+    float: left;
+ }
+  .borderbottom7 {
+ 	width: 151px;
+ 	border-bottom: 5px solid white;
+ 	height: 71px;
+ 	position: absolute;
+ 	top: -71px;
+    left:940px;
+    float: left;
+ }
+
+
 #menuafterscroll {
 	opacity:1.0;
 	position: fixed;
