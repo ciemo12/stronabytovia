@@ -362,6 +362,7 @@ table, th, td {
     left: 40px;
     float: left;
     overflow: hidden;
+    padding: 0.4em;
  }
  .borderbottom2 {
  	width: 151px;

@@ -75,15 +75,20 @@ $(document).ready(function() {
     });
   });
 $(document).ready(function() {
+  $('.main li').mouseover(function() {
+    $('.borderbottom1').show("slide", 10000)
+  });
+});
+$(document).ready(function() {
     $('.borderbottom1').css('opacity', 0);
     $('.borderbottom1').hover(function() { //kursor wchodzi
       $(this).stop().animate({'opacity': 0.8}, "fast");
   });
 });
+
 $(document).ready(function() {
     $('.borderbottom2').css('opacity', 0);
     $('.borderbottom2').hover(function() { //kursor wchodzi
-      $( this ).show( "slide", 1000 );
       $(this).stop().animate({'opacity': 0.8}, "fast");
   });
 });
