@@ -98,7 +98,7 @@
 	margin-left: -16px;
 	height: 450px;
 	background-color: #B8B8B8;
-	top:-2px;'
+	top:-1px;'
 	opacity: 1;
 }
 .obramowanie {
@@ -331,7 +331,7 @@ table, th, td {
 }
 
 .main {
-	height: 68px;
+	height: 67px;
     line-height: 67px;
     font-size: 14px;
     text-transform: uppercase;
@@ -351,7 +351,7 @@ table, th, td {
   	color: #CCCCCC;
   }
 
- .dropdown-menu > li > a:hover {
+.dropdown-menu > li > a:hover {
  	color:red;
  	background: none;
  	transition:0.2s;
@@ -392,10 +392,19 @@ table, th, td {
 	text-decoration: none;
 	position: relative;
 	float: left;
-	top:-155px;
+	top:-154px;
 	border-bottom: 1px solid;
 	width: 400px;
 	margin-left: -41px;
+}
+
+.menu-upright a:hover {
+	
+	background-color: #E1D1F9;
+	margin-left: -40px;
+	width: 398px;
+	height: 68px;
+	text-align: center;
 }
 .menu-advertisement1 {
 	position: relative;
@@ -436,12 +445,14 @@ table, th, td {
  .dropdown-menu {
 	background-color: #E4E6E7;
 	display: block;
-	margin-top: 0px;
+	margin-top: -1px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius:0;
 }
 .dropdown-menu1 {
 	position: absolute;
 	float: left;
-	width: 1170px;
+	width: 1171px;
 	height: 273px;
 	left: -41px;	
 }

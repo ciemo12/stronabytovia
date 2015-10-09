@@ -88,3 +88,6 @@ $(".firstTeamNews").toggle(
         $(this).not(':animated').animate({width:200}, 500);
     }
 );
+$('.dropdown-menu').click(function() {
+$('.dropdown-menu:a').toggleClass('red');
+});
