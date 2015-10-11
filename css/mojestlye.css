@@ -497,30 +497,37 @@ table, th, td {
 	color:black;
 
 }
+.ticketBuyPass {
+	opacity: 0.5;
+}
+.ticketBuyPass:hover{
+	opacity: 1;
+}
 .ticket {
 	position: relative;
 	float: left;
 	top: 0;
-	width: 748px;
+	left: 10px;
+	width: 750px;
 	height: 190px;	
 }
 .ticket img {
 	width:750px;
 	height:190px;
 }
-div.wrapper{
-  width:720px; 
-  height:190px;
-  overflow:hidden; 
-  position:relative;  
-  
+.buyPass {
+	position: relative;
+	float: left;
+	top: -70px;
+    left: 10px;
+    width: 750px;
+    opacity: 0.7;
 }
-div.caption {
-  position:relative; 
-  text-align:center; 
-  padding:55px 15px
-  
+.buyPass img {
+	width:750px;
+	height: 70px;
 }
+
  .dropdown-menu {
 	background-color: #E4E6E7;
 	display: block;
