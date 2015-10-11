@@ -117,24 +117,5 @@ $(document).ready(function() {
       $(this).stop().animate({'opacity': 0.8}, "fast");
   });
 });
-$(document).ready(function(){
-    var thumbs = $("ul li img");
 
-    for (var i = 0, ii = thumbs.length; i < ii; i++){
-      if (thumbs[i].title && thumbs[i].title.length > 0){
-        $(thumbs[i]).wrap('<div class="wrapper" />')
-      }
-    }
 
-});
-
-$('.wrapper').hover(
-  function(){
-    $(this).find('img').animate({opacity: ".6"}, 300);
-    $(this).find('.caption').animate({top:"1000px"}, 300);
-  },
-  function(){
-    $(this).find('img').animate({opacity: "1.0"}, 300);
-    $(this).find('.caption').animate({top:"85px"}, 100);
-  }
-);
