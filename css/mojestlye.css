@@ -671,10 +671,30 @@ table, th, td {
 	position: relative;
 	float: left;
 	opacity: 0.5;
-	top: -198px;
-	left: 410px;
-	width: 1170px;
+	top: 0;
+	left: 10px;
+	width: auto;
 	height: 190px;
+}
+.stadium1 {
+	position: relative;
+	left: 0;
+	float: left;
+	width: 200px;
+}
+.stadium2 {
+	position: relative;
+	left: 280px;
+	float: left;
+	width: 200px;
+}
+.stadium1 img{
+	height: 190px;
+	width: 350px;
+}
+.stadium2 img{
+	height: 190px;
+	width: 350px;
 }
 .dropdown-menu6 {
 	position: absolute;
