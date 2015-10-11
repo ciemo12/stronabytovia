@@ -500,14 +500,27 @@ table, th, td {
 .ticket {
 	position: relative;
 	float: left;
-	opacity: 0.3;
 	top: 0;
-	left:5px;
 	width: 748px;
-	height: 190px;
-	
+	height: 190px;	
 }
-
+.ticket img {
+	width:750px;
+	height:190px;
+}
+div.wrapper{
+  width:720px; 
+  height:190px;
+  overflow:hidden; 
+  position:relative;  
+  
+}
+div.caption {
+  position:relative; 
+  text-align:center; 
+  padding:55px 15px
+  
+}
  .dropdown-menu {
 	background-color: #E4E6E7;
 	display: block;

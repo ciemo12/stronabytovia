@@ -40,15 +40,6 @@ $(document).ready(function() {
         function(){$(this).children('.dropdown-menu').slideUp(200);
   });
 });
-$(document).ready(function() {
-    $('.ticket').css('opacity', 0.5);
-    $('.ticket').css('cursor', 'pointer');
-    $('.ticket').hover(function() { //kursor wchodzi
-      $(this).stop().animate({'opacity': 1}, "fast");
-    },function() { //kursor wychodzi
-      $(this).stop().animate({'opacity': 0.5}, "fast");
-    });
-  });
 
 $(document).ready(function() {
     $('.firstTeam').css('opacity', 0.8);
@@ -126,40 +117,24 @@ $(document).ready(function() {
       $(this).stop().animate({'opacity': 0.8}, "fast");
   });
 });
+$(document).ready(function(){
+    var thumbs = $("ul li img");
 
-(function($){
-  $.fn.imgslide = function(options){
-    // Declare default values
-    var defaults = {
-        top : '0px',
-        right : '0px',
-        bottom : '0px',
-        left : '0px',
-        duration : 200
-      },
-      // Override default values if options are passed in
-      options = $.extend(defaults, options);
-    // Loop through all images being called
-    this.each(function(){
-      var $this = $(this),
-      // Grab original css property values
-      defTop = '',
-      defRight = '',
-      defBottom = '',
-      defLeft = '';
-      // If original value is 'auto' change to 0px. Needed for browsers other than Firefox  
-      (($this).css('top') == 'auto')? defTop = '0px' : defTop = ($this).css('top');
-      (($this).css('right') == 'auto')? defRight = '0px' : defRight = ($this).css('right');
-      (($this).css('bottom') == 'auto')? defBottom = '0px' : defBottom = ($this).css('bottom');
-      (($this).css('left') == 'auto')? defLeft = '0px' : defLeft = ($this).css('left');
-      // Run animation when hovered
-      $this.hover(function(){
-        $($this).stop().animate({top:options.top,right:options.right,bottom:options.bottom,left:options.left},{queue:false,duration:options.duration});          
-      }, function(){
-        $($this).stop().animate({top:defTop,right:defRight,bottom:defBottom,left:defLeft},{queue:false,duration:options.duration});          
-      });
-    });
-  // Ensure chainability  
-  return this;
+    for (var i = 0, ii = thumbs.length; i < ii; i++){
+      if (thumbs[i].title && thumbs[i].title.length > 0){
+        $(thumbs[i]).wrap('<div class="wrapper" />')
+      }
+    }
+
+});
+
+$('.wrapper').hover(
+  function(){
+    $(this).find('img').animate({opacity: ".6"}, 300);
+    $(this).find('.caption').animate({top:"1000px"}, 300);
+  },
+  function(){
+    $(this).find('img').animate({opacity: "1.0"}, 300);
+    $(this).find('.caption').animate({top:"85px"}, 100);
   }
-})(jQuery);
+);
