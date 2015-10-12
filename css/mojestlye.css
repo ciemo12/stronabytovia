@@ -330,21 +330,28 @@ table, th, td {
 	margin-left: 10px;
 }
 
-.main {
-	height: 67px;
-    line-height: 67px;
-    font-size: 14px;
-    text-transform: uppercase;
+#navBackground {
 	background: #111111;
+}
+ol {
+  list-style-type:none;
+  height:4em;
+  line-height: 2em;
+  padding-left: 0;
+}
+.main {
+	position: relative;
+	height: 67px;
+	width: 1170px;
+    line-height: 67px;
+    text-transform: uppercase;
 	z-index: 1;
 }
 .main li {
     float: left;
 	list-style: none;
-    content: "";
     display: block;
-    top: 155px;
-    width:150px;
+    width:167.14px;
     text-align: center;
     z-index: 1;
 }
@@ -354,27 +361,26 @@ table, th, td {
   	color: #CCCCCC;
   }
  .borderbottom1 {
- 	width: 151px;
+ 	width: 167.14px;
     border-bottom: 5px solid white;
     height: 71px;
     position: absolute;
     top: -71px;
-    left: 40px;
     float: left;
     overflow: hidden;
  }
  .borderbottom2 {
- 	width: 151px;
+ 	width: 167.14px;
  	border-bottom: 5px solid white;
  	height: 71px;
  	position: absolute;
  	top: -71px;
-    left: 190px;
+    left: 167px;
     float: left;
     overflow: hidden;
  }
   .borderbottom3 {
- 	width: 151px;
+ 	width: 167.14px;
  	border-bottom: 5px solid white;
  	height: 71px;
  	position: absolute;	
@@ -383,7 +389,7 @@ table, th, td {
     float: left;
  }
  .borderbottom4 {
- 	width: 151px;
+ 	width: 167.14px;
     border-bottom: 5px solid white;
     height: 71px;
     position: absolute;
@@ -392,30 +398,30 @@ table, th, td {
     float: left;
  }
  .borderbottom5 {
- 	width: 151px;
+ 	width: 167.14px;
  	border-bottom: 5px solid white;
  	height: 71px;
  	position: absolute;
  	top: -71px;
-    left: 640px;
+    left: 668px;
     float: left;
  }
  .borderbottom6 {
- 	width: 151px;
+ 	width: 167.14px;
  	border-bottom: 5px solid white;
  	height: 71px;
  	position: absolute;	
  	top: -71px;
-    left:790px;
+    left:835px;
     float: left;
  }
   .borderbottom7 {
- 	width: 151px;
+ 	width: 167.14px;
  	border-bottom: 5px solid white;
  	height: 71px;
  	position: absolute;
  	top: -71px;
-    left:940px;
+    left:1001px;
     float: left;
  }
 
@@ -436,39 +442,30 @@ table, th, td {
 .menu-upright {
 	position:relative;
 	float: left;
+	top:-5px;
 	width: 400px;
-	border-right: 1px solid;
-	margin-top: -6px;
 }
 .menu-upright li{
 	position: relative;
-	text-align: center;
-	left: 0;
 	float: left;
-	
-	width: 250px;
+	left: 0;
+	width: 400px;
 	height: 68px;
-
+	border-right: 1px solid;
+	background-color: red;
+	margin-left: -40px;
 }
 .menu-upright a {
-	color: #888;
-	display: block;
-	text-decoration: none;
 	position: relative;
+
 	float: left;
-	top:-154px;
-	border-bottom: 1px solid;
-	width: 400px;
-	margin-left: -41px;
+	left: 0;
+	color: #888;
+	width: 400px;	
 }
 
 .menu-upright a:hover {
-	
 	background-color: #E1D1F9;
-	margin-left: -40px;
-	width: 398px;
-	height: 68px;
-	text-align: center;
 }
 .menu-advertisement1 {
 	position: relative;
@@ -538,16 +535,15 @@ table, th, td {
 .dropdown-menu1 {
 	position: absolute;
 	float: left;
-	width: 1171px;
-	height: 273px;
-	left: -41px;	
+	width: 1170px;
+	height: 274px;
 }
 .dropdown-menu2 {
 	position: absolute;
 	float: left;
 	width: 1170px;
-	height: 204px;
-	left:-190px;	
+	height: 205px;
+	left:-167px;	
 }
 .dropdown-menu4 {
 	position: absolute;
@@ -665,7 +661,7 @@ table, th, td {
 	float: left;
 	width: 1170px;
 	height: 204px;
-	left: -640px;	
+	left: -668px;	
 }
 .stadiumimages {
 	position: relative;
@@ -701,14 +697,14 @@ table, th, td {
 	float: left;
 	width: 1170px;
 	height: 204px;
-	left:-790px;	
+	left:-835px;	
 }
 .dropdown-menu7 {
 	position: absolute;
 	float: left;
 	width: 1170px;
 	height: 204px;
-	left:-940px;	
+	left:-1002px;	
 }
 .tactics {
 	position: relative;
