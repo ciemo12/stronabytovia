@@ -1,8 +1,7 @@
- $(document).ready(function(){
-      $('#menuafterscroll').hide();
-      $(window).scroll(function(){
-        if ($(this).scrollTop() > 140) {
-          $('#menuafterscroll').fadeIn(0);
+$(document).ready(function(){
+  $('#menuafterscroll').hide();
+    $(window).scroll(function(){
+      if ($(this).scrollTop() > 140) {$('#menuafterscroll').fadeIn(0);
       }
       else {
          $('#menuafterscroll').fadeOut(0);
@@ -34,7 +33,8 @@
    });
  });
 $(document).ready(function() {
-  $( '.dropdown' ).hover(
+  $('.dropdown-menu').hide();
+  $('.dropdown').hover(
         function(){$(this).children('.dropdown-menu').slideDown(200);
         },
         function(){$(this).children('.dropdown-menu').slideUp(200);

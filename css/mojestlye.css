@@ -83,12 +83,13 @@ ol {
   	text-decoration: none;
   	color: #CCCCCC;
   }
- .dropdown-menu {
+.dropdown-menu {
 	background-color: #E4E6E7;
 	display: block;
 	margin-top: -1px;
 	border-top-left-radius: 0;
 	border-bottom-left-radius:0;
+	z-index: 1;
 }
 .menu-upright {
 	position:relative;
