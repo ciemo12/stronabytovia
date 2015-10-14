@@ -24,6 +24,11 @@
  	border-bottom: 3.5px solid #B70C0C;
  	background-color: #4D4D4D;
 }
+.logoheader1 li {
+	display:inline;
+	margin-right: 35px;
+    float: right;
+}
 .logoheader1 {
 	margin-top: 4px;
 }
@@ -133,6 +138,9 @@ ol {
     float: left;
     overflow: hidden;
  }
+ .menu-advertisement a {
+	display: inline;
+}
  .menu-advertisement1 {
 	position: relative;
 	float: left;
@@ -562,130 +570,6 @@ ol {
     text-align: center;
     padding: 2px;
 }
-
-
-
-
-
-
-
-.tloheader1 {
- 	background-color: #AD0005;
- 	z-index: 2;
- }
-
-.obramowaniefooter {
-	padding-top: 5px;
- 	border-top: 3.5px solid #B70C0C;
- 	background-color: #4D4D4D;
-}
-
-.logoheader1 li {
-	display:inline;
-	margin-right: 35px;
-    float: right;
-}
-
-.headeradidas {
- 	position: relative;
- 	float: left;
- 	margin-left: 800px;
- 	margin-right: 5px;
- }
-.headerpzpn {
- 	position: absolute;
- 	float: left;
- 	margin-left: 950px;
- }
-.headsponsor {
- 	position: absolute;
- 	float: left;
- 	margin-left: 1055px;
- 	opacity: 0.4;
- }
-
-.wallper1 {
-	background-image: url('../photos/wallpaper.jpg');
-	border-top: 3.5px solid;
-}
-.aside {
-	position: relative;
-	float: left;
-	margin-left: 870px;
-	margin-top: -301px; 
-	border-right: 1.5px solid transparent;
-	width: 390px;
-	border-right-color: #ddd;
-	border-bottom: 1.5px solid transparent;
-	border-bottom-color: #ddd;
-	background-color: #F8F8F8;
-}
-.tabela{ 
-	font-size: 10px;
-	width:100%;	
-	text-transform: uppercase;
-	margin-left: 56px;
-}
-table, th, td {
-    border: 1px solid black;
-}
-.positionButtonTable {
-	float: left;
-	margin-left: 205px;
-}
-.filmyoutube{
-	position: relative;
-	float: left;
-	margin-left: 870px;
-	margin-top: 0px;
-	margin-bottom: -15px;
-	width: 390px;
-}
-
-.center {
-	padding: 3px;
-}
-
-.awans {
-	background-color: #80FF80;
-}
-.spadek {
-	background-color: #FF8080 ;
-}
-.tabletitle {
-	font-family: 'Dosis', sans-serif;;
-	width: 100%;
-	text-align: center;
-}
-.logo {
-	text-align: center;
-	list-style: none;
-}
-.logos {
-	float: left;
-   	list-style: none;	
-   	margin-left: 39px;
-   	margin-top: 40px;
-}
-.kontakt {
-	width: 100%;
-	color:#d9d9d9;
-	border-top: 3.5px solid;
-}
-.herb {
-	width: 100%;
-	float:left;
-	text-align: right;
-	margin-top: -100px;
-}
-.stopka {
-	width: 1170px;
-	float: left;
-	text-align: center;
-	background: #242430;
-	color:#d9d9d9;
-	margin-left: -15px;
-}
 #tloaside {
 	background-color: #E4E6E7;
 	padding: 20px;
@@ -719,7 +603,6 @@ table, th, td {
 	height: 30px;
 	margin-top: 30px;
 	text-transform: uppercase;
-
 }
 .centernextmatch {
 	float: left;
@@ -729,6 +612,19 @@ table, th, td {
 	text-align: center;
 	width: 750px;
 	height:100px;
+}
+
+.centernextmatch p {
+	position: relative;
+	left: 245px;
+	top: 54px;
+	float: left;
+	width:20px;
+	text-transform: uppercase;
+	font-size: 2rem;
+	font-weight: 900;
+	color: #D2D5D6;
+
 }
 .positioncrest1 {
 	position: relative;
@@ -741,18 +637,6 @@ table, th, td {
 	float: right;
 	top:20px;
 	right:180px;
-}
-.centernextmatch p {
-	position: relative;
-	left: 245px;
-	top: 54px;
-	float: left;
-	width:20px;
-	text-transform: uppercase;
-	font-size: 2rem;
-	font-weight: 900;
-	color: #D2D5D6;
-
 }
 .button-prev {
 	float: left;
@@ -794,8 +678,11 @@ table, th, td {
 	text-decoration: none;
 	color:#FCFCFC;
 }
-.width2 {
-	width:370px;
+table, tr, td {
+border: 0px solid #DDDDDD;
+}
+table, th, td {
+    border: 1px solid black;
 }
 .table1 {
 	position: relative; 
@@ -813,19 +700,6 @@ table, th, td {
 .headertable1 h4 {
 	margin-left: 10px;
 }
-
-
-
-
-
-.menu-advertisement a {
-	display: inline;
-}
-
-
-
-
-
 .intable {
 	position: relative;
 	top: -4px;
@@ -835,18 +709,12 @@ table, th, td {
 	height: 250px;
 	margin:5px ;
 	border: none;
-
 }
-table, tr, td {
-border: 0px solid #DDDDDD;
+.awans {
+	background-color: #80FF80;
 }
-.buttontable {
-	position: relative;
-	top: 24px;
-    left: 249px;
-	height: 34px;
-    color: white;
-    text-transform: uppercase;
+.center {
+	padding: 3px;
 }
 .footertable {
 	position: relative;
@@ -857,16 +725,13 @@ border: 0px solid #DDDDDD;
     background-color: #6D0505;
     opacity: 0.9;
 }
-.odstep {
-	margin:40px;
-	opacity: 0.7;
-	background: rgb(189, 56, 51);
-	border: none;
-	color: #fff;
-	text-transform: uppercase;
-	padding: 0 0 0 0;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
+.buttontable {
+	position: relative;
+	top: 24px;
+    left: 249px;
+	height: 34px;
+    color: white;
+    text-transform: uppercase;
 }
 .lastmatch {
 	position: relative;
@@ -893,28 +758,12 @@ border: 0px solid #DDDDDD;
 .subtitleslastmatch p{
 	margin-left: 40px;
 }
-.authorlastmatch p{
-	position: relative;
-	top:-100px;
-	float: left;
-	width: 380px;
-	text-align: center;
-	color: #FCFCFC;
-}
 .stadium {
 	position: relative;
 	float: left;
 	top: 10px;
 	height:300px;
 	width: 350px;
-}
-.subtitlestadium {
-	position: relative;
-	float: left;
-	color: #F5F0F0;
-}
-.subtitlestadium p {
-	margin-left: 70px;
 }
 .titlestadium {
 	width:350px;
@@ -924,6 +773,15 @@ border: 0px solid #DDDDDD;
  	background-color:#6D0505;
 	opacity: 0.8; 
 }
+.subtitlestadium {
+	position: relative;
+	float: left;
+	color: #F5F0F0;
+}
+.subtitlestadium p {
+	margin-left: 70px;
+}
+
 .sponsorwindow {
 	position: relative;
 	float: left;
@@ -940,36 +798,6 @@ border: 0px solid #DDDDDD;
 	width: 370px;
 	height:85px;
 	background-color: #060606;
-}
-.enteradidasshop {
-	position: relative;
-	width: 370px;
-	height: 100px;
-	background-color:#131313;
-	top: -100px;
-	opacity: 0.6;
-}
-.adidasshopofficial {
-	position: relative;
-	float: left;
-	top: 20px;
-	width: 370px;
-	height: 300px;
-
-}
-.reserves {
-	position: relative;
-	float: left;
-	top: 10px;
-	height:400px;
-	width: 380px;
-	margin-top: 10px;
-}
-.reserveslastinformation {
-	position: relative;
-	width: 380px;
-	height: 100px;
-	background-color:#4D5258; 
 }
 #ostatnieWydarzeniaReserve {
 	position: relative;
@@ -993,20 +821,27 @@ border: 0px solid #DDDDDD;
 .control2 {
 	height: 200px;
 }
-.juniorteams {
-	position: relative;
-	float: left;
-	top: 10px;
-	height:200px;
-	width: 350px;
-	margin-top: 10px;
-}
 #ostatnieWydarzeniaJunior {
 	position: relative;
 	float: left;
 	width: 350px;
 	height: 100px;
 	top:20px;
+}
+.adidasshopofficial {
+	position: relative;
+	float: left;
+	top: 20px;
+	width: 370px;
+	height: 300px;
+}
+.enteradidasshop {
+	position: relative;
+	width: 370px;
+	height: 100px;
+	background-color:#131313;
+	top: -100px;
+	opacity: 0.6;
 }
 .sponsorbaner {
 	position: relative;
@@ -1015,19 +850,6 @@ border: 0px solid #DDDDDD;
 	height: 119px;
 	margin-bottom:20px;
 }
-.zdjecieJunior {
-	margin:0;
-	opacity: 0.6;
-	border-radius: 0.5px;
-} 
-
-.main, ul li {
-	display: block;
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-
 #juniorzy {
 	background: url(../photos/tlo.jpg);
 	background-repeat: repeat-x;
@@ -1047,24 +869,20 @@ border: 0px solid #DDDDDD;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 }
-.zdjecieJunior {
-	margin:0;
-	opacity: 0.6;
-	border-radius: 0.5px;
-
-}
 .big {
 	    cursor: pointer;
 }
 .big:hover {
 	opacity: 0.9;
 }
+.zdjecieJunior {
+	margin:0;
+	opacity: 0.6;
+	border-radius: 0.5px;
+}
 #sponsors {
 	background: url(../photos/footboll_pattern.png);
 	background-repeat: space;
-}
-.txt-center {
-	text-align: center;
 }
 .logo {
 	text-align: center;
@@ -1083,38 +901,9 @@ border: 0px solid #DDDDDD;
 .logo:hover {
 	opacity: 0.2;
 }
-
-.social {
- 	margin-top: 0;
-  	text-align: center;
- }
-.social .lit-follow {
- 	width: 275px;
- }
-.social .list-follow li {
-	z-index: 1;
-}
-.list-follow {
-	position: relative;
-	float: right;
-	overflow: hidden;
-}
-
-.text-center {
-	text-align: center;
-	color: #CCCCCC;
-}
-.text-center ul{
-	text-decoration: none;
-	color: #CCCCCC;
-}
-.herbfooter {
-	margin-top: 22px;
-	width: 150px;
-	float: left;
-	margin-bottom: 20px;
-	margin-left: 0;
-	margin-top: 0;
+.wallper1 {
+	background-image: url('../photos/wallpaper.jpg');
+	border-top: 3.5px solid;
 }
 .textfooter1 {
 	margin-top: 10px;
@@ -1123,23 +912,19 @@ border: 0px solid #DDDDDD;
 	text-transform: uppercase;
 	margin-bottom: 10px;
 }
-.daneklubu {
-	position: relative;
-	color: #CCCCCC;
-	float: right;
-	margin-top: 0;
-	margin-left: 1px;
-}
-.panel1 {background-color: #fff;
-    border: 1px solid transparent;
-    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
-    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
-    width: 100%;}
 .widget-title {
 	font-size: 20px;
 	margin-top: 25px;
 	margin-bottom: 22px;
 	text-transform: uppercase;
+}
+.herbfooter {
+	margin-top: 22px;
+	width: 150px;
+	float: left;
+	margin-bottom: 20px;
+	margin-left: 0;
+	margin-top: 0;
 }
 .menumini {
 	margin:0;
@@ -1167,4 +952,39 @@ border: 0px solid #DDDDDD;
 	color:#A70000;
  	background: none;
  	transition:0.2s;
+}
+.daneklubu {
+	position: relative;
+	color: #CCCCCC;
+	float: right;
+	margin-top: 0;
+	margin-left: 1px;
+}
+.social {
+ 	margin-top: 0;
+  	text-align: center;
+ }
+.social .lit-follow {
+ 	width: 275px;
+ }
+.social .list-follow li {
+	z-index: 1;
+}
+.list-follow {
+	position: relative;
+	float: right;
+	overflow: hidden;
+}
+.obramowaniefooter {
+	padding-top: 5px;
+ 	border-top: 3.5px solid #B70C0C;
+ 	background-color: #4D4D4D;
+}
+.text-center {
+	text-align: center;
+	color: #CCCCCC;
+}
+.text-center ul{
+	text-decoration: none;
+	color: #CCCCCC;
 }
