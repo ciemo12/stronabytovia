@@ -81,7 +81,7 @@ ol {
 
 .main a {
   	text-decoration: none;
-  	color: #CCCCCC;
+  	color: #FFFFFF;
   }
 .dropdown-menu {
 	background-color: #E4E6E7;
@@ -116,7 +116,7 @@ ol {
 }
 
 .menu-upright a:hover {
-	background-color: #E1D1F9;
+	background-color: #C0C0C0;
 }
 .dropdown-menu1 {
 	position: absolute;
