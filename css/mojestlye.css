@@ -517,11 +517,13 @@ ol {
 	display: none;
 }
 .obramowanie {
+	position: relative;
 	float:left;
-	background-color:#9D0C0A;
+	background-color:#929096;
 	width:1170px;
+	top: 50px;
 	margin-left:-234px;
-	opacity: 0.3;
+	opacity: 0.8;
 }
 
 
