@@ -3,11 +3,488 @@
 	margin:0;
 
 }
+#gototop {
+   position: fixed;
+   bottom: 9px;
+   right: 9px;
+   padding: 0;
+   width: 40px;
+   height: 40px;
+   background: none;
+   z-index: 1;
+   text-align: center;
+   opacity: 0.3;
+}
+.header1tlo {
+ 	width: 100%;
+ 	background-color: #6C6C6C;
+ }
+ .obramowanieheader {
+ 	padding-bottom: 5px;
+ 	border-bottom: 3.5px solid #B70C0C;
+ 	background-color: #4D4D4D;
+}
+.logoheader1 {
+	margin-top: 4px;
+}
 .panel {
 	margin-top: 0;
 	margin-bottom: 0;
 
 }
+.wallper {
+	background-image: url('../photos/wallpaper.jpg');
+	border-bottom: 3.5px solid;
+}
+.header1 {
+ 	margin-left: 15px;
+ 	margin-right: 15px;
+ 	float: left;
+ 	width: 100%;
+ 	height: 80px;
+ 	margin-top: 10px; 	
+}
+.headertext {
+ 	position: relative;
+	float: left;
+	margin-top: -80px;
+	text-transform:uppercase;
+	margin-left:520px;
+	font-size: 20px;
+	color: white;
+}
+#navBackground {
+	background: #111111;
+}
+ol {
+  list-style-type:none;
+  height:4em;
+  line-height: 2em;
+  padding-left: 0;
+}
+.main {
+	position: relative;
+	height: 67px;
+	width: 1170px;
+    line-height: 67px;
+    text-transform: uppercase;
+	z-index: 1;
+}
+.main li {
+    float: left;
+	list-style: none;
+    display: block;
+    width:167.14px;
+    text-align: center;
+    z-index: 1;
+}
+
+.main a {
+  	text-decoration: none;
+  	color: #CCCCCC;
+  }
+ .dropdown-menu {
+	background-color: #E4E6E7;
+	display: block;
+	margin-top: -1px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius:0;
+}
+.menu-upright {
+	position:relative;
+	float: left;
+	top:-5px;
+	width: 400px;
+}
+.menu-upright li{
+	position: relative;
+	float: left;
+	left: 0;
+	width: 402px;
+	height: 68px;
+	border-right: 1px solid;
+	border-bottom: 1px solid;
+	margin-left: -40px;
+}
+.menu-upright a {
+	position: relative;
+	float: left;
+	left: 0;
+	color: #888;
+	width: 400px;	
+}
+
+.menu-upright a:hover {
+	background-color: #E1D1F9;
+}
+.dropdown-menu1 {
+	position: absolute;
+	float: left;
+	width: 1170px;
+	height: 273px;
+}
+.borderbottom1 {
+ 	width: 167.14px;
+    border-bottom: 5px solid white;
+    height: 71px;
+    position: absolute;
+    top: -71px;
+    float: left;
+    overflow: hidden;
+ }
+ .menu-advertisement1 {
+	position: relative;
+	float: left;
+	left: 10px;
+	text-align: center;
+	margin: 10px;
+}
+.subtitles-advertisement strong{
+	position: relative;
+	left: 5px;
+	top: 5px;
+	float: left;
+	color:black;
+
+}
+.menu-advertisement2 {
+	position: relative;
+	left:10px;
+	top: 0;
+	float: left;
+	text-align: center;
+	margin: 10px;
+}
+.dropdown-menu2 {
+	position: absolute;
+	float: left;
+	width: 1170px;
+	height: 205px;
+	left:-167px;	
+}
+.borderbottom2 {
+ 	width: 167.14px;
+ 	border-bottom: 5px solid white;
+ 	height: 71px;
+ 	position: absolute;
+ 	top: -71px;
+    left: 167px;
+    float: left;
+    overflow: hidden;
+ }
+ .ticketBuyPass {
+	opacity: 0.5;
+}
+.ticketBuyPass:hover{
+	opacity: 1;
+}
+.ticket {
+	position: relative;
+	float: left;
+	top: 0;
+	left: 10px;
+	width: 750px;
+	height: 190px;	
+}
+.ticket img {
+	width:750px;
+	height:190px;
+}
+.buyPass {
+	position: relative;
+	float: left;
+	top: -70px;
+    left: 10px;
+    width: 750px;
+    opacity: 0.7;
+}
+.buyPass img {
+	width:750px;
+	height: 70px;
+}
+.borderbottom3 {
+ 	width: 167.14px;
+ 	border-bottom: 5px solid white;
+ 	height: 71px;
+ 	position: absolute;	
+ 	top: -4px;
+    left: 0px;
+    float: left;
+}
+.dropdown-menu4 {
+	position: absolute;
+	float: left;
+	width: 1170px;
+	height: 300px;
+	left: -501px;	
+}
+.borderbottom4 {
+ 	width: 167.14px;
+    border-bottom: 5px solid white;
+    height: 71px;
+    position: absolute;
+    top: -4px;
+    left: 0px;
+    float: left;
+ }
+.firstTeam {
+	position: relative;
+	float: left;
+	left: 9px;
+	height: 287px;
+	width: 380px;
+}
+.firstTeam img {
+	width: 380px;
+	height: 287px;
+} 
+.firstTeamNews { 
+	position: relative;
+	float: left;
+	top: -100px;
+	left: 0;
+	width: 380px;
+	height:100px;
+	background-color: #292929;
+	opacity: 0.9;
+}
+.name1 {
+	opacity: 1;
+	top:15px;
+	font-weight: bold;
+	font-size: 24px;
+	margin-left: 15px;
+	width: 380px;
+	height: 100px;
+	z-index: 1;
+	position: relative;
+	float: left;
+	color: #B70C0C;
+}
+.secondTeam {
+	position: relative;
+	float: left;
+	left: 14px;
+	height: 287px;
+	width: 380px;
+}
+.secondTeam img {
+	width: 380px;
+	height: 287px;
+} 
+.secondTeamNews { 
+	position: relative;
+	float: left;
+	top: -100px;
+	left: 0;
+	width: 380px;
+	height:100px;
+	background-color: #292929;
+	opacity: 0.9;
+}
+.name2 {
+	opacity: 1;
+	top:15px;
+	font-weight: bold;
+	font-size: 21px;
+	margin-left: 19px;
+	width: 380px;
+	height: 100px;
+	z-index: 1;
+	position: relative;
+	float: left;
+	color: #B70C0C;
+}
+.juniorTeams {
+	position: relative;
+	float: left;
+	left: 19px;
+	height: 287px;
+	width: 380px;
+}
+.juniorTeams img {
+	width: 380px;
+	height: 287px;
+	
+}
+.juniorTeamsNews { 
+	position: relative;
+	float: left;
+	top: -100px;
+	left: 0;
+	width: 380px;
+	height:100px;
+	background-color: #292929;
+	opacity: 0.9;
+}
+.name3 {
+	opacity: 1;
+	top:15px;
+	font-weight: bold;
+	font-size: 24px;
+	margin-left: 25px;
+	width: 380px;
+	height: 100px;
+	z-index: 1;
+	position: relative;
+	float: left;
+	color: #B70C0C;
+}
+.dropdown-menu5 {
+	position: absolute;
+	float: left;
+	width: 1170px;
+	height: 205px;
+	left: -669px;	
+}
+.borderbottom5 {
+ 	width: 167.14px;
+ 	border-bottom: 5px solid white;
+ 	height: 71px;
+ 	position: absolute;
+ 	top: -71px;
+    left: 668px;
+    float: left;
+ }
+.stadiumimages {
+	position: relative;
+	float: left;
+	left: 14px;
+	top: 0;
+	height: 194px;
+	width: 740px;
+	opacity: 0.7;
+
+}
+.stadiumimages:hover{
+	opacity: 1;
+}
+.stadium1 img{
+	height: 194px;
+	width: 740px;
+}
+.gallery {
+	position: relative;
+	float: left;
+	top: -59px;
+	width: 740px;
+	height: 60px;
+	opacity: 0.9;
+	color: white;
+}
+.gallery p {
+	position: relative;
+	font-size: 19px;
+	top: 5px;
+	width: 196px;
+	height: 21px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.dropdown-menu6 {
+	position: absolute;
+	float: left;
+	width: 1170px;
+	height: 205px;
+	left:-835px;	
+}
+ .borderbottom6 {
+ 	width: 167.14px;
+ 	border-bottom: 5px solid white;
+ 	height: 71px;
+ 	position: absolute;	
+ 	top: -71px;
+    left:835px;
+    float: left;
+ }
+.smallFanZone {
+	position: relative;
+	float: left;
+	left: 14px;
+	top: 0;
+	height: 194px;
+	width: 740px;
+	opacity: 0.7;
+
+}
+.smallFanZone:hover{
+	opacity: 1;
+}
+.FanZone img{
+	height: 194px;
+	width: 740px;
+}
+.fan {
+	position: relative;
+	float: left;
+	top: -59px;
+	width: 740px;
+	height: 60px;
+	opacity: 0.9;
+	color: white;
+}
+.fan p {
+	position: relative;
+	font-size: 16px;
+	top: 5px;
+	width: 332px;
+	height: 16px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.dropdown-menu7 {
+	position: absolute;
+	float: left;
+	width: 1170px;
+	height: 206px;
+	left:-1002px;	
+}
+.borderbottom7 {
+ 	width: 167.14px;
+ 	border-bottom: 5px solid white;
+ 	height: 71px;
+ 	position: absolute;
+ 	top: -71px;
+    left:1001px;
+    float: left;
+ }
+.season {
+	position: relative;
+	float: left;
+	left: 14px;
+	top: 0;
+	height: 194px;
+	width: 740px;
+	opacity: 0.7;
+
+}
+.season:hover{
+	opacity: 1;
+}
+.season img{
+	height: 194px;
+	width: 740px;
+}
+.subtitlesImg {
+	position: relative;
+	float: left;
+	top: -59px;
+	width: 740px;
+	height: 60px;
+	opacity: 0.9;
+	color: #B70C0C;
+}
+.subtitlesImg p {
+	position: relative;
+	font-size: 16px;
+	font-weight: bold;
+	top: 5px;
+	width: 332px;
+	height: 16px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
  .news1 {
 	height: 300px;
 	width: 100%;
@@ -18,28 +495,19 @@
  	background-color: #AD0005;
  	z-index: 2;
  }
-.obramowanieheader {
- 	padding-bottom: 5px;
- 	border-bottom: 3.5px solid #B70C0C;
- 	background-color: #4D4D4D;
-}
+
 .obramowaniefooter {
 	padding-top: 5px;
  	border-top: 3.5px solid #B70C0C;
  	background-color: #4D4D4D;
 }
-.logoheader1 {
-	margin-top: 4px;
-}
+
 .logoheader1 li {
 	display:inline;
 	margin-right: 35px;
     float: right;
 }
-.header1tlo {
- 	width: 100%;
- 	background-color: #6C6C6C;
- }
+
 .headeradidas {
  	position: relative;
  	float: left;
@@ -57,37 +525,13 @@
  	margin-left: 1055px;
  	opacity: 0.4;
  }
-.wallper {
-	background-image: url('../photos/wallpaper.jpg');
-	border-bottom: 3.5px solid;
 
-}
 .wallper1 {
 	background-image: url('../photos/wallpaper.jpg');
 	border-top: 3.5px solid;
-
 }
-.header1 {
- 	margin-left: 15px;
- 	margin-right: 15px;
- 	float: left;
- 	width: 100%;
- 	height: 80px;
- 	margin-top: 10px;
- 	
- 	
- }
-.headertext {
- 	position: relative;
-	float: left;
-	margin-top: -80px;
-	text-transform:uppercase;
-	margin-left:520px;
-	font-size: 20px;
-	color: white;
 
 
-}
 .carouselcolorbackground{
 	background-color: #B8B8B8;
 }
@@ -185,19 +629,6 @@ table, th, td {
 	background: #242430;
 	color:#d9d9d9;
 	margin-left: -15px;
-}
-
-#gototop {
-   position: fixed;
-   bottom: 9px;
-   right: 9px;
-   padding: 0;
-   width: 40px;
-   height: 40px;
-   background: none;
-   z-index: 1;
-   text-align: center;
-   opacity: 0.3;
 }
 #tloaside {
 	background-color: #E4E6E7;
@@ -327,100 +758,15 @@ table, th, td {
 	margin-left: 10px;
 }
 
-#navBackground {
-	background: #111111;
-}
-ol {
-  list-style-type:none;
-  height:4em;
-  line-height: 2em;
-  padding-left: 0;
-}
-.main {
-	position: relative;
-	height: 67px;
-	width: 1170px;
-    line-height: 67px;
-    text-transform: uppercase;
-	z-index: 1;
-}
-.main li {
-    float: left;
-	list-style: none;
-    display: block;
-    width:167.14px;
-    text-align: center;
-    z-index: 1;
-}
 
-.main a {
-  	text-decoration: none;
-  	color: #CCCCCC;
-  }
- .borderbottom1 {
- 	width: 167.14px;
-    border-bottom: 5px solid white;
-    height: 71px;
-    position: absolute;
-    top: -71px;
-    float: left;
-    overflow: hidden;
- }
- .borderbottom2 {
- 	width: 167.14px;
- 	border-bottom: 5px solid white;
- 	height: 71px;
- 	position: absolute;
- 	top: -71px;
-    left: 167px;
-    float: left;
-    overflow: hidden;
- }
-  .borderbottom3 {
- 	width: 167.14px;
- 	border-bottom: 5px solid white;
- 	height: 71px;
- 	position: absolute;	
- 	top: -4px;
-    left: 0px;
-    float: left;
- }
- .borderbottom4 {
- 	width: 167.14px;
-    border-bottom: 5px solid white;
-    height: 71px;
-    position: absolute;
-    top: -4px;
-    left: 0px;
-    float: left;
- }
- .borderbottom5 {
- 	width: 167.14px;
- 	border-bottom: 5px solid white;
- 	height: 71px;
- 	position: absolute;
- 	top: -71px;
-    left: 668px;
-    float: left;
- }
- .borderbottom6 {
- 	width: 167.14px;
- 	border-bottom: 5px solid white;
- 	height: 71px;
- 	position: absolute;	
- 	top: -71px;
-    left:835px;
-    float: left;
- }
-  .borderbottom7 {
- 	width: 167.14px;
- 	border-bottom: 5px solid white;
- 	height: 71px;
- 	position: absolute;
- 	top: -71px;
-    left:1001px;
-    float: left;
- }
+
+ 
+ 
+ 
+ 
+ 
+
+ 
 
 
 #menuafterscroll {
@@ -436,350 +782,18 @@ ol {
    	float: left;
    	z-index: 1;   	
    }
-.menu-upright {
-	position:relative;
-	float: left;
-	top:-5px;
-	width: 400px;
-}
-.menu-upright li{
-	position: relative;
-	float: left;
-	left: 0;
-	width: 402px;
-	height: 68px;
-	border-right: 1px solid;
-	border-bottom: 1px solid;
-	margin-left: -40px;
-}
-.menu-upright a {
-	position: relative;
-	float: left;
-	left: 0;
-	color: #888;
-	width: 400px;	
-}
 
-.menu-upright a:hover {
-	background-color: #E1D1F9;
-}
-.menu-advertisement1 {
-	position: relative;
-	float: left;
-	left: 10px;
-	text-align: center;
-	margin: 10px;
-}
-.menu-advertisement2 {
-	position: relative;
-	left:10px;
-	top: 0;
-	float: left;
-	text-align: center;
-	margin: 10px;
-}
+
+
 
 .menu-advertisement a {
 	display: inline;
 }
-.subtitles-advertisement strong{
-	position: relative;
-	left: 5px;
-	top: 5px;
-	float: left;
-	color:black;
 
-}
-.ticketBuyPass {
-	opacity: 0.5;
-}
-.ticketBuyPass:hover{
-	opacity: 1;
-}
-.ticket {
-	position: relative;
-	float: left;
-	top: 0;
-	left: 10px;
-	width: 750px;
-	height: 190px;	
-}
-.ticket img {
-	width:750px;
-	height:190px;
-}
-.buyPass {
-	position: relative;
-	float: left;
-	top: -70px;
-    left: 10px;
-    width: 750px;
-    opacity: 0.7;
-}
-.buyPass img {
-	width:750px;
-	height: 70px;
-}
 
- .dropdown-menu {
-	background-color: #E4E6E7;
-	display: block;
-	margin-top: -1px;
-	border-top-left-radius: 0;
-	border-bottom-left-radius:0;
-}
-.dropdown-menu1 {
-	position: absolute;
-	float: left;
-	width: 1170px;
-	height: 273px;
-}
-.dropdown-menu2 {
-	position: absolute;
-	float: left;
-	width: 1170px;
-	height: 205px;
-	left:-167px;	
-}
-.dropdown-menu4 {
-	position: absolute;
-	float: left;
-	width: 1170px;
-	height: 300px;
-	left: -501px;	
-}
-.firstTeam {
-	position: relative;
-	float: left;
-	left: 9px;
-	height: 287px;
-	width: 380px;
-}
-.firstTeam img {
-	width: 380px;
-	height: 287px;
-} 
-.firstTeamNews { 
-	position: relative;
-	float: left;
-	top: -100px;
-	left: 0;
-	width: 380px;
-	height:100px;
-	background-color: #292929;
-	opacity: 0.9;
-}
-.name1 {
-	opacity: 1;
-	top:15px;
-	font-weight: bold;
-	font-size: 24px;
-	margin-left: 15px;
-	width: 380px;
-	height: 100px;
-	z-index: 1;
-	position: relative;
-	float: left;
-	color: #B70C0C;
-}
-.secondTeam {
-	position: relative;
-	float: left;
-	left: 14px;
-	height: 287px;
-	width: 380px;
-}
-.secondTeam img {
-	width: 380px;
-	height: 287px;
-} 
-.secondTeamNews { 
-	position: relative;
-	float: left;
-	top: -100px;
-	left: 0;
-	width: 380px;
-	height:100px;
-	background-color: #292929;
-	opacity: 0.9;
-}
-.name2 {
-	opacity: 1;
-	top:15px;
-	font-weight: bold;
-	font-size: 21px;
-	margin-left: 19px;
-	width: 380px;
-	height: 100px;
-	z-index: 1;
-	position: relative;
-	float: left;
-	color: #B70C0C;
-}
-.juniorTeams {
-	position: relative;
-	float: left;
-	left: 19px;
-	height: 287px;
-	width: 380px;
-}
-.juniorTeams img {
-	width: 380px;
-	height: 287px;
-	
-}
-.juniorTeamsNews { 
-	position: relative;
-	float: left;
-	top: -100px;
-	left: 0;
-	width: 380px;
-	height:100px;
-	background-color: #292929;
-	opacity: 0.9;
-}
-.name3 {
-	opacity: 1;
-	top:15px;
-	font-weight: bold;
-	font-size: 24px;
-	margin-left: 25px;
-	width: 380px;
-	height: 100px;
-	z-index: 1;
-	position: relative;
-	float: left;
-	color: #B70C0C;
-}
 
-.dropdown-menu5 {
-	position: absolute;
-	float: left;
-	width: 1170px;
-	height: 205px;
-	left: -669px;	
-}
-.stadiumimages {
-	position: relative;
-	float: left;
-	left: 14px;
-	top: 0;
-	height: 194px;
-	width: 740px;
-	opacity: 0.7;
 
-}
-.stadiumimages:hover{
-	opacity: 1;
-}
-.stadium1 img{
-	height: 194px;
-	width: 740px;
-}
-.gallery {
-	position: relative;
-	float: left;
-	top: -59px;
-	width: 740px;
-	height: 60px;
-	opacity: 0.9;
-	color: white;
-}
-.gallery p {
-	position: relative;
-	font-size: 19px;
-	top: 5px;
-	width: 196px;
-	height: 21px;
-	margin-left: 10px;
-	margin-top: 10px;
-}
 
-.dropdown-menu6 {
-	position: absolute;
-	float: left;
-	width: 1170px;
-	height: 205px;
-	left:-835px;	
-}
-.smallFanZone {
-	position: relative;
-	float: left;
-	left: 14px;
-	top: 0;
-	height: 194px;
-	width: 740px;
-	opacity: 0.7;
-
-}
-.smallFanZone:hover{
-	opacity: 1;
-}
-.FanZone img{
-	height: 194px;
-	width: 740px;
-}
-.fan {
-	position: relative;
-	float: left;
-	top: -59px;
-	width: 740px;
-	height: 60px;
-	opacity: 0.9;
-	color: white;
-}
-.fan p {
-	position: relative;
-	font-size: 16px;
-	top: 5px;
-	width: 332px;
-	height: 16px;
-	margin-left: 10px;
-	margin-top: 10px;
-}
-.dropdown-menu7 {
-	position: absolute;
-	float: left;
-	width: 1170px;
-	height: 206px;
-	left:-1002px;	
-}
-.season {
-	position: relative;
-	float: left;
-	left: 14px;
-	top: 0;
-	height: 194px;
-	width: 740px;
-	opacity: 0.7;
-
-}
-.season:hover{
-	opacity: 1;
-}
-.season img{
-	height: 194px;
-	width: 740px;
-}
-.subtitlesImg {
-	position: relative;
-	float: left;
-	top: -59px;
-	width: 740px;
-	height: 60px;
-	opacity: 0.9;
-	color: #B70C0C;
-}
-.subtitlesImg p {
-	position: relative;
-	font-size: 16px;
-	font-weight: bold;
-	top: 5px;
-	width: 332px;
-	height: 16px;
-	margin-left: 10px;
-	margin-top: 10px;
-}
 .intable {
 	position: relative;
 	top: -4px;
@@ -981,18 +995,7 @@ border: 0px solid #DDDDDD;
 	margin: 0;
 	padding: 0;
 }
-#gototop {
-   position: fixed;
-   bottom: 9px;
-   right: 9px;
-   padding: 0;
-   width: 40px;
-   height: 40px;
-   background: none;
-   z-index: 1;
-   text-align: center;
-   opacity: 0.3;
-}
+
 #juniorzy {
 	background: url(../photos/tlo.jpg);
 	background-repeat: repeat-x;
