@@ -593,10 +593,13 @@ ol {
 	float: left;
 	width: 780px;
 	height: 80px;
-	background-color: #EDADAD;
+	background-color: #7B1E1E;
+	opacity: 0.9;
 }
 .headernextmatch h4{
 	margin-left: 10px;
+	color: white;
+    text-transform: uppercase;
 }
 .matchtitle {
 	position: relative;
@@ -698,10 +701,13 @@ table, th, td {
 	float: left;
 	width: 370px;
 	height: 80px;
-	background-color: #EDADAD;
+	background-color: #7B1E1E;
+	opacity: 0.9;
 	}
 .headertable1 h4 {
 	margin-left: 10px;
+	color: white;
+    text-transform: uppercase;
 }
 .intable {
 	position: relative;
@@ -873,6 +879,9 @@ table, th, td {
 .padd1 .listing {
 	border-bottom: 1px dotted #181818;
 }
+.padd1 .listing:last-child {
+	border-bottom: none;
+}
 .padd1 .listing a {
 	text-decoration: none;
 	color: black;
@@ -882,14 +891,15 @@ table, th, td {
 	padding: 0px 0px 10px;
 	margin-bottom: 10px;
 }
+
 .image {
 	padding:0px;
 	position: relative;
-	width: 300px;
+	width: 390px;
 }
 .image img {
-	width: 300px;
-	height: 200px;
+	width: 390px;
+	height: 225px;
 }
 .title {
 	font-size: 16px;
@@ -897,23 +907,47 @@ table, th, td {
 	font-weight: 600
 }
 .title h3 {
-	font-size: 16px;
+	font-size: 20px;
 	text-transform: uppercase;
 	font-weight: 600;
 	margin: 0px;
 }
 .date {
-	margin: 5px 0px;
-	font-size: 11px;
+	margin: 20px 0px;
+	font-size: 12px;
 	display: block;
 	letter-spacing: 3px;
 }
 .teaser {
-	font-size: 14px;
+	font-size: 24px;
 	display: block;
-	line-height: 20px;
+	line-height: 29px;
 	color: #181818;
 	font-family: Arial;
+}
+.padd1Old {
+	padding: 0px;
+}
+.line-half {
+	background-image: url("../photos/line-half.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 100% 8px
+}
+.pad-top-15 {
+    padding-top: 15px;
+}
+.archive {
+	padding: 5px 0px;
+}
+.imageOld {
+	padding:0px;
+	position: relative;
+	width: 250px;
+}
+.imageOld img {
+	width: 250px;
+	height: 165px;
 }
 #juniorzy {
 	background: url(../photos/tlo.jpg);
