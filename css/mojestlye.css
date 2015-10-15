@@ -878,6 +878,7 @@ table, th, td {
 }
 .padd1 .listing {
 	border-bottom: 1px dotted #181818;
+
 }
 .padd1 .listing:last-child {
 	border-bottom: none;
@@ -930,11 +931,13 @@ table, th, td {
 }
 .padd1Old .listing {
 	border-bottom: 1px dotted #181818;
+
 	padding: 0px 0px 10px;
 	margin-bottom: 10px;
 } 
-.padd1Old .listing:last-child {
-	border-bottom: none;
+.padd1Old .listing a {
+	text-decoration: none;
+	color: black;
 }
 .line-half {
 	background-image: url("../photos/line-half.png");
@@ -943,10 +946,11 @@ table, th, td {
 	background-size: 100% 8px
 }
 .pad-top-15 {
-    padding-top: 15px;
+    padding-top: 40px;
 }
 .archive {
 	padding: 5px 0px;
+	width: 700px;
 }
 
 .imageOld {
@@ -955,8 +959,14 @@ table, th, td {
 	width: 250px;
 }
 .imageOld img {
-	width: 250px;
-	height: 165px;
+	width: 200px;
+	height: 125px;
+}
+.data {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 430px;
 }
 
 #juniorzy {
