@@ -928,6 +928,14 @@ table, th, td {
 .padd1Old {
 	padding: 0px;
 }
+.padd1Old .listing {
+	border-bottom: 1px dotted #181818;
+	padding: 0px 0px 10px;
+	margin-bottom: 10px;
+} 
+.padd1Old .listing:last-child {
+	border-bottom: none;
+}
 .line-half {
 	background-image: url("../photos/line-half.png");
 	background-repeat: no-repeat;
@@ -940,6 +948,7 @@ table, th, td {
 .archive {
 	padding: 5px 0px;
 }
+
 .imageOld {
 	padding:0px;
 	position: relative;
