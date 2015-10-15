@@ -868,6 +868,52 @@ table, th, td {
 }
 .padd1 {
 	padding: 0px;
+	margin-top: 40px;
+}
+.padd1 .listing {
+	border-bottom: 1px dotted #181818;
+}
+.padd1 .listing a {
+	text-decoration: none;
+	color: black;
+}
+
+.listing {
+	padding: 0px 0px 10px;
+	margin-bottom: 10px;
+}
+.image {
+	padding:0px;
+	position: relative;
+	width: 300px;
+}
+.image img {
+	width: 300px;
+	height: 200px;
+}
+.title {
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 600
+}
+.title h3 {
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin: 0px;
+}
+.date {
+	margin: 5px 0px;
+	font-size: 11px;
+	display: block;
+	letter-spacing: 3px;
+}
+.teaser {
+	font-size: 14px;
+	display: block;
+	line-height: 20px;
+	color: #181818;
+	font-family: Arial;
 }
 #juniorzy {
 	background: url(../photos/tlo.jpg);
