@@ -987,6 +987,9 @@ table, th, td {
 	padding-bottom: 10px;
 	height: 570px;
 }
+.messagesHover:hover {
+	opacity: 0.5;
+}
 .messages::before {
 	position: absolute;
 	background: transparent url("../photos/bg-aside.png") repeat-y scroll left center;
@@ -1020,8 +1023,8 @@ table, th, td {
 }
 .wrapperImageSponsor img {
 	display: block;
-	width:230px;
-	height: 100px;
+	width:244px;
+	height: 511px;
 }
 
 #juniorzy {
