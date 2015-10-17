@@ -117,3 +117,14 @@ $(document).ready(function() {
       $(this).stop().animate({'opacity': 0.8}, "fast");
   });
 });
+
+$(document).ready(function(){
+    $('#slide').click(function(){
+    var hidden = $('.nextmatch1');
+    if (hidden.hasClass('hidden')){
+        hidden.animate({"left":"-1000px"}, "slow").removeClass('visible');
+    } else {
+        hidden.animate({"left":"0px"}, "slow").addClass('visible');
+    }
+    });
+});

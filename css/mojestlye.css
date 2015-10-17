@@ -596,6 +596,20 @@ ol {
 	left: -15px;	
 	background-color: #FEFEFE;
 }
+.nextmatch1 {
+	float: left;
+	width:780px;
+	height: 400px; 
+	left: -15px;	
+	background-color: #FEFEFE;
+	left: -780px;
+    z-index:2;
+    position:absolute;
+    color:#000;
+}
+.clear {
+    clear:both;
+}
 .headernextmatch {
 	position: relative;
 	float: left;
