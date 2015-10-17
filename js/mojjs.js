@@ -121,7 +121,7 @@ $(document).ready(function() {
 $(document).ready(function(){
     $('#slide').click(function(){
     var hidden = $('.nextmatch1');
-    if (hidden.hasClass('hidden')){
+    if (hidden.hasClass('visible')){
         hidden.animate({"left":"-1000px"}, "slow").removeClass('visible');
     } else {
         hidden.animate({"left":"0px"}, "slow").addClass('visible');
