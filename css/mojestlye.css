@@ -582,17 +582,25 @@ ol {
 .width2 {
 	width: 370px;
 }
+.panel {
+	border:none;
+}
+.col-md-8.margin-right {
+    margin-right: 21px;
+}
 .nextmatch {
+	position: relative;
 	float: left;
 	width:780px;
 	height: 400px; 
-	margin-left: -17px;	
+	left: -15px;	
+	background-color: #FEFEFE;
 }
 .headernextmatch {
 	position: relative;
-	top: -2px;
 	float: left;
-	width: 780px;
+	top: -1px;
+	width: 100%;
 	height: 80px;
 	background-color: #7B1E1E;
 	opacity: 0.9;
@@ -604,72 +612,68 @@ ol {
 }
 .matchtitle {
 	position: relative;
-    margin-left: 279px;
     float: left;
+    width: 100%;
+    top: 20px;
 	text-align: center;
-	height: 30px;
-	margin-top: 30px;
+	height: 60px;
 	text-transform: uppercase;
 }
 .centernextmatch {
 	float: left;
 	position: relative;
-	top: 30px;
-	left:0;
-	text-align: center;
-	width: 780px;
+	top: 50px;
+	width: 100%;
 	height:100px;
 }
 
 .centernextmatch p {
 	position: relative;
-	left: 245px;
-	top: 54px;
 	float: left;
-	width:20px;
-	text-transform: uppercase;
-	font-size: 2rem;
 	font-weight: 900;
 	color: #D2D5D6;
+	text-transform: uppercase;
+	font-size: 2rem;
+	top: -60px;
+	width: 100%;
+	text-align: center;
 
 }
 .positioncrest1 {
 	position: relative;
-	top: 20px;
     left: 180px;
     float: left;
 }
 .positioncrest2 {
 	position: relative;
-	float: right;
-	top:20px;
-	right:180px;
+	float: left;
+	left:480px;
+	top: -158px;
 }
 .button-prev {
+	position: relative;
 	float: left;
-    height: 110px;
-    width: 70px;
+    height: 100px;
+    width: 50px;
     background-color: #F6F6F6;
-    position: relative;
     border: none;
-    left: -140px;
-    top: 20px;
+    left: -120px;
+    top: -158px;
 }
 .button-next {
+	position: relative;
 	float: right;
-    height: 110px;
-    width: 70px;
+    height: 100px;
+    width: 50px;
     background-color:  #F6F6F6;;
-    position: relative;
     border: none;
-    right: -120px;
-    top: 20px;
+    top: -158px;
 }
 .footernextmatch {
 	position: relative;
 	top: 101px;
 	float: left;
-	width: 780px;
+	width: 100%;
 	height: 60px;
 	background-color: #6D0505;
 	opacity: 0.9;
@@ -693,13 +697,14 @@ table, th, td {
 }
 .table1 {
 	position: relative; 
-	top: -2px;
-	left: -17px;
+	left: -16px;
 	float: left;
 	width:370px;
 }
 .headertable1 {
+	position: relative;
 	float: left;
+	left: 1px;
 	width: 370px;
 	height: 80px;
 	background-color: #7B1E1E;
@@ -729,6 +734,7 @@ table, th, td {
 .footertable {
 	position: relative;
 	top: 3px;
+	left: 1px;
     float: left;
     width: 370px;
     height: 60px;
@@ -865,14 +871,6 @@ table, th, td {
 	background-color:#131313;
 	top: -100px;
 	opacity: 0.6;
-}
-.sponsorbaner {
-	position: relative;
-	left: -14px;
-	top: 30px;
-	width:1170px;
-	height: 119px;
-	margin-bottom:30px;
 }
 .padd1 {
 	padding: 0px;
@@ -1040,6 +1038,14 @@ table, th, td {
 	display: block;
 	width:244px;
 	height: 515px;
+}
+.sponsorbaner {
+	position: relative;
+	left: -15px;
+	top: 30px;
+	width:1170px;
+	height: 119px;
+	margin-bottom:30px;
 }
 
 #juniorzy {
