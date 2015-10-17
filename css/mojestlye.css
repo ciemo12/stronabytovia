@@ -950,9 +950,17 @@ table, th, td {
 .pad-top-15 {
     padding-top: 40px;
 }
+.rowheight {
+	height: 500px;
+}
 .archive {
 	padding: 5px 0px;
-	width: 700px;
+}
+.archive::after {
+    background-size: 100% 8px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-image: url("../photos/line-half.png");
 }
 
 .imageOld {
@@ -977,7 +985,17 @@ table, th, td {
 	padding-bottom: 10px;
 	margin-bottom: 10px;
 	top: -588px;
-	height: 585px;
+	height: 588px;
+}
+.messages::before {
+	position: absolute;
+	background: transparent url("../photos/bg-aside.png") repeat-y scroll left center;
+	width: 15px;
+	top: 0px;
+	left: -15px;
+	height: 100%;
+	display: block;
+	content: " ";
 }
 .lh-60 {
 	line-height: 60px;
@@ -985,16 +1003,31 @@ table, th, td {
 }
 .lh-60 h3 {
 	margin: 0px;
+	width:105%;
+	height: 2000%;
+	background-color: #6D0505;
+	opacity: 0.9;
+	color: white;
+}
+
+.wrapper {
+	height: 578px;
+}
+.message {
+	text-align: center;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
 }
 .wrapperImageSponsor{
-	width: 245px;
-	height: 120px;
-	margin-top: 40px;
+ padding: 0px;
+ position: relative;
 }
-.wrapperImageSponsor img{
-	width: 245px;
-	height: 120px;
+.wrapperImageSponsor img {
+	display: block;
+	width:230px;
+	height: 100px;
 }
+
 #juniorzy {
 	background: url(../photos/tlo.jpg);
 	background-repeat: repeat-x;
