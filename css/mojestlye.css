@@ -950,11 +950,10 @@ table, th, td {
 .pad-top-15 {
     padding-top: 40px;
 }
-.rowheight {
-	height: 500px;
-}
 .archive {
+	width: 770px;
 	padding: 5px 0px;
+    border-bottom: 1px dotted #181818
 }
 .archive::after {
     background-size: 100% 8px;
@@ -962,6 +961,9 @@ table, th, td {
     background-position: center top;
     background-image: url("../photos/line-half.png");
 }
+
+.archive:last-child {
+    border: 0; }
 
 .imageOld {
 	padding:0px;
@@ -983,7 +985,7 @@ table, th, td {
 	float: right;
 	text-align: center;
 	padding-bottom: 10px;
-	height: 540px;
+	height: 570px;
 }
 .messages::before {
 	position: absolute;
@@ -1006,10 +1008,6 @@ table, th, td {
 	background-color: #6D0505;
 	opacity: 0.9;
 	color: white;
-}
-
-.wrapper {
-	height: 578px;
 }
 .message {
 	text-align: center;
