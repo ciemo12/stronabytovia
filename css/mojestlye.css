@@ -606,6 +606,7 @@ ol {
     z-index:2;
     position:absolute;
     color:#000;
+    overflow: hidden;
 }
 .clear {
     clear:both;
@@ -714,6 +715,7 @@ table, th, td {
 	left: -16px;
 	float: left;
 	width:370px;
+	background-color: #FEFEFE;
 }
 .headertable1 {
 	position: relative;
