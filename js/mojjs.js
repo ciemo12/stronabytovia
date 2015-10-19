@@ -128,3 +128,9 @@ $(document).ready(function(){
     }
     });
 });
+$(document).ready(function (){
+  $('.button1').blur(function (){
+    alert('gfd');
+
+  }); //koniec blur
+}); //koniec ready
