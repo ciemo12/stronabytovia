@@ -15,15 +15,16 @@
    text-align: center;
    opacity: 0.3;
 }
+@font-face{
+    font-family: MouseoSans_500;
+    src:url('../fonts/MuseoSans_500.otf');}
 #baner {
 	position: absolute;
 	width:100%;
 	top: 0;
 	height: 600px;
 	background-color: #C83D3C;
-	font-family: "museo-sans-rounded",sans-serif;
-	font-style: normal;
-	font-weight:500;
+	font-family: MouseoSans_500;
 	text-decoration:none;
 	z-index: 1;
 
@@ -137,10 +138,9 @@
    	color: #B2B2B2;
 }
 .titleafterbanner p {
-	font-size: 13px;
+	font-size: 12px;
 	font-weight: 100;
 	color: #F8F9FA;
-	color: #B2B2B2;
 }
 .positionimg {
 	display: inline-block;
