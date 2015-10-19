@@ -82,16 +82,19 @@
 	float: left;
 	top: 60px;	
 	left: 110px;
-}
-.button1 a {
-	color: white;
-}
-.btn {
 	width: 185px;
 	height: 32px;
 	background-color: #B3B3B3;
 	border: 1px solid white;
 	border-radius: 9px;
+
+}
+.button1 a {
+	color: white;
+	
+}
+.btn {
+	
 }
 
 .button2 {
@@ -99,9 +102,15 @@
 	float: left;
 	top:60px;	
 	left: 130px;
-}
-.button2 a {
+	width: 185px;
+	height: 32px;
+	background-color: #B3B3B3;
+	border: 1px solid white;
+	border-radius: 9px;
+	margin-left: -3px;
+}#nameField {
 	color: white;
+	text-align: center;
 }
 .button3 {
 	position: relative;

@@ -129,7 +129,7 @@ $(document).ready(function(){
     });
 });
 $(document).ready(function (){
-  $('section').click(function (){
+  $('body').click(function (){
     $('#baner').remove()
 
   }); //koniec - zniknięcie po kliknieciu w section

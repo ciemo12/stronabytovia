@@ -48,7 +48,7 @@
       </div>  
     </div>
   </div>
-  <div id="baner" tabindex="0" onblur="alert('This one has tabindex');">
+  <div id="baner">
     <div class="logobaner">
       <p>LOGO</p>
       <img >
@@ -60,18 +60,26 @@
       <div class="subtit2">
         <p>Created by <strong>Award-Winning Nutritionist, </strong> Naomi Meade </p>
       </div>
-      <div class="button1">
-        <a href="#" class="btn btn-default">Your Name</a>
-      </div>
-      <div class="button2">
-        <a href="#" class="btn btn-default">Your Email</a>
-      </div>
-      <div class="button3">
-        <a href="#" class="btn1">Get Yours FREE Today!</a>
-      </div>
-      <div class="border">
+      <div tabindex="0" onBlur="alert('This one has tabindex');">
+        <form class="form-inline">
+        <div class="form-group">
+          <label for="nameField"></label>
+          <input type="text" class="button1" id="nameField" placeholder="Your Name"/>
+        </div>
+        <div class="form-group">
+          <label for="nameField"></label>
+          <input type="text" class="button2" id="nameField" placeholder="Your Email"/>
+        </div>
+        
+        
+        <div class="button3">
+          <a href="#" class="btn1">Get Yours FREE Today!</a>
+        </div>
+        </form>
       </div>
     </div>
+      <div class="border">
+      </div>
     <div class="titleafterbanner">
       <strong>Five Daily Emails</strong>
       <p>Packed-Full with Health Hints & Tips</br>
@@ -105,7 +113,7 @@
   </header>
   <section>
   <nav id="navBackground">
-        <div class="container" contentEditable onblur="alert('This one is editable');">
+        <div class="container">
           <div class="row">
             <ol>
             <div class="main">
