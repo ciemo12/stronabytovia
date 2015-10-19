@@ -129,8 +129,16 @@ $(document).ready(function(){
     });
 });
 $(document).ready(function (){
-  $('body').click(function (){
+  $(window).height(600);
+  $('section').click(function (){
     $('#baner').remove()
+  }); //koniec - zniknięcie po kliknieciu w 
 
-  }); //koniec - zniknięcie po kliknieciu w section
+}); //koniec ready
+$(document).ready(function (){
+  $(window).height(600);
+  $('section').click(function (){
+    $('.pozabaner').remove()
+  }); //koniec - zniknięcie po kliknieciu w 
+
 }); //koniec ready
