@@ -142,3 +142,28 @@ $(document).ready(function (){
   }); //koniec - zniknięcie po kliknieciu w 
 
 }); //koniec ready
+$('#nameField').blur(function(){
+  var fielfValue=$(this).val();
+  if (isNaN(fieldValue)) {
+    alert ('Musisz pisac liczbe');
+  }
+});
+ $(document).ready
+        (
+            function()
+            {
+                $('input').focus(
+                    function()
+                    {
+                        $(this).next().show();                
+                    }            
+                );
+ 
+                        $('input').blur(
+                    function()
+                    {
+                        $(this).next().hide();                
+                    }            
+                );
+            }
+        );

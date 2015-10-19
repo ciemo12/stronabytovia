@@ -32,7 +32,7 @@
 	width:600px;
 	left: 50%;
 	margin-left: -300px;
-	top: 0;
+	top: 230px;
 	background-color: #C83D3C;
 	font-family: MouseoSans_500;
 	text-decoration:none;
@@ -42,7 +42,7 @@
 .logobaner {
 	position: relative;
 	left: 50%;
-	top: 5%;
+	top: -190px;
 	background-color: #C83D3C;
 	width: 76px;
 	height: 20px;
@@ -140,7 +140,7 @@
 	position: relative;
     float: left;
     width: 80px;
-    top: 288px;
+    top: 60px;
     left: 50%;
     margin-left: -37px;
     text-align: center;
@@ -151,9 +151,8 @@
    	height: 80px;
    	position: absolute;
    	left: 50%;
-   	top: 390px; 
+   	top: 75px; 
    	margin-left: -100px;
-   	margin-top: -70px;
    	background-color: #C83D3C;
    	text-align: center;
    	z-index: 1;
@@ -170,7 +169,7 @@
    	height: 100px;
    	position: absolute;
    	left: 60%;
-   	top: 300px; 
+   	top: 72px; 
    	margin-left: -345px;
    	background-color: #C83D3C;
 }
