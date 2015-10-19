@@ -129,8 +129,8 @@ $(document).ready(function(){
     });
 });
 $(document).ready(function (){
-  $('.button1').blur(function (){
-    alert('gfd');
+  $('section').click(function (){
+    $('#baner').remove()
 
-  }); //koniec blur
+  }); //koniec - zniknięcie po kliknieciu w section
 }); //koniec ready
