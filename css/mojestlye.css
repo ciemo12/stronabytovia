@@ -19,16 +19,19 @@
     font-family: MouseoSans_500;
     src:url('../fonts/MuseoSans_500.otf');}
 .pozabaner {
-	position: fixed;
+	position: absolute;
     float: left;
     top: 0;
     width: 100%;
     height: 600px;
     background-color: #C83D3C;
     z-index: 3;
+    display: none;
+
+
 }
 #baner {
-	position: fixed;
+	position: absolute;
 	width:600px;
 	left: 50%;
 	margin-left: -300px;
@@ -37,6 +40,7 @@
 	font-family: MouseoSans_500;
 	text-decoration:none;
 	z-index: 1;
+	display: none;
 }
 
 .logobaner {
@@ -137,15 +141,23 @@ input::-webkit-input-placeholder {color: #FFFFFF}
 	font-size: 20px;
 	text-decoration: none;
 }
-.border {
-	position: relative;
+.button4 {
+position: relative;
+float: left;
+top: 0px;
+left: 812px;
+width: 390px;
+height: 27px;
+background-color: #883434;
+text-align: center;
+border-radius: 9px;
+}
+hr {
+   	position: relative;
+    width: 75px;
+    top: 34px;
     float: left;
-    width: 80px;
-    top: 60px;
-    left: 50%;
-    margin-left: -37px;
-    text-align: center;
-    border-bottom: 2px solid #746060;
+    margin-left: 262.5px;
 }
 .titleafterbanner {
 	width: 200px;

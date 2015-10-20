@@ -148,22 +148,22 @@ $('#nameField').blur(function(){
     alert ('Musisz pisac liczbe');
   }
 });
- $(document).ready
-        (
-            function()
-            {
-                $('input').focus(
-                    function()
-                    {
-                        $(this).next().show();                
-                    }            
-                );
- 
-                        $('input').blur(
-                    function()
-                    {
-                        $(this).next().hide();                
-                    }            
-                );
-            }
-        );
+
+function myFunction() {
+    var x = document.getElementById("fname");
+    x.value = x.value.toUpperCase();
+
+}
+function on_top()
+{
+  if(window.scrollY!=0)
+  {
+    window.scrollBy(0,-50);
+    setTimeout('on_top()',30);
+  }
+}
+function pisz() {
+  $( "#baner" ).blur(function() {
+  alert( "Handler for .blur() called." );
+});
+}
