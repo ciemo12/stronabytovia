@@ -161,17 +161,5 @@ function on_top()
     window.scrollBy(0,-50);
     setTimeout('on_top()',30);
   }
-  if(window.scrollY!=0)
-  {
-    var myWindow = window.open("", "", "width=200, height=100");   // Opens a new window
-    myWindow.document.write("<div>A new window!</div>");      // Some text in the new window
-    myWindow.blur();  
-  }
+ 
 }
-function ShowContent()
-{
-  if (d.length < 1)
-    return;
-  document.getElementById('#baner').style.display = "block";
-}
-
