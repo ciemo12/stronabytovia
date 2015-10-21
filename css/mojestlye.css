@@ -26,7 +26,8 @@
     height: 600px;
     background-color: #C83D3C;
     z-index: 3;
-    display: none;
+
+   
 }
 #baner {
 	position: absolute;
@@ -38,8 +39,6 @@
 	font-family: MouseoSans_500;
 	text-decoration:none;
 	z-index: 1;
-	display: none;
-
 }
 
 .logobaner {
