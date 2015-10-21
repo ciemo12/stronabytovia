@@ -1267,7 +1267,14 @@ table, th, td {
 	height: 119px;
 	margin-bottom:30px;
 }
-
+#social {
+	width: 100%;
+    min-height: 280px;
+    background: url(../photos/tlo.jpg);
+}
+#social .yt {
+	padding: 0 30px 15px 0;
+}
 #juniorzy {
 	background: url(../photos/tlo.jpg);
 	background-repeat: repeat-x;
