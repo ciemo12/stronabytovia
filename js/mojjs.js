@@ -94,8 +94,8 @@ $('#slide').click(function(){
     $('#baner').remove()
   }); //koniec - zniknięcie po kliknieciu w 
 
-  $('section').click(function (){
-    $('.pozabaner').remove()
+  $('.pozabaner').click(function (){
+    $('#baner').remove()
   }); //koniec - zniknięcie po kliknieciu w 
 $('#baner').hide();
 $('.pozabaner').hide();
