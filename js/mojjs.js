@@ -90,20 +90,30 @@ $('#slide').click(function(){
     }
   });
 
-  $(window).height(600);
   $('section').click(function (){
     $('#baner').remove()
   }); //koniec - zniknięcie po kliknieciu w 
-  $(window).height(600);
+
   $('section').click(function (){
     $('.pozabaner').remove()
   }); //koniec - zniknięcie po kliknieciu w 
 $('#baner').hide();
 $('.pozabaner').hide();
-$('form input').blur(function(){ $('#baner').show();});
-$('form input').blur(function(){ $('.pozabaner').show();});
+$('form input').blur(function(){ 
+  $('#baner').show();
+});
+$('form input').blur(function(){ 
+$('.pozabaner').show();
+});
 $('form input').blur(function() { $('html, body').animate({ scrollTop: 0 }, 1000);
       return false;
    });
+$('form input').blur(function(){ 
+
+  $('#baner').height($(window));
+
+   $('.pozabaner').height($(window).height() );
  });
+ });
+
 

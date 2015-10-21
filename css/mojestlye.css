@@ -26,12 +26,11 @@
     height: 600px;
     background-color: #C83D3C;
     z-index: 3;
-
-   
 }
 #baner {
 	position: absolute;
 	width:600px;
+	height: auto;
 	left: 50%;
 	margin-left: -300px;
 	top: 230px;
