@@ -1273,6 +1273,19 @@ table, th, td {
 #social .yt {
 	padding: 0 30px 15px 0;
 }
+.yt	{
+	background-color: #F00;
+	float: left;
+	height: 100%;
+}
+#social .yt h3 {
+	color:#FFFFFF;
+}
+.fb {
+	background-color: #F00;
+	float: left;
+	height: 100%;
+}
 #juniorzy {
 	background: url(../photos/tlo.jpg);
 	background-repeat: repeat-x;
