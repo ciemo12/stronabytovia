@@ -43,7 +43,6 @@
 	position: relative;
 	left: 50%;
 	top: -190px;
-	background-color: #C83D3C;
 	width: 76px;
 	height: 20px;
    	margin-top: -10px;
@@ -64,7 +63,6 @@
 	top: 17px;
 	height: 72px;
 	width: 100%;
-	background-color: #C83D3C;
 }
 .subtit1 p {
 	color: #FFFFFF;
@@ -78,7 +76,6 @@
     height: 20px;
     width: 78%;
     top: 35px;
-    background-color: #C83D3C;
     margin-left: 78px;
 	
 }
@@ -148,6 +145,14 @@ input::-webkit-input-placeholder {color: #FFFFFF}
     font-weight: 600;
     text-decoration: none;
     text-align: center;
+}
+.buttonposition {
+	position: absolute;
+	float: right;
+	top: 0px;
+	right: 115px;
+	left: 150%;
+	color: #f95c5c;
 }
 .button4 {
 position: relative;

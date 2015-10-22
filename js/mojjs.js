@@ -89,14 +89,10 @@ $('#slide').click(function(){
       hidden.animate({"left":"0px"}, "slow").addClass('visible');
     }
   });
-
-  $('section').click(function (){
-    $('#baner').remove()
-  }); //koniec - zniknięcie po kliknieciu w 
-
-  $('.pozabaner').click(function (){
-    $('#baner').remove()
-  }); //koniec - zniknięcie po kliknieciu w 
+$('.buttonposition').click(function (){
+ $('.pozabaner').remove()
+ $('#baner').remove()
+});
 $('#baner').hide();
 $('.pozabaner').hide();
 $('form input').blur(function(){ 
