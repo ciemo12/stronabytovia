@@ -1272,6 +1272,51 @@ table, th, td {
 #social .yt {
 	padding: 0 30px 15px 0;
 }
+.yt	{
+	float: left;
+	height: 100%;
+}
+.yt img {
+	position: relative;
+	float: right;
+	width: 50px;
+	height: 50px;
+	top: -45px;
+}
+#social .yt h3 {
+	color:#FFFFFF;
+}
+#social .fb {
+	padding: 0 30px 15px 0;
+}
+#social .fb h3 {
+	color:#FFFFFF;
+}
+.fb {
+	float: left;
+	height: 100%;
+}
+.fb img {
+	position: relative;
+	float: right;
+	width: 50px;
+	height: 50px;
+	top: -45px;
+}
+.borderfacebook {
+	border: 1px solid #FFF;
+	width: 525px;
+	height: 315px;
+	position: relative;
+	top: 50px;
+}
+.borderfacebook img {
+	position: relative;
+    width: 523px;
+    height: 314px;
+    top: -49px;
+}
+}
 #juniorzy {
 	background: url(../photos/tlo.jpg);
 	background-repeat: repeat-x;
