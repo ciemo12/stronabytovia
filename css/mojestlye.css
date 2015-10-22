@@ -29,13 +29,13 @@
 }
 #baner {
 	position: relative;
-	width:600px;
+	width: 600px;
 	height: auto;
 	left: 50%;
 	margin-left: -300px;
 	top: 230px;
 	font-family: MouseoSans_500;
-	text-decoration:none;
+	text-decoration: none;
 	z-index: 1;
 }
 
@@ -50,30 +50,30 @@
 }
 .subtitlesbanner {
 	width: 600px;
-   	height: 235px;
-   	position: absolute;
-   	left: 50%;
-   	top: 40%; 
-   	margin-left: -300px;
-   	margin-top: -200px;
+    height: 235px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    margin-left: -300px;
+    margin-top: -200px;
 }
 .subtit1 {
 	position: relative;
 	float:left;
 	top: 17px;
-	height: 72px;
+	height: 73px;
 	width: 100%;
 }
 .subtit1 p {
 	color: #FFFFFF;
-	font-size: 32px;
+	font-size: 34px;
 	text-transform: uppercase;
 	text-align: center;
 }
 .subtit2{
     position: relative;
     float: left;
-    height: 20px;
+    height: 21px;
     width: 78%;
     top: 35px;
     margin-left: 78px;
@@ -95,7 +95,7 @@
 	top: 60px;	
 	left: 110px;
 	width: 185px;
-	height: 38px;
+	height: 40px;
 	background-color: #B3B3B3;
 	border: 1px solid white;
 	border-radius: 9px;
@@ -110,7 +110,7 @@
 	top:60px;	
 	left: 130px;
 	width: 185px;
-	height: 38px;
+	height: 40px;
 	background-color: #B3B3B3;
 	border: 1px solid white;
 	border-radius: 9px;
@@ -131,10 +131,10 @@ input::-webkit-input-placeholder {color: #FFFFFF}
 .button3 {
 	position: relative;
 	float: left;
-	top:70px;
+	top:72px;
 	left:110px;
 	width: 390px;
-	height: 38px;
+	height: 40px;
 	background-color: #FFFFFF;
 	text-align: center;
 	border-radius: 9px;
@@ -176,10 +176,10 @@ hr {
 }
 .titleafterbanner {
 	width: 222px;
-   	height: 80px;
+   	height: 81px;
    	position: absolute;
    	left: 50%;
-   	top: 124px; 
+   	top: 125px; 
    	margin-left: -100px;
    	text-align: center;
    	z-index: 1;
@@ -196,13 +196,13 @@ hr {
    	height: 100px;
    	position: absolute;
    	left: 60%;
-   	top: 101px; 
+   	top: 102px; 
    	margin-left: -354px;
 
 }
 .positionimg img {
-	width: 126px;
-	height: 126px;
+	width: 127px;
+	height: 127px;
 	-moz-border-radius: 105px;
  	-webkit-border-radius: 105px;
  	border-radius: 105px;
