@@ -805,7 +805,7 @@ ol {
 	position: fixed;
 	width: 100%;
 	background:  #F8F8F8;
-	height: 40px;
+	height: 60px;
    	padding: 0;
    	top:0px;
    	visibility: visible;
@@ -819,10 +819,7 @@ ol {
 	top: 0px;
 	left: 1.47%
  }
- .bytoviamini img {
- 	width: 80px;
- 	height: 60px;
- }
+
 .carouselcolorbackground{
 	background-color: #B8B8B8;
 }
