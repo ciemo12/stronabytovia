@@ -552,14 +552,26 @@ ol {
 	display: none;
 	left: 0;
 }
-.borderbottom4 {
- position: absolute;
+.borderbottom1 {
+ 	position: absolute;
 	float: left;
-	width: 100%;	
+	width: 150px;
 	height: auto;
-	left: 0px;
-	top: 52px;}
-
+	left: 28px;
+	border-bottom: 5px solid #FFF;
+	top: 47px;
+	display: none;
+}
+.borderbottom2 {
+ 	position: absolute;
+	float: left;
+	width: 64px;
+	height: auto;
+	left: 232px;
+	border-bottom: 5px solid #FFF;
+	top: 47px;
+	display: none;
+}
 .dropdown-menu5 {
 	position: absolute;
 	float: left;
