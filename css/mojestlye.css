@@ -93,14 +93,9 @@ header .wrapper {
 #headerLogo {
 	position: absolute;
 	top: 2px;
-	width: 100px;
 	left: 50%;
 	margin-left: -75px;
 	opacity: 1;
-}
-#headerLogo img {
-	width: 150px;
-	height: 100px;
 }
 .sponsorList {
 	float: right;
@@ -124,10 +119,7 @@ header .wrapper {
 	line-height: inherit;
 	float:right;
 }
-.sponsorList li a img{
-	width: 57.5px;
-    height: 25.25px;
-}
+
 #headerNavs {
 	height: 60px;
 	background-color: #000;
