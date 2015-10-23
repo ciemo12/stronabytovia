@@ -771,11 +771,10 @@ ol {
    	z-index: 1;   	
    }
  .bytoviamini {
- 	position: fixed;
- 	float: left;
- 	height: 52px;
- 	width: 50px;
- 	left: 310px;
+ 	display: block;
+position: absolute;
+top: 0px;
+left: 1.47%
  }
  .bytoviamini img {
  	width: 50px;
