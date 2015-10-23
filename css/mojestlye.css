@@ -472,7 +472,7 @@ ol {
 	position: absolute;
 	float: left;
 	width: 100%;	
-	height: 250px;
+	height: auto;
 	padding: 1.5% 2%;
 	font-size: 14px;
 	background-color: #FFF;
@@ -487,7 +487,7 @@ ol {
 	color: #000;
 	overflow: auto;
 	display: none;
-	
+	top: 60px;
 }
 
  .menu-advertisement a {
@@ -536,6 +536,7 @@ ol {
 	overflow: auto;
 	display: none;
 	left: 0;
+	top: 60px;
 }
 
 .dropdown-menu4 {
@@ -558,6 +559,7 @@ ol {
 	overflow: auto;
 	display: none;
 	left: 0;
+	top: 60px;
 }
 .borderbottom1 {
  	position: absolute;
@@ -566,7 +568,7 @@ ol {
 	height: auto;
 	left: 28px;
 	border-bottom: 5px solid #FFF;
-	top: 47px;
+	top: 55px;
 	display: none;
 }
 .borderbottom2 {
@@ -576,7 +578,57 @@ ol {
 	height: auto;
 	left: 232px;
 	border-bottom: 5px solid #FFF;
-	top: 47px;
+	top: 55px;
+	display: none;
+}
+.borderbottom3 {
+ 	position: absolute;
+	float: left;
+	width: 54px;
+	height: auto;
+	left: 340px;
+	border-bottom: 5px solid #FFF;
+	top: 55px;
+	display: none;
+}
+.borderbottom4 {
+ 	position: absolute;
+	float: left;
+	width: 88px;
+	height: auto;
+	left: 445px;
+	border-bottom: 5px solid #FFF;
+	top: 55px;
+	display: none;
+}
+.borderbottom5 {
+ 	position: absolute;
+	float: left;
+	width: 88px;
+	height: auto;
+	left: 592px;
+	border-bottom: 5px solid #FFF;
+	top: 55px;
+	display: none;
+}
+.borderbottom6 {
+ 	position: absolute;
+	float: left;
+	width: 105px;
+	height: auto;
+	left: 739px;
+	border-bottom: 5px solid #FFF;
+	top: 55px;
+	display: none;
+}
+.borderbottom7 {
+ 	position: absolute;
+	float: left;
+	width: 66px;
+	height: auto;
+	left: 900px;
+	border-bottom: 5px solid #FFF;
+	top: 55px;
 	display: none;
 }
 .dropdown-menu5 {
@@ -599,16 +651,8 @@ ol {
 	overflow: auto;
 	display: none;
 	left: 0;
+	top: 60px;
 }
-.borderbottom5 {
- 	width: 167.14px;
- 	border-bottom: 5px solid white;
- 	height: 71px;
- 	position: absolute;
- 	top: -71px;
-    left: 668px;
-    float: left;
- }
 .stadiumimages {
 	position: relative;
 	float: left;
@@ -665,16 +709,8 @@ ol {
 	overflow: auto;
 	display: none;
 	left: 0;
+	top: 60px;
 }
- .borderbottom6 {
- 	width: 167.14px;
- 	border-bottom: 5px solid white;
- 	height: 71px;
- 	position: absolute;	
- 	top: -71px;
-    left:835px;
-    float: left;
- }
 .smallFanZone {
 	position: relative;
 	float: left;
@@ -730,16 +766,8 @@ ol {
 	overflow: auto;
 	display: none;
 	left:0;
+	top: 60px;
 }
-.borderbottom7 {
- 	width: 167.14px;
- 	border-bottom: 5px solid white;
- 	height: 71px;
- 	position: absolute;
- 	top: -71px;
-    left:1001px;
-    float: left;
- }
 .season {
 	position: relative;
 	float: left;

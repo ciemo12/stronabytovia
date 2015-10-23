@@ -66,23 +66,57 @@ $(".hoverli")
        $('.borderbottom1').hide()
        })
 
+
+
+
+
 $('dropdown-menu2').hide();
 $(".hoverli2")
     .mouseover(function() {
        $('.dropdown-menu2').show()
     })
+  $(".hoverli2")
+    .mouseover(function() {
+       $('.borderbottom2').show()
+    })
 $(".dropdown-menu2")
     .mouseover(function() {
        $('.dropdown-menu2').show()
     })
 $(".dropdown-menu2")
+    .mouseover(function() {
+       $('.borderbottom2').show()
+    })
+$(".dropdown-menu2")
     .mouseout(function() {
        $('.dropdown-menu2').hide()
+    })
+$(".dropdown-menu2")
+    .mouseout(function() {
+       $('.borderbottom2').hide()
     })
 $(".hoverli2")
 .mouseout(function() {
        $('.dropdown-menu2').hide()
        })
+$(".hoverli2")
+.mouseout(function() {
+       $('.borderbottom2').hide()
+       })
+
+
+
+$(".hoverli3")
+    .mouseover(function() {
+       $('.borderbottom3').show()
+    })
+$(".hoverli3")
+.mouseout(function() {
+       $('.borderbottom3').hide()
+       })
+
+
+
 
 
 
@@ -103,6 +137,31 @@ $(".hoverli4")
 .mouseout(function() {
        $('.dropdown-menu4').hide()
        })
+ $(".hoverli4")
+    .mouseover(function() {
+       $('.borderbottom4').show()
+    })
+$(".dropdown-menu4")
+    .mouseover(function() {
+       $('.borderbottom4').show()
+    })
+$(".dropdown-menu4")
+    .mouseout(function() {
+       $('.borderbottom4').hide()
+    })
+$(".hoverli4")
+.mouseout(function() {
+       $('.borderbottom4').hide()
+       })
+
+
+
+
+
+
+
+
+
 
 
 $('dropdown-menu5').hide();
@@ -122,6 +181,27 @@ $(".hoverli5")
 .mouseout(function() {
        $('.dropdown-menu5').hide()
        })
+ $(".hoverli5")
+    .mouseover(function() {
+       $('.borderbottom5').show()
+    })
+$(".dropdown-menu5")
+    .mouseover(function() {
+       $('.borderbottom5').show()
+    })
+$(".dropdown-menu5")
+    .mouseout(function() {
+       $('.borderbottom5').hide()
+    })
+$(".hoverli5")
+.mouseout(function() {
+       $('.borderbottom5').hide()
+       })
+
+
+
+
+
 
 $('dropdown-menu6').hide();
 $(".hoverli6")
@@ -140,6 +220,27 @@ $(".hoverli6")
 .mouseout(function() {
        $('.dropdown-menu6').hide()
        })
+ $(".hoverli6")
+    .mouseover(function() {
+       $('.borderbottom6').show()
+    })
+$(".dropdown-menu6")
+    .mouseover(function() {
+       $('.borderbottom6').show()
+    })
+$(".dropdown-menu6")
+    .mouseout(function() {
+       $('.borderbottom6').hide()
+    })
+$(".hoverli6")
+.mouseout(function() {
+       $('.borderbottom6').hide()
+       })
+
+
+
+
+
 
 $('dropdown-menu7').hide();
 $(".hoverli7")
@@ -158,7 +259,22 @@ $(".hoverli7")
 .mouseout(function() {
        $('.dropdown-menu7').hide()
        })
-
+ $(".hoverli7")
+    .mouseover(function() {
+       $('.borderbottom7').show()
+    })
+$(".dropdown-menu7")
+    .mouseover(function() {
+       $('.borderbottom7').show()
+    })
+$(".dropdown-menu7")
+    .mouseout(function() {
+       $('.borderbottom7').hide()
+    })
+$(".hoverli7")
+.mouseout(function() {
+       $('.borderbottom7').hide()
+       })
 
 
 $('.buttonposition').click(function (){
