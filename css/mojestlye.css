@@ -95,8 +95,12 @@ header .wrapper {
 	top: 2px;
 	width: 100px;
 	left: 50%;
-	margin-left: -41px;
+	margin-left: -75px;
 	opacity: 1;
+}
+#headerLogo img {
+	width: 150px;
+	height: 100px;
 }
 .sponsorList {
 	float: right;
@@ -121,8 +125,8 @@ header .wrapper {
 	float:right;
 }
 .sponsorList li a img{
-	width: 55px;
-	height: 30px;
+	width: 57.5px;
+    height: 25.25px;
 }
 #headerNavs {
 	height: 60px;
@@ -824,8 +828,8 @@ ol {
 	left: 1.47%
  }
  .bytoviamini img {
- 	width: 50px;
- 	height: 52px;
+ 	width: 80px;
+ 	height: 60px;
  }
 .carouselcolorbackground{
 	background-color: #B8B8B8;
