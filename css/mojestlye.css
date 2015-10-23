@@ -125,7 +125,7 @@ header .wrapper {
 	height: 30px;
 }
 #headerNavs {
-	height: 52px;
+	height: 60px;
 	background-color: #000;
 	color: #FFF;
 	clear: both;
@@ -147,11 +147,13 @@ header .wrapper {
 	display: table-cell;
 	margin: 0px;
 	padding: 0px;
-	text-align: center
+	text-align: center;
 }
 #headerNavs nav > ul > li > h2 {
 	display: block;
 	font-size: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
  #headerNavs nav > ul > li > h2 > a {
  	display: block;
@@ -160,7 +162,12 @@ header .wrapper {
 	color: #E4E4E4;
 	text-decoration: none;
  }
-
+#headerNavs nav > ul > li > h2 > a >span {
+	display: inline-block;
+	height: 60px;
+line-height: 58px;
+border-bottom: 2px solid #000;
+}
 .pozabaner {
 	position: absolute;
     float: left;
@@ -298,15 +305,15 @@ input::-webkit-input-placeholder {color: #FFFFFF}
 	color: #f95c5c;
 }
 .button4 {
-position: relative;
-float: left;
-top: 0px;
-left: 812px;
-width: 390px;
-height: 27px;
-background-color: #883434;
-text-align: center;
-border-radius: 9px;
+	position: relative;
+	float: left;
+	top: 0px;
+	left: 812px;
+	width: 390px;
+	height: 27px;
+	background-color: #883434;
+	text-align: center;
+	border-radius: 9px;
 }
 hr {
    	position: relative;
