@@ -35,6 +35,9 @@ header a {
 header .wrapper {
 	max-width:990px;
 }
+section .wrapper {
+	max-width: 990px;
+}
 .wrapper {
 	color: #FFF;
 	max-width: 1020px;
@@ -68,7 +71,7 @@ header .wrapper {
 #headerCenter {
 	height: 90px;
 	background-color: #FFF;
-	color: #000;
+	color: #000;2
 }
 #headerTitle {
 	color: #000;
@@ -162,6 +165,7 @@ header .wrapper {
 	display: inline-block;
 	height: 60px;
 line-height: 58px;
+border-bottom: 2px solid #000;
 }
 .pozabaner {
 	position: absolute;
@@ -366,7 +370,9 @@ hr {
     left: 413px;
 }
 
-.header1tlo {
+#footersite {
+	position: absolute;
+	top:4000px;
  	width: 100%;
  	background-color: #6C6C6C;
  }
@@ -819,8 +825,141 @@ ol {
 	left: 1.47%
  }
 
-.carouselcolorbackground{
-	background-color: #B8B8B8;
+#carouselcolorbackground{
+	background-color:#080808;
+	position: absolute;
+	top: 178px;
+	width: 100%;
+}
+.wrappercenter {
+	margin: 0;
+}
+.wrappernewsnextmatch {
+	position:relative;
+	height: 220px;
+}
+.wrappernewscenter {
+	width: 50%;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	float: left;
+	height: 266px;
+}
+.imgnewscenter {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+.titlenews1 {
+	position: absolute;
+	left: 5%;
+	right: 5%;
+	bottom: 14%;
+	padding: 0px;
+	max-height: 85%;
+	text-align: center;
+	text-shadow: 3px 3px 0px #000, 3px 3px 10px #000;
+	z-index: 3;
+	color: #FFF;
+	font-family: MouseoSans_500;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 31px;
+}
+.wrappernextmatchcenter {
+	width: 50%;
+	position: relative;
+	float: right;
+	height: 266px;
+	background-color: #121212;
+}
+.imgnextmatchscenter {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 1;
+}
+.matchWrapper {
+	text-align: center;
+}
+.matchWrapper > ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px 10px;
+}
+.matchWrapper > ul > li {
+    border-style: none;
+}
+.matchWrapper > ul > li .place {
+    font-size: 16px;
+}
+.matchWrapper > ul > li ul {
+    padding: 0px;
+    margin: 15px 0px 0px;
+}
+.clearfix {
+    display: block;
+}
+.matchWrapper > ul > li .name {
+    color: #686868;
+}
+.matchWrapper > ul > li ul li.name {
+    margin: 7px 0px 0px;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 160px;
+    padding-right:18px;
+    font-size: 16px;
+    color: #FFF;
+    font-family:MouseoSans_500;
+    font-weight: normal;
+    width: 31%;
+    text-align: right;
+}
+.matchWrapper > ul > li ul li {
+    display: block;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    vertical-align: middle;
+}
+.matchWrapper > ul > li ul li.logo {
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.matchWrapper > ul > li ul li.logo {
+    height: 100px;
+    width: 12%;
+    margin-top: 40px;
+}
+.matchWrapper > ul > li ul li.result {
+    width: 14%;
+    text-align: center;
+}
+
+.matchWrapper > ul > li ul li.logo + .name {
+    padding-right: 0px;
+    padding-left: 5px;
+}
+.matchWrapper > ul > li ul li.name:last-child {
+    text-align: left;
+}
+.matchWrapper > ul > li .buttonswrapp {
+    margin: 20px 0px 0px;
+}
+
+
+
+.carousel-inner {
+
 }
 #ostatnieWydarzenia{
 	width: 1170px;
@@ -834,8 +973,24 @@ ol {
 	width: 100%;
 	float:left;
  }
- .carousel-indicators li {
-	display: none;
+ 
+.carousel-indicators {
+    bottom: 0;
+}
+.carousel-indicators .active {
+    width: 44px;
+    height: 6px;
+    margin: 0px;
+    background-color: #C8544E;
+}
+.carousel-indicators li {
+	display: inline-block;
+	text-indent: -999px;
+	cursor: pointer;
+	background-color: white;
+	width: 44px;
+	height: 5px;
+	border:none;
 }
 .obramowanie {
 	position: relative;
@@ -886,6 +1041,9 @@ ol {
 #homepage {
 	background-color: #E4E6E7;
 	padding: 10px;
+	position: absolute;
+	width: 100%;
+	top:1000px	;
 }
 .width1 {
     width: 780px;
@@ -1388,6 +1546,8 @@ table, th, td {
 	margin-bottom:30px;
 }
 #social {
+	position: absolute;
+	top:2000px;
 	width: 100%;
     min-height: 280px;
     background: url(../photos/tlo.jpg);
@@ -1450,6 +1610,9 @@ table, th, td {
 }
 
 #sponsors {
+	position: absolute;
+	top: 2600px;
+	width: 100%;
 	background-color: #DCE3ED;
 
 }
@@ -1564,4 +1727,4 @@ table, th, td {
 .text-center ul{
 	text-decoration: none;
 	color: #CCCCCC;
-}
+} 
