@@ -353,24 +353,30 @@
   </header>
   <section id="carouselcolorbackground">
     <div class="wrapper">
-      <div class="wrappercenter">
+      <div id="wrappercenter" class="carousel slide" data-ride="carousel">
       <!--Wskaźnik -->
             <ol class="carousel-indicators">
-              <li data-target="#ostatnieWydarzenia" data-slide-to="0" class="active"></li>
-              <li data-target="#ostatnieWydarzenia" data-slide-to="1"></li>
-              <li data-target="#ostatnieWydarzenia" data-slide-to="2"></li>
+              <li data-target="#wrappercenter" data-slide-to="0" class="active"></li>
+              <li data-target="#wrappercenter" data-slide-to="1"></li>
+              <li data-target="#wrappercenter" data-slide-to="2"></li>
             </ol>
       <!--Kontener dla slidów -->
         <div class="carousel-inner">
           <div class="item active">
-                <img src="photos/carousel1.jpg">
-                  
-                  </div>
+            <img src="photos/carousel1.jpg">      
+          </div>
+          <div class="item">
+            <img src="photos/carousel1.jpg">      
+          </div>
+          <div class="item">
+            <img src="photos/carousel1.jpg">      
+          </div>
+        </div>
               <!--Kontrolki-->
-            <a class="left carousel-control" href="#" data-slide="prev">
+            <a class="left carousel-control" href="#wrappercenter" data-slide="prev">
               <span class="glyphicon glyphicon-chevron-left"></span>
             </a>
-            <a class="right carousel-control" href="#" data-slide="next">
+            <a class="right carousel-control" href="#wrappercenter" data-slide="next">
               <span class="glyphicon glyphicon-chevron-right"></span>
             </a>
         </div>
