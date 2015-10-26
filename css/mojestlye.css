@@ -1005,12 +1005,12 @@ ol {
     transform: scale(1.15,1.15);
     opacity: 0.5;
 }
-.homepagegallery > div {
+.homepagegallery {
 	border-bottom: 1px solid #CDCDCD;
 	text-transform: uppercase;
 	margin-bottom: 4%;
 }
-.homepagegallery> div > span {
+.homepagegallery span {
     display: inline-block;
     font-size: 2.5em;
     line-height: 2em;
@@ -1018,6 +1018,41 @@ ol {
     font-family: MouseoSans_500;
     border-bottom: 2px solid #B51D16;
     margin-top: 35px;
+}
+.gallery{
+	position: relative;
+	display: block;
+	top: 55px;
+	width: 100%;
+}
+.gallery1 {
+	width: 330px;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	float: left;
+	cursor: pointer;
+	background-color: red;
+}
+.gallery2 {
+	width: 330px;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	float: left;
+	cursor: pointer;
+
+	background-color: blue;
+}
+.gallery3 {
+	width: 330px;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	float: left;
+	cursor: pointer;
+
+	background-color: black;
 }
 
 .carousel-inner {
@@ -1596,7 +1631,7 @@ table, th, td {
 }
 #social {
 	position: absolute;
-	top:2000px;
+	top:2600px;
 	width: 100%;
     min-height: 280px;
     background: url(../photos/tlo.jpg);
