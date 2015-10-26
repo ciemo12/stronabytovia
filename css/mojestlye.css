@@ -991,7 +991,17 @@ ol {
 	white-space: nowrap;
 	font-family: MouseoSans_500;
 }
-
+.hpnewsimage img{
+	-webkit-transition: all 1s ease;
+ 	-moz-transition: all 1s ease;
+  	-o-transition: all 1s ease;
+}
+.hpnewsimage img:hover {
+	-moz-transform: scale(1.1,1.1);
+    -webkit-transform: scale(1.1,1.1);
+    transform: scale(1.15,1.15);
+    opacity: 0.5;
+}
 
 
 
