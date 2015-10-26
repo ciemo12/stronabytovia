@@ -1032,7 +1032,58 @@ ol {
 	position: relative;
 	float: left;
 	cursor: pointer;
-	background-color: red;
+	overflow: hidden;
+	height: 224px;
+}
+#d1 {
+	margin:0 auto;
+}
+#d2 {
+	color:white;
+	background-color:red; 
+	padding:10px;
+	margin-top: 0px; 
+	transition:0.3s;
+	z-index: 1;
+
+}
+#d1:hover #d2 {
+	margin-top:-40px;
+}
+.gallery1title {
+	background-color:#777;  
+	padding:10px;
+	text-align:center; 
+	color:#fff; 
+}
+.gallery1img img {
+	-webkit-transition: all 1s ease;
+ 	-moz-transition: all 1s ease;
+  	-o-transition: all 1s ease;
+}
+.gallery1img img:hover {
+	-moz-transform: scale(1.1,1.1);
+    -webkit-transform: scale(1.1,1.1);
+    transform: scale(1.15,1.15);
+    opacity: 0.4;
+}
+.gallery1title p {
+	 font-family: MouseoSans_500;
+	 font-size: 15px;
+	 top: -8px;
+	 width: 100%;
+}
+.gallery2title p {
+	 font-family: MouseoSans_500;
+	 font-size: 15px;
+	 top: -8px;
+	 width: 100%;
+}
+.gallery3title p {
+	 font-family: MouseoSans_500;
+	 font-size: 15px;
+	 top: -8px;
+	 width: 100%;
 }
 .gallery2 {
 	width: 330px;
@@ -1041,9 +1092,22 @@ ol {
 	position: relative;
 	float: left;
 	cursor: pointer;
+	overflow: hidden;
+	height: 224px;
 
-	background-color: blue;
 }
+.gallery2img img {
+	-webkit-transition: all 1s ease;
+ 	-moz-transition: all 1s ease;
+  	-o-transition: all 1s ease;
+}
+.gallery2img img:hover {
+	-moz-transform: scale(1.1,1.1);
+    -webkit-transform: scale(1.1,1.1);
+    transform: scale(1.15,1.15);
+    opacity: 0.4;
+}
+
 .gallery3 {
 	width: 330px;
 	margin: 0px;
@@ -1051,8 +1115,20 @@ ol {
 	position: relative;
 	float: left;
 	cursor: pointer;
+	overflow: hidden;
+	height: 224px;
 
-	background-color: black;
+}
+.gallery3img img {
+	-webkit-transition: all 1s ease;
+ 	-moz-transition: all 1s ease;
+  	-o-transition: all 1s ease;
+}
+.gallery3img img:hover {
+	-moz-transform: scale(1.1,1.1);
+    -webkit-transform: scale(1.1,1.1);
+    transform: scale(1.15,1.15);
+    opacity: 0.8;
 }
 
 .carousel-inner {
