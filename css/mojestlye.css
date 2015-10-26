@@ -922,7 +922,7 @@ ol {
     vertical-align: bottom;
     font-family: MouseoSans_500;
     border-bottom: 2px solid #B51D16;
-    margin-top: 35px;
+    margin-top: 110px;
 }
 .homepagecenternews {
    	text-align: center;
@@ -1166,8 +1166,8 @@ ol {
 	font-family: MouseoSans_500;
 	color: #000;
 }
-.table > thead > tr > th {
-	color: #008045;
+.tableIleague > thead > tr > th {
+	color: #A41C15	;
 	font-weight: 600;
 	font-size: 12px;
 	text-transform: uppercase;
@@ -1175,10 +1175,14 @@ ol {
 	text-align: left;
 	border: 0px none;
 }
-.tableposition > tbody > tr:first-child > td {
+.tableIleague > tbody > tr:first-child > td {
     border-top: 1px solid #181818;
-	height: 557px;
 }
+.tableIleague > thead > tr > th.tablecenter {
+	text-align: center;
+}
+
+
 #ostatnieWydarzenia{
 	width: 1170px;
 	margin-left: -16px;
