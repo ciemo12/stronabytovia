@@ -1031,7 +1031,10 @@ ol {
 	font-weight: normal;
 	font-size: 40px;
  }
-
+.subtitcarousel a {
+	text-decoration: none;
+	color: #f9f9f9;
+}
 .carousel-indicators {
     bottom: 0;
 }
