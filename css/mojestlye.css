@@ -927,6 +927,10 @@ ol {
 .homepagecenternews {
    	text-align: center;
 }
+.homepagecenternews a {
+	text-decoration: none;
+	color: #000;
+}
 .hpnewstitle {
 	float: left;
 	text-align: left;
@@ -994,6 +998,7 @@ ol {
 	white-space: nowrap;
 	font-family: MouseoSans_500;
 }
+
 .hpnewsimage img {
 	-webkit-transition: all 1s ease;
  	-moz-transition: all 1s ease;
@@ -1025,6 +1030,7 @@ ol {
 	display: block;
 	top: 55px;
 	width: 100%;
+	
 }
 .gallery1 {
 	width: 330px;
@@ -1131,8 +1137,46 @@ ol {
     transform: scale(1.15,1.15);
     opacity: 0.8;
 }
-
-.carousel-inner {
+.homepagetable {
+	border-bottom: 1px solid #CDCDCD;
+	text-transform: uppercase;
+	margin-bottom: 4%;
+	margin-top: 210px;
+}
+.homepagetable span {
+    display: inline-block;
+    font-size: 2.5em;
+    line-height: 2em;
+    vertical-align: bottom;
+    font-family: MouseoSans_500;
+    border-bottom: 2px solid #B51D16;
+    margin-top: 100px;
+    color: #000;
+}
+.tableposition {
+	position: relative;
+	float: left;
+	width: 600px;
+	left: 50%;
+	margin-left: -300px;
+	text-transform: uppercase;
+}
+.tableIleague {
+	width: 600px;
+	font-family: MouseoSans_500;
+	color: #000;
+}
+.table > thead > tr > th {
+	color: #008045;
+	font-weight: 600;
+	font-size: 12px;
+	text-transform: uppercase;
+	min-width: 40px;
+	text-align: left;
+	border: 0px none;
+}
+.tableposition > tbody > tr:first-child > td {
+    border-top: 1px solid #181818;
 	height: 557px;
 }
 #ostatnieWydarzenia{
@@ -1708,7 +1752,7 @@ table, th, td {
 }
 #social {
 	position: absolute;
-	top:2600px;
+	top:3200px;
 	width: 100%;
     min-height: 280px;
     background: url(../photos/tlo.jpg);
@@ -1772,7 +1816,7 @@ table, th, td {
 
 #sponsors {
 	position: absolute;
-	top: 2600px;
+	top: 3600px;
 	width: 100%;
 	background-color: #DCE3ED;
 
