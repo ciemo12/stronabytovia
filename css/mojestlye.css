@@ -898,82 +898,100 @@ ol {
 	bottom: 0px;
 	z-index: 1;
 }
-.matchWrapper {
-	text-align: center;
+#homepage {
+	top:1000px;
+	float: left;
+	padding: 0px 1.5625%;
+	position: absolute;
+	margin-bottom: 40px;
+	width: 100%;
+	margin-bottom: 2%;
 }
-.matchWrapper > ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px 10px;
+.homepagecenter {
+	color: #000;
 }
-.matchWrapper > ul > li {
-    border-style: none;
+.homepagecenterhead > div {
+	border-bottom: 1px solid #CDCDCD;
+	text-transform: uppercase;
+	margin-bottom: 4%;
 }
-.matchWrapper > ul > li span {
-	width:100%;
-	height: 10px;
-	background-color: red;
+.homepagecenterhead > div > span {
+    display: inline-block;
+    font-size: 2.5em;
+    line-height: 2em;
+    vertical-align: bottom;
+    font-family: MouseoSans_500;
+    border-bottom: 2px solid #B51D16;
+    margin-top: 35px;
 }
-.matchWrapper > ul > li .place {
-    font-size: 16px;
+.homepagecenternews {
+   	text-align: center;
 }
-.matchWrapper > ul > li ul {
-    padding: 0px;
-    margin: 15px 0px 0px;
+.hpnewstitle {
+	float: left;
+	text-align: left;
+	width: 100%;
+	text-decoration: none;	
 }
-.clearfix {
-    display: block;
+.hpnewstitle {
+	list-style: outside none none;
+	margin: 0px;
+	padding: 0px;
 }
-.matchWrapper > ul > li .name {
-    color: #686868;
+.hpnewstitle li {
+	width: 33.3333%;
+	float: left;
+
 }
-.matchWrapper > ul > li ul li.name {
-    margin: 7px 0px 0px;
-    text-transform: uppercase;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-    line-height: 160px;
-    padding-right:18px;
-    font-size: 16px;
-    color: #FFF;
-    font-family:MouseoSans_500;
-    font-weight: normal;
-    width: 31%;
-    text-align: right;
+.hpnewstitle li a {
+	position: relative;
+	display: block;
+	overflow: auto;
+	color: #FFF;
+	margin: 0px 0px 30px;
+	padding: 10px;
 }
-.matchWrapper > ul > li ul li {
-    display: block;
-    float: left;
-    padding: 0px;
-    margin: 0px;
-    vertical-align: middle;
+.hpnewstitle li a .hpnewsimage {
+	position: relative;
+	overflow: hidden;
+	display: block;
 }
-.matchWrapper > ul > li ul li.logo {
-    background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
+.hpnewstitle li a .hpnewsimage img {
+	width: 100%;
+	vertical-align: bottom;
 }
-.matchWrapper > ul > li ul li.logo {
-    height: 100px;
-    width: 12%;
-    margin-top: 40px;
+.information {
+	display: block;
+	font-family: MouseoSans_500;
+	font-size: 12px;
+	margin: 10px 0px 0px;
+	color: #686868;
 }
-.matchWrapper > ul > li ul li.result {
-    width: 14%;
-    text-align: center;
+.information .date {
+	color: #686868;
+	font-size: 12px;
+}
+.hpnewstitle li a .title {
+	display: block;
+	font-size: 26px;
+	line-height: 1.2em;
+	font-weight: normal;
+}
+.buttonmore {
+	cursor: pointer;
+	display: inline-block;
+	padding: 0.3em 25px;
+	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
+	border-style: solid none;
+	line-height: 1em;
+	height: 2em;
+	background-color: transparent;
+	color: #000;
+	white-space: nowrap;
+	font-family: MouseoSans_500;
 }
 
-.matchWrapper > ul > li ul li.logo + .name {
-    padding-right: 0px;
-    padding-left: 5px;
-}
-.matchWrapper > ul > li ul li.name:last-child {
-    text-align: left;
-}
-.matchWrapper > ul > li .buttonswrapp {
-    margin: 20px 0px 0px;
-}
 
 
 
@@ -1057,13 +1075,7 @@ ol {
     text-align: center;
     padding: 2px;
 }
-#homepage {
-	background-color: #E4E6E7;
-	padding: 10px;
-	position: absolute;
-	width: 100%;
-	top:1000px	;
-}
+
 .width1 {
     width: 780px;
     margin-right: 20px;
