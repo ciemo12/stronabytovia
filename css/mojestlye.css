@@ -1174,21 +1174,40 @@ ol {
 	text-transform: uppercase;
 	min-width: 40px;
 	text-align: left;
-	border: 0px none;
+	border: none;
 }
-.tableIleague > tbody > tr:first-child > td {
-    border-top: 1px solid #181818;
-}
+
 .tableIleague > thead > tr > th.tablecenter {
 	text-align: center;
+}
+.tableIleague > thead > tr > th.tablecenter.promotion {
+	border-left: 5px solid green;
 }
 .tableIleague > tbody > tr > td {
 	height: 30px;
 	vertical-align: middle;
+	border-right: none;
+	border-left: none;
+}
+tbody tr td.tablecenter {
+	text-align: center;
 }
 
-
-
+tbody tr td.contras.tablecenter {
+	height: 100%;
+	background-color:#181818;
+	color: #FFF;
+}
+tbody tr td.promotion {
+	border-left: 5px solid green;
+	border-bottom: none;
+	border-top: none;
+}
+tbody tr td.fall {
+	border-left: 5px solid red;
+	border-bottom: none;
+	border-top: none;
+}
 #ostatnieWydarzenia{
 	width: 1170px;
 	margin-left: -16px;
