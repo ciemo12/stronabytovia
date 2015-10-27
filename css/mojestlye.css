@@ -1165,6 +1165,7 @@ ol {
 	width: 600px;
 	font-family: MouseoSans_500;
 	color: #000;
+	border:none;
 }
 .tableIleague > thead > tr > th {
 	color: #A41C15	;
@@ -1181,6 +1182,11 @@ ol {
 .tableIleague > thead > tr > th.tablecenter {
 	text-align: center;
 }
+.tableIleague > tbody > tr > td {
+	height: 30px;
+	vertical-align: middle;
+}
+
 
 
 #ostatnieWydarzenia{
