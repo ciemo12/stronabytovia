@@ -372,11 +372,45 @@ hr {
 
 #footersite {
 	position: absolute;
-	top:4000px;
+	top:4119px;
  	width: 100%;
- 	background-color: #6C6C6C;
+ 	background-color: #080808;
  }
- .obramowanieheader {
+ .footerhead {
+	border-bottom: 1px solid white;
+	text-transform: uppercase;
+	margin-bottom: 5%;
+}
+.footerhead span {
+    display: inline-block;
+    font-size: 2.5em;
+    line-height: 2em;
+    vertical-align: bottom;
+    font-family: MouseoSans_500;
+    border-bottom: 2px solid white;
+    margin-top: 25px;
+    color: #FFF;
+}
+ }
+.partners {
+	float: left;
+	padding-top: 20px;
+	text-align: center;
+	width: 100%;
+}
+.partners div {
+	float: left;
+	margin-bottom: 25px;
+	width: 100%;
+}
+.partners div a {
+	margin: 0px 5%;
+}
+.partners div a:hover {
+	background-image: url("../photos/drutexfooter.png");
+	z-index: 1;
+}
+.obramowanieheader {
  	padding-bottom: 5px;
  	border-bottom: 3.5px solid #B70C0C;
  	background-color: #4D4D4D;
