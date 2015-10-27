@@ -821,12 +821,15 @@ ol {
 	top: 178px;
 	width: 100%;
 }
+.carousel-inner {
+	height: 557px;
+}
 #wrappercenter {
 	margin: 0;
 }
 .wrappernewsnextmatch {
 	position:relative;
-	height: 220px;
+	height: 266px;
 }
 .wrappernewscenter {
 	width: 50%;
@@ -889,7 +892,7 @@ ol {
 	z-index: 1;
 }
 #homepage {
-	top:1100px;
+	top:1000px;
 	float: left;
 	padding: 0px 1.5625%;
 	position: absolute;
