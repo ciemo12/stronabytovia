@@ -671,16 +671,6 @@ ol {
 	height: 194px;
 	width: 740px;
 }
-
-.gallery {
-	position: relative;
-	float: left;
-	top: -59px;
-	width: 740px;
-	height: 60px;
-	opacity: 0.9;
-	color: white;
-}
 .gallery p {
 	position: relative;
 	font-size: 19px;
@@ -899,7 +889,7 @@ ol {
 	z-index: 1;
 }
 #homepage {
-	top:1000px;
+	top:1100px;
 	float: left;
 	padding: 0px 1.5625%;
 	position: absolute;
@@ -910,10 +900,12 @@ ol {
 .homepagecenter {
 	color: #000;
 }
+.homepagecenterhead {
+	height:110px;
+}
 .homepagecenterhead > div {
 	border-bottom: 1px solid #CDCDCD;
-	text-transform: uppercase;
-	margin-bottom: 4%;
+	text-transform: uppercase;	
 }
 .homepagecenterhead > div > span {
     display: inline-block;
@@ -922,7 +914,7 @@ ol {
     vertical-align: bottom;
     font-family: MouseoSans_500;
     border-bottom: 2px solid #B51D16;
-    margin-top: 110px;
+    margin-top: 15px;
 }
 .homepagecenternews {
    	text-align: center;
@@ -981,9 +973,6 @@ ol {
 	line-height: 1.2em;
 	font-weight: normal;
 }
- .title:hover + {
-	opacity: 0.8;
-}
 .buttonmore {
 	cursor: pointer;
 	display: inline-block;
@@ -1022,7 +1011,6 @@ ol {
     vertical-align: bottom;
     font-family: MouseoSans_500;
     border-bottom: 2px solid #B51D16;
-    margin-top: 35px;
     color: #000;
 }
 .gallery{
@@ -1030,7 +1018,13 @@ ol {
 	display: block;
 	top: 55px;
 	width: 100%;
-	
+	height: 320px;
+}
+.gallery a {
+	margin-top: 35px;
+	margin-left: 460px;
+	text-decoration: none;
+	color:#000;
 }
 .gallery1 {
 	width: 330px;
@@ -1140,8 +1134,7 @@ ol {
 .homepagetable {
 	border-bottom: 1px solid #CDCDCD;
 	text-transform: uppercase;
-	margin-bottom: 4%;
-	margin-top: 210px;
+	margin-bottom: 5%;
 }
 .homepagetable span {
     display: inline-block;
@@ -1150,15 +1143,14 @@ ol {
     vertical-align: bottom;
     font-family: MouseoSans_500;
     border-bottom: 2px solid #B51D16;
-    margin-top: 100px;
+    margin-top: 25px;
     color: #000;
 }
 .tableposition {
 	position: relative;
 	float: left;
-	width: 600px;
 	left: 50%;
-	margin-left: -300px;
+	margin-left: -195px;
 	text-transform: uppercase;
 }
 .tableIleague {
@@ -1227,6 +1219,12 @@ tbody tr td.fall {
 	border-bottom: none;
 	border-top: none;
 }
+.tableposition a {
+	margin-top: 35px;
+	margin-left: 165px;
+	text-decoration: none;
+	color:#000;
+}
 #ostatnieWydarzenia{
 	width: 1170px;
 	margin-left: -16px;
@@ -1258,7 +1256,7 @@ tbody tr td.fall {
 	color: #f9f9f9;
 }
 .carousel-indicators {
-    bottom: 0;
+    bottom: 70px;
 }
 .carousel-indicators .active {
     width: 44px;
@@ -1801,7 +1799,7 @@ table, th, td {
 }
 #social {
 	position: absolute;
-	top:3200px;
+	top:3400px;
 	width: 100%;
     min-height: 280px;
     background: url(../photos/tlo.jpg);
