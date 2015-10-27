@@ -1189,8 +1189,18 @@ ol {
 	border-right: none;
 	border-left: none;
 }
+tbody tr td:first-child {
+	width: 5px;
+}
+tbody tr td.activeteam {
+	color: #A41C15;
+
+}
 tbody tr td.tablecenter {
 	text-align: center;
+}
+tbody tr td.tablecenter.tablecenter.activeteam {
+	color: #A41C15;
 }
 
 tbody tr td.contras.tablecenter {
@@ -1198,10 +1208,19 @@ tbody tr td.contras.tablecenter {
 	background-color:#181818;
 	color: #FFF;
 }
+tbody tr td.promotionarrow {
+	width: 5px;
+}
+tbody tr td.crestmini {
+	text-align: right;
+}
 tbody tr td.promotion {
 	border-left: 5px solid green;
 	border-bottom: none;
 	border-top: none;
+}
+tbody tr td.fallarrow {
+	width: 5px;
 }
 tbody tr td.fall {
 	border-left: 5px solid red;
@@ -1426,6 +1445,7 @@ border: 0px solid #DDDDDD;
 table, th, td {
     border: 1px solid black;
 }
+
 .table1 {
 	position: relative; 
 	left: -16px;
