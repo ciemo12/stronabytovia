@@ -312,11 +312,4 @@ $('form input').blur(function(){
   js.src = "//connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v2.5";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
-$(".hoverli6")
-.mouseout(function() {
-       $('.dropdown-menu6').hide()
-       })
-$( ".partners" ).mouseover(function(){
-  $(".drutexfooter").remove();
-      
-});
+  
