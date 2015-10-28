@@ -375,6 +375,7 @@ hr {
 	top:4119px;
  	width: 100%;
  	background-color: #080808;
+ 	height: 480px;
  }
  .footerhead {
 	border-bottom: 1px solid white;
@@ -390,7 +391,6 @@ hr {
     border-bottom: 2px solid white;
     margin-top: 25px;
     color: #FFF;
-}
  }
 .partners {
 	float: left;
@@ -404,11 +404,28 @@ hr {
 	width: 100%;
 }
 .partners div a {
-	margin: 0px 5%;
+	margin-left:66px;
 }
 .partners div a:hover {
 	background-image: url("../photos/drutexfooter.png");
 	z-index: 1;
+}
+.bytoviafooter {
+	position: absolute;
+	left: 50%;
+	margin-left: -42px;
+	margin-bottom: 2px;
+	display: block;
+	z-index: 2;
+	top: 430px;
+}
+.backgroundcolormenumini {
+	position: absolute;
+	top:4599px;
+	width: 100%;
+	background-color:#212121;
+	height: 100%;
+
 }
 .obramowanieheader {
  	padding-bottom: 5px;
@@ -1941,10 +1958,8 @@ table, th, td {
 	margin-bottom: 10px;
 }
 .widget-title {
-	font-size: 20px;
-	margin-top: 25px;
-	margin-bottom: 22px;
 	text-transform: uppercase;
+	font-size: 20px;
 }
 .herbfooter {
 	margin-top: 22px;
@@ -1955,26 +1970,28 @@ table, th, td {
 	margin-top: 0;
 }
 .menumini {
-	margin:0;
-	padding: 0;
-	margin-top: 66px;
-	width: 120%;
+	padding: 0px;
+	width: 3soci50px;
+	position: relative;
+	top: 96px;
+	height: 80px;
+	float: left;
+}
+.menumini ul {
 	text-decoration: none;
-
+	list-style: outside none none
 }
 .menumini li {
 	width: 40%;
 	float: left;
 	margin-bottom: 15px;
 	margin-right: 10px;
+	text-decoration: none;
 
 }
-.menumini li a {
+.menumini ul li a {
 	text-decoration: none;
 		color: #CCCCCC;
-}
-.menumini li:first-child a{
-	color: #A70000;
 }
 .menumini > li > a:hover {
 	color:#A70000;
@@ -1983,26 +2000,21 @@ table, th, td {
 }
 .daneklubu {
 	position: relative;
-	color: #CCCCCC;
+	color: #CCC;
 	float: right;
-	margin-top: 0;
-	margin-left: 1px;
+	top: 74px;;
 }
 .social {
- 	margin-top: 0;
+	position: relative;
+	float: left;
+ 	top:95px;
   	text-align: center;
- }
-.social .lit-follow {
- 	width: 275px;
  }
 .social .list-follow li {
 	z-index: 1;
+	list-style: outside none none;
 }
-.list-follow {
-	position: relative;
-	float: right;
-	overflow: hidden;
-}
+
 .obramowaniefooter {
 	padding-top: 5px;
  	border-top: 3.5px solid #B70C0C;
