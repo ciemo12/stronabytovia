@@ -224,18 +224,17 @@ border-bottom: 2px solid #000;
 .logobaner {
 	position: relative;
 	left: 50%;
-	top: -190px;
+	top: -210px;
 	width: 76px;
 	height: 20px;
-   	margin-top: -10px;
-   	margin-left: 225px;
+	margin-top: -10px;
+	margin-left: 252px;
 }
 .subtitlesbanner {
 	width: 600px;
-    height: 235px;
     position: absolute;
     left: 50%;
-    top: 40%;
+    top: 70%;
     margin-left: -300px;
     margin-top: -200px;
 }
@@ -243,12 +242,12 @@ border-bottom: 2px solid #000;
 	position: relative;
 	float:left;
 	top: 17px;
-	height: 73px;
+	height: 96px;
 	width: 100%;
 }
 .subtit1 p {
 	color: #FFFFFF;
-	font-size: 34px;
+	font-size: 38px;
 	text-transform: uppercase;
 	text-align: center;
 }
@@ -256,15 +255,14 @@ border-bottom: 2px solid #000;
     position: relative;
     float: left;
     height: 21px;
-    width: 78%;
-    top: 35px;
-    margin-left: 78px;
-	
+    top: 35px;	
 }
 .subtit2 p {
-	font-size: 1.15em;
 	color: #B2B2B2;
 	font-weight: 100;
+	width: 537px;
+	font-size: 18.5px;
+	margin-left: 40px;
 }
 .subtit2 b {
 	font-size: 1.2em;
@@ -274,31 +272,31 @@ border-bottom: 2px solid #000;
 .button1 {
 	position: relative;
 	float: left;
-	top: 60px;	
-	left: 110px;
-	width: 185px;
+	top: 70px;
+	left: 73px;
+	width: 217px;
 	height: 40px;
 	background-color: #B3B3B3;
-	border: 1px solid white;
+	border: 1px solid #FFF;
 	border-radius: 9px;
 	text-align: center;
-	color: white;
+	color: #FFF;
 }
 
 
 .button2 {
 	position: relative;
-	float: left;
-	top:60px;	
-	left: 130px;
-	width: 185px;
-	height: 40px;
-	background-color: #B3B3B3;
-	border: 1px solid white;
-	border-radius: 9px;
-	margin-left: -4px;
-	text-align: center;
-	color: white;
+    float: left;
+    top: 70px;
+    left: 98px;
+    width: 217px;
+    height: 40px;
+    background-color: #B3B3B3;
+    border: 1px solid #FFF;
+    border-radius: 9px;
+    margin-left: -4px;
+    text-align: center;
+    color: #FFF;
 }
 #nameField {
 	font-size: 19px;
@@ -313,11 +311,11 @@ input::-webkit-input-placeholder {color: #FFFFFF}
 .button3 {
 	position: relative;
 	float: left;
-	top:72px;
-	left:110px;
-	width: 390px;
+	top: 86px;
+	left: 73px;
+	width: 459px;
 	height: 40px;
-	background-color: #FFFFFF;
+	background-color: #FFF;
 	text-align: center;
 	border-radius: 9px;
 }
@@ -327,6 +325,7 @@ input::-webkit-input-placeholder {color: #FFFFFF}
     font-weight: 600;
     text-decoration: none;
     text-align: center;
+    text-transform: none;
 }
 .buttonposition {
 	position: absolute;
@@ -339,23 +338,23 @@ input::-webkit-input-placeholder {color: #FFFFFF}
 
 hr {
    	position: relative;
-    width: 90px;
-    top:50px;
-    float: left;
-    margin-left: 258.5px;
-    border: 1px solid #333333;
-    opacity: 0.5;
+	width: 88px;
+	top: 84px;
+	float: left;
+	border: 1px solid #333;
+	opacity: 0.5;
+	margin-left: 256px;
 }
 .titleafterbanner {
 	width: 222px;
-   	height: 81px;
-   	position: absolute;
-   	left: 50%;
-   	top: 125px; 
-   	margin-left: -100px;
-   	text-align: center;
-   	z-index: 1;
-   	color: #e8e5e5;
+	height: 81px;
+	position: absolute;
+	left: 50%;
+	top: 170px;
+	margin-left: -100px;
+	text-align: center;
+	z-index: 1;
+	color: #E8E5E5;
 }
 .titleafterbanner p {
 	font-size: 13px;
@@ -365,12 +364,11 @@ hr {
 .positionimg {
 	display: inline-block;
 	width: 562px;
-   	height: 100px;
-   	position: absolute;
-   	left: 60%;
-   	top: 102px; 
-   	margin-left: -354px;
-
+	height: 100px;
+	position: absolute;
+	left: 60%;
+	margin-left: -354px;
+	top: 152px;
 }
 .positionimg img {
 	width: 127px;
@@ -382,15 +380,15 @@ hr {
 }
 .img1banner {
 	position: relative;
-    float: left;
-    width: 20px;
-    left: 52px;
+	float: left;
+	width: 20px;
+	left: 9px;
 }
 .img2banner {
 	position: relative;
-    float: left;
-    width: 20px;
-    left: 413px;
+	float: left;
+	width: 20px;
+	left: 438px;
 }
 
 #footersite {
