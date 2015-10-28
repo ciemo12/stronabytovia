@@ -428,10 +428,54 @@ hr {
 }
 .partners div a {
 	margin-left:66px;
+	opacity: 0.5;
 }
-.partners div a:hover {
-	background-image: url("../photos/drutexfooter.png");
-	z-index: 1;
+
+.partners div a.drutexfooter{
+    width: 220px;
+    height: 100px;
+    background: url('../photos/drutexfooter1.png');
+    text-decoration: none;
+    display: inline-block;
+   position: absolute;
+   float: left;
+   left: 0px;
+}
+.partners div a.drutexfooter:hover{
+    background: url('../photos/drutexfooter.png');
+}
+.partners div a.urzadbyt {
+	width: 161px;
+	height: 176px;
+	background: url("../photos/urzadfooter1.png");
+	text-decoration: none;
+	display: inline-block;
+	position: absolute;
+	float: left;
+	left: 250px;
+	top: 140px;
+	margin-left: 199px;
+}
+.partners div a.urzadbyt:hover{
+    background: url('../photos/urzadfooter.png');
+}
+.partners div a.polsatsport{
+	width: 275px;
+	height: 80px;
+	background: url("../photos/polsatfooter1.png");
+	display: inline-block;
+	position: absolute;
+	float: left;
+	left: 650px;
+	top: 183px;
+}
+.partners div a.polsatsport:hover {
+	background: url('../photos/polsatfooter.png');
+}
+.drutexfooter {
+	width: 100px;
+	height: 100px;
+	background-color: red;
 }
 .bytoviafooter {
 	position: absolute;
