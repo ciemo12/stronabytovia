@@ -284,7 +284,12 @@ $('.buttonposition').click(function (){
 $('#baner').hide();
 $('.pozabaner').hide();
 $('form input').blur(function(){ 
+   function runIt() {
   $('#baner').show();
+
+}
+
+   runIt();
 });
 $('form input').blur(function(){ 
 $('.pozabaner').show();

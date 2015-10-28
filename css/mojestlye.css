@@ -70,18 +70,19 @@ section .wrapper {
 }
 .well {
 	min-height: 20px;
-	padding: 19px;
+
 	margin-bottom: 20px;
 	border:none;
-	background-color: none;
+	background-color: black;
 }
 .well-sm {
-position: absolute;
-float: left;
-left: 686px;
-margin: 0px;
-border-radius: 3px;
-padding: 4px;
+	position: absolute;
+	float: left;
+	left: 686px;
+	margin: 0px;
+	border-radius: 3px;
+	padding: 4px;
+	top: -1px;
 }
 .well-sm input {
 	font-family: inherit;
@@ -89,6 +90,7 @@ padding: 4px;
 	line-height: inherit;
 	width: 111px;
 	height: 20px;
+	color: black;
 }
 .button4 {
 	float: left;
