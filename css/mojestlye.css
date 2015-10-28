@@ -333,7 +333,11 @@ input::-webkit-input-placeholder {color: #FFFFFF}
 	top: 0px;
 	right: 115px;
 	left: 150%;
-	color: #f95c5c;
+	color: #F95C5C;
+	border-radius: 14px;
+	background-color: #C83D3C;
+	border-color: #C83D3C;
+	border:solid;
 }
 
 hr {
