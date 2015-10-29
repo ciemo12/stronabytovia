@@ -1468,14 +1468,11 @@ tbody tr td.fall {
 	display: block;
 }
 .slidernextmatch {
-	width: 1485px;
+
 	height: 266px;
 }
-.przesun {
-	background-color: red;
-}
 .nextmatch {
-	position: relative;
+	position: absolute;
 	float: left;
 	background-color: #181818;
 	height: 266px;
@@ -1546,6 +1543,26 @@ tbody tr td.fall {
 	position: relative;
     left: 90px;
     float: left;
+}
+.buttonright {
+	position: relative;
+    float: right;
+    top: -104px;
+    width: 30px;
+    height: 60px;
+    border:none;
+}
+.buttonleft {
+	position: relative;
+	float: left;
+	top:-104px;
+	width: 30px;
+	height: 60px;
+	border:none;
+	left: -97px;
+}
+.buttonright img {
+	text-align: center;
 }
 .positioncrest2 {
 	position: relative;

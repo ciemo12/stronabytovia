@@ -312,7 +312,24 @@ $('form input').blur(function(){
 }(document, 'script', 'facebook-jssdk'));
 
 
-$('button .przesun').click(function (){
- $('.wrappernextmatchcenter').remove()
 
-});
+function przesun(){
+  $('.nextmatch').animate({}, { duration: 50});
+  $('.nextmatch').hide();
+  $('.nextmatch1').show();
+}
+function przesun1(){
+  $('.nextmatch1').animate({}, { duration: 50});
+  $('.nextmatch1').hide();
+  $('.nextmatch2').show();
+}
+function przesun2(){
+  $('.nextmatch').animate({}, { duration: 50});
+  $('.nextmatch1').hide();
+  $('.nextmatch').show();
+}
+function przesun3(){
+  $('.nextmatch1').animate({}, { duration: 50});
+  $('.nextmatch2').hide();
+  $('.nextmatch1').show();
+}
