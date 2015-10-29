@@ -1561,6 +1561,15 @@ tbody tr td.fall {
 	border:none;
 	left: -97px;
 }
+.buttonleft1 {
+	position: relative;
+    float: left;
+    top: -104px;
+    width: 30px;
+    height: 60px;
+    border: none;
+    left: -79px;
+}
 .buttonright img {
 	text-align: center;
 }
