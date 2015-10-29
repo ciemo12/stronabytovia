@@ -1467,25 +1467,37 @@ tbody tr td.fall {
 	top: 0px;
 	display: block;
 }
-
+.slidernextmatch {
+	width: 1485px;
+	height: 266px;
+}
+.przesun {
+	background-color: red;
+}
 .nextmatch {
 	position: relative;
 	float: left;
 	background-color: #181818;
 	height: 266px;
+	width: 495px;
 
 }
 .nextmatch1 {
+	position: relative;
 	float: left;
-	width:780px;
-	height: 400px; 
-	left: -15px;	
-	background-color: #FEFEFE;
-	left: -780px;
-    z-index:2;
-    position:absolute;
-    color:#000;
-    overflow: hidden;
+	background-color: #181818;
+	height: 266px;
+	width: 495px;
+	display: none;
+
+}
+.nextmatch2{
+	position: relative;
+	float: left;
+	background-color: #181818;
+	height: 266px;
+	width: 495px;
+	display: none;
 }
 .clear {
     clear:both;
