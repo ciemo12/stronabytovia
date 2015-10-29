@@ -294,9 +294,7 @@ $('form input').blur(function(){
 $('form input').blur(function(){ 
 $('.pozabaner').show();
 });
-$('form input').blur(function() { $('html, body').animate({ scrollTop: 0 }, 1000);
-      return false;
-   });
+
 $('form input').blur(function(){ 
 
   $('#baner').height($(window));
