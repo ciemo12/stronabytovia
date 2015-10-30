@@ -1199,18 +1199,21 @@ ol {
 	 font-size: 15px;
 	 top: -8px;
 	 width: 100%;
+	 text-align: center;
 }
 .gallery2title p {
 	 font-family: MouseoSans_500;
 	 font-size: 15px;
 	 top: -8px;
 	 width: 100%;
+	 text-align: center;
 }
 .gallery3title p {
 	 font-family: MouseoSans_500;
 	 font-size: 15px;
 	 top: -8px;
 	 width: 100%;
+	 text-align: center;
 }
 .gallery2 {
 	width: 330px;
@@ -1570,7 +1573,7 @@ tbody tr td.fall {
     width: 30px;
     height: 60px;
     border: none;
-    left: -79px;
+    left: -80px;
 }
 .buttonright img {
 	text-align: center;
