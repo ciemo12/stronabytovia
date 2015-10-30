@@ -1972,7 +1972,7 @@ table, th, td {
     background: url(../photos/tlo.jpg);
 }
 #social .yt {
-	padding: 0 30px 15px 0;
+	margin-bottom: 10px;
 }
 .yt	{
 	float: left;
@@ -1989,7 +1989,7 @@ table, th, td {
 	color:#FFFFFF;
 }
 #social .fb {
-	padding: 0 30px 15px 0;
+	margin-bottom: 10px;
 }
 #social .fb h3 {
 	color:#FFFFFF;
