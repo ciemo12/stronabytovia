@@ -407,6 +407,8 @@ hr {
 	border-bottom: 1px solid white;
 	text-transform: uppercase;
 	margin-bottom: 5%;
+	width: 990px;
+    margin-left: 15px;
 }
 .footerhead span {
     display: inline-block;
