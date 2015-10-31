@@ -2198,9 +2198,11 @@ table, th, td {
 	border-bottom: 1px solid #CDCDCD;
 	text-transform: uppercase;	
 	overflow: auto;
+	text-decoration: none;
 }
 .titeline > div > div {
 	float: left;
+	text-decoration: none;
 }
 
 .titleline > div > div strong.activn span:first-child {
@@ -2229,6 +2231,7 @@ table, th, td {
     overflow: auto;
     font-family: MouseoSans_500;
     color: #000;
+    text-decoration: none;
 }
 .modul-content ul li a .time {
     position: absolute;
