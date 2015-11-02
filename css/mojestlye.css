@@ -987,19 +987,18 @@ ol {
 
 .titlenews1 {
 	position: absolute;
-	left: 5%;
-	right: 5%;
-	bottom: 14%;
-	padding: 0px;
-	max-height: 85%;
-	text-align: center;
-	text-shadow: 3px 3px 0px #000, 3px 3px 10px #000;
-	z-index: 3;
-	color: #FFF;
-	font-family: MouseoSans_500;
-	font-weight: normal;
-	font-size: 30px;
-	line-height: 31px;
+    text-align: center;
+    z-index: 3;
+    color: #FFF;
+    font-family: MouseoSans_500;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 65px;
+    background-color: red;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(164, 28, 21, 0.6);
+    top: 196px;
 }
 .wrappernextmatchcenter {
 	width: 50%;
@@ -1386,6 +1385,10 @@ tbody tr td.fall {
 	color: #f9f9f9;
 	opacity: none;
 	vertical-align: middle;
+}
+.subtitcarousel a strong {
+	position: relative;
+	top: 15px;
 }
 .carousel-indicators {
     bottom: 0px;
