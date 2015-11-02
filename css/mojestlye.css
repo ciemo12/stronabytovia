@@ -336,13 +336,12 @@ input::-webkit-input-placeholder {color: #FFFFFF}
 .buttonposition {
 	position: absolute;
 	float: right;
-	top: 0px;
-	right: 115px;
-	left: 150%;
-	border-radius: 13px;
+	top: -25px;
+	left: 162%;
+	border: medium none;
 	background-color: #C83D3C;
-	border-color: #C83D3C;
-	border:solid;
+
+
 }
 .buttonposition strong{
 	text-align: center;
