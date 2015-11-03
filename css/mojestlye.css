@@ -1046,6 +1046,11 @@ ol {
 .homepagecenternews {
    	text-align: center;
 }
+.homepagecenternews ul {
+	float: left;
+    text-align: left;
+    width: 100%;
+}
 .homepagecenternews a {
 	text-decoration: none;
 	color: #000;
@@ -1070,9 +1075,9 @@ ol {
 	position: relative;
 	display: block;
 	overflow: auto;
-	color: #FFF;
 	margin: 0px 0px 30px;
 	padding: 10px;
+	color: #000;
 }
 .hpnewstitle li a .hpnewsimage {
 	position: relative;
@@ -1083,22 +1088,29 @@ ol {
 	width: 100%;
 	vertical-align: bottom;
 }
-.information {
+ .information {
 	display: block;
 	font-family: MouseoSans_500;
 	font-size: 12px;
-	margin: 10px 0px 0px;
+	margin: 10px 0 0;
 	color: #686868;
 }
-.information .date {
+.information .date1 {
 	color: #686868;
 	font-size: 12px;
 }
-.hpnewstitle li a .title {
+.hpnewstitle .title {
 	display: block;
-	font-size: 26px;
-	line-height: 1.2em;
-	font-weight: normal;
+    font-family:  MouseoSans_500;
+    font-size: 26px;
+    line-height: 1.2em;
+    font-weight: normal;
+    color:#000;
+    transition: color 700ms ease;
+    transition-property: color;
+    transition-duration: 700ms;
+    transition-timing-function: ease;
+    transition-delay: initial;
 }
 .buttonmore {
 	cursor: pointer;
