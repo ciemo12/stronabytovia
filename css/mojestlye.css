@@ -1033,7 +1033,8 @@ ol {
 }
 .homepagecenterhead > div {
 	border-bottom: 1px solid #CDCDCD;
-	text-transform: uppercase;	
+    text-transform: uppercase;
+    height: 85px;
 }
 .homepagecenterhead > div > span {
     display: inline-block;
@@ -1043,6 +1044,7 @@ ol {
     font-family: MouseoSans_500;
     border-bottom: 2px solid #B51D16;
     margin-top: 15px;
+    margin-bottom: 4.0404%;
 }
 .homepagecenternews {
    	text-align: center;
@@ -1141,24 +1143,28 @@ ol {
     opacity: 0.5;
 }
 .homepagegallery {
-	border-bottom: 1px solid #CDCDCD;
-	text-transform: uppercase;
-	height: 72px;
+	height: 85px;
     margin-bottom: 4.0404%;
+    color: #000;
 }
-.homepagegallery span {
+.homepagegallery  > div {
+	border-bottom: 1px solid #CDCDCD;
+    text-transform: uppercase;
+    height: 86px;
+}
+.homepagegallery > div > span {
     display: inline-block;
     font-size: 2.5em;
     line-height: 2em;
     vertical-align: bottom;
     font-family: MouseoSans_500;
     border-bottom: 2px solid #B51D16;
-    color: #000;
+    margin-top: 15px;
+    margin-bottom: 4.0404%;
 }
 .gallery{
 	position: relative;
     display: block;
-    top: 10px;
 }
 .gallery a {
 	margin-top: 35px;
@@ -1275,19 +1281,24 @@ ol {
     opacity: 0.8;
 }
 .homepagetable {
-	border-bottom: 1px solid #CDCDCD;
-	text-transform: uppercase;
-	margin-bottom: 5%;
+	height: 85px;
+    margin-bottom: 4.0404%;
+    color: #000;
 }
-.homepagetable span {
+.homepagetable > div {
+	border-bottom: 1px solid #CDCDCD;
+    text-transform: uppercase;
+    height: 86px;
+}
+.homepagetable > div > span {
     display: inline-block;
     font-size: 2.5em;
     line-height: 2em;
     vertical-align: bottom;
     font-family: MouseoSans_500;
     border-bottom: 2px solid #B51D16;
-    margin-top: 25px;
-    color: #000;
+    margin-top: 15px;
+    margin-bottom: 4.0404%;
 }
 .tableposition {
 	position: relative;
@@ -1364,9 +1375,10 @@ tbody tr td.fall {
 }
 .tableposition a {
 	margin-top: 35px;
-	margin-left: 165px;
+	margin-left: 460px;
 	text-decoration: none;
 	color:#000;
+}
 }
 #ostatnieWydarzenia{
 	width: 1170px;
