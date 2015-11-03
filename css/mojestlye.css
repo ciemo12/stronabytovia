@@ -1028,7 +1028,8 @@ ol {
 	color: #000;
 }
 .homepagecenterhead {
-	height:110px;
+	height:85px;
+	margin-bottom: 4.0404%;
 }
 .homepagecenterhead > div {
 	border-bottom: 1px solid #CDCDCD;
@@ -1111,6 +1112,7 @@ ol {
     transition-duration: 700ms;
     transition-timing-function: ease;
     transition-delay: initial;
+    text-transform: none;
 }
 .buttonmore {
 	cursor: pointer;
@@ -1141,7 +1143,8 @@ ol {
 .homepagegallery {
 	border-bottom: 1px solid #CDCDCD;
 	text-transform: uppercase;
-	margin-bottom: 4%;
+	height: 72px;
+    margin-bottom: 4.0404%;
 }
 .homepagegallery span {
     display: inline-block;
@@ -1154,10 +1157,8 @@ ol {
 }
 .gallery{
 	position: relative;
-	display: block;
-	top: 55px;
-	width: 100%;
-	height: 320px;
+    display: block;
+    top: 10px;
 }
 .gallery a {
 	margin-top: 35px;
