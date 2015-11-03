@@ -46,6 +46,11 @@ section .wrapper {
 	height: inherit;
 	position: relative
 }
+.positionbutton a{
+	margin-top: 20px;
+	text-decoration: none;
+    color: #000;
+}
 #headerTop nav > a {
 	display: block;
 	float: left;
@@ -1303,8 +1308,6 @@ ol {
 .tableposition {
 	position: relative;
 	float: left;
-	left: 50%;
-	margin-left: -195px;
 	text-transform: uppercase;
 }
 .tableIleague {
@@ -1374,11 +1377,10 @@ tbody tr td.fall {
 	border-top: none;
 }
 .tableposition a {
-	margin-top: 35px;
-	margin-left: 460px;
-	text-decoration: none;
-	color:#000;
-}
+	margin-top: 20px;
+    text-decoration: none;
+    color: #000;
+    text-transform: none;
 }
 #ostatnieWydarzenia{
 	width: 1170px;
