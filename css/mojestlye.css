@@ -802,13 +802,7 @@ ol {
 	width: 740px;
 }
 .gallery p {
-	position: relative;
-	font-size: 19px;
-	top: 5px;
-	width: 196px;
-	height: 21px;
-	margin-left: 10px;
-	margin-top: 10px;
+	height: 20px;
 }
 .dropdown-menu6 {
 	position: absolute;
@@ -1178,9 +1172,6 @@ ol {
 	color:#000;
 }
 .gallery1 {
-	width: 330px;
-	margin: 0px;
-	padding: 0px;
 	position: relative;
 	float: left;
 	cursor: pointer;
@@ -1192,7 +1183,7 @@ ol {
 }
 #d2 {
 	color:white;
-	background-color:red; 
+	background-color: rgba(164, 28, 21, 0.9);
 	padding:10px;
 	margin-top: 0px; 
 	transition:0.3s;
@@ -1222,28 +1213,19 @@ ol {
 .gallery1title p {
 	 font-family: MouseoSans_500;
 	 font-size: 15px;
-	 top: -8px;
-	 width: 100%;
 	 text-align: center;
 }
 .gallery2title p {
 	 font-family: MouseoSans_500;
 	 font-size: 15px;
-	 top: -8px;
-	 width: 100%;
 	 text-align: center;
 }
 .gallery3title p {
 	 font-family: MouseoSans_500;
 	 font-size: 15px;
-	 top: -8px;
-	 width: 100%;
 	 text-align: center;
 }
 .gallery2 {
-	width: 330px;
-	margin: 0px;
-	padding: 0px;
 	position: relative;
 	float: left;
 	cursor: pointer;
@@ -1264,9 +1246,6 @@ ol {
 }
 
 .gallery3 {
-	width: 330px;
-	margin: 0px;
-	padding: 0px;
 	position: relative;
 	float: left;
 	cursor: pointer;
@@ -1283,7 +1262,7 @@ ol {
 	-moz-transform: scale(1.1,1.1);
     -webkit-transform: scale(1.1,1.1);
     transform: scale(1.15,1.15);
-    opacity: 0.8;
+    opacity: 0.4;
 }
 .homepagetable {
 	height: 85px;
