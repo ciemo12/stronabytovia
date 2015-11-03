@@ -1310,7 +1310,14 @@ ol {
 	color: #000;
 	font-family: MouseoSans_500;
 	padding: 4px;
-	margin-top: 3px;
+	margin-top: 4px;
+}
+.nameofleagueJunior {
+	width: 100%;
+	color: #000;
+	font-family: MouseoSans_500;
+	padding: 4px;
+	margin-top:19px;
 }
 .tableIVleague {
 	width: 390px;
@@ -1319,6 +1326,7 @@ ol {
 	border:none;
 	font-size: 13px;
 }
+
 .tableIleague {
 	width: 600px;
 	font-family: MouseoSans_500;
