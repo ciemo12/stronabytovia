@@ -314,22 +314,21 @@ $('form input').blur(function(){
 
 
 function przesun(){
-  $('.nextmatch').animate();
-  $('.nextmatch').hide();
-  $('.nextmatch1').show();
+ 
+  $('.nextmatch').hide(500);
+  $('.nextmatch1').show(500);
 }
 function przesun1(){
-  $('.nextmatch1').animate();
-  $('.nextmatch1').hide();
-  $('.nextmatch2').show();
+  $('.nextmatch1').hide(500);
+  $('.nextmatch2').show(500);
 }
 function przesun2(){
-  $('.nextmatch').animate();
-  $('.nextmatch1').hide();
-  $('.nextmatch').show();
+
+  $('.nextmatch1').hide(500);
+  $('.nextmatch').show(500);
 }
 function przesun3(){
-  $('.nextmatch1').animate();
-  $('.nextmatch2').hide();
-  $('.nextmatch1').show();
+
+  $('.nextmatch2').hide(500);
+  $('.nextmatch1').show(500);
 }
