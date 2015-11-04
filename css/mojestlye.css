@@ -1184,10 +1184,23 @@ ol {
 	margin-top:-40px;
 }
 .gallery1title {
-	background-color:#777;  
-	padding:10px;
 	text-align:center; 
-	color:#fff; 
+}
+.gallery1title strong {
+	color: white;
+}
+.gallery2title {
+	text-align:center; 
+}
+.gallery2title strong {
+	color: white;
+}
+.gallery3title {
+	text-align:center; 
+
+}
+.gallery3title strong {
+	color: white;
 }
 .gallery1img img {
 	-webkit-transition: all 1s ease;
@@ -1198,7 +1211,7 @@ ol {
 	-moz-transform: scale(1.1,1.1);
     -webkit-transform: scale(1.1,1.1);
     transform: scale(1.15,1.15);
-    opacity: 0.4;
+    opacity: 0.2;
 }
 .gallery1title p {
 	 font-family: MouseoSans_500;
@@ -1232,7 +1245,7 @@ ol {
 	-moz-transform: scale(1.1,1.1);
     -webkit-transform: scale(1.1,1.1);
     transform: scale(1.15,1.15);
-    opacity: 0.4;
+    opacity: 0.2;
 }
 
 .gallery3 {
@@ -1252,7 +1265,7 @@ ol {
 	-moz-transform: scale(1.1,1.1);
     -webkit-transform: scale(1.1,1.1);
     transform: scale(1.15,1.15);
-    opacity: 0.4;
+    opacity: 0.2;
 }
 .homepagetable {
 	height: 85px;
