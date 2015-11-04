@@ -2053,8 +2053,6 @@ table, th, td {
 .yt img {
 	position: relative;
 	float: right;
-	width: 50px;
-	height: 50px;
 	top: -45px;
 }
 #social .yt h3 {
@@ -2073,8 +2071,6 @@ table, th, td {
 .fb img {
 	position: relative;
 	float: right;
-	width: 50px;
-	height: 50px;
 	top: -45px;
 }
 .borderfacebook {
