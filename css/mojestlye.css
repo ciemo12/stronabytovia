@@ -19,10 +19,6 @@
     font-family: MouseoSans_500;
     src:url('../fonts/MuseoSans_500.otf');}
 header {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	right: 0px;
 	z-index: 100;
 	min-width: 320px;
 	color: #FFF;
@@ -941,8 +937,6 @@ ol {
 
 #carouselcolorbackground{
 	background-color:#080808;
-	position: absolute;
-	top: 178px;
 	width: 100%;
 }
 .carousel-inner {
@@ -1015,12 +1009,9 @@ ol {
 	z-index: 1;
 }
 #homepage {
-	top:1000px;
 	padding: 0px 1.5625%;
-	position: absolute;
 	margin-bottom: 40px;
 	width: 100%;
-	margin-bottom: 2%;
 }
 .homepagecenter {
 	color: #000;
@@ -1262,6 +1253,10 @@ ol {
     -webkit-transform: scale(1.1,1.1);
     transform: scale(1.15,1.15);
     opacity: 0.4;
+}
+#alltable a:last-child {
+	position: relative;
+	float: left;
 }
 .homepagetable {
 	height: 85px;
@@ -2049,10 +2044,7 @@ table, th, td {
 	margin-bottom:30px;
 }
 #social {
-	position: absolute;
-	top:3135px;
-	width: 100%;
-    min-height: 280px;
+    min-height: 444px;
     background: url(../photos/tlo.jpg);
 }
 #social .yt {
@@ -2102,22 +2094,10 @@ table, th, td {
     height: 314px;
     top: -49px;
 }
-}
-#juniorzy {
-	background: url(../photos/tlo.jpg);
-	background-repeat: repeat-x;
-}
-#juniorzy img {
-	width: 100%;
-	height: 280px;
-}
-
-#sponsors {
-	position: absolute;
-	top: 3575px;
+.backgroundcolorsponsor{
 	width: 100%;
 	background-color: #DCE3ED;
-
+	height: 544px;
 }
 .logo {
 	opacity: 1;
