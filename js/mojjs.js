@@ -2,9 +2,9 @@ $(document).ready(function(){
 
 $('#menuafterscroll').hide();
 $(window).scroll(function(){
-  if ($(this).scrollTop() > 140) {$('#menuafterscroll').fadeIn(0);
+  if ($(this).scrollTop() > 140) {$('#menuafterscroll').fadeIn(200);
     }else {
-      $('#menuafterscroll').fadeOut(0);
+      $('#menuafterscroll').fadeOut(200);
       }
 });
 

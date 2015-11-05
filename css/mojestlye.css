@@ -978,7 +978,6 @@ ol {
 .titlenews1 {
 	position: absolute;
     text-align: center;
-    z-index: 3;
     color: #FFF;
     font-family: MouseoSans_500;
     font-weight: normal;
