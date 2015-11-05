@@ -401,8 +401,6 @@ hr {
 } 	
 
 #footersite {
-	position: absolute;
-	top:4119px;
  	width: 100%;
  	background-color: #080808;
  	height: 480px;
@@ -497,7 +495,6 @@ hr {
 }
 .backgroundcolormenumini {
 	position: absolute;
-	top:4599px;
 	width: 100%;
 	background-color:#212121;
 	height: 50%;
@@ -1119,14 +1116,15 @@ ol {
 	white-space: nowrap;
 	font-family: MouseoSans_500;
 }
-
 .hpnewsimage img {
-	-webkit-transition: all 1s ease;
- 	-moz-transition: all 1s ease;
-  	-o-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      transition: all 1s ease;
 }
 .hpnewsimage img:hover {
-	-moz-transform: scale(1.1,1.1);
+      transition: all 1s ease;
+    -moz-transform: scale(1.1,1.1);
     -webkit-transform: scale(1.1,1.1);
     transform: scale(1.15,1.15);
     opacity: 0.5;
@@ -1910,10 +1908,12 @@ table, th, td {
 .title {
 	font-size: 16px;
 	text-transform: uppercase;
-	font-weight: 600
+	font-weight: 600;
+	transition: all 1s ease-in-out;
 }
-.title:hover {
-	color:#B51D16;
+ul li:hover .title {
+    color:#B51D16;
+    transition: all 1s easy-in-out;
 }
 .title h3 {
 	font-size: 20px;
@@ -2359,14 +2359,11 @@ table, th, td {
 }
 .backgroundcolormenumini1 {
 	position: absolute;
-	top:4165px;
 	width: 100%;
 	background-color:#212121;
 	height: 50%;
 }
 #footersite1 {
-    position: absolute;
-    top: 3685px;
     width: 100%;
     background-color: #080808;
     height: 480px;
