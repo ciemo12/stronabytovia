@@ -612,6 +612,7 @@ ol {
 	overflow: auto;
 	display: none;
 	top: 60px;
+	z-index: 1;
 }
 
  .menu-advertisement a {
@@ -661,6 +662,7 @@ ol {
 	display: none;
 	left: 0;
 	top: 60px;
+	z-index: 1;
 }
 
 .dropdown-menu4 {
@@ -684,6 +686,7 @@ ol {
 	display: none;
 	left: 0;
 	top: 60px;
+	z-index: 1;
 }
 .borderbottom1 {
  	position: absolute;
@@ -776,6 +779,7 @@ ol {
 	display: none;
 	left: 0;
 	top: 60px;
+	z-index: 1;
 }
 .stadiumimages {
 	position: relative;
@@ -875,6 +879,7 @@ ol {
 	display: none;
 	left:0;
 	top: 60px;
+	z-index: 1;
 }
 .season {
 	position: relative;
@@ -2232,7 +2237,7 @@ ul li:hover .title {
 	margin-left: -495px;
 	background-color: #FFF;
 }
-.big {
+.background {
     position: fixed;
     top: 0px;
     left: 0px;
