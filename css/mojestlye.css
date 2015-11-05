@@ -2277,6 +2277,12 @@ ul li:hover .title {
 }
 .btd-modul {
 	margin-top: 40px;
+	padding: 0px 1.5625%;
+}
+.modul-content ul {
+    list-style: outside none none;
+    margin: 0px;
+    padding: 0px;
 }
 .titleline > div {
 	border-bottom: 1px solid #CDCDCD;
@@ -2303,7 +2309,7 @@ ul li:hover .title {
 }
 .titleline > div > div strong.activn span.activesub {
 	color: #686868;
-	font-size: 20px;
+	font-size: 30px;
 }
 .modul-content ul li a {
     padding: 15px 15px 15px 369px;
@@ -2314,6 +2320,7 @@ ul li:hover .title {
     font-family: MouseoSans_500;
     color: #000;
     text-decoration: none;
+    transition: background 700ms ease 0s;
 }
 .modul-content ul li a .time {
     position: absolute;
@@ -2321,10 +2328,29 @@ ul li:hover .title {
     left: 15px;
     width: 80px;
     font-size: 30px;
+    height: 80px;
 }
 .modul-content ul li a .time span {
 	display: block;
 	line-height: 1em;
+	margin-top: 8px;
+}
+.modul-content ul li a .time span.iconFont {
+    color: #9A9A9A;
+    line-height: 0.8em;
+    text-indent: -0.15em;
+}
+.modul-content ul li a .imagenews::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: rgba(0, 0, 0, 0.3) none repeat scroll 0% 0%;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 700ms ease 0s;
 }
 .modul-content ul li a .imagenews {
     position: absolute;
@@ -2334,22 +2360,38 @@ ul li:hover .title {
     overflow: hidden;
 }
 .modul-content ul li a .imagenews img {
-    vertical-align: bottom;
+	vertical-align: bottom;
+	transition: -webkit-transform 700ms ease 0s, -moz-transform 700ms ease 0s, -o-transform 700ms ease 0s, transform 700ms ease 0s;
 }
+.mediaTypeNews::after {
+position: absolute;
+bottom: 0px;
+right: 0px;
+width: 42px;
+height: 42px;
+line-height: 42px;
+font-size: 24px;
+text-align: center;
+background: #000 none repeat scroll 0% 0%;
+color: #FFF;
+z-index: 10;
+}
+
 .modul-content ul li a .information12 {
     display: block;
     font-family:MouseoSans_500;
     color: #686868;
     font-size: 12px;
 }
+
 .modul-content ul li a .titlenewsstrong {
-  	display: block;
-	font-family: MouseoSans_500;
-	font-size: 32px;
-	font-weight: normal;
-	line-height: 0.2em;
-	margin-top: -20px;
-	margin-bottom: 30px;
+    display: block;
+    font-family: MouseoSans_500;
+    font-size: 30px;
+    line-height: 1.2em;
+    font-weight: normal;
+    margin: 0px 0px 0.3em;
+    transition: color 700ms ease 0s;
 }
 .modul-content ul li a .textnews {
     display: block;
