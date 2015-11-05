@@ -2226,11 +2226,12 @@ ul li:hover .title {
 
 
 #pagename {
-	position: absolute;
-	top:179px;
 	left: 50%;
 	margin-left: -495px;
 	background-color: #FFF;
+	position: relative;
+	width: 990px;
+	top: -20px;
 }
 .big {
     position: fixed;
@@ -2252,12 +2253,14 @@ ul li:hover .title {
 }
 #pagename .wrapper h1 {
 	color: #000;
-	font-size: 60px;
-	line-height: 62px;
-	text-align: center;
-	text-transform: uppercase;
-	font-family: MouseoSans_500;
-	font-weight: normal;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: MouseoSans_500;
+    font-weight: normal;
+    padding: 20px 0px;
+}
 }
 .backgroundwrapper .wrapper {
 	margin: 0px auto;
@@ -2350,23 +2353,14 @@ ul li:hover .title {
     color: #686868;
 }
 .buttonpositionnews {
-	width: 100%;
 	left: 50%;
 	margin-left: 495px;
-	margin-bottom: 30px;
-	margin-top: 40px;;
+	margin-bottom:-20px;
+	margin-top: 40px;
+	padding: 20px;
+	width: 135px;
 }
-.backgroundcolormenumini1 {
-	position: absolute;
-	width: 100%;
-	background-color:#212121;
-	height: 50%;
-}
-#footersite1 {
-    width: 100%;
-    background-color: #080808;
-    height: 480px;
-}
+
 .imgadress {
 	position: relative;
 	float: left;
