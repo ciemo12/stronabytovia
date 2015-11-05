@@ -312,23 +312,24 @@ $('form input').blur(function(){
 }(document, 'script', 'facebook-jssdk'));
 
 
-
 function przesun(){
  
-  $('.nextmatch').hide(500);
-  $('.nextmatch1').show(500);
+  $('.nextmatch').slideUp(500);
+  $('.nextmatch1').slideDown(500);
 }
 function przesun1(){
-  $('.nextmatch1').hide(500);
-  $('.nextmatch2').show(500);
+  $('.nextmatch1').slideUp(500);
+
+  $('.nextmatch2').slideDown(500);
 }
 function przesun2(){
 
-  $('.nextmatch1').hide(500);
-  $('.nextmatch').show(500);
+  $('.nextmatch1').slideUp(500);
+  $('.nextmatch').slideDown(500);
 }
 function przesun3(){
 
-  $('.nextmatch2').hide(500);
-  $('.nextmatch1').show(500);
+  $('.nextmatch2').slideUp(500);
+  $('.nextmatch1').slideDown(500);
 }
+

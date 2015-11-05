@@ -1912,6 +1912,9 @@ table, th, td {
 	text-transform: uppercase;
 	font-weight: 600
 }
+.title:hover {
+	color:#B51D16;
+}
 .title h3 {
 	font-size: 20px;
 	text-transform: uppercase;
