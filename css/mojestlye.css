@@ -404,6 +404,7 @@ hr {
  	width: 100%;
  	background-color: #080808;
  	height: 480px;
+ 	position: relative;
  }
  .footerhead {
 	border-bottom: 1px solid white;
@@ -2246,6 +2247,17 @@ ul li:hover .title {
     bottom: 0px;
     text-align: center;
     background: #000 none repeat scroll 0% 0%;
+    z-index: -1;
+}
+.big {
+	position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    text-align: center;
+    background: #000;
     z-index: -1;
 }
 .big img {
