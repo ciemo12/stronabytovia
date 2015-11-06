@@ -2370,10 +2370,26 @@ ul li:hover .title {
     left: 95px;
     width: 220px;
     overflow: hidden;
+    display: block;
+    -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      transition: all 1s ease;
 }
 .modul-content ul li a .imagenews img {
 	vertical-align: bottom;
-	transition: -webkit-transform 700ms ease 0s, -moz-transform 700ms ease 0s, -o-transform 700ms ease 0s, transform 700ms ease 0s;
+	 
+  }
+
+.modul-content ul li a .imagenews:hover {
+ -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      transition: all 1s ease;
+    -moz-transform: scale(1.1,1.1);
+    -webkit-transform: scale(1.1,1.1);
+    transform: scale(1.15,1.15);
+    opacity: 0.5;
 }
 .mediaTypeNews::after {
 position: absolute;
@@ -2404,6 +2420,20 @@ z-index: 10;
     font-weight: normal;
     margin: 0px 0px 0.3em;
     transition: color 700ms ease 0s;
+}
+ul li:hover .titlenewsstrong {
+    color:#B51D16;
+    transition: all 1s easy-in-out;
+}
+ul li:hover .imagenews{
+     -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      transition: all 1s ease;
+    -moz-transform: scale(1.1,1.1);
+    -webkit-transform: scale(1.1,1.1);
+    transform: scale(1.15,1.15);
+    opacity: 0.5;
 }
 .modul-content ul li a .textnews {
     display: block;
