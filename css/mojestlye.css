@@ -2530,3 +2530,8 @@ select#DateMonth {
     opacity: 0.5;
     border-color: #666;
 }
+.backgroundcolorsponsor1 {
+	width: 100%;
+	background-color: #FFF;
+	height: 544px;
+}
