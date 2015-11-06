@@ -2377,21 +2377,19 @@ ul li:hover .hpnewsimage img{
     width: 220px;
     overflow: hidden;
     display: block;
-    -webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-      -o-transition: all 1s ease;
-      transition: all 1s ease;
+
 }
 .modul-content ul li a .imagenews img {
 	vertical-align: bottom;
-	 
+	width:100%;
+	
   }
 
 .modul-content ul li a .imagenews:hover {
- 	-webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
     transition: all 1s ease;
+    -moz-transform: scale(1.1,1.1);
+    -webkit-transform: scale(1.1,1.1);
+    transform: scale(1.1,1.1);
     opacity: 0.5;
 }
 .mediaTypeNews::after {
@@ -2428,12 +2426,15 @@ ul li:hover .titlenewsstrong {
     color:#B51D16;
     transition: all 1s easy-in-out;
 }
-ul li:hover .imagenews{
+ul li:hover .imagenews img{
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease;
     opacity: 0.5;
+    -moz-transform: scale(1.1,1.1);
+    -webkit-transform: scale(1.1,1.1);
+    transform: scale(1.15,1.15);
 }
 .modul-content ul li a .textnews {
     display: block;
