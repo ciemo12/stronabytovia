@@ -2385,7 +2385,7 @@ ul li:hover .hpnewsimage img{
 	
   }
 
-.modul-content ul li a .imagenews:hover {
+.modul-content ul li a .imagenews img:hover {
     transition: all 1s ease;
     -moz-transform: scale(1.1,1.1);
     -webkit-transform: scale(1.1,1.1);
