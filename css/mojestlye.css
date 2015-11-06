@@ -2457,3 +2457,76 @@ ul li:hover .imagenews img{
 	left: 218px;
 	top: 22px;
 }
+.heading {
+    width: 100%;
+    min-height: 60px;
+    line-height: 60px;
+    margin-bottom: 10px;
+    clear: both;
+}
+.filters {
+	padding: 0px;
+}
+.heading label {
+	display: inline-block;
+	color: #636363;
+	font-weight: 600;
+	padding-right: 8px;
+	font-size: 12px;
+	text-transform: lowercase;
+}
+select#DateYear {
+	width: 100px;
+}
+.filters select {
+	display: inline-block;
+	height: 22px;
+	border: 1px solid #DDD;
+	border-radius: 0px;
+	background: transparent url("../img/layout/arrow-select.jpg") no-repeat scroll right top;
+	-moz-appearance: none;
+	padding: 0px 2px;
+	font-size: 12px;
+}
+.selectBox-dropdown.selectBox-menuShowing-bottom {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    }
+
+.selectBox-dropdown {
+    position: relative;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #BABABA #D6D6D6 #DADADA;
+    line-height: 1;
+    text-decoration: none;
+    text-align: left;
+    color: #000;
+    background: #E5E5E5 none repeat scroll 0% 0%;
+    outline: medium none;
+    vertical-align: middle;
+    display: inline-block;
+    cursor: default;
+}
+label.active[for="DateMonth"] {
+	color: #636363;
+}
+select#DateMonth {
+	width: 96px;
+}
+.selectBox.selectBox-disabled {
+    color: #888 !important;
+}
+.selectBox-dropdown .selectBox-label {
+    line-height: 20px;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-left: 6px;
+    text-transform: lowercase;
+    font-size: 13px;
+}
+.selectBox-dropdown.selectBox-disabled .selectBox-arrow {
+    opacity: 0.5;
+    border-color: #666;
+}
