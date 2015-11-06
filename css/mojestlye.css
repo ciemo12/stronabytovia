@@ -1920,7 +1920,7 @@ ul li:hover .title {
     color:#B51D16;
     transition: all 1s easy-in-out;
 }
-ul li:hover .hpnewsimage {
+ul li:hover .hpnewsimage img{
 	transition: all 1s easy-in-out;
     -moz-transform: scale(1.1,1.1);
     -webkit-transform: scale(1.1,1.1);
