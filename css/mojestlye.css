@@ -2546,5 +2546,6 @@ form.filter input[type="submit"] {
 	position: relative;
 	float: left;
 	top: 10px;
-	
+	top: -53px;
+	left: 445px
 }
