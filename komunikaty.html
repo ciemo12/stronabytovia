@@ -306,42 +306,33 @@
         <h1>Komunikaty klubu</h1>
       </div>
       <div class="heading"></div>
-      <div class="col-sm-5 filtres">
-        <from id="DateCategotyFrom" accept-charset="utf" method="post" >
-          <div class="col-xs-6 col-sm-6">
-            <label for="DateYear"> Rok </label>
-            <select id="DateYear" class="selectBox" name="data[Date][Year]">
-              <option value="0">Wybierz</option>
-              <option value="2009">2009</option>
-              <option value="2010">2010</option>
-              <option value="2011">2011</option>
-              <option value="2012">2012</option>
-              <option value="2013">2013</option>
-              <option value="2014">2014</option>
-              <option value="2015">2015</option>
-            </select>
-           
-          </div>
-          <div class="col-xs-6 col-sm-6">
-          <label for="DateMonth">Miesiąc</label>
-            <select id="DateMonth" class="selectBox" name="data[Date][Month]">
-              <option value="0"> Cały rok</option>
-              <option value="1"> Styczeń </option>
-              <option value="2"> Luty </option>
-              <option value="3"> Marzec</option>
-              <option value="4"> Kwiecień</option>
-              <option value="5"> Maj</option>
-              <option value="6"> Czerwiec</option>
-              <option value="7"> Lipiec</option>
-              <option value="8"> Sierpień</option>
-              <option value="9"> Wrzesień</option>
-              <option value="10"> Październik</option>
-              <option value="11"> Listopad</option>
-              <option value="12"> Grudzień</option>
-            </select>
-              <span class="selectBox-arrow"></span>
-          </div>
-        </from>
+        <form class="filter" data-type="news" name="filter">
+          <input type="hidden" value="["news"]" name="type"></input>
+          <input type="hidden" value="pl" name="language"></input>
+          <input type="hidden" value="6" name="offset"></input>
+          <input type="hidden" value="9" name="limit"></input>
+          <span>
+            <label for="startdate">Od</label>
+            <input id="dp144" class="datafield hasDatepicker" type="text" name="startdate"></input>
+            <button class="ui-datepicker-trigger" type="button">
+              <img src="photos/calendar-icons.png">
+            </button>
+          </span>
+          <span>
+            <label for="enddate">Do</label>
+            <input id="dp1446" class="datafield hasDatepicker" type="text" name="enddate"></input>
+            <button class="ui-datepicker-trigger" type="button">
+              <img src="photos/calendar-icons.png">
+            </button>
+          </span>
+          <span></span>
+          <span>
+            <span class="select">
+            <input class="iconFont" type="submit" value=""> 
+              <img src="photos/Loupe.png">
+            </input>
+          </span>
+        </form>
       </div>
      <div class="backgroundwrapper">
       <div class="wrapper">
