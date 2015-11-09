@@ -2691,7 +2691,7 @@ form.filter input[type="submit"] {
     overflow: hidden;
 }
 .matchWrapper > ul > li .buttonswrapp {
-    margin: 20px 0px 0px;
+    margin: 50px 0px 0px;
     }
     .matchWrapper > ul > li .buttonswrapp .button {
     margin: 5px 20px;
@@ -2715,4 +2715,77 @@ form.filter input[type="submit"] {
     font-family: MouseoSans_500;
     font-weight: normal;
     transition:  all 1s ease;
+}
+.modul-content ul li a .titlenewsstrong1 {
+    display: block;
+    font-family: MouseoSans_500;
+    font-size: 30px;
+    line-height: 1.2em;
+    font-weight: normal;
+    margin: 0px 0px 0.7em;
+    transition: color 700ms ease 0s;
+}
+.modul-content ul li a {
+    min-height: 167px;
+    position: relative;
+    display: block;
+    overflow: auto;
+    font-family: MouseoSans_500;
+    color: #000;
+    text-decoration: none;
+    transition: background 700ms ease 0s;
+    padding: 16px 1px 11px 330px;
+}
+.modul-content1 ul li a {
+    min-height: 167px;
+    position: relative;
+    display: block;
+    overflow: auto;
+    font-family: MouseoSans_500;
+    color: #000;
+    text-decoration: none;
+    transition: background 700ms ease 0s;
+    padding: 16px 1px 11px 230px;
+}
+.modul-content1 ul li a .imagenews {
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    width: 220px;
+    top: 15px;
+    left: 0px;
+}
+.modul-content1 ul {
+    list-style: outside none none;
+    margin: 0px;
+    padding: 0px;
+}
+.modul-content1 ul li a .titlenewsstrong1 {
+    display: block;
+    font-family: MouseoSans_500;
+    font-size: 30px;
+    line-height: 1.2em;
+    font-weight: normal;
+    margin: 0px 0px 0.3em;
+    transition: color 700ms ease 0s;
+}
+ul li:hover .titlenewsstrong1 {
+    color:#B51D16;
+    transition: all 1s easy-in-out;
+}
+ul li:hover .imagenews img{
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    opacity: 0.5;
+    -moz-transform: scale(1.1,1.1);
+    -webkit-transform: scale(1.1,1.1);
+    transform: scale(1.15,1.15);
+}
+.modul-content1 ul li a .textnews {
+    display: block;
+    font-family: MouseoSans_500;
+    font-size: 16px;
+    color: #686868;
 }
