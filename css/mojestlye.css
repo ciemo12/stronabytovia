@@ -2553,7 +2553,8 @@ form.filter input[type="submit"] {
 	left: 445px
 }
 .backgroundcolorsponsor1 {
-	height: 180px;
+	height: 143px;
+	background-color: #000000;
 }
 .backgroundcolorsponsor1 img {
 	position: relative;
