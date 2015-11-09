@@ -2560,3 +2560,156 @@ form.filter input[type="submit"] {
 	float: left;
 	top: -76px;
 }
+.backgroundWrapper {
+	background-color: #212121;
+}
+.matchWrapper {
+    text-align: center;
+}
+.matchWrapper > ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px 10px;
+}
+.btd-module.width-100 .module-headline {
+    margin-bottom: 4.0404%;
+}
+.btd-module .module-headline > div {
+    text-transform: uppercase;
+    border-bottom: 1px solid #CDCDCD;
+}
+.btd-module-match .matchWrapper > ul > li {
+    border: 0px none;
+    padding: 0px;
+}
+.btd-module .module-headline > div > span {
+    border-bottom: 2px solid;
+    display: inline-block;
+    font-size: 2.5em;
+    line-height: 2em;
+    transition: all 250ms ease 0s;
+    vertical-align: bottom;
+    font-family: MouseoSans_500;
+}
+.matchWrapper > ul > li {
+    border-top: 1px solid #CDCDCD;
+    padding: 40px 0px;
+    margin: 0px;
+}
+.matchWrapper .place {
+    font-size: 16px;
+    color: #686868;
+}
+.matchWrapper > ul > li ul {
+    padding: 0px;
+    margin: 15px 20px 0px;
+}
+.clearfix {
+    display: block;
+}
+.matchWrapper > ul > li ul li.name {
+    margin: 7px 0px 0px;
+    line-height: 100px;
+    padding-right: 5px;
+    font-size: 46px;
+    color: #FFF;
+    font-family: MouseoSans_500;
+    font-weight: normal;
+    width: 31%;
+    text-align: right;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.matchWrapper > ul > li ul li {
+    display: block;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    vertical-align: middle;
+}
+.matchWrapper > ul > li ul li.logo1 {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.matchWrapper > ul > li ul li.result {
+    width: 14%;
+    text-align: center;
+}
+.matchWrapper > ul > li ul li.logo1 {
+    height: 100px;
+    width: 109px;
+    margin-top: 7px;
+}
+.matchWrapper > ul > li ul li.result span.post:first-child {
+    margin-top: 36px;
+}
+.matchWrapper > ul > li ul li.result span:first-child {
+    line-height: 0.7em;
+    font-size: 45px;
+}
+.matchWrapper > ul > li ul li.result span {
+    color: #FFF;
+    float: left;
+    width: 100%;
+    white-space: nowrap;
+    font-size: 16px;
+    font-family: MouseoSans_500;
+    font-weight: normal;
+}
+.matchWrapper > ul > li ul li.logo1 + .name {
+    padding-right: 0px;
+    padding-left: 5px;
+}
+.matchWrapper > ul > li ul li.name:last-child {
+    text-align: left;
+    margin-left: 15px;
+}
+.matchWrapper > ul > li ul li.name:last-child {
+    text-align: left;
+    margin-left: 20px;
+	font-size: 54px;
+	font-weight: 900;
+}
+.matchWrapper > ul > li ul li.name {
+    margin: 7px 0px 0px;
+    line-height: 100px;
+    padding-right: 5px;
+    font-size: 46px;
+    color: #FFF;
+    font-family: MouseoSans_500;
+    font-weight: normal;
+    width: 31%;
+    text-align: right;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.matchWrapper > ul > li .buttonswrapp {
+    margin: 20px 0px 0px;
+    }
+    .matchWrapper > ul > li .buttonswrapp .button {
+    margin: 5px 20px;
+    border-top-color: #FFF;
+    border-bottom-color: #FFF;
+    color: #FFF;
+}
+.button.mvp {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0.3em 25px;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    border-style: solid none;
+    line-height: 1em;
+    height: 2em;
+    background-color: transparent;
+    color: #000;
+    white-space: nowrap;
+    font-family: MouseoSans_500;
+    font-weight: normal;
+    transition:  all 1s ease;
+}
