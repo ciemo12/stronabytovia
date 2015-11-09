@@ -2591,6 +2591,7 @@ form.filter input[type="submit"] {
     transition: all 250ms ease 0s;
     vertical-align: bottom;
     font-family: MouseoSans_500;
+    margin-top: -52px;
 }
 .matchWrapper > ul > li {
     border-top: 1px solid #CDCDCD;
@@ -2697,6 +2698,7 @@ form.filter input[type="submit"] {
     border-top-color: #FFF;
     border-bottom-color: #FFF;
     color: #FFF;
+    margin-bottom: 53px;
 }
 .button.mvp {
     cursor: pointer;
