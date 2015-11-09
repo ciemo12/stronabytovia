@@ -2443,12 +2443,15 @@ ul li:hover .imagenews img{
     color: #686868;
 }
 .buttonpositionnews {
-	left: 50%;
-	margin-left: 495px;
+	margin-left: 415px;
 	margin-bottom:-20px;
 	margin-top: 40px;
 	padding: 20px;
 	width: 135px;
+}
+.buttonpositionnews a{
+	text-decoration: none;
+	color: #000;
 }
 
 .imgadress {
