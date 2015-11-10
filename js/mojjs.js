@@ -332,22 +332,6 @@ function przesun3(){
   $('.nextmatch2').slideUp(500);
   $('.nextmatch1').slideDown(500);
 }
-  $(function(){
- 
-                $('#datepicker').datepicker({
-                inline: true
-                });
- 
-                $('#dialog_link, ul#icons li').hover(
-                    function() { $(this).addClass('ui-state-hover'); },
-                    function() { $(this).removeClass('ui-state-hover'); }
-                );
- 
-            });
    $(function () {
-        $("#datepicker").datepicker({
-            constrainInput: true,
-            showOn: 'button',
-            buttonText: 'Select...'
-        });
+        $(".datepicker").datepicker()
     });
