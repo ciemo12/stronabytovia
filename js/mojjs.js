@@ -20,6 +20,7 @@ $(window).scroll(function(){
 $('#gototop').click(function(){
   $('html, body').animate({ scrollTop: 0 }, 1000);
     return false;
+    $('.mecze.active.ukryjmecze').hide();
 });
 
 
@@ -335,3 +336,6 @@ function przesun3(){
    $(function () {
         $(".datepicker").datepicker()
     });
+   $('.mecze').click(function(){
+  
+});

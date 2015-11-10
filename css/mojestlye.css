@@ -2863,6 +2863,7 @@ ul li:hover .imagenews img{
     margin: 0px 0px 30px;
     padding: 10px;
     transition: background 700ms ease 0s;
+    text-decoration: none;
 }
 .module-content ul li a .image1 {
 	position: relative;
@@ -2928,6 +2929,7 @@ ul li:hover .imagenews img{
     font-family: MouseoSans_500;
     font-weight: normal;
     padding: 20px 0px;
+    opacity: 0.8;
 }
 #pagename1 {
     margin-left: -495px;
@@ -2935,7 +2937,8 @@ ul li:hover .imagenews img{
     width: 990px;
     top: -20px;
     left: 50%;
-    background-color: #000;
+    background-color: #0D0103;
+
 }
 .moduleTitle > div > div strong.active span:first-child {
 	border-bottom-color: #FFF;
@@ -2950,4 +2953,12 @@ ul li:hover .imagenews img{
     border-bottom:2px solid;
     text-decoration: none;
    	font-family: MouseoSans_500;
+}
+.ukryjmecze {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+.backgroundWrapper1 {
+	background-color: #0D0103;
 }
