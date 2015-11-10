@@ -2591,7 +2591,7 @@ form.filter input[type="submit"] {
     transition: all 250ms ease 0s;
     vertical-align: bottom;
     font-family: MouseoSans_500;
-    margin-top: -52px;
+    margin-top: 25px;
 }
 .matchWrapper > ul > li {
     border-top: 1px solid #CDCDCD;
@@ -2613,7 +2613,7 @@ form.filter input[type="submit"] {
     margin: 7px 0px 0px;
     line-height: 100px;
     padding-right: 5px;
-    font-size: 46px;
+    font-size: 44px;
     color: #FFF;
     font-family: MouseoSans_500;
     font-weight: normal;
@@ -2674,21 +2674,6 @@ form.filter input[type="submit"] {
     margin-left: 20px;
 	font-size: 54px;
 	font-weight: 900;
-}
-.matchWrapper > ul > li ul li.name {
-    margin: 7px 0px 0px;
-    line-height: 100px;
-    padding-right: 5px;
-    font-size: 46px;
-    color: #FFF;
-    font-family: MouseoSans_500;
-    font-weight: normal;
-    width: 31%;
-    text-align: right;
-    text-transform: uppercase;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
 }
 .matchWrapper > ul > li .buttonswrapp {
     margin: 50px 0px 0px;
