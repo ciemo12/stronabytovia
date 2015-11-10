@@ -2795,7 +2795,7 @@ ul li:hover .imagenews img{
 .btd-module-includes:not(.includes-auto-liveticker) .btd-module {
 	padding: 0px;
 }
-.moduleTitle > div, .titleLine > div {
+.moduleTitle > div {
     border-bottom: 1px solid rgba(255, 255, 255, 0.25);
     overflow: auto;
     color: #FFF;
@@ -2805,7 +2805,18 @@ ul li:hover .imagenews img{
     overflow: auto;
     transition: all 250ms ease 0s;
 }
-.moduleTitle > div > div strong span:first-child, .titleLine > div > div strong span:first-child {
+.moduleTitle > div > div strong span {
+	display: inline-block;
+    vertical-align: bottom;
+    border-bottom: 2px solid transparent;
+    color: #686868;
+    line-height: 80px;
+    font-family: MouseoSans_500;
+    font-size: 40px;
+    transition: all 250ms ease 0s;
+    cursor: pointer;
+}
+.moduleTitle > div > div strong span:first-child {
     text-transform: uppercase;
 }
 .moduleTitle > div > div strong {
@@ -2827,7 +2838,7 @@ ul li:hover .imagenews img{
     width: 100%;
 }
 .module-content ul {
-	    list-style: outside none none;
+	list-style: outside none none;
     margin: 0px;
     padding: 0px;
 }
@@ -2925,4 +2936,18 @@ ul li:hover .imagenews img{
     top: -20px;
     left: 50%;
     background-color: #000;
+}
+.moduleTitle > div > div strong.active span:first-child {
+	border-bottom-color: #FFF;
+}
+.module-content .short-version ul + a {
+    border-color: #FFF;
+    clear: both;
+    display: inline-block;
+    margin: 25px auto;
+    color: #FFF;
+    border-top:2px solid;
+    border-bottom:2px solid;
+    text-decoration: none;
+   	font-family: MouseoSans_500;
 }
