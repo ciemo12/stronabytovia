@@ -2789,3 +2789,140 @@ ul li:hover .imagenews img{
     font-size: 16px;
     color: #686868;
 }
+.btd-module:first-child:not(.module-titled):not(.moduleTitle):not(.headline-wrapper):not(.btd-module-subnavigation):not(.btd-module-topteaser):not(.btd-module-player-profile) {
+	margin-top: 40px;
+}
+.btd-module-includes:not(.includes-auto-liveticker) .btd-module {
+	padding: 0px;
+}
+.moduleTitle > div, .titleLine > div {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    overflow: auto;
+    color: #FFF;
+}
+.moduleTitle > div > div {
+    float: left;
+    overflow: auto;
+    transition: all 250ms ease 0s;
+}
+.moduleTitle > div > div strong span:first-child, .titleLine > div > div strong span:first-child {
+    text-transform: uppercase;
+}
+.moduleTitle > div > div strong {
+    display: block;
+    float: left;
+    margin: 0px 50px 0px 0px;
+    font-weight: normal;
+    transition: margin 250ms ease 0s;
+}
+.moduleTitle > div > div strong:last-child {
+	margin-right: 0px;
+}
+.btd-module-includes:not(.includes-auto-liveticker) .module-content .short-version {
+    text-align: center;
+}
+.btd-module-includes:not(.includes-auto-liveticker) .module-content .short-version ul {
+    float: left;
+    text-align: left;
+    width: 100%;
+}
+.module-content ul {
+	    list-style: outside none none;
+    margin: 0px;
+    padding: 0px;
+}
+.module-content ul li:nth-child(3n+1) {
+	clear: left;
+}
+.module-content ul li {
+	float: left;
+	width: 33.3333%;
+}
+.btd-module-includes:not(.includes-auto-liveticker) .module-content .short-version ul {
+    text-align: left;
+}
+.module-content ul {
+	list-style: outside none none;
+}
+.module-content ul li a {
+    position: relative;
+    display: block;
+    overflow: auto;
+    color: #FFF;
+    margin: 0px 0px 30px;
+    padding: 10px;
+    transition: background 700ms ease 0s;
+}
+.module-content ul li a .image1 {
+	position: relative;
+    overflow: hidden;
+    display: block;
+}
+.module-content ul li a .image1::before {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background: rgba(0, 0, 0, 0.3) none repeat scroll 0% 0%;
+	z-index: 1;
+	opacity: 0;
+	transition: opacity 700ms ease 0s;
+}
+.module-content ul li a .image1 img {
+	width: 100%;
+	vertical-align: bottom;
+	transition: all 700ms ease 0s;
+}
+.mediaTypeVideo::after {
+    content: "D";
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    width: auto !important;
+    height: auto !important;
+    line-height: 1em !important;
+    margin-top: -1.05em;
+    margin-left: -1.05em;
+    padding: 0.55em 0.43em 0.55em 0.55em;
+    text-indent: 0.12em;
+    background: rgba(0, 0, 0, 0.5) url("../pics/layout/kreis_element_white.png") no-repeat scroll center center / 100% 100% padding-box;
+    font-size: 36px;
+    border-radius: 1.05em;
+    transition: font-size 250ms ease 0s;
+}
+.module-content ul li a .information {
+	display: block;
+    font-family: MouseoSans_500;
+    font-size: 12px;
+    margin: 10px 0px 0px;
+    color: #686868;
+}
+.module-content ul li a .title {
+	display: block;
+	font-family: MouseoSans_500;
+	font-size: 26px;
+	line-height: 1.2em;
+	font-weight: normal;
+	transition: color 700ms ease 0s;
+}
+#pagename1 .wrapper h1 {
+	color: #FFF;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: MouseoSans_500;
+    font-weight: normal;
+    padding: 20px 0px;
+}
+#pagename1 {
+    margin-left: -495px;
+    position: relative;
+    width: 990px;
+    top: -20px;
+    left: 50%;
+    background-color: #000;
+}
