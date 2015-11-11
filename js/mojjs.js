@@ -333,9 +333,3 @@ function przesun3(){
   $('.nextmatch2').slideUp(500);
   $('.nextmatch1').slideDown(500);
 }
-   $(function () {
-        $(".datepicker").datepicker()
-    });
-   $('.mecze').click(function(){
-  
-});
