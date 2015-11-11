@@ -3009,3 +3009,46 @@ ul li:hover .image1 img{
 	width: 990px;
 	text-align: center;
 }
+.teasermedia body tr {
+	line-height: 1;
+}
+.articelmediacenterhead {
+	color: black;
+}
+.articelmediacenterhead {
+	height:85px;
+	margin-bottom: 4.0404%;
+}
+.articelmediacenterhead > div {
+	border-bottom: 1px solid #CDCDCD;
+    text-transform: uppercase;
+    height: 85px;
+}
+.articelmediacenterhead> div > span {
+    display: inline-block;
+    font-size: 2.5em;
+    line-height: 2em;
+    vertical-align: bottom;
+    font-family: MouseoSans_500;
+    border-bottom: 2px solid #B51D16;
+    margin-top: 15px;
+    margin-bottom: 4.0404%;
+}
+.atrcielmediastadium {
+	width:990px;
+	text-align: center;
+}
+.daneklubumedia {
+	position: relative;
+	color: #000;
+	float: left;
+	top: -26px;
+	font-family: MouseoSans_500;
+}
+.imgadressmedia {
+    position: relative;
+    float: left;
+    left: 260px;
+    top: 15px;
+}
+
