@@ -2995,3 +2995,17 @@ ul li:hover .image1 img{
     transform: scale(1.1,1.1);
     opacity: 0.5;
 }
+.teaser {
+	font-size: 26px;
+    color: #181818;
+    font-weight: 700;
+    line-height: 35px;
+    clear: both;
+    margin-bottom: 30px;
+    font-family:MouseoSans_500;
+    text-align: center;
+}
+.teasermedia {
+	width: 990px;
+	text-align: center;
+}
