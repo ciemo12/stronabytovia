@@ -2821,6 +2821,8 @@ ul li:hover .imagenews img{
     border-bottom: 1px solid rgba(255, 255, 255, 0.25);
     overflow: auto;
     color: #FFF;
+    width: 970px;
+    margin-left: 10px;
 }
 .moduleTitle > div > div {
     float: left;
@@ -2891,18 +2893,7 @@ ul li:hover .imagenews img{
 	position: relative;
     overflow: hidden;
     display: block;
-}
-.module-content ul li a .image1::before {
-	content: "";
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	right: 0px;
-	bottom: 0px;
-	background: rgba(0, 0, 0, 0.3) none repeat scroll 0% 0%;
-	z-index: 1;
-	opacity: 0;
-	transition: opacity 700ms ease 0s;
+
 }
 .module-content ul li a .image1 img {
 	width: 100%;
@@ -2983,4 +2974,24 @@ ul li:hover .imagenews img{
 }
 .backgroundWrapper1 {
 	background-color: #0D0103;
+}
+.module-content ul li a .image1 img {
+    -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      transition: all 1s ease;
+}
+.module-content ul li a .image1 img:hover {
+      transition: all 1s ease;
+    -moz-transform: scale(1.1,1.1);
+    -webkit-transform: scale(1.1,1.1);
+    transform: scale(1.15,1.15);
+    opacity: 0.5;
+}
+ul li:hover .image1 img{
+	transition: all 1s easy-in-out;
+    -moz-transform: scale(1.1,1.1);
+    -webkit-transform: scale(1.1,1.1);
+    transform: scale(1.1,1.1);
+    opacity: 0.5;
 }
