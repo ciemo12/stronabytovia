@@ -1,33 +1,16 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bytovia Bytów</title>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script type="text/javascript" src="js/mojjs.js"></script>
-    <script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
-<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
-  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-<script>
-  $(function() {
-    $( "#datepicker" ).datepicker();
-  });
-  </script>
-    <!-- Bootstrap -->
-    <link href="css/bootstrap-datepicker.css" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery UI Datepicker - Default functionality</title>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script type="text/javascript" src="js/mojjs.js"></script>
     <link href="css/mojestlye.css" rel="stylesheet">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
+  <link href="css/bootstrap.css" rel="stylesheet">
+</head>
 <body>
 <article>
 <div>
@@ -46,6 +29,7 @@
     </div>
     <div id="headerCenter">
       <div class="wrapper">
+      <p>Date: <input type="text" id="datepicker"></p>
         <a id="headerTitle" href="#">
           <strong> Bytovia Bytów </strong>
         </a>
@@ -301,10 +285,15 @@
   </div>
     </header> 
     <section id="pagename11">
+
     <div class="big">
       <img src="photos/wallper2.jpg">
     </div>
+    
+        
+
       <div class="wrapper">
+      <p>Date: <input type="text" class="form-control">
         <h1>Komunikaty klubu</h1>
       </div>
       <div class="heading"></div>
