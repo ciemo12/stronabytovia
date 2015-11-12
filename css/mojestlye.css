@@ -3067,3 +3067,23 @@ ul li:hover .image1 img{
 	color: #000;
 	font-family: MouseoSans_500;
 }
+.matchWrapper > ul > li ul li.competition {
+    margin-top: 15px;
+  
+}
+#pagename121 {
+	left: 50%;
+	margin-left: -495px;
+	position: relative;
+	width: 990px;
+}
+#pagename121 .wrapper h1 {
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: MouseoSans_500;
+    font-weight: normal;
+    padding: 20px 0px;
+    color: white;
+}
