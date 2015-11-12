@@ -4,18 +4,22 @@
   <meta charset="utf-8">
   <title>jQuery UI Datepicker - Default functionality</title>
   <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+
   <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
   <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
   <link rel="stylesheet" href="/resources/demos/style.css">
   <script type="text/javascript" src="js/mojjs.js"></script>
-    <link href="css/mojestlye.css" rel="stylesheet">
+
+  <link href="css/mojestlye.css" rel="stylesheet">
   <link href="css/bootstrap.css" rel="stylesheet">
+    <script>
+  $(function() {
+    $( "#datepicker" ).datepicker();
+  });
+  </script>
 </head>
 <body>
 <article>
-<div>
-<input type="text" id="datepicker">
-</div>
 <a id="gototop" title="Do góry" href="#"> <img src="photos/strzałkawgore.png" style="width:40px; height:35px;"> </a>
   <header> 
     <div id="headerTop">
@@ -29,7 +33,6 @@
     </div>
     <div id="headerCenter">
       <div class="wrapper">
-      <p>Date: <input type="text" id="datepicker"></p>
         <a id="headerTitle" href="#">
           <strong> Bytovia Bytów </strong>
         </a>
@@ -289,11 +292,11 @@
     <div class="big">
       <img src="photos/wallper2.jpg">
     </div>
-    
+    <p>Date: <input type="text" id="datepicker"></p>
         
 
       <div class="wrapper">
-      <p>Date: <input type="text" class="form-control">
+   >
         <h1>Komunikaty klubu</h1>
       </div>
       <div class="heading"></div>
@@ -526,12 +529,10 @@
     </div>
   </footer>     
 </article> 
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>-->
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-    <script>
-</script>
+   
 </body>
 </html>
