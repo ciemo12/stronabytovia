@@ -2582,11 +2582,22 @@ form.filter input[type="submit"] {
 	border-style: none;
 	cursor: pointer;
 }
+.filterposition1 {
+	position: relative;
+	float: left;
+	width: 215px;
+}
+.ui-datepicker-trigger {
+	position: relative;
+	float: left;
+	left: 170	px;
+	top: -45px;
+}
 .select {
 	position: relative;
 	float: left;
 	top: 10px;
-	top: -53px;
+	top: -88px;
 	left: 445px
 }
 .backgroundcolorsponsor1 {

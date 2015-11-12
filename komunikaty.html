@@ -12,11 +12,7 @@
 
   <link href="css/mojestlye.css" rel="stylesheet">
   <link href="css/bootstrap.css" rel="stylesheet">
-    <script>
-  $(function() {
-    $( "#datepicker" ).datepicker();
-  });
-  </script>
+    
 </head>
 <body>
 <article>
@@ -292,29 +288,26 @@
     <div class="big">
       <img src="photos/wallper2.jpg">
     </div>
-    <p>Date: <input type="text" id="datepicker"></p>
+   
         
 
       <div class="wrapper">
-   >
         <h1>Komunikaty klubu</h1>
       </div>
       <div class="heading"></div>
         <form class="filter" data-type="news" name="filter">
-          <span>
-            <label for="startdate">Od</label>
-            <input id="dp144" class="datafield hasDatepicker" type="text" name="startdate"></input>
-            <button class="ui-datepicker-trigger" type="button">
+          <div class="filterposition1">
+            <p>Od: <input type="text" id="datepicker"></p>
+            <div class="ui-datepicker-trigger" type="button">
               <img src="photos/calendar-icons.png">
-            </button>
-          </span>
-          <span>
-            <label for="enddate">Do</label>
-            <input id="dp1446" class="datafield hasDatepicker" type="text" name="enddate"></input>
-            <button class="ui-datepicker-trigger" type="button">
+            </div>
+          </div>
+          <div class="filterposition2">
+             <p>Do: <input type="text" id="datepicker1"></p>
+            <div class="ui-datepicker-trigger" type="button">
               <img src="photos/calendar-icons.png">
-            </button>
-          </span>
+            </div>
+          </div>
           <span></span>
           <span>
             <span class="select">
