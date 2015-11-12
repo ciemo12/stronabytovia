@@ -2654,6 +2654,7 @@ form.filter input[type="submit"] {
 .matchWrapper > ul > li ul {
     padding: 0px;
     margin: 15px 20px 0px;
+    width: 100%;
 }
 .clearfix {
     display: block;
