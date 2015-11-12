@@ -2590,7 +2590,7 @@ form.filter input[type="submit"] {
 .ui-datepicker-trigger {
 	position: relative;
 	float: left;
-	left: 170	px;
+	left: 170px;
 	top: -45px;
 }
 .select {
