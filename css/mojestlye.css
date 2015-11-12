@@ -2611,6 +2611,7 @@ form.filter input[type="submit"] {
 }
 .backgroundWrapper {
 	background-color: #212121;
+	height: 100%;
 }
 .matchWrapper {
     text-align: center;
@@ -3066,5 +3067,3 @@ ul li:hover .image1 img{
 	color: #000;
 	font-family: MouseoSans_500;
 }
-}
-
