@@ -3119,7 +3119,7 @@ ul li:hover .image1 img{
     height: 140px;
     float: left;
 }
-.box_herby_2 {
+.box_herby {
     width: 100%;
     height: 100%;
     text-align: center;
@@ -3195,4 +3195,7 @@ ul li:hover .image1 img{
 .clear {
     clear: both;
 }
-
+.mecz_herby {
+	text-align: center;
+	padding-top: 20px;
+}
