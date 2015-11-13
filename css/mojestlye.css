@@ -3090,7 +3090,6 @@ ul li:hover .image1 img{
 }
 .left_container {
     position: relative;
-    left: 30px;
     top: 0px;
     width: 990px;
 }
@@ -3102,9 +3101,11 @@ ul li:hover .image1 img{
     font-family: MouseoSans_500;
     font-weight: 500;
     text-transform: uppercase;
+    margin-bottom: -15px
 }
 .content1 {
     padding: 0px 0px 15px;
+    background-color: rgb(195, 195, 255);
 }
 .box_master {
     width: 990px;
@@ -3112,6 +3113,7 @@ ul li:hover .image1 img{
     margin-top: 15px;
     position: relative;
 }
+
 .box_lewy {
     width: 200px;
     height: 140px;
@@ -3138,6 +3140,7 @@ ul li:hover .image1 img{
     font-size: 1.13em;
     text-align: left;
     color: #252525;
+    margin-bottom: -15px;
 }
 .tb_mecz_subtitle {
     font-family: MouseoSans_500;
@@ -3145,6 +3148,13 @@ ul li:hover .image1 img{
     text-transform: uppercase;
     color: #AAA;
     font-size: 0.82em;
+}
+.tb_mecz_txt1 {
+    font-family: MouseoSans_500;
+    font-weight: 600;
+    color: #434343;
+    font-size: 16px;
+    line-height: 20px;
 }
 .box_data {
     width: 60%;
@@ -3167,19 +3177,20 @@ ul li:hover .image1 img{
 }
 .button_zielony {
     height: 40px;
-    background: #1F8234 url("../images/button_bg_1.png") no-repeat scroll right top;
+    background: rgb(168, 32, 25) url("../images/button_bg_1.png") no-repeat scroll right top;
     border: 0px solid #F50;
 }
 .button_zielony a {
     display: block;
     color: #FFF;
     vertical-align: middle;
-    padding: 12px 0px 8px 14px;
+    padding: 10px 0px 5px 10px;
     font-family: MouseoSans_500;
     font-weight: 600;
     font-size: 16.06px;
     text-transform: uppercase;
     text-decoration: none;
+
 }
 .clear {
     clear: both;
