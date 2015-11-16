@@ -3207,9 +3207,13 @@ ul li:hover .image1 img{
     text-transform: uppercase;
     font-family: MouseoSans_500;
     font-weight: normal;
+    background-color: #9C9C9C;
 }
 .pagetitle h1 {
     padding: 20px 0px;
+    margin-bottom: 0px;
+    font-size: 60px;
+    margin-top: -40px;
 }
 .wrapper-inner {
 	margin-top: 40px;
@@ -3261,6 +3265,10 @@ a {
 }
 #content {
 	height: 434px;
+	background-color: #9C9C9C;
+}
+#content .wrapper {
+	background-color: white;
 }
 #content .wrapper-inner::after {
     background: #000 none repeat scroll 0% 0%;
@@ -3306,7 +3314,6 @@ a {
 }
 #zarzadbackgroundcolor {
 	background-color: #9C9C9C;	
-	margin-bottom: 10px;
 }
 #zarzadbackgroundcolor .wrapper {
 	background-color: white;
@@ -3341,4 +3348,22 @@ a {
 }
 .teaserzarzad1 p {
 	padding-bottom: 4.0404%;
+}
+.pagetitle1 {
+	color: #FFF;
+    font-size: 60px;
+    line-height: 62px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: MouseoSans_500;
+    font-weight: normal;
+    margin-bottom: -40px;
+    	background-color: #9C9C9C;
+}
+.pagetitle1 h1 {
+    padding: 20px 0px;
+    margin-bottom: 0px;
+    font-size: 60px;
+    margin-top: -40px;
+
 }
