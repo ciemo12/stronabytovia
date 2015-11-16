@@ -3213,7 +3213,7 @@ ul li:hover .image1 img{
     padding: 20px 0px;
     margin-bottom: 0px;
     font-size: 60px;
-    margin-top: -40px;
+    margin-top: 0px;
 }
 .wrapper-inner {
 	margin-top: 40px;
@@ -3313,6 +3313,7 @@ a {
 }
 #zarzadbackgroundcolor {
 	background-color: #9C9C9C;	
+	margin: -10px;
 }
 #zarzadbackgroundcolor .wrapper {
 	background-color: white;
@@ -3356,14 +3357,13 @@ a {
     text-transform: uppercase;
     font-family: MouseoSans_500;
     font-weight: normal;
-    margin-bottom: -40px;
+    margin-bottom: -10px;
     	background-color: #9C9C9C;
 }
 .pagetitle1 h1 {
     padding: 20px 0px;
-    margin-bottom: 0px;
     font-size: 60px;
-    margin-top: -40px;
+    margin-top: 0px;
 }
 .wrapper.full {
     max-width: 1920px;
