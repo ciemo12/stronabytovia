@@ -3199,7 +3199,7 @@ ul li:hover .image1 img{
 	text-align: center;
 	padding-top: 20px;
 }
-#pagetitle {
+.pagetitle {
 	color: #FFF;
     font-size: 60px;
     line-height: 62px;
@@ -3208,9 +3208,13 @@ ul li:hover .image1 img{
     font-family: MouseoSans_500;
     font-weight: normal;
 }
-.wrapper-inner > .btd-module:first-child:not(.module-titled):not(.moduleTitle):not(.headline-wrapper):not(.btd-module-subnavigation):not(.btd-module-topteaser):not(.btd-module-player-profile) {
+.pagetitle h1 {
+    padding: 20px 0px;
+}
+.wrapper-inner {
 	margin-top: 40px;
 }
+
 .btd-module {
     float: left;
     padding: 0px 1.5625%;
@@ -3254,4 +3258,17 @@ a {
 }
 .btd-module-partner ul li.width-140 {
     width: 14.1414%;
+}
+#content {
+	height: 434px;
+}
+#content .wrapper-inner::after {
+    background: #000 none repeat scroll 0% 0%;
+    bottom: 5px;
+    content: "";
+    height: 5px;
+    left: 0px;
+    margin: 0px 1.47%;
+    position: absolute;
+    right: 0px;
 }
