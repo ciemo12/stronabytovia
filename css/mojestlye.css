@@ -3199,3 +3199,59 @@ ul li:hover .image1 img{
 	text-align: center;
 	padding-top: 20px;
 }
+#pagetitle {
+	color: #FFF;
+    font-size: 60px;
+    line-height: 62px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: MouseoSans_500;
+    font-weight: normal;
+}
+.wrapper-inner > .btd-module:first-child:not(.module-titled):not(.moduleTitle):not(.headline-wrapper):not(.btd-module-subnavigation):not(.btd-module-topteaser):not(.btd-module-player-profile) {
+	margin-top: 40px;
+}
+.btd-module {
+    float: left;
+    padding: 0px 1.5625%;
+    position: relative;
+    margin-bottom: 40px;
+    width: 100%;
+}
+.wrapper-inner {
+    color: #000;
+}
+.btd-module-partner ul {
+    border-bottom: 1px solid #CDCDCD;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.btd-module-partner ul li.width-200 {
+    width: 20.202%;
+}
+.btd-module-partner ul li {
+    display: inline-block;
+    float: none;
+    list-style: outside none none;
+    margin: 0px 3.0303%;
+}
+.btd-module-partner ul {
+    text-align: center;
+}
+.btd-module-partner ul li a {
+    float: left;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+.btd-module-partner ul li {
+    list-style: outside none none;
+}
+.btd-module-partner ul li img {
+    width: 100%;
+}
+.btd-module-partner ul li.width-140 {
+    width: 14.1414%;
+}
