@@ -3389,3 +3389,92 @@ a {
     width: 100%;
     vertical-align: bottom;
 }
+.btd-module-includes.includes-auto-person .slider-person .slick-list {
+    margin: auto;
+ 	width:100%;
+}
+.slick-track {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    display: block;
+}
+.btd-module-includes.includes-auto-person .slider-person .slick-list a {
+    font-family: MouseoSans_500;
+    font-weight: normal;
+    color: #000;
+    position: relative;
+    text-transform: uppercase;
+}
+.slick-initialized .slick-slide {
+    display: block;
+}
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+.btd-module-includes.includes-auto-person .slider-person .slick-list a .image {
+    position: relative;
+    display: block;
+    padding: 15px;
+    width: 100%;
+    transition: all 700ms ease 0s;
+}
+.btd-module-includes.includes-auto-person .slider-person .slick-list a .image img {
+    position: relative;
+    width: 100%;
+}
+.btd-module-includes.includes-auto-person .slider-person .slick-list a .image::after {
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: 7px;
+    left: 0px;
+    right: 0px;
+    height: 8px;
+    background-image: url("../photos/player_shadow.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+}
+.btd-module-includes.includes-auto-person .slider-person .slick-list a .text {
+    font-family: MouseoSans_500;
+    float: left;
+    line-height: 1.25em;
+    text-align: center;
+    width: 100%;
+}
+.btd-module-includes.includes-auto-person .slider-person .slick-list a .text b {
+    font-family: MouseoSans_500;
+    font-weight: normal;
+}
+.btd-module-includes.includes-auto-person .slider-person .slick-list a .text + span {
+    color: #686868;
+    line-height: 50px;
+}
+.btd-module-includes.includes-auto-person .slider-person .slick-list a .number {
+    background-image: url("../photos/kreis_element.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 70px;
+    left: 0px;
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    width: 70px;
+    z-index: 0;
+}
+.btd-module-includes.includes-auto-person .slider-person .slick-list a .number span {
+    background: #FFF none repeat scroll 0% 0%;
+    border-radius: 50%;
+    float: left;
+    font-size: 34px;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+}
+.btd-module .module-headline {
+    margin-bottom: 4.0404%;
+}
