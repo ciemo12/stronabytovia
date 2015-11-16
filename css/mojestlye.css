@@ -1964,7 +1964,7 @@ ul li:hover .hpnewsimage img{
 	display: block;
 	line-height: 29px;
 	color: #181818;
-	font-family: Arial;
+	font-family: MouseoSans_500;
 }
 .padd1Old {
 	padding: 0px;
@@ -3271,4 +3271,74 @@ a {
     margin: 0px 1.47%;
     position: absolute;
     right: 0px;
+}
+.prezes {
+	width: 990px;
+	margin-left: 195px;
+}
+.wiceprezes {
+	width: 990px;
+	margin-left: 245px;
+}
+.sekretarz {
+	width: 990px;
+	margin-left: 245px;
+}
+.headzarzad{
+	height:85px;
+	margin-bottom: 4.0404%;
+}
+.headzarzad > div {
+	border-bottom: 1px solid #CDCDCD;
+    text-transform: uppercase;
+    height: 85px;
+}
+.headzarzad > div > span {
+    display: inline-block;
+    font-size: 2.5em;
+    line-height: 2em;
+    vertical-align: bottom;
+    font-family: MouseoSans_500;
+    border-bottom: 2px solid #B51D16;
+    margin-top: 15px;
+    margin-bottom: 4.0404%;
+    color: #000;
+}
+#zarzadbackgroundcolor {
+	background-color: #9C9C9C;	
+	margin-bottom: 10px;
+}
+#zarzadbackgroundcolor .wrapper {
+	background-color: white;
+}
+.teaserzarzad {
+	font-size: 26px;
+    color: #181818;
+    font-weight: 700;
+    line-height: 35px;
+    clear: both;
+    font-family:MouseoSans_500;
+    text-align: center;
+}
+#zarzadbackgroundcolor .wrapper-inner1::after {
+    background: #000 none repeat scroll 0% 0%;
+    bottom: 5px;
+    content: "";
+    height: 5px;
+    left: 0px;
+    margin: 0px 1.47%;
+    position: absolute;
+    right: 0px;
+}
+.teaserzarzad1 {
+	font-size: 26px;
+    color: #181818;
+    font-weight: 700;
+    line-height: 35px;
+    clear: both;
+    font-family:MouseoSans_500;
+    text-align: center;
+}
+.teaserzarzad1 p {
+	padding-bottom: 4.0404%;
 }
