@@ -3364,5 +3364,28 @@ a {
     margin-bottom: 0px;
     font-size: 60px;
     margin-top: -40px;
-
+}
+.wrapper.full {
+    max-width: 1920px;
+}
+.wrapper.full > .wrapper-inner {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.wrapper > .wrapper-inner {
+    margin: 0px 1.47%;
+    overflow: auto;
+    max-width: 100%;
+}
+.btd-module-topteaser.btd-module-topteaser-channel {
+    position: relative;
+}
+.btd-module-topteaser {
+    width: 100%;
+    padding: 0px;
+    overflow: hidden;
+}
+.btd-module-topteaser.btd-module-topteaser-channel img {
+    width: 100%;
+    vertical-align: bottom;
 }
