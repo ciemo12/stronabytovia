@@ -3478,3 +3478,36 @@ a {
 .btd-module .module-headline {
     margin-bottom: 4.0404%;
 }
+#terscNewsa img {
+    display: block;
+    margin: 5px auto;
+}
+#terscNewsa div.clear {
+    clear: both;
+    font-size: 1px;
+    line-height: 1px;
+}
+#terscNewsa h4 {
+    font-weight: normal;
+    color: #006723;
+}
+#terscNewsa .sklad .zawodnik {
+    float: left;
+    display: inline;
+    margin: 10px;
+}
+#terscNewsa a {
+    text-decoration: none;
+    color: #018232;
+    font-weight: bold;
+}
+#trescNewsa .sklad .zawodnik img {
+    border: 1px solid #FFF;
+}
+#trescNewsa img {
+    display: block;
+    margin: 5px auto;
+}
+#trescNewsa .sklad .zawodnik .text {
+    width: 132px;
+}
