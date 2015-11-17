@@ -3555,3 +3555,6 @@ a {
     font-weight: normal;
     padding: 20px 0px;
 }
+.stadioncontent p {
+	text-align: left;
+}
