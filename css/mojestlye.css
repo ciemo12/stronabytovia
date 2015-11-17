@@ -3478,9 +3478,13 @@ a {
 .btd-module .module-headline {
     margin-bottom: 4.0404%;
 }
+#terscNewsa {
+	background-color: #fff;
+}
 #terscNewsa img {
     display: block;
-    margin: 5px auto;
+    margin: -1px auto;
+    padding-top: 10px;
 }
 #terscNewsa div.clear {
     clear: both;
@@ -3489,7 +3493,7 @@ a {
 }
 #terscNewsa h4 {
     font-weight: normal;
-    color: #006723;
+    color: #B51D16;
 }
 #terscNewsa .sklad .zawodnik {
     float: left;
@@ -3498,16 +3502,56 @@ a {
 }
 #terscNewsa a {
     text-decoration: none;
-    color: #018232;
+    color: #000;
     font-weight: bold;
 }
 #trescNewsa .sklad .zawodnik img {
     border: 1px solid #FFF;
 }
-#trescNewsa img {
-    display: block;
-    margin: 5px auto;
-}
 #trescNewsa .sklad .zawodnik .text {
     width: 132px;
+}
+.homepagecenterheadjun {
+    height: 90px;
+    background-color: #FFF;
+}
+.homepagecenterheadjun > div {
+    border-bottom: 1px solid #CDCDCD;
+    text-transform: uppercase;
+    height: 85px;
+}
+.homepagecenterheadjun > div > span {
+    display: inline-block;
+    font-size: 2.5em;
+    line-height: 2em;
+    vertical-align: bottom;
+    font-family: MouseoSans_500;
+    border-bottom: 2px solid #B51D16;
+    margin-top: 15px;
+    margin-bottom: 4.0404%;
+    color: #000;
+}
+#trescNewsa .sklad .zawodnik .text a {
+    font-size: 13px;
+    font-weight: normal;
+    color: #000;
+    text-decoration: none;
+    line-height: 14px;
+}	
+#pagenamejun {
+    left: 50%;
+    margin-left: -495px;
+    position: relative;
+    width: 990px;
+    top: -20px;
+    color: white;
+}
+#pagenamejun .wrapper h1 {
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: MouseoSans_500;
+    font-weight: normal;
+    padding: 20px 0px;
 }
