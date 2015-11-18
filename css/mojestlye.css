@@ -3775,3 +3775,35 @@ ul[data-type="match"] > li span.away-name {
     white-space: nowrap;
     overflow: hidden;
 }
+
+.tableposition1 {
+	position: relative;
+	float: left;
+}
+.tableIleague1 {
+	width: 360px;
+	font-family: MouseoSans_500;
+	color: #000;
+	border:none;
+}
+.tableIleague1 > thead > tr > th {
+	color: #A41C15	;
+	font-weight: 600;
+	font-size: 12px;
+	text-transform: uppercase;
+	min-width: 40px;
+	text-align: left;
+	border: none;
+}
+
+.tableIleague1 > thead > tr > th.tablecenter {
+	text-align: center;
+}
+.tableIleague1 > thead > tr > th.tablecenter.promotion {
+	border-left: 5px solid green;
+}
+.tableIleague1 > tbody > tr > td {
+	vertical-align: middle;
+	border-right: none;
+	border-left: none;
+}
