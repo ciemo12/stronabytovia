@@ -3225,6 +3225,11 @@ ul li:hover .image1 img{
     margin-bottom: 40px;
     width: 100%;
 }
+.btd-module1 {
+    padding: 0px 1.5625%;
+    position: relative;
+    width: 100%;
+}
 .wrapper-inner {
     color: #000;
 }
