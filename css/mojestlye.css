@@ -3779,12 +3779,15 @@ ul[data-type="match"] > li span.away-name {
 .tableposition1 {
 	position: relative;
 	float: left;
+	margin-left: 51px;
 }
 .tableIleague1 {
-	width: 360px;
+	width: 417px;
 	font-family: MouseoSans_500;
 	color: #000;
 	border:none;
+	margin-top: 15px;
+
 }
 .tableIleague1 > thead > tr > th {
 	color: #A41C15	;
@@ -3806,4 +3809,40 @@ ul[data-type="match"] > li span.away-name {
 	vertical-align: middle;
 	border-right: none;
 	border-left: none;
+}
+.tableIleaguebig {
+	width: 900px;
+	font-family: MouseoSans_500;
+	color: #000;
+	border:none;
+	margin-left: 57px;
+}
+.tableIleaguebig > thead > tr > th {
+	color: #A41C15	;
+	font-weight: 600;
+	font-size: 12px;
+	text-transform: uppercase;
+	min-width: 40px;
+	text-align: center;
+	border: none;
+}
+
+.tableIleaguebig > thead > tr > th.tablecenter {
+	text-align: center;
+}
+.tableIleaguegib > thead > tr > th.tablecenter.promotion {
+	border-left: 5px solid green;
+}
+.tableIleaguebig > tbody > tr > td {
+	height: 35px;
+	vertical-align: middle;
+	border-right: none;
+	border-left: none;
+	font-size: 18px;
+}
+.tableIleaguebig > tbody > tr > td.promotion {
+	border-left: 5px solid #008000;
+}
+.tableIleaguebig > tbody > tr > td.fall {
+	border-left: 5px solid #F00;
 }
