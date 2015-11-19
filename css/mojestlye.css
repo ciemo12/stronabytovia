@@ -3849,7 +3849,7 @@ ul[data-type="match"] > li span.away-name {
 .panel-title > a {
 	display: inline-block;
 	font-size: 2.5em;
-	line-height: 2em;
+	line-height: 1.7;
 	vertical-align: bottom;
 	font-family: MouseoSans_500;
 	margin-top: 10px;
@@ -3859,6 +3859,11 @@ ul[data-type="match"] > li span.away-name {
 .panel-collapse > .panel-body {
     margin-top: -10px;
     padding-top: 45px;
+}
+.panel-default > .panel-heading {
+	height: 100px;
+	background-color: #fff;
+	margin-top: 10px;
 }
 .tableIleaguebig1 {
     width: 880px;
