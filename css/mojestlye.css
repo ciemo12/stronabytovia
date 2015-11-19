@@ -2611,6 +2611,7 @@ form.filter input[type="submit"] {
 .backgroundWrapper {
 	background-color: #212121;
 	height: 100%;
+	padding-top: 20px;
 }
 .matchWrapper {
     text-align: center;
@@ -3077,6 +3078,7 @@ ul li:hover .image1 img{
 	margin-left: -495px;
 	position: relative;
 	width: 990px;
+	bottom: 20px;
 }
 #pagename121 .wrapper h1 {
     font-size: 60px;
