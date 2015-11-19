@@ -3690,3 +3690,62 @@ a {
 .tableIleaguebig1 > tbody > tr > td.fall {
 	border-left: 5px solid #F00;
 }
+.subpage-article {
+    padding-right: 15px;
+}
+.heading {
+    width: 100%;
+    min-height: 60px;
+    line-height: 60px;
+    margin-bottom: 10px;
+    clear: both;
+}
+.pad-0 {
+    padding: 0px;
+}
+.col-xs-12 {
+    width: 100%;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.table > thead > tr > th {
+	text-align: left;
+	border: 0px none;
+	color: #008045;
+	font-weight: 600;
+	font-size: 12px;
+	text-transform: uppercase;
+	min-width: 40px;
+	height: 30px;
+	vertical-align: middle;
+}
+.schedule table tbody td.team {
+    width: 25%;
+}
+.table > tbody > tr:first-child > td {
+    border-top: 1px solid #181818;
+}
+.table > tbody > tr > td {
+    border-bottom: 1px solid #181818;
+}
+.table > tbody > tr > td {
+	height: 30px;
+	vertical-align: middle;
+}
+.schedule table tbody td.team {
+    width: 25%;
+}
+.schedule table tbody td.date-short {
+    width: 17.5%;
+}
+.schedule table tbody td.score {
+    width: 15%;
+}
+.table > tbody > tr.active {
+    background: #E5E5E5 none repeat scroll 0% 0%;
+}
