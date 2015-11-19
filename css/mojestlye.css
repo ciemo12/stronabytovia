@@ -3846,3 +3846,53 @@ ul[data-type="match"] > li span.away-name {
 .tableIleaguebig > tbody > tr > td.fall {
 	border-left: 5px solid #F00;
 }
+.panel-title > a {
+	display: inline-block;
+	font-size: 2.5em;
+	line-height: 2em;
+	vertical-align: bottom;
+	font-family: MouseoSans_500;
+	margin-top: 10px;
+	border-bottom: 2px solid #B51D16;
+	text-decoration: none;
+}
+.panel-collapse > .panel-body {
+    margin-top: -10px;
+    padding-top: 45px;
+}
+.tableIleaguebig1 {
+    width: 880px;
+    font-family: MouseoSans_500;
+    color: #000;
+    border: medium none;
+    margin-left: 57px;
+}
+.tableIleaguebig1 > thead > tr > th {
+	color: #A41C15	;
+	font-weight: 600;
+	font-size: 12px;
+	text-transform: uppercase;
+	min-width: 40px;
+	text-align: center;
+	border: none;
+}
+
+.tableIleaguebig1 > thead > tr > th.tablecenter {
+	text-align: center;
+}
+.tableIleaguegib1 > thead > tr > th.tablecenter.promotion {
+	border-left: 5px solid green;
+}
+.tableIleaguebig1 > tbody > tr > td {
+	height: 35px;
+	vertical-align: middle;
+	border-right: none;
+	border-left: none;
+	font-size: 18px;
+}
+.tableIleaguebig1 > tbody > tr > td.promotion {
+	border-left: 5px solid #008000;
+}
+.tableIleaguebig1 > tbody > tr > td.fall {
+	border-left: 5px solid #F00;
+}
