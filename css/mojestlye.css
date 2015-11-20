@@ -1,4 +1,4 @@
- body {
+ca body {
 	font-family: Verdana ;
 	margin:0;
 }
@@ -1500,6 +1500,7 @@ tbody tr td.fall {
 	width: 44px;
 	height: 5px;
 	border:none;
+	z-index: 99999;
 }
 .obramowanie {
 	position: relative;
