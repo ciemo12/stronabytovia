@@ -1,4 +1,4 @@
-ca body {
+body {
 	font-family: Verdana ;
 	margin:0;
 }
@@ -3766,4 +3766,130 @@ a {
 	color: #000;
 	text-decoration: none;
 	font-family: MouseoSans_500;
+}
+.gallery1211 {
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: transparent url("../photos/bg-black-pattern.jpg") repeat scroll 0% 0%;
+}
+.gallery1211 .header {
+    width: 100%;
+    height: 80px;
+}
+.gallery1211 .big-image {
+    color: #FFF;
+    position: absolute;
+    top: 60px;
+    bottom: 210px;
+    left: 41px;
+    right: 41px;
+}
+.gallery1211 .big-image .image {
+    height: 90%;
+    text-align: center;
+}
+.gallery1211 .big-image .arrow.left {
+    left: -40px;
+    background-image: url("../photos/arrow-left-big.png");
+}
+.gallery1211 .big-image .arrow {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+}
+.gallery1211 .big-image .image .photo {
+    height: 100%;
+    display: inline-block;
+    position: relative;
+}
+.gallery .big-image .image .photo .play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 64px;
+    height: 64px;
+    margin-left: -32px;
+    margin-top: -32px;
+    background: transparent url("../photos/play.png") no-repeat scroll center top;
+    z-index: 20;
+    opacity: 0;
+    cursor: pointer;
+}
+.gallery1211 .big-image .image .photo img {
+    max-width: 100%;
+    max-height: 100%;
+    z-index: 10;
+    position: relative;
+}
+.gallery1211 .big-image .arrow.right {
+    right: -40px;
+    background-image: url("../photos/arrow-right-big.png");
+}
+.gallery1211 .big-image .arrow.right {
+    right: -40px;
+    background-image: url("../photos/arrow-right-big.png");
+}
+.gallery1211 .big-image #description {
+    text-align: center;
+    margin: 20px;
+    color: #FFF;
+}
+.gallery1211 .big-image .show-all {
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 45px;
+}
+.gallery1211 .big-image .show-all a {
+    color: #008045;
+    font-weight: 600;
+}
+.gallery1211 .small-images {
+    border-top: 1px solid #DDD;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 150px;
+    background: #FFF none repeat scroll 0% 0%;
+}
+.gallery1211 .small-images .arrow.left {
+    left: 0px;
+    background-image: url("../photos/arrow_left.png");
+}
+.gallery1211 .small-images .thumbnails-outer {
+    position: absolute;
+    left: 40px;
+    right: 40px;
+    top: 0px;
+    bottom: 0px;
+    overflow: hidden;
+}
+.gallery1211 .small-images .thumbnails-outer .thumbnails-inner {
+    padding: 10px 0px;
+    height: 100%;
+    position: absolute;
+}
+.gallery1211 .small-images .thumbnails-outer .thumbnails-inner .thumbnail {
+    transition: all 0.25s linear 0s;
+    display: block;
+    float: left;
+    padding: 5px;
+    opacity: 0.5;
+    border: 2px solid transparent;
+    cursor: pointer;
+    width: 187px;
+    height: 129px;
+    text-align: center;
+}
+.gallery1211 .small-images .thumbnails-outer .thumbnails-inner .thumbnail img {
+    height: 100%;
+    max-height: 100%;
+    max-width: 100%;
 }
