@@ -3958,6 +3958,27 @@ a {
 .wrappernextmatchcenter {
 	display: none;
 }
+.partners div a.polsatsport {
+    width: 275px;
+    height: 80px;
+    background: transparent url("../photos/polsatfooter1.png") repeat scroll 0% 0%;
+    display: inline-block;
+    position: absolute;
+    float: left;
+left: 0px;
+    top: 97px;
+}
+    .partners div a.urzadbyt {
+    width: 161px;
+    background: transparent url("../photos/urzadfooter1.png") repeat scroll 0% 0%;
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    float: left;
+    top: 254px;
+    height: 176px;
+    left: -94px;
+}
 .gallery2{
 	display: none;
 }
