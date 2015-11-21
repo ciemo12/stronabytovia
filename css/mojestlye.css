@@ -3927,3 +3927,36 @@ a {
     opacity: 1;
     border: 2px solid #181818;
 }
+/*RWD*/
+@media only screen and (min-width: 992px) {
+	#headerNavs1 {
+		display: none;
+	}
+
+	}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+#headerTop {
+        font-size: 12px;
+            }
+.well-sm {
+    	display: none;
+    }
+#headerNavs {
+	display: none;
+}
+#headerNavs1 {
+    height: 60px;
+    background-color: #000;
+    color: #FFF;
+    clear: both;
+    font-size: 22px;
+    width: 100%;
+}
+#headerLogo {
+	display: none;
+    }
+.wrapper {
+	width: 780px;
+}
+
+}	
