@@ -341,10 +341,6 @@ $(function() {
   });
 
 
-
-$(document).ready(function() {
-
-
     $('.play').click(function() {
       var i = $(this).data('i');
       if (i) {
@@ -477,4 +473,4 @@ $('#small-images .arrow').click(function() {
 
 }
 });
-});
+
