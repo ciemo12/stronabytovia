@@ -3769,15 +3769,24 @@ a {
 }
 .gallery1211 {
     position: absolute;
-    top: 40px;
+    top: 179px;
     left: 0px;
     right: 0px;
     bottom: 0px;
-    background: transparent url("../photos/bg-black-pattern.jpg") repeat scroll 0% 0%;
+    background: url('../photos/bg-black-pattern.jpg') repeat scroll 0% 0%;
 }
 .gallery1211 .header {
     width: 100%;
     height: 80px;
+}
+.gallery1211 .header .title {
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+    padding-top: 15px;
+}
+.gallery1211 .header .title span {
+    font-size: 12px;
 }
 .gallery1211 .big-image {
     color: #FFF;
@@ -3787,13 +3796,13 @@ a {
     left: 41px;
     right: 41px;
 }
-.gallery1211 .big-image .image {
+.gallery1211 .big-image .image1 {
     height: 90%;
     text-align: center;
 }
 .gallery1211 .big-image .arrow.left {
     left: -40px;
-    background-image: url("../photos/arrow-left-big.png");
+    background-image: url('../photos/arrow-left-big.png');
 }
 .gallery1211 .big-image .arrow {
     position: absolute;
@@ -3804,12 +3813,12 @@ a {
     background-position: center center;
     cursor: pointer;
 }
-.gallery1211 .big-image .image .photo {
+.gallery1211 .big-image .image1 .photo {
     height: 100%;
     display: inline-block;
     position: relative;
 }
-.gallery1211 .big-image .image .photo .play {
+.gallery1211 .big-image .image1 .photo .play {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -3817,12 +3826,12 @@ a {
     height: 64px;
     margin-left: -32px;
     margin-top: -32px;
-    background: transparent url("../photos/play.png") no-repeat scroll center top;
+    background: transparent url('../photos/play.png') no-repeat scroll center top;
     z-index: 20;
     opacity: 0;
     cursor: pointer;
 }
-.gallery1211 .big-image .image .photo img {
+.gallery1211 .big-image .image1 .photo img {
     max-width: 100%;
     max-height: 100%;
     z-index: 10;
@@ -3830,11 +3839,11 @@ a {
 }
 .gallery1211 .big-image .arrow.right {
     right: -40px;
-    background-image: url("../photos/arrow-right-big.png");
+    background-image: url('../photos/arrow-right-big.png');
 }
 .gallery1211 .big-image .arrow.right {
     right: -40px;
-    background-image: url("../photos/arrow-right-big.png");
+    background-image: url('../photos/arrow-right-big.png');
 }
 .gallery1211 .big-image #description {
     text-align: center;
@@ -3861,7 +3870,10 @@ a {
 }
 .gallery1211 .small-images .arrow.left {
     left: 0px;
-    background-image: url("../photos/arrow_left.png");
+    background-image: url('../photos/arrow_left.png');
+}
+.gallery1211 .small-images .arrow.unactive {
+    opacity: 0;
 }
 .gallery1211 .small-images .thumbnails-outer {
     position: absolute;
