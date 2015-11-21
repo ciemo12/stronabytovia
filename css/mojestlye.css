@@ -3941,8 +3941,11 @@ a {
 .well-sm {
     	display: none;
     }
+#menuafterscroll {
+	display: none!important;;
+}
 #headerNavs {
-	display: none;
+	display: none
 }
 #headerNavs1 {
     height: 60px;
@@ -3952,11 +3955,42 @@ a {
     font-size: 22px;
     width: 100%;
 }
-#headerLogo {
+.wrappernextmatchcenter {
 	display: none;
-    }
-.wrapper {
-	width: 780px;
 }
-
+.gallery2{
+	display: none;
+}
+.gallery3 {
+	display: none;
+}
+.tableposition {
+	display: none;
+}
+.tablepositionIV {
+	display: none;
+}
+.homepagetable  {
+	display: none;
+}
+.backgroundcolorsponsor {
+	display: none;
+}
+.positionbutton a {
+    margin-top: 232px;
+    text-decoration: none;
+    color: #000;
+    margin-left: -92px;
+}
+#social {
+    background: transparent url("../photos/tlo.jpg") repeat scroll 0% 0%;
+    min-height: 899px;
+}
+.fb {
+    height: 100%;
+    float: left;
+    top: 430px;
+    left: -397px;
+    width: 393px;
+}
 }	
