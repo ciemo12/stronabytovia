@@ -3965,19 +3965,11 @@ a {
     display: inline-block;
     position: absolute;
     float: left;
-left: 0px;
-    top: 97px;
+	left: 320px;
+    top: 125px;
 }
     .partners div a.urzadbyt {
-    width: 161px;
-    background: transparent url("../photos/urzadfooter1.png") repeat scroll 0% 0%;
-    text-decoration: none;
-    display: inline-block;
-    position: absolute;
-    float: left;
-    top: 254px;
-    height: 176px;
-    left: -94px;
+    display: none;
 }
 .gallery2{
 	display: none;
@@ -4014,4 +4006,34 @@ left: 0px;
     left: -397px;
     width: 393px;
 }
-}	
+.footerhead {
+    text-transform: uppercase;
+    margin-bottom: 5%;
+}
+.partners div a.drutexfooter {
+    width: 220px;
+    height: 100px;
+    background: url('../photos/drutexfooter1.png');
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    float: left;
+    left: 331px;
+    top: 215px;
+}
+#footersite {
+    width: 100%;
+    background-color: #080808;
+    height: 380px;
+    position: relative;
+}
+.bytoviafooter {
+    position: absolute;
+    left: 50%;
+    margin-left: -42px;
+    margin-bottom: 2px;
+    display: block;
+    z-index: 2;
+    top: 330px;
+}
+}
