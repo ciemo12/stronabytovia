@@ -3949,6 +3949,36 @@ a {
 #headerTop {
         font-size: 12px;
             }
+.carousel-inner {
+    height: 475px;
+}
+.borderbottom1 {
+	display: none!important;
+}
+.borderbottom2 {
+	display: none!important;
+}
+.borderbottom3 {
+	display: none!important;
+}
+.borderbottom4 {
+	display: none!important;
+}
+.borderbottom5 {
+	display: none!important;
+}
+.borderbottom6 {
+	display: none!important;
+}
+.borderbottom7 {
+	display: none!important;
+}
+.menu-advertisement1 {
+	display: none!important;
+}
+.menu-advertisement2 {
+	display: none!important;
+}
 .well-sm {
     	display: none;
     }
@@ -3956,6 +3986,19 @@ a {
 #menuafterscroll {
 	display: none!important;;
 }
+ .subtitcarousel {
+ 	position: relative;
+	float: left;
+	width: 990px;
+	height: 100px;
+	top: -136px;
+	text-align: center;
+	font-family: MouseoSans_500;
+	font-weight: normal;
+	font-size: 40px;
+	background-color: rgba(164, 28, 21, 0.6);
+
+ }
 
 .wrappernextmatchcenter {
 	display: none;
@@ -3997,7 +4040,7 @@ a {
     position: relative;
     display: block;
     height: 250px;
-    margin-left: 92px;
+    margin-left: 9%;
 }
 #social {
     background: transparent url("../photos/tlo.jpg") repeat scroll 0% 0%;
@@ -4007,10 +4050,34 @@ a {
     height: 100%;
     float: left;
 }
+.homepagecenterhead {
+	margin-bottom: 4.0404%;
+}
+.homepagecenterhead > div {
+	border-bottom: 1px solid #CDCDCD;
+    text-transform: uppercase;
+    height: 117px;
+}
+.homepagecenterhead > div > span {
+    display: inline-block;
+    font-size: 2.5em;
+    line-height: 2em;
+    vertical-align: bottom;
+    font-family: MouseoSans_500;
+    border-bottom: 2px solid #B51D16;
+    margin-top: 45px;
+    margin-bottom: 4.0404%;
+}
 .footerhead {
     text-transform: uppercase;
     margin-bottom: 5%;
-    width: 840px;
+    width: 100%;
+}
+.footerhead > div {
+	border-bottom: 1px solid #FFF;
+    text-transform: uppercase;
+    height: 85px;
+    width: 98%;
 }
 .partners div a.drutexfooter {
     background: url('../photos/drutexfooter1.png');
@@ -4018,7 +4085,7 @@ a {
     display: inline-block;
     position: absolute;
     float: left;
-    margin-left: 175px;
+    margin-left: 140px;
 }
 .partners div a.polsatsport {
     background: transparent url("../photos/polsatfooter1.png") repeat scroll 0% 0%;
@@ -4026,7 +4093,7 @@ a {
     position: absolute;
     float: left;
     left: 430px;
-    top: 175px;
+    top: 167px;
 }
 #footersite {
     width: 100%;
@@ -4056,19 +4123,6 @@ a {
 .navbar {
 	display: none;
 }
-#headerNavs nav > ul > li > h2 > a > span {
-    border-bottom: 2px solid black;
-}
-#headerNavs nav > ul > li > h2 > a > span:hover {
-	border-bottom: 5px solid white;
-}
-.dropdown-menu1:hover  ul li h2 a span {
-    border-bottom: 5px solid white;
-}
-.borderbottom1 {
-	display: none!important;
-}
-
 .subtitcarousel {
     position: relative;
     float: left;
@@ -4099,7 +4153,7 @@ a {
     margin-left: -30%;
     text-align: center;
     list-style: outside none none;
-    top: 385px;
+    top: 450px;
 }
 .carousel-control {
     position: absolute;
@@ -4112,7 +4166,7 @@ a {
     text-align: center;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
     opacity: 0.5;
-    height: 423px;
+    height: 475px;
 }
 #social {
 	display: none;
