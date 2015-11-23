@@ -4259,6 +4259,23 @@ a {
 #gototop {
 	display: none;
 }
+#social {
+	display: none;
+}
+.gallery {
+    height: 230px;
+}
+.table779-768 {
+	width: 100%;
+	height:50px;
+	background-color: red;
+	margin-top: 20px;
+	padding: 15px;
+	font-family: MouseoSans_500;
+}
+.table779-768 {
+
+}
 
 	}
 @media only screen and (max-width: 767px) {
