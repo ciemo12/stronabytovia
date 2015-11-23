@@ -3956,7 +3956,7 @@ a {
 	}
 
 	}
-@media only screen and (min-width: 768px) and (max-width: 1009px) {
+@media only screen and (min-width: 780px) and (max-width: 1009px) {
 #gototop {
 	display: none!important;
 }
@@ -4149,7 +4149,7 @@ a {
     margin-left: -30%;
     text-align: center;
     list-style: outside none none;
-    top: 450px;
+    top: 444px;
 }
 .carousel-control {
     position: absolute;
@@ -4172,7 +4172,18 @@ a {
     background: transparent url("../photos/tlo.jpg") repeat scroll 0% 0%;
 }
 }
-@media only screen and (min-width: 768px) and (max-width: 860px) {
+@media only screen and (min-width: 780px) and (max-width: 860px) {
+	.homepagecenterhead > div {
+    border-bottom: 1px solid #CDCDCD;
+    text-transform: uppercase;
+    height: 84px;
+}
+.homepagecenterhead {
+    margin-bottom: 1.04%;
+}
+	#carouselcolorbackground {
+		height: 430px;
+	}
 	.carouselcolorbackground {
 		height: 426px;
 	}
@@ -4189,10 +4200,10 @@ a {
 		top: 320px;
 	}
 	.homepagecenterhead > div > span {
-		margin-top: 37px;
+		margin-top: 11px;
 	}
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 779px) {
 .container-fluid {
 		background-color: #000;
 	}
