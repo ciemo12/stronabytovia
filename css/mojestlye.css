@@ -4203,7 +4203,65 @@ a {
 		margin-top: 11px;
 	}
 }
-@media only screen and (max-width: 779px) {
+@media only screen and (min-width: 768px) and (max-width: 779px) {
+	.navbar {
+		display: none;
+	}
+	.well {
+		display: none;
+	}
+	.borderbottom1 {
+	display: none!important;
+}
+	.borderbottom2 {
+	display: none!important;
+}
+	.borderbottom3 {
+	display: none!important;
+}
+	.borderbottom4 {
+	display: none!important;
+}
+	.borderbottom5 {
+	display: none!important;
+}
+	.borderbottom6 {
+	display: none!important;
+}
+	.borderbottom7 {
+	display: none!important;
+}
+	.menu-advertisement1 {
+	display: none!important;
+}
+	.menu-advertisement2 {
+	display: none!important;
+}
+	.well-sm {
+    	display: none;
+    }
+
+	#menuafterscroll {
+	display: none!important;;
+}
+	.wrappernewsnextmatch {
+	display: none;
+}
+#footersite {
+	display: none!important;
+}
+.backgroundcolorsponsor {
+	display: none;
+}
+.gallery3 {
+	display: none;
+}
+#gototop {
+	display: none;
+}
+
+	}
+@media only screen and (max-width: 767px) {
 .container-fluid {
 		background-color: #000;
 	}
