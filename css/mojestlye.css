@@ -3940,17 +3940,23 @@ a {
 	.homepagetable {
 		display: none;
 	}
+	#tablet {
+		display: none!important;
+	}
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1010px) {
 	.navbar {
 		display: none;
 	}
 	#social1 {
 		display: none;
 	}
+	#tablet {
+		display: none!important;
+	}
 
 	}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 1009px) {
 #gototop {
 	display: none!important;
 }
@@ -3959,6 +3965,9 @@ a {
 }
 #headerTop {
         font-size: 12px;
+            }
+            .wrappercenter {
+            	display: none;
             }
 .carousel-inner {
     height: 475px;
@@ -4111,7 +4120,6 @@ a {
 	display: none;
 }
 .subtitcarousel {
-    position: relative;
     float: left;
     height: 80px;
     text-align: center;
@@ -4120,7 +4128,8 @@ a {
     font-size: 30px;
     background-color: rgba(164, 28, 21, 0.6);
     width: 100%;
-    top: -170px;
+    position: absolute;
+    top: 360px;
 }
 .wrappernewscenter { 
 	display: none;
@@ -4162,6 +4171,26 @@ a {
     min-height: 444px;
     background: transparent url("../photos/tlo.jpg") repeat scroll 0% 0%;
 }
+}
+@media only screen and (min-width: 768px) and (max-width: 860px) {
+	.carouselcolorbackground {
+		height: 426px;
+	}
+	.carousel-indicators {
+		top: 400px;
+	}
+	.carousel-control {
+		height: 426px;
+	}
+	.carousel-inner {
+    	height: 430px;
+}
+	.subtitcarousel {
+		top: 320px;
+	}
+	.homepagecenterhead > div > span {
+		margin-top: 37px;
+	}
 }
 @media only screen and (max-width: 767px) {
 .container-fluid {
