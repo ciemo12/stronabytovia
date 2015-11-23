@@ -3929,7 +3929,7 @@ a {
 }
 /*RWD*/
 @media only screen and (min-width: 992px) {
-	#headerNavs1 {
+	.navbar {
 		display: none;
 	}
 
@@ -3945,7 +3945,7 @@ a {
 	display: none!important;;
 }
 #headerNavs {
-	display: none
+	display: none;
 }
 #headerNavs1 {
     height: 60px;
@@ -4035,5 +4035,35 @@ a {
     display: block;
     z-index: 2;
     top: 330px;
+}
+.navbar {
+		display:inline;
+	}
+.container-fluid {
+		background-color: #000;
+	}
+.navbar-toggle1  {
+	background-color: #000;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-image: none;
+    border: 1px solid #DDD;;
+    border-radius: 4px;
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+}
+.navbar-toggle1 .icon-bar {
+    background-color: #888;
+}
+.navbar-toggle1 .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
+.navbar-toggle1 .icon-bar + .icon-bar {
+    margin-top: 4px;
 }
 }
