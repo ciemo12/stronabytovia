@@ -1188,7 +1188,7 @@ ol {
 	float: left;
 	cursor: pointer;
 	overflow: hidden;
-	height: 224px;
+	height: 217px;
 }
 #d1 {
 	margin:0 auto;
@@ -1255,7 +1255,7 @@ ol {
 	float: left;
 	cursor: pointer;
 	overflow: hidden;
-	height: 224px;
+	height: 217px;
 
 }
 .gallery2img img {
@@ -1275,7 +1275,7 @@ ol {
 	float: left;
 	cursor: pointer;
 	overflow: hidden;
-	height: 224px;
+	height: 217px;
 
 }
 .gallery3img img {
@@ -3930,6 +3930,17 @@ a {
     border: 2px solid #181818;
 }
 /*RWD*/
+@media only screen and (max-width: 1038px) {
+	.tableposition {
+		display: none;
+	}
+	.tablepositionIV {
+		display: none;
+	}
+	.homepagetable {
+		display: none;
+	}
+}
 @media only screen and (min-width: 992px) {
 	.navbar {
 		display: none;
@@ -3986,32 +3997,8 @@ a {
 #menuafterscroll {
 	display: none!important;;
 }
- .subtitcarousel {
- 	position: relative;
-	float: left;
-	width: 990px;
-	height: 100px;
-	top: -136px;
-	text-align: center;
-	font-family: MouseoSans_500;
-	font-weight: normal;
-	font-size: 40px;
-	background-color: rgba(164, 28, 21, 0.6);
-
- }
-
 .wrappernextmatchcenter {
 	display: none;
-}
-.partners div a.polsatsport {
-    width: 275px;
-    height: 80px;
-    background: transparent url("../photos/polsatfooter1.png") repeat scroll 0% 0%;
-    display: inline-block;
-    position: absolute;
-    float: left;
-	left: 320px;
-    top: 125px;
 }
     .partners div a.urzadbyt {
     display: none;
@@ -4092,7 +4079,7 @@ a {
     display: inline-block;
     position: absolute;
     float: left;
-    left: 430px;
+    left: 400px;
     top: 167px;
 }
 #footersite {
@@ -4133,7 +4120,7 @@ a {
     font-size: 30px;
     background-color: rgba(164, 28, 21, 0.6);
     width: 100%;
-    top: -130px;
+    top: -170px;
 }
 .wrappernewscenter { 
 	display: none;
@@ -4141,7 +4128,7 @@ a {
 #carouselcolorbackground {
     width: 100%;
     background-color: #080808;
-    height: 423px;
+    height: 440px;
 }
 .carousel-indicators {
     position: absolute;
@@ -4166,7 +4153,7 @@ a {
     text-align: center;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
     opacity: 0.5;
-    height: 475px;
+    height: 469px;
 }
 #social {
 	display: none;
