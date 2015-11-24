@@ -3954,6 +3954,10 @@ a {
 	#tablet {
 		display: none!important;
 	}
+	.div-779 {
+	display: none!important;
+
+}
 
 	}
 @media only screen and (min-width: 780px) and (max-width: 1009px) {
@@ -4171,6 +4175,10 @@ a {
     min-height: 444px;
     background: transparent url("../photos/tlo.jpg") repeat scroll 0% 0%;
 }
+.div-779 {
+	display: none!important;
+
+}
 }
 @media only screen and (min-width: 780px) and (max-width: 860px) {
 	.homepagecenterhead > div {
@@ -4202,6 +4210,7 @@ a {
 	.homepagecenterhead > div > span {
 		margin-top: 11px;
 	}
+	
 }
 @media only screen and (min-width: 768px) and (max-width: 779px) {
 	.navbar {
@@ -4265,18 +4274,6 @@ a {
 .gallery {
     height: 230px;
 }
-.table779-768 {
-	width: 100%;
-	height:50px;
-	background-color: red;
-	margin-top: 20px;
-	padding: 15px;
-	font-family: MouseoSans_500;
-}
-.table779-768 {
-
-}
-
 	}
 @media only screen and (max-width: 767px) {
 .container-fluid {
