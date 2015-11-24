@@ -4175,20 +4175,16 @@ a {
     min-height: 444px;
     background: transparent url("../photos/tlo.jpg") repeat scroll 0% 0%;
 }
-.div-779 {
-	display: none!important;
-
-}
 }
 @media only screen and (min-width: 780px) and (max-width: 860px) {
 	.homepagecenterhead > div {
     border-bottom: 1px solid #CDCDCD;
     text-transform: uppercase;
     height: 84px;
-}
-.homepagecenterhead {
+	}
+	.homepagecenterhead {
     margin-bottom: 1.04%;
-}
+	}
 	#carouselcolorbackground {
 		height: 430px;
 	}
@@ -4203,7 +4199,7 @@ a {
 	}
 	.carousel-inner {
     	height: 430px;
-}
+	}
 	.subtitcarousel {
 		top: 320px;
 	}
@@ -4275,10 +4271,26 @@ a {
     height: 230px;
 }
 	}
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.well-sm {
+    	display: none;
+    }
 .container-fluid {
 		background-color: #000;
 	}
+	#headerTitle strong {
+	font-size: 23px;
+	margin-left: -8px;
+}
+#headerNavs {
+	display: none;
+}
+#headerLogo {
+	z-index: 1;
+}
+#menuafterscroll {
+	display: none!important;
+}
 .navbar-toggle  {
 	background-color: #000;
     float: right;
@@ -4294,6 +4306,9 @@ a {
 }
 .navbar-toggle .icon-bar + .icon-bar {
     margin-top: 4px;
+}
+.collapse {
+	display: inline;
 }
 
 }
