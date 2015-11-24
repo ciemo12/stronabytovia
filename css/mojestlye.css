@@ -4317,6 +4317,10 @@ a {
 	.navbar-default .navbar-collapse {
 		border-color: #000;
 	}
+	#carouselcolorbackground {
+    background-color: #000;
+    width: 100%;
+}
 	.width100 {
 		width: 100%;
 		height: 100%;
@@ -4335,9 +4339,36 @@ ol {
 }
 .carousel-control.left {
 	background-image: none;
-	
+	height: 78%;
+}
+.carousel-control.right {
+	background-image: none;
+	height: 78%;
 }
 .carousel-inner {
 	height: 100%;
 }
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0px;
+    margin-left: -30%;
+    text-align: center;
+    list-style: outside none none;
+    top: 70%;
+}
+.subtitcarousel {
+	font-size: 30px;
+    position: relative;
+    float: left;
+    width: 100%;
+    top: 0px;
+    font-family: MouseoSans_500;
+    height: 80px;
+    background-color: #A82019;
+}
+
 }
