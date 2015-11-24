@@ -4310,5 +4310,34 @@ a {
 .collapse {
 	display: inline;
 }
-
+.navbar-default .navbar-nav > .active > a {
+	color: #555;
+	background-color: #000!important;
+	}
+	.navbar-default .navbar-collapse {
+		border-color: #000;
+	}
+	.width100 {
+		width: 100%;
+		height: 100%;
+		margin-left: 35px;
+	}
+	.width90 {
+		width: 90%;
+		height: 90%;
+	}
+.wrappernewsnextmatch {
+	display: none;
+}
+ol { 
+	height: 4em;
+	line-height: 2em;
+}
+.carousel-control.left {
+	background-image: none;
+	
+}
+.carousel-inner {
+	height: 100%;
+}
 }
