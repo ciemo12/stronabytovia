@@ -4206,6 +4206,9 @@ a {
 	.homepagecenterhead > div > span {
 		margin-top: 11px;
 	}
+	.social767 {
+		display: none;
+	}
 	
 }
 @media only screen and (min-width: 768px) and (max-width: 779px) {
@@ -4270,6 +4273,9 @@ a {
 .gallery {
     height: 230px;
 }
+	}
+	.social767 {
+		display: none;
 	}
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	.well-sm {
@@ -4369,6 +4375,15 @@ ol {
     font-family: MouseoSans_500;
     height: 80px;
     background-color: #A82019;
+}
+.gallery3 {
+	display: none;
+}
+.backgroundcolorsponsor {
+	display: none;
+}
+.social {
+	display: none;
 }
 
 }
