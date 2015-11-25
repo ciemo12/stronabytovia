@@ -4420,5 +4420,47 @@ ol {
 }
 }
 @media only screen and (min-width: 320px) and (max-width: 480px) {
-
+	#menuafterscroll {
+		display: none!important;
+	}
+	#headerTop {
+    color: #FFF;
+    font-size: 8px;
+}
+#headerTitle strong {
+	font-size: 15px;
+}
+#headerLogo {
+	display: none;
+}
+.sponsorList {
+	float: left;
+}
+#headerNavs {
+	display: none;
+}
+.wrappernewsnextmatch {
+	display: none;
+}
+.homepagecenterhead > div > span {
+	font-size: 1.5em;
+}
+.hpnewstitle .title {
+	font-size: 12px;
+}
+.gallery1 {
+	display: none;
+}
+.gallery2 {
+	display: none;
+}
+.homepagegallery > div > span {
+	font-size: 1.5em;
+}
+#social .yt h3 {
+	font-size: 20px;
+}
+.backgroundcolorsponsor {
+	display: none;
+}
 }
