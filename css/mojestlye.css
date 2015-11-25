@@ -4328,9 +4328,9 @@ a {
     width: 100%;
 }
 	.width100 {
-		width: 100%;
+		width: 95%;
 		height: 100%;
-		margin-left: 35px;
+		padding-left: 90px;
 	}
 	.width90 {
 		width: 90%;
@@ -4367,7 +4367,7 @@ ol {
     top: 70%;
 }
 .subtitcarousel {
-	font-size: 30px;
+	font-size: 25px;
     position: relative;
     float: left;
     width: 100%;
@@ -4382,8 +4382,26 @@ ol {
 .backgroundcolorsponsor {
 	display: none;
 }
-.social {
+#social {
 	display: none;
 }
-
+.social767 {
+	background: transparent url("../photos/tlo.jpg") repeat scroll 0% 0%;
+	height: 785px;
+	width: 100%;
+	display: inline;
+	visibility: visible;
+}
+.polsatsport {
+	display: none!important;
+}
+.footerhead {
+    width: 97%;
+}
+.fb {
+	background-color: #000;
+}
+.yt {
+	background-color: #000;
+}
 }
