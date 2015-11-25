@@ -3929,6 +3929,9 @@ a {
     opacity: 1;
     border: 2px solid #181818;
 }
+.social767 {
+	display: none!important;
+	}
 /*RWD*/
 @media only screen and (max-width: 1038px) {
 	.tableposition {
@@ -3943,6 +3946,9 @@ a {
 	#tablet {
 		display: none!important;
 	}
+	.social767 {
+	display: none!important;
+}
 }
 @media only screen and (min-width: 1010px) {
 	.navbar {
