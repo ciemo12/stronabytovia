@@ -4207,9 +4207,16 @@ a {
 		margin-top: 11px;
 	}
 	.social767 {
-		display: none;
+		display: inline;
+		height: 785px;
+		width: 100%;
 	}
-	
+	.fb {
+	background-color: #000;
+}
+	.yt {
+	background-color: #000;
+}
 }
 @media only screen and (min-width: 768px) and (max-width: 779px) {
 	.navbar {
@@ -4273,9 +4280,17 @@ a {
 .gallery {
     height: 230px;
 }
-	}
-	.social767 {
-		display: none;
+.social767 {
+	height: 785px;
+	width: 100%;
+	display: inline;
+}
+.fb {
+	background-color: #000;
+}
+.yt {
+	background-color: #000;
+}
 	}
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	.well-sm {
@@ -4386,7 +4401,6 @@ ol {
 	display: none;
 }
 .social767 {
-	background: transparent url("../photos/tlo.jpg") repeat scroll 0% 0%;
 	height: 785px;
 	width: 100%;
 	display: inline;
@@ -4404,4 +4418,7 @@ ol {
 .yt {
 	background-color: #000;
 }
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
 }
