@@ -4457,10 +4457,22 @@ ol {
 .homepagegallery > div > span {
 	font-size: 1.5em;
 }
-#social .yt h3 {
-	font-size: 20px;
+#social {
+	min-height: 890px;
+}
+.social767 {
+	display: none;
+}
+.partners {
+	display: none;
 }
 .backgroundcolorsponsor {
 	display: none;
+}
+.div-779{
+	display: none;
+}
+.gallery {
+	height: 218px;
 }
 }
