@@ -2188,7 +2188,7 @@ ul li:hover .hpnewsimage img{
 }
 .menumini {
 	padding: 0px;
-	width: 3soci50px;
+	width: 350px;
 	position: relative;
 	top: 96px;
 	height: 80px;
@@ -4320,6 +4320,12 @@ a {
 	.well-sm {
     	display: none;
     }
+    .hpnewstitle .title {
+    	font-size: 10px;
+    }
+    .gallery2 {
+    	display: none;
+    }
     .partners {
     	display: none;
     }
@@ -4451,17 +4457,56 @@ ol {
 #social320 {
 	display: none!important;
 }
+.subtitcarousel a strong {
+	font-size: 20px;
+}
 }
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 	#menuafterscroll {
 		display: none!important;
 	}
+	.homepagecenterhead > div > span {
+		font-size: 20px;
+	}
+.homepagecenterhead > div {
+	    height: 59px;
+}
+.homepagegallery > div {
+	height: 58px;
+}
+.carousel-indicators {
+	display: none;
+}
 	.well-sm {
     	display: none;
     }
+    .footerhead > div > span {
+    	font-size: 20px;
+    }
+    .footerhead > div {
+    height: 57px;
+}
 	#headerTop {
     color: #FFF;
     font-size: 8px;
+}
+.carousel-inner {
+	height: 200px;
+}
+.subtitcarousel {
+    position: relative;
+    float: left;
+    top: -110px;
+    font-family: MouseoSans_500;
+    font-weight: normal;
+    font-size: 22px;
+    background-color: rgba(164, 28, 21, 0.6);
+    width: 100%;
+    height: 80px;
+}
+.subtitcarousel a strong {
+	position: relative;
+    top: 10px;
 }
 #headerTitle strong {
 	font-size: 15px;
@@ -4510,5 +4555,11 @@ ol {
 }
 .gallery {
 	height: 218px;
+}
+.daneklubu {
+	left: -55px;
+}
+.menumini {
+left: 50px;
 }
 }
