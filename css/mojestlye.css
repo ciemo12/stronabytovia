@@ -4149,6 +4149,7 @@ a {
 }
 #headerLogo {
 	z-index: 1;
+	display: inline;
 }
 #headerTitle {
 	padding: 0px 0.4%;
