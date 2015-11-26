@@ -4574,6 +4574,14 @@ ol {
 #headerLogo {
 	display: none;
 }
+#headerLogo1{
+	position: absolute;
+	top: 15px;
+	left: 55%;
+	margin-left: -75px;
+	opacity: 1;
+	display: inline;
+}
 .sponsorList {
 	float: left;
 }
