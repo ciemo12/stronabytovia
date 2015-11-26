@@ -3938,6 +3938,9 @@ a {
 .modul-content1 {
 	display: none;
 }
+#headerLogo1 {
+	display: none;
+}
 /*RWD*/
 @media only screen and (max-width: 1038px) {
 	.tableposition {
@@ -3961,6 +3964,9 @@ a {
 .modul-content1 {
 	display: none;
 }
+#headerLogo1 {
+	display: none;
+}
 }
 @media only screen and (min-width: 1010px) {
 	.navbar {
@@ -3980,6 +3986,9 @@ a {
 	display: none!important;
 }
 .modul-content1 {
+	display: none;
+}
+#headerLogo1 {
 	display: none;
 }
 
@@ -4205,6 +4214,9 @@ a {
 .modul-content1 {
 	display: none;
 }
+#headerLogo1 {
+	display: none;
+}
 }
 @media only screen and (min-width: 780px) and (max-width: 860px) {
 	.homepagecenterhead > div {
@@ -4251,6 +4263,9 @@ a {
 	display: none!important;
 }
 .modul-content1 {
+	display: none;
+}
+#headerLogo1 {
 	display: none;
 }
 }
@@ -4333,8 +4348,11 @@ a {
 .modul-content1 {
 	display: none;
 }
+#headerLogo1 {
+	display: none;
+}
 	}
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 481px) and (max-width: 767px) {
 	.well-sm {
     	display: none;
     }
@@ -4361,8 +4379,17 @@ a {
 	display: none;
 }
 #headerLogo {
-	z-index: 1;
+	display: none;
 }
+#headerLogo1 {
+	z-index: 1;
+	position: absolute;
+    top: 17px;
+    left: 60%;
+    margin-left: -75px;
+    opacity: 1;
+}
+
 #menuafterscroll {
 	display: none!important;
 }
@@ -4444,6 +4471,27 @@ ol {
     font-family: MouseoSans_500;
     height: 80px;
     background-color: #A82019;
+}
+.homepagecenterhead > div {
+	height: 58px;
+}
+.homepagecenterhead > div > span {
+	    font-size: 1.5em;
+}
+.homepagegallery > div {
+	height: 58px;
+}
+.homepagegallery > div > span {
+	font-size: 1.5em;
+}
+#headerTop nav > a {
+	font-size: 10px;
+}
+.gallery {
+	height: 230px;
+}
+.gallery1 {
+	height: 217px;
 }
 .gallery3 {
 	display: none;
