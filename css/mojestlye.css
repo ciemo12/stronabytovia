@@ -4266,9 +4266,6 @@ a {
 .modul-content1 {
 	display: none;
 }
-#headerLogo1 {
-	display: none;
-}
 }
 @media only screen and (min-width: 768px) and (max-width: 779px) {
 	.navbar {
@@ -4349,9 +4346,6 @@ a {
 .modul-content1 {
 	display: none;
 }
-#headerLogo1 {
-	display: none;
-}
 	}
 @media only screen and (min-width: 481px) and (max-width: 767px) {
 	.well-sm {
@@ -4373,24 +4367,15 @@ a {
 		background-color: #000;
 	}
 	#headerTitle strong {
-	font-size: 23px;
+	font-size: 20px;
 	margin-left: -8px;
 }
 #headerNavs {
 	display: none;
 }
 #headerLogo {
-	display: none;
-}
-#headerLogo1 {
 	z-index: 1;
-	position: absolute;
-    top: 17px;
-    left: 60%;
-    margin-left: -75px;
-    opacity: 1;
 }
-
 #menuafterscroll {
 	display: none!important;
 }
