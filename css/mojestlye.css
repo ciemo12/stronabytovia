@@ -4647,3 +4647,139 @@ left: 50px;
 	    text-transform: uppercase;
 }
 }
+@media only screen and (max-width: 319px) {
+	#menuafterscroll {
+		display: none!important;
+	}
+	.sponsorList {
+		display: none!important;
+	}
+	.homepagecenterhead > div > span {
+		font-size: 20px;
+	}
+.homepagecenterhead > div {
+	    height: 59px;
+}
+.modul-content1 {
+	height: 100%;
+	display: inline;
+	width: 95%;
+}
+.homepagegallery > div {
+	height: 58px;
+}
+.carousel-indicators {
+	display: none;
+}
+	.well-sm {
+    	display: none;
+    }
+    .footerhead > div > span {
+    	font-size: 20px;
+    }
+    .footerhead > div {
+    height: 57px;
+}
+	#headerTop {
+    color: #FFF;
+    font-size: 8px;
+}
+.carousel-inner {
+	height: 200px;
+}
+.subtitcarousel {
+    position: relative;
+    float: left;
+    top: 0px;
+    font-family: MouseoSans_500;
+    font-weight: normal;
+    font-size: 22px;
+    background-color: rgba(164, 28, 21, 0.6);
+    width: 100%;
+    height: 30px;
+}
+.subtitcarousel a strong {
+	position: relative;
+    top: -27px;
+    font-size: 13px;
+}
+#headerTitle strong {
+	font-size: 15px;
+}
+#headerLogo {
+	display: none;
+}
+#headerLogo1{
+	position: absolute;
+	top: 15px;
+	left: 90%;
+	margin-left: -75px;
+	opacity: 1;
+	display: inline;
+}
+.sponsorList {
+	float: left;
+}
+#headerNavs {
+	display: none;
+}
+.wrappernewsnextmatch {
+	display: none;
+}
+.homepagecenterhead > div > span {
+	font-size: 1.5em;
+}
+.hpnewstitle .title {
+	font-size: 12px;
+}
+.gallery1 {
+	display: none;
+}
+.gallery2 {
+	display: none;
+}
+.homepagegallery > div > span {
+	font-size: 1.5em;
+}
+#social {
+	display: none!important;
+}
+.social767 {
+	display: none!important;
+}
+.partners {
+	display: none;
+}
+.backgroundcolorsponsor {
+	display: none;
+}
+.div-779{
+	display: none;
+}
+.gallery {
+	height: 218px;
+}
+.daneklubu {
+	left: -55px;
+}
+.menumini {
+left: 50px;
+}
+.homepagecenter {
+	display: none;
+}
+.titleline > div > div strong span {
+	font-size: 20px;
+}
+.modul-content1 ul li a .titlenewsstrong1 {
+	font-size: 14px;
+}
+.modul-content1 ul li a .textnews {
+	font-size: 12px;
+}
+.titleline > div > div strong.activn span:first-child {
+	    border-bottom: 2px solid #B51D16;
+	    text-transform: uppercase;
+}
+
+	}
