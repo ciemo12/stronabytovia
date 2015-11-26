@@ -3932,6 +3932,9 @@ a {
 .social767 {
 	display: none!important;
 	}
+	#social320 {
+	display: none!important;
+}
 /*RWD*/
 @media only screen and (max-width: 1038px) {
 	.tableposition {
@@ -3949,6 +3952,9 @@ a {
 	.social767 {
 	display: none!important;
 }
+#social320 {
+	display: none!important;
+}
 }
 @media only screen and (min-width: 1010px) {
 	.navbar {
@@ -3963,6 +3969,9 @@ a {
 	.div-779 {
 	display: none!important;
 
+}
+#social320 {
+	display: none!important;
 }
 
 	}
@@ -4181,6 +4190,9 @@ a {
     min-height: 444px;
     background: transparent url("../photos/tlo.jpg") repeat scroll 0% 0%;
 }
+#social320 {
+	display: none!important;
+}
 }
 @media only screen and (min-width: 780px) and (max-width: 860px) {
 	.homepagecenterhead > div {
@@ -4222,6 +4234,9 @@ a {
 }
 	.yt {
 	background-color: #000;
+}
+#social320 {
+	display: none!important;
 }
 }
 @media only screen and (min-width: 768px) and (max-width: 779px) {
@@ -4297,9 +4312,18 @@ a {
 .yt {
 	background-color: #000;
 }
+#social320 {
+	display: none!important;
+}
 	}
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	.well-sm {
+    	display: none;
+    }
+    .partners {
+    	display: none;
+    }
+    .footerhead {
     	display: none;
     }
 .container-fluid {
@@ -4424,11 +4448,17 @@ ol {
 .yt {
 	background-color: #000;
 }
+#social320 {
+	display: none!important;
+}
 }
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 	#menuafterscroll {
 		display: none!important;
 	}
+	.well-sm {
+    	display: none;
+    }
 	#headerTop {
     color: #FFF;
     font-size: 8px;
@@ -4464,10 +4494,10 @@ ol {
 	font-size: 1.5em;
 }
 #social {
-	min-height: 890px;
+	display: none!important;
 }
 .social767 {
-	display: none;
+	display: none!important;
 }
 .partners {
 	display: none;
