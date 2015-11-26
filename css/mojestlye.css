@@ -4648,6 +4648,22 @@ left: 50px;
 }
 }
 @media only screen and (max-width: 319px) {
+	.modul-content1 ul li a {
+		 min-height: 200px;
+
+	}
+.modul-content1 ul li a .titlenewsstrong1 {
+    position: relative;
+    font-size: 14px;
+    top: 159px;
+    width: 213px;
+    float: left;
+    margin-left: -224px;
+    text-align: center;
+}
+.modul-content1 ul li a .textnews {
+	display: none;
+}
 	#menuafterscroll {
 		display: none!important;
 	}
