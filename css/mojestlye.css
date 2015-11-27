@@ -4351,10 +4351,13 @@ a {
 	.well-sm {
     	display: none;
     }
+    #gototop {
+    	display: none!important;
+    }
     .navbar-default .navbar-toggle:focus {
     background-color: #000;
 }
-.navbar-default .navbar-toggle:focus:hover {
+	.navbar-default .navbar-toggle:focus:hover {
     background-color: #000;
 }
     .hpnewstitle .title {
@@ -4363,18 +4366,22 @@ a {
     .gallery2 {
     	display: none;
     }
-    .partners {
-    	display: none;
-    }
-    .footerhead {
-    	display: none;
-    }
 .container-fluid {
 		background-color: #000;
 	}
 	#headerTitle strong {
 	font-size: 20px;
 	margin-left: -8px;
+}
+.backgroundcolormenumini {
+	height: 100%;
+}
+.menumini {
+	width: 318px;
+}
+.daneklubu {
+	width: 243px;
+	left: -10px;
 }
 #headerNavs {
 	display: none;
