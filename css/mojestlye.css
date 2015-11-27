@@ -4378,10 +4378,12 @@ a {
 }
 .menumini {
 	width: 318px;
+	margin-left: 150px;
 }
 .daneklubu {
 	width: 243px;
-	left: -10px;
+	left: -145px;
+	top: 145px;
 }
 #headerNavs {
 	display: none;
@@ -4504,6 +4506,13 @@ ol {
 	display: inline;
 	visibility: visible;
 }
+.partners div a.drutexfooter {
+	left: 111px;
+}
+.partners div a.urzadbyt {
+	left: 16px;
+    top: 245px;
+}
 .polsatsport {
 	display: none!important;
 }
@@ -4524,6 +4533,15 @@ ol {
 }
 .modul-content1 {
 	display: none;
+}
+.list-follow {
+	margin-left: 183px;
+}
+#footersite {
+	height: 500px;
+}
+.bytoviafooter {
+	top: 450px;
 }
 }
 @media only screen and (min-width: 320px) and (max-width: 480px) {
