@@ -4351,6 +4351,12 @@ a {
 	.well-sm {
     	display: none;
     }
+    .navbar-default .navbar-toggle:focus {
+    background-color: #000;
+}
+.navbar-default .navbar-toggle:focus:hover {
+    background-color: #000;
+}
     .hpnewstitle .title {
     	font-size: 10px;
     }
