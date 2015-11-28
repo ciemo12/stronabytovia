@@ -3967,6 +3967,12 @@ a {
 #headerLogo1 {
 	display: none;
 }
+#pagename {
+	position: relative;
+    width: 100%;
+    top: -20px;
+    background-color: white;
+}
 }
 @media only screen and (min-width: 1010px) {
 	.navbar {
@@ -3991,6 +3997,12 @@ a {
 #headerLogo1 {
 	display: none;
 }
+#pagename {
+	position: relative;
+    width: 100%;
+    top: -20px;
+    background-color: white;
+}
 
 	}
 @media only screen and (min-width: 780px) and (max-width: 1009px) {
@@ -3999,6 +4011,12 @@ a {
 }
 .wrapper-inner {
 	width: 760px;
+}
+#pagename {
+	position: relative;
+    width: 100%;
+    top: -20px;
+    background-color: white;
 }
 #headerTop {
         font-size: 12px;
@@ -4225,6 +4243,12 @@ a {
     text-transform: uppercase;
     height: 84px;
 	}
+	#pagename {
+	position: relative;
+    width: 100%;
+    top: -20px;
+    background-color: white;
+}
 	.homepagecenterhead {
     margin-bottom: 1.04%;
 	}
@@ -4382,7 +4406,7 @@ a {
 }
 .daneklubu {
 	width: 243px;
-	left: -145px;
+	left: -250px;
 	top: 145px;
 }
 #headerNavs {
