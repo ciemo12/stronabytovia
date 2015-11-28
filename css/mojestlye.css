@@ -4640,9 +4640,7 @@ ol {
 .social767 {
 	display: none!important;
 }
-.partners {
-	display: none;
-}
+
 .backgroundcolorsponsor {
 	display: none;
 }
@@ -4674,12 +4672,61 @@ left: 50px;
 	    border-bottom: 2px solid #B51D16;
 	    text-transform: uppercase;
 }
+.container-fluid > .navbar-header {
+	background-color: #000;
+}
+.dropdown-toggle {
+	background-color: #000!important;
+}
+#mynavbar-content ul li{
+	background-color: #000;
+}
+.gallery3 {
+	height: 189px;
+}
+.gallery3 img {
+	width: 279px;
+}
+.backgroundcolormenumini {
+	height: 100%;
+}
+.menumini {
+	left: 0px;
+	font-size: 10px;
+}
+.social {
+	display: none;
+}
+.daneklubu {
+	left: -70px;
+	font-size: 12px;
+	top: 90px;
+}
+.widget-title {
+	font-size: 15px;
+}
+.imgadress {
+	top:15px;
+}
+.partners div a.polsatsport {
+	top: 270px;
+	left: -55px;
+}
+.partners div a.drutexfooter {
+	left: -40px;
+}
+.urzadbyt {
+	display: none!important;
+}
 }
 @media only screen and (min-width:320px) and (max-width: 395px) {
 	.modul-content1 ul li a {
 		 min-height: 200px;
 
 	}
+.partners {
+	display: inline;
+}
 .modul-content1 ul li a .titlenewsstrong1 {
     position: relative;
     font-size: 14px;
@@ -4694,10 +4741,7 @@ left: 50px;
 }
 	#menuafterscroll {
 		display: none!important;
-	}
-	.sponsorList {
-		display: none!important;
-	}
+}
 	.homepagecenterhead > div > span {
 		font-size: 20px;
 	}
@@ -4791,9 +4835,6 @@ left: 50px;
 .social767 {
 	display: none!important;
 }
-.partners {
-	display: none;
-}
 
 .div-779{
 	display: none;
@@ -4826,18 +4867,55 @@ left: 50px;
 #gototop {
 	display: none!important;
 }
+.container-fluid > .navbar-header {
+	background-color: #000;
+}
+.dropdown-toggle {
+	background-color: #000!important;
+}
+#mynavbar-content ul li{
+	background-color: #000;
+}
+.gallery3 {
+	height: 189px;
+}
+.gallery3 img {
+	width: 279px;
+}
 .backgroundcolormenumini {
 	height: 100%;
 }
-
-	}
-
+.menumini {
+	left: 0px;
+	font-size: 10px;
+}
+.social {
+	display: none;
+}
+.daneklubu {
+	left: -70px;
+	font-size: 12px;
+	top: 90px;
+}
+.widget-title {
+	font-size: 15px;
+}
+.imgadress {
+	top:15px;
+}
+.partners div a.polsatsport {
+	top: 270px;
+	left: -55px;
+}
+.partners div a.drutexfooter {
+	left: -40px;
+}
+}
 @media only screen and (max-width: 319px) {
-	.modul-content1 ul li a {
+.modul-content1 ul li a {
 		 min-height: 200px;
-
-	}
-	#gototop {
+}
+#gototop {
 	display: none!important;
 }
 .modul-content1 ul li a .titlenewsstrong1 {
