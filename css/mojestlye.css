@@ -4551,6 +4551,9 @@ ol {
 	.homepagecenterhead > div > span {
 		font-size: 20px;
 	}
+a#gototop {
+	display: none!important;
+}
 .homepagecenterhead > div {
 	    height: 59px;
 }
@@ -4595,6 +4598,7 @@ ol {
 .subtitcarousel a strong {
 	position: relative;
     top: 10px;
+    font-size: 18px;
 }
 #headerTitle strong {
 	font-size: 15px;
@@ -4720,9 +4724,8 @@ left: 50px;
 }
 }
 @media only screen and (min-width:320px) and (max-width: 395px) {
-	.modul-content1 ul li a {
+.modul-content1 ul li a {
 		 min-height: 200px;
-
 	}
 .partners {
 	display: inline;
@@ -4778,7 +4781,7 @@ left: 50px;
 .subtitcarousel {
     position: relative;
     float: left;
-    top: 0px;
+    top: -41px;
     font-family: MouseoSans_500;
     font-weight: normal;
     font-size: 22px;
