@@ -4794,9 +4794,7 @@ left: 50px;
 .partners {
 	display: none;
 }
-.backgroundcolorsponsor {
-	display: none;
-}
+
 .div-779{
 	display: none;
 }
@@ -4827,6 +4825,9 @@ left: 50px;
 }
 #gototop {
 	display: none!important;
+}
+.backgroundcolormenumini {
+	height: 100%;
 }
 
 	}
@@ -4950,8 +4951,15 @@ left: 50px;
 .social767 {
 	display: none!important;
 }
-.partners {
-	display: none;
+.urzadbyt {
+	display: none!important;
+}
+.partners div a.drutexfooter {
+	left: -40px;
+}
+.partners div a.polsatsport {
+	top: 270px;
+	left: -55px;
 }
 .backgroundcolorsponsor {
 	display: none;
@@ -4984,5 +4992,40 @@ left: 50px;
 	    border-bottom: 2px solid #B51D16;
 	    text-transform: uppercase;
 }
-
-	}
+.container-fluid > .navbar-header {
+	background-color: #000;
+}
+.dropdown-toggle {
+	background-color: #000!important;
+}
+#mynavbar-content ul li{
+	background-color: #000;
+}
+.gallery3 {
+	height: 189px;
+}
+.gallery3 img {
+	width: 279px;
+}
+.backgroundcolormenumini {
+	height: 100%;
+}
+.menumini {
+	left: 0px;
+	font-size: 10px;
+}
+.social {
+	display: none;
+}
+.daneklubu {
+	left: -61px;
+	font-size: 12px;
+	top: 90px;
+}
+.widget-title {
+	font-size: 15px;
+}
+.imgadress {
+	top:15px;
+}
+}
