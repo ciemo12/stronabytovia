@@ -3973,6 +3973,10 @@ a {
     top: -20px;
     background-color: white;
 }
+.contentsticket {
+	width: 80%;
+    margin-left: 10%;
+}
 }
 @media only screen and (min-width: 1010px) {
 	.navbar {
@@ -4002,6 +4006,10 @@ a {
     width: 100%;
     top: -20px;
     background-color: white;
+}
+.contentsticket {
+	width: 80%;
+    margin-left: 10%;
 }
 
 	}
@@ -4236,6 +4244,10 @@ a {
 #headerLogo1 {
 	display: none;
 }
+.contentsticket {
+	width: 80%;
+    margin-left: 10%;
+}
 }
 @media only screen and (min-width: 780px) and (max-width: 860px) {
 	.homepagecenterhead > div {
@@ -4289,6 +4301,10 @@ a {
 }
 .modul-content1 {
 	display: none;
+}
+.contentsticket {
+	width: 80%;
+    margin-left: 10%;
 }
 }
 @media only screen and (min-width: 768px) and (max-width: 779px) {
