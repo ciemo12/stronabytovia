@@ -2256,16 +2256,6 @@ ul li:hover .hpnewsimage img{
 	text-decoration: none;
 	color: #CCCCCC;
 } 
-
-
-#pagename {
-	left: 50%;
-	margin-left: -495px;
-	background-color: #FFF;
-	position: relative;
-	width: 990px;
-	top: -20px;
-}
 .background {
     position: fixed;
     top: 0px;
@@ -2304,6 +2294,8 @@ ul li:hover .hpnewsimage img{
     font-family: MouseoSans_500;
     font-weight: normal;
     padding: 20px 0px;
+    background-color: #fff;
+    margin-bottom: -40px;
 }
 #pagename11 {
 	left: 50%;
@@ -2336,6 +2328,7 @@ ul li:hover .hpnewsimage img{
 .btd-modul {
 	margin-top: 40px;
 	padding: 0px 1.5625%;
+	background-color: #fff;
 }
 .modul-content ul {
     list-style: outside none none;
@@ -3946,6 +3939,7 @@ a {
 	.tableposition {
 		display: none;
 	}
+
 	.tablepositionIV {
 		display: none;
 	}
@@ -3967,15 +3961,28 @@ a {
 #headerLogo1 {
 	display: none;
 }
-#pagename {
-	position: relative;
-    width: 100%;
-    top: -20px;
-    background-color: white;
-}
 .contentsticket {
 	width: 80%;
     margin-left: 10%;
+}
+#pagename .wrapper h1 {
+    color: #000;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: MouseoSans_500;
+    font-weight: normal;
+    background-color: white;
+    padding: 20px 0px;
+    margin-bottom: -40px;
+}
+
+.btd-modul {
+	background-color: white;
+}
+.modul-content ul li a {
+	width:97%;
 }
 }
 @media only screen and (min-width: 1010px) {
@@ -4001,15 +4008,13 @@ a {
 #headerLogo1 {
 	display: none;
 }
-#pagename {
-	position: relative;
-    width: 100%;
-    top: -20px;
-    background-color: white;
-}
+
 .contentsticket {
 	width: 80%;
     margin-left: 10%;
+}
+.modul-content ul li a {
+	width:97%;
 }
 
 	}
@@ -4020,12 +4025,7 @@ a {
 .wrapper-inner {
 	width: 760px;
 }
-#pagename {
-	position: relative;
-    width: 100%;
-    top: -20px;
-    background-color: white;
-}
+
 #headerTop {
         font-size: 12px;
             }
@@ -4248,6 +4248,9 @@ a {
 	width: 80%;
     margin-left: 10%;
 }
+.modul-content ul li a {
+	width:97%;
+}
 }
 @media only screen and (min-width: 780px) and (max-width: 860px) {
 	.homepagecenterhead > div {
@@ -4255,12 +4258,6 @@ a {
     text-transform: uppercase;
     height: 84px;
 	}
-	#pagename {
-	position: relative;
-    width: 100%;
-    top: -20px;
-    background-color: white;
-}
 	.homepagecenterhead {
     margin-bottom: 1.04%;
 	}
@@ -4306,10 +4303,16 @@ a {
 	width: 80%;
     margin-left: 10%;
 }
+.modul-content ul li a {
+	width:97%;
+}
 }
 @media only screen and (min-width: 768px) and (max-width: 779px) {
 	.navbar {
 		display: none;
+	}
+	#gototop {
+		display: none!important;
 	}
 	.well {
 		display: none;
@@ -4360,12 +4363,6 @@ a {
 .gallery3 {
 	display: none;
 }
-#gototop {
-	display: none;
-}
-#social {
-	display: none;
-}
 .gallery {
     height: 230px;
 }
@@ -4386,7 +4383,29 @@ a {
 .modul-content1 {
 	display: none;
 }
+#pagename .wrapper h1 {
+	font-size: 50px;
 	}
+.titleline > div > div strong span {
+	font-size: 25px;
+}
+.titleline > div > div strong.activn span.activesub {
+    font-size: 25px;
+}
+.modul-content ul li a .time { 
+	font-size: 25px;
+	}
+.modul-content ul li a .titlenewsstrong { 
+	font-size: 28px;
+}
+.modul-content ul li a .textnews {
+    font-size: 14px;
+}
+.buttonpositionnews a {
+	margin-left: -340px;
+    margin-bottom: 10px;
+}
+}
 @media only screen and (min-width: 481px) and (max-width: 767px) {
 	.well-sm {
     	display: none;
@@ -4583,15 +4602,60 @@ ol {
 .bytoviafooter {
 	top: 450px;
 }
+.modul-content1 {
+	display: none;
+}
+#pagename .wrapper h1 {
+	font-size: 50px;
+	}
+.titleline > div > div strong span {
+	font-size: 25px;
+}
+.titleline > div > div strong.activn span.activesub {
+    font-size: 25px;
+}
+.modul-content ul li a .time { 
+	font-size: 25px;
+	}
+.modul-content ul li a .titlenewsstrong { 
+	font-size: 28px;
+}
+.modul-content ul li a .textnews {
+    font-size: 14px;
+}
+.buttonpositionnews a {
+	margin-left: -340px;
+    margin-bottom: 10px;
+}
+}
+@media only screen and (min-width: 480px) and (max-width: 626px) {
+	#pagename .wrapper h1 {
+		font-size: 40px;
+	}
+	.textnews {
+		display: none!important;
+	}
+	.modul-content ul li a {
+		padding: 16px 1px 0px 285px;
+	}
+	.modul-content ul li a .imagenews {
+		width: 180px;
+	}
+	.modul-content ul li a .titlenewsstrong {
+		font-size: 20px;
+	}
 }
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 	#menuafterscroll {
 		display: none!important;
 	}
+	.textnews {
+		display: none!important;
+	}
 	.homepagecenterhead > div > span {
 		font-size: 20px;
 	}
-a#gototop {
+#gototop {
 	display: none!important;
 }
 .homepagecenterhead > div {
