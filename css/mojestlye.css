@@ -4657,13 +4657,13 @@ ol {
 		display: none!important;
 	}
 	.modul-content ul li a {
-		padding: 16px 1px 0px 285px;
+		padding: 16px 1px 0px 250px;
 	}
 	.modul-content ul li a .imagenews {
-		width: 180px;
+		width: 145px;
 	}
 	.modul-content ul li a .titlenewsstrong {
-		font-size: 20px;
+		font-size: 18px;
 	}
 	.buttonpositionnews {
 	margin-top: 40px;
@@ -4671,6 +4671,18 @@ ol {
     width: 135px;
     margin-left: 0px;
     margin-bottom: 0px;
+}
+.titleline > div > div strong.activn span.activesub {
+	font-size: 25px;
+}
+.iconFont {
+	display: none!important;
+}
+.modul-content ul li a .information12 {
+	font-size: 10px;
+}
+.modul-content ul li a .time {
+	font-size: 18px;
 }
 }
 
@@ -5056,8 +5068,7 @@ left: 50px;
 		padding: 16px 1px 0px 250px;
 	}
 	.modul-content ul li a .imagenews {
-		width: 160px;
-		margin-left: -25px;
+		width: 145px;
 	}
 	.modul-content ul li a .titlenewsstrong {
 		font-size: 18px;
@@ -5087,8 +5098,7 @@ left: 50px;
 		padding: 16px 1px 0px 250px;
 	}
 	.modul-content ul li a .imagenews {
-		width: 160px;
-		margin-left: -25px;
+		width: 145px;
 	}
 	.modul-content ul li a .titlenewsstrong {
 		font-size: 18px;
@@ -5105,6 +5115,38 @@ left: 50px;
 	.titleline > div > div strong.activn span.activesub {
 		font-size: 15px;
 }
+.modul-content ul li a .information12 {
+	font-size: 10px;
+}
+}
+@media only screen and (min-width:345px) and (max-width: 376px) {
+	.modul-content ul li a .imagenews {
+		margin-left: -30px;
+	}
+	.modul-content ul li a {
+		padding: 10px 1px 0px 220px
+	}
+}
+@media only screen and (min-width:320px) and (max-width: 344px) {
+	.modul-content ul li a .titlenewsstrong {
+		font-size: 11px;
+    	margin-top: 100px;
+    	margin-left: -190px;
+	}
+	.modul-content ul li a .imagenews {
+		margin-left: -33px;
+    	width: 130px;
+	}
+	.titleline > div > div strong span {
+		line-height: 40px;
+	}
+	.date12 {
+		display: none;
+	}
+	.buttonpositionnews {
+		margin-left: 0px;
+	}
+
 }
 @media only screen and (max-width: 319px) {
 .modul-content1 ul li a {
@@ -5293,14 +5335,42 @@ left: 50px;
 .imgadress {
 	top:15px;
 }
+#pagename .wrapper h1 {
+	font-size: 25px;
+}
+.modul-content ul li a .titlenewsstrong {
+		font-size: 11px;
+    	margin-top: 100px;
+    	margin-left: -270px;
+	}
+	.modul-content ul li a .imagenews {
+		margin-left: -33px;
+    	width: 130px;
+	}
+	.titleline > div > div strong span {
+		line-height: 40px;
+		font-size: 12px;
+	}
+	.titleline > div > div strong.activn span.activesub {
+		font-size: 12px;
+	}
+	.date12 {
+		display: none;
+	}
+	.buttonpositionnews {
+		margin-left: 0px;
+	}
+	.iconFont {
+		display: none!important;
+	}
+	.modul-content ul li a .time span {
+		 font-size: 14px;
+	}
+	.modul-content ul li a {
+		min-height: 35px;
+	}
+	.modul-content ul li a .textnews {
+		display: none;
+	}
 
-.titleline > div > div strong.activn span.activesub {
-	font-size: 15px;
-}
-.modul-content1 ul li a .titlenewsstrong1 {
-	font-size: 14px;
-}
-.modul-content1 ul li a .textnews {
-	font-size: 12px;
-}
 }
