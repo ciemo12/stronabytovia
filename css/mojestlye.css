@@ -4328,11 +4328,73 @@ a {
     	text-align: center;
 	}
 	}
+@media only screen and (min-width: 299px) and (max-width: 499px) {
+	.module-content ul li {
+		float: left;
+		width: 51%;
+		margin-left:20%;
+	}
+	.module-content ul li a .title {
+		font-size: 20px;
+	}
+	#pagename1 .wrapper h1 {
+		font-size: 22px;
+	}
+	.moduleTitle > div {
+		border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    	overflow: hidden;
+    	color: #FFF;   	
+    	width: 98%;
+	}
+	.moduleTitle > div > div strong{
+		display: block;
+    	float: left;
+    	font-weight: normal;
+	}
+	#pagename1 {
+    	margin-left: 0px;
+    	position: relative;
+    	top: -20px;
+    	left: 0;
+    	width: 100%;
+    	background-color: #0D0103;
+	}
+	.teasermedia {
+		display: none;
+	}
+	.teaser {
+    	font-size: 14px;
+    	color: #181818;
+    	font-weight: 700;
+    	line-height: 35px;
+    	clear: both;
+    	margin-bottom: 25px;
+    	font-family: MouseoSans_500;
+    	text-align: center;
+    	margin-top: 20px;
+    	width: 95%;
+    	margin-left: 10px;
+	}
+	.atrcielmediastadium {
+		width: 100%;
+		text-align: center;
+	}
+	.atrcielmediastadium img {
+		width: 100%;
+    	text-align: left;
+	}
+	.articelmediacenterhead> div > span {
+		font-size: 0.9em;
+	}
+	.articelmediacenterhead > div{
+	height: 42px;
+	}
+}
 @media only screen and (min-width: 400px) and (max-width: 716px) {
 		.atrcielmediastadium img {
 			width: 70%;
 		}
-		.articelmediacenterhead> div > span {
+		.articelmediacenterhead > div > span {
 			display: inline-block;
     		font-size: 1.5em;
     		line-height: 2em;
