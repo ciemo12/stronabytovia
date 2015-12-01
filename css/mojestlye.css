@@ -4283,10 +4283,10 @@ a {
 		margin-left:27%;
 	}
 	.module-content ul li a .title {
-		font-size: 40px;
+		font-size: 30px;
 	}
 	#pagename1 .wrapper h1 {
-		font-size: 50px;
+		font-size: 40px;
 	}
 	.moduleTitle > div {
 		border-bottom: 1px solid rgba(255, 255, 255, 0.25);
@@ -4307,6 +4307,96 @@ a {
     	width: 100%;
     	background-color: #0D0103;
 	}
+	}
+@media only screen and (min-width: 445px) and (max-width: 499px) {
+	.module-content ul li {
+		float: left;
+		width: 51%;
+		margin-left:24%;
+	}
+	.module-content ul li a .title {
+		font-size: 22px;
+	}
+	#pagename1 .wrapper h1 {
+		font-size: 28px;
+	}
+	.moduleTitle > div {
+		border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    	overflow: hidden;
+    	color: #FFF;   	
+    	width: 98%;
+	}
+	.moduleTitle > div > div strong{
+		display: block;
+    	float: left;
+    	font-weight: normal;
+	}
+	.moduleTitle > div > div strong span {
+		display: inline-block;
+    	vertical-align: bottom;
+    	border-bottom: 2px solid transparent;
+    	color: #686868;
+    	line-height: 40px;
+    	font-family: MouseoSans_500;
+    	font-size: 20px;
+    	transition: all 250ms ease 0s;
+    	cursor: pointer;
+	}
+	#pagename1 {
+    	margin-left: 0px;
+    	position: relative;
+    	top: -20px;
+    	left: 0;
+    	width: 100%;
+    	background-color: #0D0103;
+	}
+}
+@media only screen and (min-width: 299px) and (max-width: 444px) {
+	.backgroundDefault1 {
+		display: block;
+	}
+	.module-content ul li {
+		float: left;
+		width: 51%;
+		margin-left:22%;
+	}
+	.module-content ul li a .title {
+		font-size: 20px;
+	}
+	#pagename1 .wrapper h1 {
+		font-size: 25px;
+	}
+	.moduleTitle > div {
+		border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    	overflow: hidden;
+    	color: #FFF;   	
+    	width: 98%;
+	}
+	.moduleTitle > div > div strong{
+		display: block;
+    	float: left;
+    	font-weight: normal;
+	}
+	.moduleTitle > div > div strong span {
+		display: inline-block;
+    	vertical-align: bottom;
+    	border-bottom: 2px solid transparent;
+    	color: #686868;
+    	line-height: 40px;
+    	font-family: MouseoSans_500;
+    	font-size: 18px;
+    	transition: all 250ms ease 0s;
+    	cursor: pointer;
+	}
+	#pagename1 {
+    	margin-left: 0px;
+    	position: relative;
+    	top: -20px;
+    	left: 0;
+    	width: 100%;
+    	background-color: #0D0103;
+	}
+	
 	}
 @media only screen and (min-width: 780px) and (max-width: 1009px) {
 #gototop {
