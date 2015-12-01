@@ -4138,6 +4138,140 @@ a {
 	width: 50%;
 	}
 }
+@media only screen and (min-width: 500px) and (max-width: 645px) { 
+	.matchWrapper > ul > li .buttonswrapp {
+		margin-left: -235px;
+	}
+	.matchWrapper > ul > li ul li.name {
+		width: 22%;
+    	font-size: 15px;
+    	text-align: center;
+	}
+	.matchWrapper > ul > li ul li.result span:first-child {
+		font-size: 35px;
+	}
+	.matchWrapper > ul > li ul li.name:last-child {
+		font-size: 17px;
+	}
+	.clearfix {
+		display: none;
+	}
+	.clearfix1 {
+    	display: block;
+	}
+	.logo11 img {
+    	border: 0;
+    	margin-top: 17px;
+    	margin-left: -35px;
+	}
+	.matchWrapper > ul > li ul li.result span {
+		width: 50%;
+	}
+	.btd-module .module-headline > div > span {
+		font-size: 1.5em;	
+	}
+	.matchWrapper > ul > li ul li.name {
+
+	}
+	.matchWrapper > ul > li .buttonswrapp .button {
+		margin-bottom: 0px;
+	}
+	.matchWrapper > ul > li ul li {
+		margin: -5px;
+	}
+	.modul-content11 ul li a .titlenewsstrong1 {
+		font-size: 18px!important;
+	}
+}
+@media only screen and (min-width: 445px) and (max-width: 499px) { 
+	.btd-module .module-headline > div > span {
+		font-size: 1.1em;
+	}
+	.matchWrapper .place {
+		font-size: 10px;
+	}
+	.clearfix {
+		display: none;
+	}
+	.clearfix1 {
+    	display: none;
+	}
+	.logo11 img {
+    	border: 0;
+    	margin-top: 17px;
+    	margin-left: -35px;
+	}
+	.logo111 img {
+		margin-top: 27px;
+    	margin-left: -75px;
+	}
+	.clearfix2 {
+		display: block;
+	}
+	.matchWrapper > ul > li ul li.name {
+		padding-right: 60px;
+		font-size: 10px;
+	}
+	.matchWrapper > ul > li ul li.result span.post:first-child {
+		margin-top: 40px;
+	}
+	.matchWrapper > ul > li ul li.result span:first-child {
+		font-size: 19px;
+    	margin-left: -35px;
+	}
+	.matchWrapper > ul > li ul li.name:last-child {
+		margin-left: 10px;
+    	font-size: 10px;
+	}
+	.matchWrapper > ul > li .buttonswrapp .button {
+		margin-bottom: 0px;
+		font-size: 10px;
+	}
+	}
+@media only screen and (max-width: 444px) {
+	.module-titled {
+		display: none;
+	}
+	.backgroundDefault {
+		display: none;
+	}
+}
+@media only screen and (min-width: 260px)  and (max-width: 444px) {
+	.partners1 {
+	display: inline;
+}
+	.partners {
+		display: none;
+	}
+	.partners1 div a.adidasfooter1{
+	text-decoration: none;
+    display: inline-block;
+   	position: absolute;
+   	float: left;
+   	left: 70px;
+	width: 150px;
+    height: 100px;
+    background: url('../photos/Adidas-Web1-smartph.png');
+}
+	.partners1 div a.adidasfooter1:hover{
+    background: url('../photos/Adidas-Web11-smartph.png');
+}
+.partners1 {
+	float: left;
+	padding-top: 20px;
+	text-align: center;
+	width: 100%;
+}
+.partners1 div {
+	float: left;
+	margin-bottom: 25px;
+	width: 100%;
+}
+.partners1 div a {
+	margin-left:66px;
+	opacity: 0.5;
+}
+}
 @media only screen and (min-width: 780px) and (max-width: 1009px) {
 #gototop {
 	display: none!important;
