@@ -3971,6 +3971,9 @@ a {
 #headerLogo1 {
 	display: none;
 }
+.clearfix1 {
+    display: none;
+}
 /*RWD*/
 @media only screen and (max-width: 1038px) {
 	.tableposition {
@@ -4032,6 +4035,9 @@ a {
 	padding: 7px 0px;
     margin-top: 20px;
 }
+.clearfix1 {
+    display: none;
+}
 }
 @media only screen and (min-width: 1010px) {
 	.navbar {
@@ -4064,9 +4070,74 @@ a {
 .modul-content ul li a {
 	width:97%;
 }
-
+.clearfix1 {
+    display: none;
+}
 
 	}
+@media only screen and (min-width: 830px) and (max-width: 980px) {
+	.matchWrapper > ul > li ul li.name {
+		width: 25%;
+		font-size: 30px;
+		text-align: left;
+	}
+	.matchWrapper > ul > li ul li.name:last-child {
+		font-size: 32px;
+	}
+	.matchWrapper > ul > li ul li.logo1 {
+		    width: 100px;
+	}
+	.clearfix {
+		display: none;
+	}
+	.clearfix1 {
+    display: block;
+}
+.logo1 img {
+    border: 0;
+    margin-top: 17px;
+}
+.matchWrapper .place {
+	margin-left: -115px;
+}
+.matchWrapper > ul > li .buttonswrapp {
+	width: 100%;
+    margin-left: -55px;
+}
+.matchWrapper > ul > li .buttonswrapp .button {
+	margin-bottom: 0px;
+}
+}
+@media only screen and (min-width: 646px) and (max-width: 829px) { 
+	.matchWrapper > ul > li .buttonswrapp {
+		margin-left: -235px;
+	}
+	.matchWrapper > ul > li ul li.name {
+		width: 22%;
+    	font-size: 20px;
+    	text-align: left;
+	}
+	.matchWrapper > ul > li ul li.result span:first-child {
+		font-size: 35px;
+	}
+	.matchWrapper > ul > li ul li.name:last-child {
+		font-size: 24px;
+	}
+	.clearfix {
+		display: none;
+	}
+	.clearfix1 {
+    display: block;
+	}
+	.logo11 img {
+    border: 0;
+    margin-top: 17px;
+    margin-left: -35px;
+}
+.matchWrapper > ul > li ul li.result span {
+	width: 50%;
+	}
+}
 @media only screen and (min-width: 780px) and (max-width: 1009px) {
 #gototop {
 	display: none!important;
