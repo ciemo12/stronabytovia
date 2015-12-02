@@ -3585,10 +3585,10 @@ a {
     line-height: 14px;
 }	
 #pagenamejun {
-    left: 50%;
-    margin-left: -495px;
+    left: 0%;
+    margin-left: 0px;
     position: relative;
-    width: 990px;
+    width: 100%;
     top: -20px;
     color: white;
 }
@@ -6306,7 +6306,7 @@ left: 50px;
 		font-size: 10px;
 	}
 }
-/*pierwszy zespol*/
+/*pierwszy zespol + drugi zespol*/
 @media only screen and (max-width: 1010px) { 
 	.btd-module-topteaser-channel {
 		display: none;
@@ -6351,7 +6351,7 @@ left: 50px;
     background: #000 none repeat scroll 0% 0%;
     bottom: 5px;
     content: "";
-    height: 5px;
+    height: 5px;	
     left: 0px;
     margin: 0px 1.47%;
     position: absolute;
@@ -6362,4 +6362,24 @@ left: 50px;
 		.module-titled {
 			display: block;
 		}
+	}
+/*juniorzy*/
+@media only screen and (max-width: 717px) { 
+	.juniorwidthimg {
+		display: none;
+	}
+	.juniorwidthimg1 {
+		display: block;
+	}
+	#pagenamejun .wrapper h1 {
+		font-size: 35px;
+	}
+	.homepagecenterheadjun > div > span {
+		font-size: 1.5em;
+	}
+	.homepagecenterheadjun > div {
+		height: 58px;
+	}
+	#headerLogo1 {
+		display: none;
 	}
