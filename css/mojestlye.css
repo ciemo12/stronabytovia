@@ -4107,11 +4107,24 @@ a {
 .matchWrapper > ul > li .buttonswrapp {
 	width: 100%;
     margin-left: -55px;
+    margin-top: 150px;
 }
 .matchWrapper > ul > li .buttonswrapp .button {
 	margin-bottom: 0px;
 }
 }
+@media only screen and (min-width: 678px) and (max-width: 829px) { 
+	.matchWrapper > ul > li .buttonswrapp .button {
+		
+		margin-left:0px;
+	}
+	.matchWrapper > ul > li ul li.result span:first-child {
+		margin-left: 10px;
+	}
+	#pagename121 .wrapper h1 {
+		font-size: 40px;
+	}
+
 @media only screen and (min-width: 646px) and (max-width: 829px) { 
 	.matchWrapper > ul > li .buttonswrapp {
 		margin-left: -235px;
