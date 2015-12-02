@@ -2295,7 +2295,7 @@ ul li:hover .hpnewsimage img{
     font-weight: normal;
     padding: 20px 0px;
     background-color: #fff;
-    margin-bottom: -40px;
+    margin-bottom: -25px;
 }
 #pagename11 {
 	left: 50%;
@@ -6139,5 +6139,86 @@ left: 50px;
 		width: 100%;
 		text-align: center;
 	}
+	
+}
+/*sprzedaż biletów*/ 
+@media only screen and (min-width: 1038px){ 
+	#pagename .wrapper h1 {
+		margin-bottom: -25px;
+	}
+}
+@media only screen and (max-width: 1037px){ 
+	#pagename .wrapper h1 {
+		margin-bottom: -25px;
+	}
+	.left_container {
+		width: 100%;
+	}
+	.title_1 {
+		width: 95%;
+		margin-left: 2%;
+	}
+	.content1 {
+		width: 95%;
+		margin-left: 2%;
+	}
+	.box_lewy {
+		width: 10%;
+	}
+	.box_prawy {
+		width: 80%;
+	}
+	.box_master {
+    width: 100%;
+	}
+
+}
+@media only screen and (max-width: 500px){ 
+	.tb_mecz_title {
+		font-size: 0.8em;
+	}
+	.tb_mecz_subtitle {
+		font-size: 0.7em;
+	}
+	.tb_mecz_txt1 {
+		font-size: 12px;
+	}
+	}
+@media only screen and (max-width: 400px) {
+	.mecz_herby {
+		display: none;
+	}
+	.mecz_herby1 {
+	text-align: center;
+	padding-top: 20px;
+}
+	.button_zielony {
+	height: 30px;
+	}
+	.button_zielony a {
+	padding: 7px 0px 5px 20px;
+	font-size: 12.06px;
+	}
+}
+@media only screen and (max-width: 356px) {
+	.tb_mecz_title {
+		font-size: 0.5em;
+	}
+	.tb_mecz_subtitle {
+		font-size: 0.45em;
+	}
+	.tb_mecz_txt1 {
+    	font-size: 8px;
+	}
+	.tb_mecz_pakiet_cena {
+		font-size: 10px;
+	}  
+	.button_zielony a {
+		padding: 7px 0px 5px 10px;
+    	font-size: 12.06px;
+	}
+	.mecz_herby1 {
+    	text-align: center;
+    	padding-top: 35px;
 	
 }
