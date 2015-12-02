@@ -4300,18 +4300,18 @@ a {
 	.partners1 div a.adidasfooter1:hover{
     background: url('../photos/Adidas-Web11-smartph.png');
 }
-.partners1 {
+		.partners1 {
 	float: left;
 	padding-top: 20px;
 	text-align: center;
 	width: 100%;
 }
-.partners1 div {
+		.partners1 div {
 	float: left;
 	margin-bottom: 25px;
 	width: 100%;
 }
-.partners1 div a {
+		.partners1 div a {
 	margin-left:66px;
 	opacity: 0.5;
 }
@@ -6297,3 +6297,60 @@ left: 50px;
 		font-size: 10px;
 	}
 }
+/*pierwszy zespol*/
+@media only screen and (max-width: 1010px) { 
+	.btd-module-topteaser-channel {
+		display: none;
+	}
+	.backgroundWrapper  {
+		padding-top: 0px;
+	}
+	.wrapper-inner {
+    width: 97%;
+	}
+
+}
+@media only screen and (max-width: 1010px) {
+	#content1 {
+	display: block;
+	background-color: #9C9C9C;
+	display: block;
+	}
+	#content1 .wrapper {
+	background-color: white;
+	}
+	#content1 .wrapper-inner::after {
+    background: #000 none repeat scroll 0% 0%;
+    bottom: 5px;
+    content: "";
+    height: 5px;
+    left: 0px;
+    margin: 0px 1.47%;
+    position: absolute;
+    right: 0px;
+	}
+}
+@media only screen and (max-width: 444px) {
+	#content1 {
+	display: block;
+	background-color: #9C9C9C;
+	}
+	#content1 .wrapper {
+	background-color: white;
+	}
+	#content1 .wrapper-inner::after {
+    background: #000 none repeat scroll 0% 0%;
+    bottom: 5px;
+    content: "";
+    height: 5px;
+    left: 0px;
+    margin: 0px 1.47%;
+    position: absolute;
+    right: 0px;
+	}
+}
+@media only screen and (max-width: 444px) { 
+		.module-titled {
+			display: block;
+		}
+	}
