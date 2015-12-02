@@ -6146,6 +6146,9 @@ left: 50px;
 	#pagename .wrapper h1 {
 		margin-bottom: -25px;
 	}
+	.mecz_herby1 {
+		display: none;
+	}
 }
 @media only screen and (max-width: 1037px){ 
 	#pagename .wrapper h1 {
@@ -6171,6 +6174,10 @@ left: 50px;
 	.box_master {
     width: 100%;
 	}
+	.mecz_herby1 {
+		display: none;
+	}
+	
 
 }
 @media only screen and (max-width: 500px){ 
@@ -6183,14 +6190,18 @@ left: 50px;
 	.tb_mecz_txt1 {
 		font-size: 12px;
 	}
+	.mecz_herby1 {
+		display: none;
+	}
 	}
 @media only screen and (max-width: 400px) {
 	.mecz_herby {
 		display: none;
 	}
 	.mecz_herby1 {
+	display: block;
 	text-align: center;
-	padding-top: 20px;
+	padding-top: 35px;
 }
 	.button_zielony {
 	height: 30px;
@@ -6216,6 +6227,9 @@ left: 50px;
 	.button_zielony a {
 		padding: 7px 0px 5px 10px;
     	font-size: 12.06px;
+	}
+	.mecz_herby {
+		display: none;
 	}
 	.mecz_herby1 {
     	text-align: center;
