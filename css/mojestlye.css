@@ -4041,7 +4041,14 @@ a {
 .clearfix1 {
     display: none;
 }
-
+#pagename121 {
+	position: relative;
+	left: 0%;
+    margin-left: 0px;
+    position: relative;
+    width: 100%;
+    bottom: 0px;
+}
 }
 @media only screen and (min-width: 1010px) {
 	.navbar {
@@ -4077,8 +4084,10 @@ a {
 .clearfix1 {
     display: none;
 }
-
-	}
+#pagename121 {
+	position: relative;
+}
+}
 @media only screen and (min-width: 830px) and (max-width: 980px) {
 	.matchWrapper > ul > li ul li.name {
 		width: 25%;
@@ -4112,6 +4121,9 @@ a {
 .matchWrapper > ul > li .buttonswrapp .button {
 	margin-bottom: 0px;
 }
+#pagename121 {
+	position: relative;
+}
 }
 @media only screen and (min-width: 678px) and (max-width: 829px) { 
 	.matchWrapper > ul > li .buttonswrapp .button {
@@ -4124,7 +4136,15 @@ a {
 	#pagename121 .wrapper h1 {
 		font-size: 40px;
 	}
-
+	#pagename121 {
+	position: relative;
+	}
+}
+@media only screen and (max-width: 600px) {
+.matchWrapper>ul>li ul li.name1 {
+    display: none;
+}
+}
 @media only screen and (min-width: 646px) and (max-width: 829px) { 
 	.matchWrapper > ul > li .buttonswrapp {
 		margin-left: -235px;
@@ -4150,9 +4170,12 @@ a {
     border: 0;
     margin-top: 17px;
     margin-left: -35px;
-}
-.matchWrapper > ul > li ul li.result span {
+	}
+	.matchWrapper > ul > li ul li.result span {
 	width: 50%;
+	}
+	#pagename121 {
+	position: relative;
 	}
 }
 @media only screen and (min-width: 500px) and (max-width: 645px) { 
@@ -6068,4 +6091,53 @@ left: 50px;
 #pagename11 .wrapper h1 {
 	font-size: 15px;
 }
+}
+/*najbliższe mecze */ 
+@media only screen and (min-width: 678px) and (max-width: 1400px){
+	.clearfix33 {
+		display: none;
+	}
+	.button.mvp1 {
+		display: inline-block;
+    	padding: 0.3em 25px;
+    	border-top: 2px solid #fff;
+    	border-bottom: 2px solid #fff;
+    	border-style: solid none;
+    	line-height: 1em;
+    	height: 2em;
+    	background-color: transparent;
+    	color: #fff;
+    	white-space: nowrap;
+	}
+	}
+@media only screen and (max-width: 677px) { 
+	.clearfix3 {
+		display: none;
+	}
+	.clearfix33 {
+		display: block;
+	}
+	.matchWrapper > ul > li .buttonswrapp1 {
+		width: 100%;
+    	text-align: center;
+    	margin-top: 122px;
+
+	}
+	.button.mvp1 {
+		display: inline-block;
+    	padding: 0.3em 25px;
+    	border-top: 2px solid #fff;
+    	border-bottom: 2px solid #fff;
+    	border-style: solid none;
+    	line-height: 1em;
+    	height: 2em;
+    	background-color: transparent;
+    	color: #fff;
+    	white-space: nowrap;
+	}
+	.clearfix33width {
+		width: 100%;
+		text-align: center;
+	}
+	
 }
