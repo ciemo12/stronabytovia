@@ -6242,6 +6242,15 @@ left: 50px;
 }
 }
 /*klub*/
+@media only screen and (max-width: 1500px) {
+	#content1 .wrapper {
+		background-color: white;
+	}
+	 #pagename .wrapper h1 {
+    	margin-bottom: 0px;
+}
+
+}
 @media only screen and (max-width: 959px) {
 	#content {
 		display: none;
