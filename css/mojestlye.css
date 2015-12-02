@@ -3322,16 +3322,19 @@ a {
     right: 0px;
 }
 .prezes {
-	width: 990px;
-	margin-left: 195px;
+    text-align: center;
+    width: 100%;
+    margin-left: 0px;
 }
 .wiceprezes {
-	width: 990px;
-	margin-left: 245px;
+	text-align: center;
+    width: 100%;
+    margin-left: 0px;
 }
 .sekretarz {
-	width: 990px;
-	margin-left: 245px;
+	text-align: center;
+    width: 100%;
+    margin-left: 0px;
 }
 .headzarzad{
 	height:85px;
@@ -3355,7 +3358,8 @@ a {
 }
 #zarzadbackgroundcolor {
 	background-color: #9C9C9C;	
-	margin: -10px;
+	margin: 0px;
+	margin-bottom: -10px;
 }
 #zarzadbackgroundcolor .wrapper {
 	background-color: white;
@@ -6236,3 +6240,4 @@ left: 50px;
     	padding-top: 35px;
 	
 }
+/*klub*/
