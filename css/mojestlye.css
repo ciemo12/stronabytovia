@@ -6240,4 +6240,60 @@ left: 50px;
     	padding-top: 35px;
 	
 }
+}
 /*klub*/
+@media only screen and (max-width: 959px) {
+	#content {
+		display: none;
+	}
+	.pagetitle1 h1 {
+		display: none;
+	}
+}
+@media only screen and (max-width: 617px) {
+	#content {
+		display: none;
+	}
+	.pagetitle1 h1 {
+		display: none;
+	}
+	.prezes {
+		display: none;
+	}
+	.wiceprezes {
+		display: none;
+	}
+	.sekretarz {
+		display: none;
+	}
+	.prezes1 {
+    	text-align: center;
+    	width: 100%;
+    	margin-left: 0px;
+}
+	.wiceprezes1 {
+		text-align: center;
+    	width: 100%;
+    	margin-left: 0px;
+}
+	.sekretarz1 {
+		text-align: center;
+    	width: 100%;
+    	margin-left: 0px;
+}
+	.pagetitle h1 {
+		font-size: 32px;
+	}
+	.headzarzad > div {
+		height: 59px;
+	}
+	.headzarzad > div > span {
+		font-size: 1.5em;
+	}
+	.teaserzarzad {
+		font-size: 11px;	
+	}
+	.teaserzarzad1 p {
+		font-size: 10px;
+	}
+}
