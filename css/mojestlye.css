@@ -6547,3 +6547,23 @@ left: 50px;
 		min-width: 20px;
 	}
 }
+/*najblizsze mecze*/
+@media only screen and (max-width:1078px) {
+	.btd-module-match {
+		display: none;
+	}
+
+	.kolortla {
+		background-color: #fff;
+	}
+}
+@media only screen and (min-width:1078px) {
+	.width1078px {
+		display: none;
+	}
+}
+@media only screen and (max-width:500px) {
+	#pagename121 .wrapper h1 {
+		font-size: 20px;
+	}
+}
