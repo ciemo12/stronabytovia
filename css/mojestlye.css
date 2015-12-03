@@ -6534,6 +6534,16 @@ left: 50px;
 	}
 	
 }
-@media only screen and (max-width: 449px) { 
-
+@media only screen and (max-width: 438px) { 
+	.tableIleaguebig > thead > tr > th {
+		min-width: 27px;
 	}
+}
+@media only screen and (max-width: 438px) { 
+	.tableIleaguebig > thead > tr > th {
+		min-width: 20px;
+	}
+	.tableIleaguebig1 > thead > tr > th {
+		min-width: 20px;
+	}
+}
