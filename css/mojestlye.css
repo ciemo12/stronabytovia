@@ -511,7 +511,7 @@ hr {
 	margin-bottom: 2px;
 	display: block;
 	z-index: 2;
-	top: 330px;
+	top: 430px;
 }
 .backgroundcolormenumini {
 	position: absolute;
@@ -1033,6 +1033,7 @@ ol {
 	padding: 0px 1.5625%;
 	margin-bottom: 40px;
 	width: 100%;
+	-webkit-margin-after: 23em;
 }
 .homepagecenter {
 	color: #000;
