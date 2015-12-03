@@ -5898,6 +5898,7 @@ left: 50px;
     }
     .footerhead > div {
     height: 57px;
+    width: 95%;
 }
 	#headerTop {
     color: #FFF;
@@ -5987,9 +5988,11 @@ left: 50px;
 }
 .daneklubu {
 	left: -55px;
+	width: 100%;
 }
 .menumini {
-left: 50px;
+	left: 50px;
+	width: 100%;
 }
 .homepagecenter {
 	display: none;
