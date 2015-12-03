@@ -3998,65 +3998,64 @@ a {
 		display: none!important;
 	}
 	.social767 {
-	display: none!important;
-}
-#social320 {
-	display: none!important;
-}
-.modul-content1 {
-	display: none;
-}
-#headerLogo1 {
-	display: none;
-}
-.contentsticket {
-	width: 80%;
-    margin-left: 10%;
-}
-#pagename .wrapper h1 {
-    color: #000;
-    font-size: 60px;
-    line-height: 70px;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: MouseoSans_500;
-    font-weight: normal;
-    background-color: white;
-    padding: 20px 0px;
-    margin-bottom: -40px;
-}
-
-.btd-modul {
-	background-color: white;
-}
-.modul-content ul li a {
-	width:97%;
-}
-#pagename11 {
-    left: 0;
-    margin-left: 0;
-    background-color: #FFF;
-    position: relative;
-    width: 100%;
-}
-#pagename11 .wrapper h1 {
-	padding: 7px 0px;
-    margin-top: 20px;
-}
-.clearfix1 {
-    display: none;
-}
-#pagename121 {
-	position: relative;
-	left: 0%;
-    margin-left: 0px;
-    position: relative;
-    width: 100%;
-    bottom: 0px;
-}
+		display: none!important;
+	}
+	#social320 {
+		display: none!important;
+	}
+	.modul-content1 {
+		display: none;
+	}
+	#headerLogo1 {
+		display: none;
+	}
+	.contentsticket {
+		width: 80%;
+    	margin-left: 10%;
+	}
+	#pagename .wrapper h1 {
+    	color: #000;
+    	font-size: 60px;
+    	line-height: 70px;
+    	text-align: center;
+    	text-transform: uppercase;
+    	font-family: MouseoSans_500;
+    	font-weight: normal;
+    	background-color: white;
+    	padding: 20px 0px;
+    	margin-bottom: -40px;
+	}
+	.btd-modul {
+		background-color: white;
+	}
+	.modul-content ul li a {
+		width:97%;
+	}
+	#pagename11 {
+    	left: 0;
+    	margin-left: 0;
+    	background-color: #FFF;
+    	position: relative;
+    	width: 100%;
+	}
+	#pagename11 .wrapper h1 {
+		padding: 7px 0px;
+    	margin-top: 20px;
+	}
+	.clearfix1 {
+    	display: none;
+	}
+	#pagename121 {
+		position: relative;
+		left: 0%;
+    	margin-left: 0px;
+    	position: relative;
+    	width: 100%;
+    	bottom: 0px;
+	}
 }
 @media only screen and (min-width: 1010px) {
-	.navbar {
+	.navbar {	
 		display: none;
 	}
 	#social1 {
@@ -4066,32 +4065,30 @@ a {
 		display: none!important;
 	}
 	.div-779 {
-	display: none!important;
-
-}
-#social320 {
-	display: none!important;
-}
-.modul-content1 {
-	display: none;
-}
-#headerLogo1 {
-	display: none;
-}
-
-.contentsticket {
-	width: 80%;
-    margin-left: 10%;
-}
-.modul-content ul li a {
-	width:97%;
-}
-.clearfix1 {
-    display: none;
-}
-#pagename121 {
-	position: relative;
-}
+		display: none!important;
+	}
+	#social320 {
+		display: none!important;
+	}
+	.modul-content1 {
+		display: none;
+	}
+	#headerLogo1 {
+		display: none;
+	}
+	.contentsticket {
+		width: 80%;
+    	margin-left: 10%;
+	}
+	.modul-content ul li a {
+		width:97%;
+	}
+	.clearfix1 {
+    	display: none;
+	}
+	#pagename121 {
+		position: relative;
+	}
 }
 @media only screen and (min-width: 830px) and (max-width: 980px) {
 	.matchWrapper > ul > li ul li.name {
@@ -4103,36 +4100,35 @@ a {
 		font-size: 32px;
 	}
 	.matchWrapper > ul > li ul li.logo1 {
-		    width: 100px;
+		width: 100px;
 	}
 	.clearfix {
 		display: none;
 	}
 	.clearfix1 {
-    display: block;
-}
-.logo1 img {
-    border: 0;
-    margin-top: 17px;
-}
-.matchWrapper .place {
-	margin-left: -115px;
-}
-.matchWrapper > ul > li .buttonswrapp {
-	width: 100%;
-    margin-left: -55px;
-    margin-top: 150px;
-}
-.matchWrapper > ul > li .buttonswrapp .button {
-	margin-bottom: 0px;
-}
-#pagename121 {
-	position: relative;
-}
+    	display: block;
+	}
+	.logo1 img {
+    	border: 0;
+    	margin-top: 17px;
+	}
+	.matchWrapper .place {
+		margin-left: -115px;
+	}
+	.matchWrapper > ul > li .buttonswrapp {
+		width: 100%;
+    	margin-left: -55px;
+    	margin-top: 150px;
+	}
+	.matchWrapper > ul > li .buttonswrapp .button {
+		margin-bottom: 0px;
+	}
+	#pagename121 {
+		position: relative;
+	}
 }
 @media only screen and (min-width: 678px) and (max-width: 829px) { 
 	.matchWrapper > ul > li .buttonswrapp .button {
-		
 		margin-left:0px;
 	}
 	.matchWrapper > ul > li ul li.result span:first-child {
@@ -4146,9 +4142,9 @@ a {
 	}
 }
 @media only screen and (max-width: 600px) {
-.matchWrapper>ul>li ul li.name1 {
-    display: none;
-}
+	.matchWrapper>ul>li ul li.name1 {
+    	display: none;
+	}
 }
 @media only screen and (min-width: 646px) and (max-width: 829px) { 
 	.matchWrapper > ul > li .buttonswrapp {
@@ -4169,18 +4165,18 @@ a {
 		display: none;
 	}
 	.clearfix1 {
-    display: block;
+    	display: block;
 	}
 	.logo11 img {
-    border: 0;
-    margin-top: 17px;
-    margin-left: -35px;
+    	border: 0;
+    	margin-top: 17px;
+    	margin-left: -35px;
 	}
 	.matchWrapper > ul > li ul li.result span {
-	width: 50%;
+		width: 50%;
 	}
 	#pagename121 {
-	position: relative;
+		position: relative;
 	}
 }
 @media only screen and (min-width: 500px) and (max-width: 645px) { 
@@ -4272,7 +4268,7 @@ a {
 		margin-bottom: 0px;
 		font-size: 10px;
 	}
-	}
+}
 @media only screen and (max-width: 444px) {
 	.module-titled {
 		display: none;
@@ -4283,39 +4279,39 @@ a {
 }
 @media only screen and (min-width: 260px)  and (max-width: 444px) {
 	.partners1 {
-	display: inline;
-}
+		display: inline;
+	}
 	.partners {
 		display: none;
 	}
 	.partners1 div a.adidasfooter1{
-	text-decoration: none;
-    display: inline-block;
-   	position: absolute;
-   	float: left;
-   	left: 70px;
-	width: 150px;
-    height: 100px;
-    background: url('../photos/Adidas-Web1-smartph.png');
-}
+		text-decoration: none;
+    	display: inline-block;
+   		position: absolute;
+   		float: left;
+   		left: 70px;
+		width: 150px;
+    	height: 100px;
+    	background: url('../photos/Adidas-Web1-smartph.png');
+	}
 	.partners1 div a.adidasfooter1:hover{
-    background: url('../photos/Adidas-Web11-smartph.png');
-}
-		.partners1 {
-	float: left;
-	padding-top: 20px;
-	text-align: center;
-	width: 100%;
-}
-		.partners1 div {
-	float: left;
-	margin-bottom: 25px;
-	width: 100%;
-}
-		.partners1 div a {
-	margin-left:66px;
-	opacity: 0.5;
-}
+    	background: url('../photos/Adidas-Web11-smartph.png');
+	}
+	.partners1 {
+		float: left;
+		padding-top: 20px;
+		text-align: center;
+		width: 100%;
+	}
+	.partners1 div {
+		float: left;
+		margin-bottom: 25px;
+		width: 100%;
+	}
+	.partners1 div a {
+		margin-left:66px;
+		opacity: 0.5;
+	}
 }
 @media only screen and (min-width: 500px) and (max-width: 960px) {
 	.module-content ul li {
@@ -4368,7 +4364,7 @@ a {
 		width: 100%;
     	text-align: center;
 	}
-	}
+}
 @media only screen and (min-width: 299px) and (max-width: 499px) {
 	.module-content ul li {
 		float: left;
@@ -4428,29 +4424,28 @@ a {
 		font-size: 0.9em;
 	}
 	.articelmediacenterhead > div{
-	height: 42px;
+		height: 42px;
 	}
 }
 @media only screen and (min-width: 400px) and (max-width: 716px) {
-		.atrcielmediastadium img {
-			width: 70%;
-		}
-		.articelmediacenterhead > div > span {
-			display: inline-block;
-    		font-size: 1.5em;
-    		line-height: 2em;
-    		vertical-align: bottom;
-    		font-family: MouseoSans_500;
-   			border-bottom: 2px solid #B51D16;
-    		margin-top: 15px;
-    		margin-bottom: 4.0404%;
-		}
-		.articelmediacenterhead > div {
-			height: 60px;
-			width: 95%;
-		}
+	.atrcielmediastadium img {
+		width: 70%;
 	}
-
+	.articelmediacenterhead > div > span {
+		display: inline-block;
+    	font-size: 1.5em;
+    	line-height: 2em;
+    	vertical-align: bottom;
+    	font-family: MouseoSans_500;
+   		border-bottom: 2px solid #B51D16;
+    	margin-top: 15px;
+    	margin-bottom: 4.0404%;
+	}
+	.articelmediacenterhead > div {
+		height: 60px;
+		width: 95%;
+	}
+}
 @media only screen and (min-width: 445px) and (max-width: 499px) {
 	.module-content ul li {
 		float: left;
@@ -4539,278 +4534,274 @@ a {
     	width: 100%;
     	background-color: #0D0103;
 	}
-	
-	}
+}
 @media only screen and (min-width: 780px) and (max-width: 1009px) {
-#gototop {
-	display: none!important;
-}
-.wrapper-inner {
-	width: 760px;
-}
-
-#headerTop {
+	#gototop {
+		display: none!important;
+	}
+	.wrapper-inner {
+		width: 760px;
+	}
+	#headerTop {
         font-size: 12px;
-            }
-            .wrappercenter {
-            	display: none;
-            }
-.carousel-inner {
-    height: 475px;
-}
-.borderbottom1 {
-	display: none!important;
-}
-.borderbottom2 {
-	display: none!important;
-}
-.borderbottom3 {
-	display: none!important;
-}
-.borderbottom4 {
-	display: none!important;
-}
-.borderbottom5 {
-	display: none!important;
-}
-.borderbottom6 {
-	display: none!important;
-}
-.borderbottom7 {
-	display: none!important;
-}
-.menu-advertisement1 {
-	display: none!important;
-}
-.menu-advertisement2 {
-	display: none!important;
-}
-.well-sm {
+    }
+    .wrappercenter {
+        display: none;
+    }
+	.carousel-inner {
+    	height: 475px;
+	}
+	.borderbottom1 {
+		display: none!important;
+	}
+	.borderbottom2 {
+		display: none!important;
+	}
+	.borderbottom3 {
+		display: none!important;
+	}
+	.borderbottom4 {
+		display: none!important;
+	}
+	.borderbottom5 {
+		display: none!important;
+	}
+	.borderbottom6 {
+		display: none!important;
+	}
+	.borderbottom7 {
+		display: none!important;
+	}
+	.menu-advertisement1 {
+		display: none!important;
+	}
+	.menu-advertisement2 {
+		display: none!important;
+	}
+	.well-sm {
     	display: none;
     }
-
-#menuafterscroll {
-	display: none!important;;
-}
-.wrappernextmatchcenter {
-	display: none;
-}
+	#menuafterscroll {
+		display: none!important;;
+	}
+	.wrappernextmatchcenter {
+		display: none;
+	}
     .partners div a.urzadbyt {
-    display: none;
-}
-.gallery3 {
-	display: none;
-}
-.tableposition {
-	display: none;
-}
-.tablepositionIV {
-	display: none;
-}
-.homepagetable  {
-	display: none;
-}
-.backgroundcolorsponsor {
-	display: none;
-}
-.positionbutton a {
-    margin-top: 10px;
-    text-decoration: none;
-    color: #000;
-}
-.gallery {
-    position: relative;
-    display: block;
-    height: 250px;
-    margin-left: 9%;
-}
-#social {
-    background: transparent url("../photos/tlo.jpg") repeat scroll 0% 0%;
-    min-height: 899px;
-}
-.fb {
-    height: 100%;
-    float: left;
-}
-.homepagecenterhead {
-	margin-bottom: 4.0404%;
-}
-.homepagecenterhead > div {
-	border-bottom: 1px solid #CDCDCD;
-    text-transform: uppercase;
-    height: 117px;
-}
-.homepagecenterhead > div > span {
-    display: inline-block;
-    font-size: 2.5em;
-    line-height: 2em;
-    vertical-align: bottom;
-    font-family: MouseoSans_500;
-    border-bottom: 2px solid #B51D16;
-    margin-top: 45px;
-    margin-bottom: 4.0404%;
-}
-.footerhead {
-    text-transform: uppercase;
-    margin-bottom: 5%;
-    width: 100%;
-}
-.footerhead > div {
-	border-bottom: 1px solid #FFF;
-    text-transform: uppercase;
-    height: 85px;
-    width: 98%;
-}
-.partners div a.drutexfooter {
-    background: url('../photos/drutexfooter1.png');
-    text-decoration: none;
-    display: inline-block;
-    position: absolute;
-    float: left;
-    margin-left: 140px;
-}
-.partners div a.polsatsport {
-    background: transparent url("../photos/polsatfooter1.png") repeat scroll 0% 0%;
-    display: inline-block;
-    position: absolute;
-    float: left;
-    left: 400px;
-    top: 167px;
-}
-#footersite {
-    width: 100%;
-    background-color: #080808;
-    height: 380px;
-    position: relative;
-}
-.bytoviafooter1 {
-    position: absolute;
-    left: 50%;
-    margin-left: -42px;
-    margin-bottom: 2px;
-    display: block;
-    z-index: 2;
-    top: 430px;
-}
-.bytoviafooter {
-	display: none;
-}
-.logo11 img{
-	margin-top: 28px;
-}
-.container-fluid > .navbar-header {
-	width: 100%;
-}
-#headerLogo {
-	z-index: 1;
-	display: inline;
-}
-#headerTitle {
-	padding: 0px 0.4%;
-}
-.navbar {
-	display: none;
-}
-.subtitcarousel {
-    float: left;
-    height: 80px;
-    text-align: center;
-    font-family: MouseoSans_500;
-    font-weight: normal;
-    font-size: 30px;
-    background-color: rgba(164, 28, 21, 0.6);
-    width: 100%;
-    position: absolute;
-    top: 360px;
-}
-.wrappernewscenter { 
-	display: none;
-}
-#carouselcolorbackground {
-    width: 100%;
-    background-color: #080808;
-    height: 440px;
-}
-.carousel-indicators {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    z-index: 15;
-    width: 60%;
-    padding-left: 0px;
-    margin-left: -30%;
-    text-align: center;
-    list-style: outside none none;
-    top: 444px;
-}
-.carousel-control {
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    width: 15%;
-    font-size: 20px;
-    color: #FFF;
-    text-align: center;
-    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
-    opacity: 0.5;
-    height: 469px;
-}
-#social {
-	display: none;
-}
-#social1 {
-    min-height: 444px;
-    background: transparent url("../photos/tlo.jpg") repeat scroll 0% 0%;
-}
-#social320 {
-	display: none!important;
-}
-.modul-content1 {
-	display: none;
-}
-#headerLogo1 {
-	display: none;
-}
-.contentsticket {
-	width: 80%;
-    margin-left: 10%;
-}
-.modul-content ul li a {
-	width:97%;
-}
-.filterposition1 {
-	display: none!important;
-}
-.filterposition2 {
-	display: none!important;
-}
-.select {
-	display: none;
-}
-.btd-modul {
-	margin-top: 10px;
-}
-.modul-content11 ul {
-    list-style: outside none none;
-    margin: 0px;
-}
-.modul-content11 {
-	padding: 0 3.5%;
-}
-.heading {
-	display: none;
-}
-}
-
-@media only screen and (min-width: 780px) and (max-width: 860px) {
-	.homepagecenterhead > div {
-    border-bottom: 1px solid #CDCDCD;
-    text-transform: uppercase;
-    height: 84px;
+    	display: none;
+	}
+	.gallery3 {
+		display: none;
+	}
+	.tableposition {
+		display: none;
+	}
+	.tablepositionIV {
+		display: none;
+	}
+	.homepagetable  {
+		display: none;
+	}
+	.backgroundcolorsponsor {
+		display: none;
+	}
+	.positionbutton a {
+    	margin-top: 10px;
+    	text-decoration: none;
+    	color: #000;
+	}
+	.gallery {
+    	position: relative;
+    	display: block;
+    	height: 250px;
+    	margin-left: 9%;
+	}
+	#social {
+    	background: transparent url("../photos/tlo.jpg") repeat scroll 0% 0%;
+    	min-height: 899px;
+	}
+	.fb {
+    	height: 100%;
+    	float: left;
 	}
 	.homepagecenterhead {
-    margin-bottom: 1.04%;
+		margin-bottom: 4.0404%;
+	}
+	.homepagecenterhead > div {
+		border-bottom: 1px solid #CDCDCD;
+    	text-transform: uppercase;
+    	height: 117px;
+	}
+	.homepagecenterhead > div > span {
+    	display: inline-block;
+    	font-size: 2.5em;
+    	line-height: 2em;
+    	vertical-align: bottom;
+    	font-family: MouseoSans_500;
+    	border-bottom: 2px solid #B51D16;
+    	margin-top: 45px;
+    	margin-bottom: 4.0404%;
+	}
+	.footerhead {
+    	text-transform: uppercase;
+    	margin-bottom: 5%;
+    	width: 100%;
+	}	
+	.footerhead > div {
+		border-bottom: 1px solid #FFF;
+    	text-transform: uppercase;
+    	height: 85px;
+    	width: 98%;
+	}
+	.partners div a.drutexfooter {
+    	background: url('../photos/drutexfooter1.png');
+    	text-decoration: none;
+    	display: inline-block;
+    	position: absolute;
+    	float: left;
+    	margin-left: 140px;
+	}
+	.partners div a.polsatsport {
+    	background: transparent url("../photos/polsatfooter1.png") repeat scroll 0% 0%;
+    	display: inline-block;
+    	position: absolute;
+    	float: left;
+    	left: 400px;
+    	top: 167px;
+	}
+	#footersite {
+    	width: 100%;
+    	background-color: #080808;
+    	height: 380px;
+    	position: relative;
+	}
+	.bytoviafooter1 {
+    	position: absolute;
+    	left: 50%;
+    	margin-left: -42px;
+    	margin-bottom: 2px;
+    	display: block;
+    	z-index: 2;
+    	top: 430px;
+	}
+	.bytoviafooter {
+		display: none;
+	}
+	.logo11 img{
+		margin-top: 28px;
+	}
+	.container-fluid > .navbar-header {
+		width: 100%;
+	}
+	#headerLogo {
+		z-index: 1;
+		display: inline;
+	}
+	#headerTitle {
+		padding: 0px 0.4%;
+	}
+	.navbar {
+		display: none;
+	}
+	.subtitcarousel {
+    	float: left;
+    	height: 80px;
+    	text-align: center;
+    	font-family: MouseoSans_500;
+    	font-weight: normal;
+    	font-size: 30px;
+    	background-color: rgba(164, 28, 21, 0.6);
+    	width: 100%;
+    	position: absolute;
+    	top: 360px;
+	}
+	.wrappernewscenter { 
+		display: none;
+	}
+	#carouselcolorbackground {
+    	width: 100%;
+    	background-color: #080808;
+    	height: 440px;
+	}
+	.carousel-indicators {
+    	position: absolute;
+    	bottom: 10px;
+    	left: 50%;
+    	z-index: 15;
+    	width: 60%;
+    	padding-left: 0px;
+    	margin-left: -30%;
+    	text-align: center;
+    	list-style: outside none none;
+    	top: 444px;
+	}
+	.carousel-control {
+    	position: absolute;
+    	top: 0px;
+    	bottom: 0px;
+    	left: 0px;
+    	width: 15%;
+    	font-size: 20px;
+    	color: #FFF;
+    	text-align: center;
+    	text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+    	opacity: 0.5;
+    	height: 469px;
+	}
+	#social {
+		display: none;
+	}
+	#social1 {
+    	min-height: 444px;
+    	background: transparent url("../photos/tlo.jpg") repeat scroll 0% 0%;
+	}
+	#social320 {
+		display: none!important;
+	}
+	.modul-content1 {
+		display: none;
+	}
+	#headerLogo1 {
+		display: none;
+	}
+	.contentsticket {
+		width: 80%;
+    	margin-left: 10%;
+	}
+	.modul-content ul li a {
+		width:97%;
+	}
+	.filterposition1 {
+		display: none!important;
+	}
+	.filterposition2 {
+		display: none!important;
+	}
+	.select {
+		display: none;
+	}
+	.btd-modul {
+		margin-top: 10px;
+	}
+	.modul-content11 ul {
+    	list-style: outside none none;
+    	margin: 0px;
+	}
+	.modul-content11 {
+		padding: 0 3.5%;
+	}
+	.heading {
+		display: none;
+	}
+}
+@media only screen and (min-width: 780px) and (max-width: 860px) {
+	.homepagecenterhead > div {
+    	border-bottom: 1px solid #CDCDCD;
+    	text-transform: uppercase;
+    	height: 84px;
+	}
+	.homepagecenterhead {
+    	margin-bottom: 1.04%;
 	}
 	#carouselcolorbackground {
 		height: 430px;
@@ -4839,24 +4830,24 @@ a {
 		width: 100%;
 	}
 	.fb {
-	background-color: #000;
-}
+		background-color: #000;
+	}
 	.yt {
-	background-color: #000;
-}
-#social320 {
-	display: none!important;
-}
-.modul-content1 {
-	display: none;
-}
-.contentsticket {
-	width: 80%;
-    margin-left: 10%;
-}
-.modul-content ul li a {
-	width:97%;
-}
+		background-color: #000;
+	}
+	#social320 {
+		display: none!important;
+	}
+	.modul-content1 {
+		display: none;
+	}
+	.contentsticket {
+		width: 80%;
+    	margin-left: 10%;
+	}
+	.modul-content ul li a {
+		width:97%;
+	}
 }
 @media only screen and (min-width: 768px) and (max-width: 779px) {
 	.navbar {
@@ -4869,105 +4860,104 @@ a {
 		display: none;
 	}
 	.borderbottom1 {
-	display: none!important;
-}
+		display: none!important;
+	}
 	.borderbottom2 {
-	display: none!important;
-}
+		display: none!important;
+	}
 	.borderbottom3 {
-	display: none!important;
-}
+		display: none!important;
+	}
 	.borderbottom4 {
-	display: none!important;
-}
+		display: none!important;
+	}
 	.borderbottom5 {
-	display: none!important;
-}
+		display: none!important;
+	}
 	.borderbottom6 {
-	display: none!important;
-}
+		display: none!important;
+	}
 	.borderbottom7 {
-	display: none!important;
-}
+		display: none!important;
+	}	
 	.menu-advertisement1 {
-	display: none!important;
-}
+		display: none!important;
+	}
 	.menu-advertisement2 {
-	display: none!important;
-}
+		display: none!important;
+	}
 	.well-sm {
     	display: none;
     }
-
 	#menuafterscroll {
-	display: none!important;;
-}
+		display: none!important;;
+	}
 	.wrappernewsnextmatch {
-	display: none;
-}
-#footersite {
-	display: none!important;
-}
-.backgroundcolorsponsor {
-	display: none;
-}
-.gallery3 {
-	display: none;
-}
-.gallery {
-    height: 230px;
-}
-.social767 {
-	height: 785px;
-	width: 100%;
-	display: inline;
-}
-.fb {
-	background-color: #000;
-}
-.yt {
-	background-color: #000;
-}
-#social320 {
-	display: none!important;
-}
-.modul-content1 {
-	display: none;
-}
-#pagename .wrapper h1 {
-	font-size: 50px;
+		display: none;
 	}
-.titleline > div > div strong span {
-	font-size: 25px;
-}
-.titleline > div > div strong.activn span.activesub {
-    font-size: 25px;
-}
-.modul-content ul li a .time { 
-	font-size: 25px;
+	#footersite {
+		display: none!important;
 	}
-.modul-content ul li a .titlenewsstrong { 
-	font-size: 28px;
-}
-.modul-content ul li a .textnews {
-    font-size: 14px;
-}
-.buttonpositionnews a {
-	margin-left: -340px;
-    margin-bottom: 10px;
-}
-.filterposition1 {
-	display: none!important;
-}
-.filterposition2 {
-	display: none!important;
-}
-.select {
-	display: none;
-}
-.heading {
-	display: none;
-}
+	.backgroundcolorsponsor {
+		display: none;
+	}
+	.gallery3 {
+		display: none;
+	}
+	.gallery {
+    	height: 230px;
+	}
+	.social767 {
+		height: 785px;
+		width: 100%;
+		display: inline;
+	}
+	.fb {
+		background-color: #000;
+	}
+	.yt {
+		background-color: #000;
+	}
+	#social320 {
+		display: none!important;
+	}
+	.modul-content1 {
+		display: none;
+	}
+	#pagename .wrapper h1 {
+		font-size: 50px;
+	}
+	.titleline > div > div strong span {
+		font-size: 25px;
+	}
+	.titleline > div > div strong.activn span.activesub {
+    	font-size: 25px;
+	}
+	.modul-content ul li a .time { 
+		font-size: 25px;
+	}
+	.modul-content ul li a .titlenewsstrong { 
+		font-size: 28px;
+	}
+	.modul-content ul li a .textnews {
+    	font-size: 14px;
+	}
+	.buttonpositionnews a {
+		margin-left: -340px;
+    	margin-bottom: 10px;
+	}
+	.filterposition1 {
+		display: none!important;
+	}
+	.filterposition2 {
+		display: none!important;
+	}
+	.select {
+		display: none;
+	}
+	.heading {
+		display: none;
+	}
 }
 @media only screen and (min-width: 481px) and (max-width: 767px) {
 	.well-sm {
@@ -4977,78 +4967,75 @@ a {
     	display: none!important;
     }
     .navbar-default .navbar-toggle:focus {
-    background-color: #000;
-}
+    	background-color: #000;
+	}
 	.navbar-default .navbar-toggle:focus:hover {
-    background-color: #000;
-}
+    	background-color: #000;
+	}
     .hpnewstitle .title {
     	font-size: 10px;
     }
     .bytoviafooter {
-	display: none;
-}
-.bytoviafooter1 {
-	display: none;
-}
-    .gallery2 {
-    	display: none;
-    }
-.container-fluid {
+		display: none;
+	}
+	.bytoviafooter1 {
+		display: none;
+	}
+	.container-fluid {
 		background-color: #000;
 	}
 	#headerTitle strong {
-	font-size: 20px;
-	margin-left: -8px;
-}
-.backgroundcolormenumini {
-	height: 100%;
-}
-.menumini {
-	width: 318px;
-	margin-left: 150px;
-}
-.daneklubu {
-	width: 243px;
-	left: -250px;
-	top: 145px;
-}
-#headerNavs {
-	display: none;
-}
-#headerLogo {
-	z-index: 1;
-}
-#menuafterscroll {
-	display: none!important;
-}
-.navbar-toggle  {
-	background-color: #000;
-    float: right;
-}
-.navbar-toggle .icon-bar {
-    background-color: #888;
-}
-.navbar-toggle .icon-bar {
-    display: block;
-    width: 22px;
-    height: 2px;
-    border-radius: 1px;
-}
-.navbar-toggle .icon-bar + .icon-bar {
-    margin-top: 4px;
-}
-.navbar-default .navbar-nav > .active > a {
-	color: #555;
-	background-color: #000!important;
+		font-size: 20px;
+		margin-left: -8px;
+	}
+	.backgroundcolormenumini {
+		height: 100%;
+	}
+	.menumini {
+		width: 318px;
+		margin-left: 150px;
+	}
+	.daneklubu {
+		width: 243px;
+		left:-325px;
+		top: 210px
+	}
+	#headerNavs {
+		display: none;
+	}
+	#headerLogo {
+		z-index: 1;
+	}
+	#menuafterscroll {
+		display: none!important;
+	}
+	.navbar-toggle  {
+		background-color: #000;
+    	float: right;
+	}
+	.navbar-toggle .icon-bar {
+    	background-color: #888;
+	}
+	.navbar-toggle .icon-bar {
+    	display: block;
+    	width: 22px;
+    	height: 2px;
+    	border-radius: 1px;
+	}
+	.navbar-toggle .icon-bar + .icon-bar {
+    	margin-top: 4px;
+	}
+	.navbar-default .navbar-nav > .active > a {
+		color: #555;
+		background-color: #000!important;
 	}
 	.navbar-default .navbar-collapse {
 		border-color: #000;
 	}
 	#carouselcolorbackground {
-    background-color: #000;
-    width: 100%;
-}
+    	background-color: #000;
+    	width: 100%;
+	}
 	.width100 {
 		width: 95%;
 		height: 100%;
@@ -5060,170 +5047,170 @@ a {
 	}
 .wrappernewsnextmatch {
 	display: none;
-}
-ol { 
-	height: 4em;
-	line-height: 2em;
-}
-.carousel-control.left {
-	background-image: none;
-	height: 78%;
-}
-.carousel-control.right {
-	background-image: none;
-	height: 78%;
-}
-.carousel-inner {
-	height: 100%;
-}
-.carousel-indicators {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    z-index: 15;
-    width: 60%;
-    padding-left: 0px;
-    margin-left: -30%;
-    text-align: center;
-    list-style: outside none none;
-    top: 70%;
-}
-.subtitcarousel {
-	font-size: 25px;
-    position: relative;
-    float: left;
-    width: 100%;
-    top: 0px;
-    font-family: MouseoSans_500;
-    height: 80px;
-    background-color: #A82019;
-}
-.homepagecenterhead > div {
-	height: 58px;
-}
-.homepagecenterhead > div > span {
+	}
+	ol { 
+		height: 4em;
+		line-height: 2em;
+	}
+	.carousel-control.left {
+		background-image: none;
+		height: 78%;
+	}
+	.carousel-control.right {
+		background-image: none;
+		height: 78%;
+	}
+	.carousel-inner {
+		height: 100%;
+	}
+	.carousel-indicators {
+    	position: absolute;
+    	bottom: 10px;
+    	left: 50%;
+    	z-index: 15;
+    	width: 60%;
+    	padding-left: 0px;
+    	margin-left: -30%;
+    	text-align: center;
+    	list-style: outside none none;
+    	top: 70%;
+	}
+	.subtitcarousel {
+		font-size: 25px;
+    	position: relative;
+    	float: left;
+    	width: 100%;
+    	top: 0px;
+    	font-family: MouseoSans_500;
+    	height: 80px;
+    	background-color: #A82019;
+	}
+	.homepagecenterhead > div {
+		height: 58px;
+	}
+	.homepagecenterhead > div > span {
 	    font-size: 1.5em;
-}
-.homepagegallery > div {
-	height: 58px;
-}
-.homepagegallery > div > span {
-	font-size: 1.5em;
-}
-#headerTop nav > a {
-	font-size: 10px;
-}
-.gallery {
-	height: 230px;
-}
-.gallery1 {
-	height: 217px;
-}
-.gallery3 {
-	display: none;
-}
-.backgroundcolorsponsor {
-	display: none;
-}
-#social {
-	display: none;
-}
-.social767 {
-	height: 785px;
-	width: 100%;
-	display: inline;
-	visibility: visible;
-}
-.partners div a.drutexfooter {
-	left: 111px;
-}
-.partners div a.urzadbyt {
-	left: 16px;
-    top: 245px;
-}
-.polsatsport {
-	display: none!important;
-}
-.footerhead {
-    width: 97%;
-}
-.fb {
-	background-color: #000;
-}
-.yt {
-	background-color: #000;
-}
-#social320 {
-	display: none!important;
-}
-.subtitcarousel a strong {
-	font-size: 20px;
-}
-.modul-content1 {
-	display: none;
-}
-.list-follow {
-	margin-left: 183px;
-}
-#footersite {
-	height: 500px;
-}
-.bytoviafooter {
-	top: 450px;
-}
-.modul-content1 {
-	display: none;
-}
-#pagename .wrapper h1 {
-	font-size: 50px;
 	}
-.titleline > div > div strong span {
-	font-size: 25px;
-}
-.titleline > div > div strong.activn span.activesub {
-    font-size: 25px;
-}
-.modul-content ul li a .time { 
-	font-size: 25px;
+	.homepagegallery > div {
+		height: 58px;
 	}
-.modul-content ul li a .titlenewsstrong { 
-	font-size: 28px;
-}
-.modul-content ul li a .textnews {
-    font-size: 14px;
-}
-.filterposition1 {
-	display: none!important;
-}
-.filterposition2 {
-	display: none!important;
-}
-.select {
-	display: none;
-}
-.heading {
-	display: none;
-}
-#pagename11 .wrapper h1 {
-	font-size: 40px;
-}
-form.filter > span {
-	margin: 0px auto;
-}
-.modul-content11 ul li a .titlenewsstrong1 {
-	font-size: 25px;
-}
-.modul-content11 ul li a .textnews {
+	.homepagegallery > div > span {
+		font-size: 1.5em;
+	}
+	#headerTop nav > a {
+		font-size: 10px;
+	}
+	.gallery {
+		height: 230px;
+	}
+	.gallery1 {
+		height: 217px;
+	}
+	.gallery3 {
+		display: none;
+	}
+	.backgroundcolorsponsor {
+		display: none;
+	}
+	#social {
+		display: none;
+	}
+	.social767 {
+		height: 785px;
+		width: 100%;
+		display: inline;
+		visibility: visible;
+	}
+	.partners div a.drutexfooter {
+		left: 111px;
+	}
+	.partners div a.urzadbyt {
+		left: 16px;
+   		top: 245px;
+	}
+	.polsatsport {
+		display: none!important;
+	}
+	.footerhead {
+    	width: 97%;
+	}
+	.fb {
+		background-color: #000;
+	}
+	.yt {
+		background-color: #000;
+	}
+	#social320 {
+		display: none!important;
+	}
+	.subtitcarousel a strong {
+		font-size: 20px;
+	}
+	.modul-content1 {
+		display: none;
+	}
+	.list-follow {
+		margin-left: 183px;
+	}
+	#footersite {
+		height: 500px;
+	}
+	.bytoviafooter {
+		top: 450px;
+	}
+	.modul-content1 {
+		display: none;
+	}
+	#pagename .wrapper h1 {
+		font-size: 50px;
+	}
+	.titleline > div > div strong span {
+		font-size: 25px;
+	}
+	.titleline > div > div strong.activn span.activesub {
+    	font-size: 25px;
+	}
+	.modul-content ul li a .time { 
+		font-size: 25px;
+	}
+	.modul-content ul li a .titlenewsstrong { 
+		font-size: 28px;
+	}
+	.modul-content ul li a .textnews {
+    	font-size: 14px;
+	}
+	.filterposition1 {
+		display: none!important;
+	}
+	.filterposition2 {
+		display: none!important;
+	}
+	.select {
+		display: none;
+	}
+	.heading {
+		display: none;
+	}
+	#pagename11 .wrapper h1 {
+		font-size: 40px;
+	}
+	form.filter > span {
+		margin: 0px auto;
+	}
+	.modul-content11 ul li a .titlenewsstrong1 {
+		font-size: 25px;
+	}
+	.modul-content11 ul li a .textnews {
 	    font-size: 14px;
-}
+	}
 }
 @media only screen and (min-width: 481px) and (max-width: 626px) {
 	#pagename .wrapper h1 {
 		font-size: 40px;
 	}
 	.bytoviafooter {
-	display: none;
-}
+		display: none;
+	}
 	.textnews {
 		display: none!important;
 	}
@@ -5237,13 +5224,12 @@ form.filter > span {
 		font-size: 20px;
 	}
 	.buttonpositionnews {
-	margin-top: 40px;
-    padding: 20px;
-    width: 135px;
-    margin-left: 0px;
-    margin-bottom: 0px;
-}
-
+		margin-top: 40px;
+    	padding: 20px;
+    	width: 135px;
+    	margin-left: 0px;
+    	margin-bottom: 0px;
+	}
 }
 @media only screen and (min-width: 396px) and (max-width: 480px) {
 	#pagename .wrapper h1 {
@@ -5253,8 +5239,8 @@ form.filter > span {
 		display: none!important;
 	}
 	.bytoviafooter {
-	display: none;
-}
+		display: none;
+	}
 	.modul-content ul li a {
 		padding: 16px 1px 0px 250px;
 	}
@@ -5265,323 +5251,107 @@ form.filter > span {
 		font-size: 18px;
 	}
 	.buttonpositionnews {
-	margin-top: 40px;
-    padding: 20px;
-    width: 135px;
-    margin-left: 0px;
-    margin-bottom: 0px;
-}
-.titleline > div > div strong.activn span.activesub {
-	font-size: 25px;
-}
-.iconFont {
-	display: none!important;
-}
-.modul-content ul li a .information12 {
-	font-size: 10px;
-}
-.modul-content ul li a .time {
-	font-size: 18px;
-}
-.filterposition1 {
-	display: none!important;
-}
-.filterposition2 {
-	display: none!important;
-}
-.select {
-	display: none;
-}
-.heading {
-	display: none;
-}
-#pagename11 .wrapper h1 {
-	font-size: 30px;
-}
-.modul-content11 ul li a .titlenewsstrong1 {
-	font-size: 17px;
-}
-.partners1 div a.adidasfooter1{
-	text-decoration: none;
-    display: inline-block;
-   	position: absolute;
-   	float: left;
-   	left: 70px;
-	width: 150px;
-    height: 100px;
-    background: url('../photos/Adidas-Web1-smartph.png');
-}
+		margin-top: 40px;
+    	padding: 20px;
+    	width: 135px;
+    	margin-left: 0px;
+    	margin-bottom: 0px;
+	}	
+	.titleline > div > div strong.activn span.activesub {
+		font-size: 25px;
+	}
+	.iconFont {
+		display: none!important;
+	}
+	.modul-content ul li a .information12 {
+		font-size: 10px;
+	}
+	.modul-content ul li a .time {
+		font-size: 18px;
+	}
+	.filterposition1 {
+		display: none!important;
+	}
+	.filterposition2 {
+		display: none!important;
+	}
+	.select {
+		display: none;
+	}
+	.heading {
+		display: none;
+	}
+	#pagename11 .wrapper h1 {
+		font-size: 30px;
+	}
+	.modul-content11 ul li a .titlenewsstrong1 {
+		font-size: 17px;
+	}
+	.partners1 div a.adidasfooter1{
+		text-decoration: none;
+    	display: inline-block;
+   		position: absolute;
+   		float: left;
+   		left: 70px;
+		width: 150px;
+    	height: 100px;
+    	background: url('../photos/Adidas-Web1-smartph.png');
+	}
 	.partners1 div a.adidasfooter1:hover{
-    background: url('../photos/Adidas-Web11-smartph.png');
+    	background: url('../photos/Adidas-Web11-smartph.png');
+	}
+	.partners1 {
+		float: left;
+		padding-top: 20px;
+		text-align: center;
+		width: 100%;
+	}
+	.partners1 div {
+		float: left;
+		margin-bottom: 25px;
+		width: 100%;
+	}
+	.partners1 div a {
+		margin-left:66px;
+		opacity: 0.5;
+	}
 }
-.partners1 {
-	float: left;
-	padding-top: 20px;
-	text-align: center;
-	width: 100%;
-}
-.partners1 div {
-	float: left;
-	margin-bottom: 25px;
-	width: 100%;
-}
-.partners1 div a {
-	margin-left:66px;
-	opacity: 0.5;
-}
-}
-
 @media only screen and (min-width: 320px) and (max-width: 480px) {
-#menuafterscroll {
-		display: none!important;
-	}
-.textnews {
-		display: none!important;
-	}
-.homepagecenterhead > div > span {
-		font-size: 20px;
-	}
-.bytoviafooter {
-	display: none;
-}
-.bytoviafooter1 {
-	display: none;
-}
-.adidasfooter {
-	display: none!important;
-}
-#gototop {
-	display: none!important;
-}
-.homepagecenterhead > div {
-	    height: 59px;
-}
-.modul-content1 {
-	height: 100%;
-	display: inline;
-	width: 95%;
-}
-.homepagegallery > div {
-	height: 58px;
-}
-.carousel-indicators {
-	display: none;
-}
-	.well-sm {
-    	display: none;
-    }
-    .footerhead > div > span {
-    	font-size: 20px;
-    }
-    .footerhead > div {
-    height: 57px;
-}
-	#headerTop {
-    color: #FFF;
-    font-size: 8px;
-}
-.carousel-inner {
-	height: 200px;
-}
-.subtitcarousel {
-    position: relative;
-    float: left;
-    top: -110px;
-    font-family: MouseoSans_500;
-    font-weight: normal;
-    font-size: 22px;
-    background-color: rgba(164, 28, 21, 0.6);
-    width: 100%;
-    height: 80px;
-}
-.subtitcarousel a strong {
-	position: relative;
-    top: 10px;
-    font-size: 18px;
-}
-#headerTitle strong {
-	font-size: 15px;
-}
-#headerLogo {
-	display: none;
-}
-#headerLogo1{
-	position: absolute;
-	top: 15px;
-	left: 55%;
-	margin-left: -75px;
-	opacity: 1;
-	display: inline;
-}
-.sponsorList {
-	float: left;
-}
-#headerNavs {
-	display: none;
-}
-.wrappernewsnextmatch {
-	display: none;
-}
-.homepagecenterhead > div > span {
-	font-size: 1.5em;
-}
-.hpnewstitle .title {
-	font-size: 12px;
-}
-.gallery1 {
-	display: none;
-}
-.gallery2 {
-	display: none;
-}
-.homepagegallery > div > span {
-	font-size: 1.5em;
-}
-#social {
-	display: none!important;
-}
-.social767 {
-	display: none!important;
-}
-
-.backgroundcolorsponsor {
-	display: none;
-}
-.div-779{
-	display: none;
-}
-.gallery {
-	height: 218px;
-}
-.daneklubu {
-	left: -55px;
-}
-.menumini {
-left: 50px;
-}
-.homepagecenter {
-	display: none;
-}
-.titleline > div > div strong span {
-	font-size: 20px;
-}
-.modul-content1 ul li a .titlenewsstrong1 {
-	font-size: 14px;
-}
-.modul-content1 ul li a .textnews {
-	font-size: 12px;
-}
-.titleline > div > div strong.activn span:first-child {
-	    border-bottom: 2px solid #B51D16;
-	    text-transform: uppercase;
-}
-.container-fluid > .navbar-header {
-	background-color: #000;
-}
-.dropdown-toggle {
-	background-color: #000!important;
-}
-#mynavbar-content ul li{
-	background-color: #000;
-}
-.gallery3 {
-	height: 189px;
-}
-.gallery3 img {
-	width: 279px;
-}
-.backgroundcolormenumini {
-	height: 100%;
-}
-.menumini {
-	left: 0px;
-	font-size: 10px;
-}
-.social {
-	display: none;
-}
-.daneklubu {
-	left: -70px;
-	font-size: 12px;
-	top: 90px;
-}
-.widget-title {
-	font-size: 15px;
-}
-.imgadress {
-	top:15px;
-}
-.partners div a.polsatsport {
-	top: 270px;
-	left: -55px;
-}
-.partners div a.drutexfooter {
-	left: -40px;
-}
-.urzadbyt {
-	display: none!important;
-}
-.filterposition1 {
-	display: none!important;
-}
-.filterposition2 {
-	display: none!important;
-}
-.select {
-	display: none;
-}
-.heading {
-	display: none;
-}
-#pagename11 .wrapper h1 {
-	font-size: 30px;
-}
-.modul-content11 ul li a .titlenewsstrong1 {
-	font-size: 17px;
-}
-}
-@media only screen and (min-width:320px) and (max-width: 395px) {
-.modul-content1 ul li a {
-		 min-height: 200px;
-	}
-	.bytoviafooter {
-	display: none;
-}
-.partners {
-	display: inline;
-}
-.modul-content1 ul li a .titlenewsstrong1 {
-    position: relative;
-    font-size: 14px;
-    top: 159px;
-    width: 213px;
-    float: left;
-    margin-left: -224px;
-    text-align: center;
-}
-.modul-content1 ul li a .textnews {
-	display: none;
-}
 	#menuafterscroll {
 		display: none!important;
-}
+	}
+	.textnews {
+		display: none!important;
+	}
 	.homepagecenterhead > div > span {
 		font-size: 20px;
 	}
-.homepagecenterhead > div {
+	.bytoviafooter {
+		display: none;
+	}	
+	.bytoviafooter1 {
+		display: none;
+	}
+	.adidasfooter {
+		display: none!important;
+	}
+	#gototop {
+		display: none!important;
+	}
+	.homepagecenterhead > div {
 	    height: 59px;
-}
-.modul-content1 {
-	height: 100%;
-	display: inline;
-	width: 95%;
-}
-.homepagegallery > div {
-	height: 58px;
-}
-.carousel-indicators {
-	display: none;
-}
+	}
+	.modul-content1 {
+		height: 100%;
+		display: inline;
+		width: 95%;
+	}
+	.homepagegallery > div {
+		height: 58px;
+	}
+	.carousel-indicators {
+		display: none;
+	}
 	.well-sm {
     	display: none;
     }
@@ -5589,151 +5359,364 @@ left: 50px;
     	font-size: 20px;
     }
     .footerhead > div {
-    height: 57px;
-}
+    	height: 57px;
+	}
 	#headerTop {
-    color: #FFF;
-    font-size: 8px;
-}
-.carousel-inner {
-	height: 200px;
-}
-.subtitcarousel {
-    position: relative;
-    float: left;
-    top: -41px;
-    font-family: MouseoSans_500;
-    font-weight: normal;
-    font-size: 22px;
-    background-color: rgba(164, 28, 21, 0.6);
-    width: 100%;
-    height: 30px;
-}
-.subtitcarousel a strong {
-	position: relative;
-    top: -6px;
-    font-size: 13px;
-}
-#headerTitle strong {
-	font-size: 15px;
-}
-#headerLogo {
-	display: none;
-}
-#headerLogo1{
-	position: absolute;
-	top: 15px;
-	left: 90%;
-	margin-left: -75px;
-	opacity: 1;
-	display: inline;
-}
-.sponsorList {
-	float: left;
-}
-#headerNavs {
-	display: none;
-}
-.wrappernewsnextmatch {
-	display: none;
-}
-.homepagecenterhead > div > span {
-	font-size: 1.5em;
-}
-.hpnewstitle .title {
-	font-size: 12px;
-}
-.gallery1 {
-	display: none;
-}
-.gallery2 {
-	display: none;
-}
-.homepagegallery > div > span {
-	font-size: 1.5em;
-}
-#social {
-	display: none!important;
-}
-.social767 {
-	display: none!important;
-}
-
-.div-779{
-	display: none;
-}
-.gallery {
-	height: 218px;
-}
-.daneklubu {
-	left: -55px;
-}
-.menumini {
-left: 50px;
-}
-.homepagecenter {
-	display: none;
-}
-.titleline > div > div strong span {
-	font-size: 20px;
-}
-.modul-content1 ul li a .titlenewsstrong1 {
-	font-size: 14px;
-}
-.modul-content1 ul li a .textnews {
-	font-size: 12px;
-}
-.titleline > div > div strong.activn span:first-child {
+    	color: #FFF;
+    	font-size: 8px;
+	}
+	.carousel-inner {
+		height: 200px;
+	}
+	.subtitcarousel {
+    	position: relative;
+    	float: left;
+    	top: -110px;
+    	font-family: MouseoSans_500;
+    	font-weight: normal;
+    	font-size: 22px;
+    	background-color: rgba(164, 28, 21, 0.6);
+    	width: 100%;
+    	height: 80px;
+	}
+	.subtitcarousel a strong {
+		position: relative;
+    	top: 10px;
+    	font-size: 18px;
+	}
+	#headerTitle strong {
+		font-size: 15px;
+	}
+	#headerLogo {
+		display: none;
+	}
+	#headerLogo1{
+		position: absolute;
+		top: 15px;
+		left: 55%;
+		margin-left: -75px;
+		opacity: 1;
+		display: inline;
+	}
+	.sponsorList {
+		float: left;
+	}
+	#headerNavs {
+		display: none;
+	}
+	.wrappernewsnextmatch {
+		display: none;
+	}
+	.homepagecenterhead > div > span {
+		font-size: 1.5em;
+	}
+	.hpnewstitle .title {
+		font-size: 12px;
+	}
+	.gallery1 {
+		display: none;
+	}
+	.gallery2 {
+		display: none;
+	}
+	.homepagegallery > div > span {
+		font-size: 1.5em;
+	}
+	#social {
+		display: none!important;
+	}
+	.social767 {
+		display: none!important;
+	}
+	.backgroundcolorsponsor {
+		display: none;
+	}
+	.div-779{
+		display: none;
+	}
+	.gallery {
+		height: 218px;
+	}
+	.daneklubu {
+		left: -55px;
+	}
+	.menumini {
+	left: 50px;
+	}
+	.homepagecenter {
+		display: none;
+	}
+	.titleline > div > div strong span {
+		font-size: 20px;
+	}
+	.modul-content1 ul li a .titlenewsstrong1 {
+		font-size: 14px;
+	}
+	.modul-content1 ul li a .textnews {
+		font-size: 12px;
+	}
+	.titleline > div > div strong.activn span:first-child {
 	    border-bottom: 2px solid #B51D16;
 	    text-transform: uppercase;
+	}
+	.container-fluid > .navbar-header {
+		background-color: #000;
+	}
+	.dropdown-toggle {
+		background-color: #000!important;
+	}
+	#mynavbar-content ul li{
+		background-color: #000;
+	}
+	.gallery3 {
+		height: 189px;
+	}
+	.gallery3 img {
+		width: 279px;
+	}
+	.backgroundcolormenumini {
+		height: 100%;
+	}
+	.menumini {
+		left: 0px;
+		font-size: 10px;
+	}
+	.social {
+		display: none;
+	}
+	.daneklubu {
+		left: -70px;
+		font-size: 12px;
+		top: 90px;
+	}
+	.widget-title {
+		font-size: 15px;
+	}
+	.imgadress {
+		top:15px;
+	}
+	.partners div a.polsatsport {
+		top: 270px;
+		left: -55px;
+	}
+	.partners div a.drutexfooter {
+		left: -40px;
+	}
+	.urzadbyt {
+		display: none!important;
+	}
+	.filterposition1 {
+		display: none!important;
+	}
+	.filterposition2 {
+		display: none!important;
+	}
+	.select {
+		display: none;
+	}
+	.heading {
+		display: none;
+	}
+	#pagename11 .wrapper h1 {
+		font-size: 30px;
+	}
+	.modul-content11 ul li a .titlenewsstrong1 {
+		font-size: 17px;
+	}
 }
-#gototop {
-	display: none!important;
-}
-.container-fluid > .navbar-header {
-	background-color: #000;
-}
-.dropdown-toggle {
-	background-color: #000!important;
-}
-#mynavbar-content ul li{
-	background-color: #000;
-}
-.gallery3 {
-	height: 189px;
-}
-.gallery3 img {
-	width: 279px;
-}
-.backgroundcolormenumini {
-	height: 100%;
-}
-.menumini {
-	left: 0px;
-	font-size: 10px;
-}
-.social {
-	display: none;
-}
-.daneklubu {
-	left: -70px;
-	font-size: 12px;
-	top: 90px;
-}
-.widget-title {
-	font-size: 15px;
-}
-.imgadress {
-	top:15px;
-}
-.partners div a.polsatsport {
-	top: 270px;
-	left: -55px;
-}
-.partners div a.drutexfooter {
-	left: -40px;
-}
-#pagename .wrapper h1 {
+@media only screen and (min-width:320px) and (max-width: 395px) {
+	.modul-content1 ul li a {
+		 min-height: 200px;
+	}
+	.bytoviafooter {
+		display: none;
+	}
+	.partners {
+		display: inline;
+	}
+	.modul-content1 ul li a .titlenewsstrong1 {
+    	position: relative;
+    	font-size: 14px;
+    	top: 159px;
+    	width: 213px;
+    	float: left;
+    	margin-left: -224px;
+    	text-align: center;
+	}
+	.modul-content1 ul li a .textnews {
+		display: none;
+	}
+	#menuafterscroll {
+		display: none!important;
+	}
+	.homepagecenterhead > div > span {
+		font-size: 20px;
+	}
+	.homepagecenterhead > div {
+	    height: 59px;
+	}
+	.modul-content1 {
+		height: 100%;
+		display: inline;
+		width: 95%;
+	}
+	.homepagegallery > div {
+		height: 58px;
+	}
+	.carousel-indicators {
+		display: none;
+	}
+	.well-sm {
+    	display: none;
+    }
+    .footerhead > div > span {
+    	font-size: 20px;
+    }
+    .footerhead > div {
+    	height: 57px;
+	}
+	#headerTop {
+    	color: #FFF;
+    	font-size: 8px;
+	}
+	.carousel-inner {
+		height: 200px;
+	}
+	.subtitcarousel {
+    	position: relative;
+    	float: left;
+    	top: -41px;
+    	font-family: MouseoSans_500;
+    	font-weight: normal;
+    	font-size: 22px;
+    	background-color: rgba(164, 28, 21, 0.6);
+    	width: 100%;
+    	height: 30px;
+	}
+	.subtitcarousel a strong {
+		position: relative;
+    	top: -6px;
+    	font-size: 13px;
+	}
+	#headerTitle strong {
+		font-size: 15px;
+	}
+	#headerLogo {
+		display: none;
+	}
+	#headerLogo1{
+		position: absolute;
+		top: 15px;
+		left: 90%;
+		margin-left: -75px;
+		opacity: 1;
+		display: inline;
+	}
+	.sponsorList {
+		float: left;
+	}
+	#headerNavs {
+		display: none;
+	}
+	.wrappernewsnextmatch {
+		display: none;
+	}
+	.homepagecenterhead > div > span {
+		font-size: 1.5em;
+	}
+	.hpnewstitle .title {
+		font-size: 12px;
+	}
+	.gallery1 {
+		display: none;
+	}
+	.gallery2 {
+		display: none;
+	}
+	.homepagegallery > div > span {
+		font-size: 1.5em;
+	}
+	#social {
+		display: none!important;
+	}
+	.social767 {
+		display: none!important;
+	}
+	.div-779{
+		display: none;
+	}
+	.gallery {
+		height: 218px;
+	}
+	.daneklubu {
+		left: -55px;
+	}
+	.menumini {
+	left: 50px;
+	}
+	.homepagecenter {
+		display: none;
+	}
+	.titleline > div > div strong span {
+		font-size: 20px;
+	}
+	.modul-content1 ul li a .titlenewsstrong1 {
+		font-size: 14px;
+	}
+	.modul-content1 ul li a .textnews {
+		font-size: 12px;
+	}
+	.titleline > div > div strong.activn span:first-child {
+	    border-bottom: 2px solid #B51D16;
+	    text-transform: uppercase;
+	}
+	#gototop {
+		display: none!important;
+	}
+	.container-fluid > .navbar-header {
+		background-color: #000;
+	}
+	.dropdown-toggle {
+		background-color: #000!important;
+	}
+	#mynavbar-content ul li{
+		background-color: #000;
+	}
+	.gallery3 {
+		height: 189px;
+	}
+	.gallery3 img {
+		width: 279px;
+	}
+	.backgroundcolormenumini {
+		height: 100%;
+	}
+	.menumini {
+		left: 0px;
+		font-size: 10px;
+	}
+	.social {
+		display: none;
+	}
+	.daneklubu {
+		left: -70px;
+		font-size: 12px;
+		top: 90px;
+	}
+	.widget-title {
+		font-size: 15px;
+	}
+	.imgadress {
+		top:15px;
+	}
+	.partners div a.polsatsport {
+		top: 270px;
+		left: -55px;
+	}
+	.partners div a.drutexfooter {
+		left: -40px;
+	}
+	#pagename .wrapper h1 {
 		font-size: 30px;
 	}
 	.textnews {
@@ -5750,26 +5733,25 @@ left: 50px;
 	}
 	.modul-content ul li a .time span {
 		font-size: 17px;
-		}
+	}
 	.modul-content ul li a .time span.iconFont {
 		display: none;
-		}
-		.titleline > div > div strong span {
-	font-size: 15px;
+	}
+	.titleline > div > div strong span {
+		font-size: 15px;
+	}
+	.titleline > div > div strong.activn span.activesub {
+		font-size: 15px;
+	}
+	.modul-content11 ul li a .imagenews {
+		width: 200px;
+	}
+	.modul-content11 ul li a .titlenewsstrong1 {
+		font-size: 17px;
+    	margin-top: 150px;
+    	margin-left: -229px;
+	}
 }
-.titleline > div > div strong.activn span.activesub {
-	font-size: 15px;
-}
-.modul-content11 ul li a .imagenews {
-	width: 200px;
-}
-.modul-content11 ul li a .titlenewsstrong1 {
-	font-size: 17px;
-    margin-top: 150px;
-    margin-left: -229px;
-}
-}
-
 @media only screen and (min-width:356px) and (max-width: 395px) {
 	#pagename .wrapper h1 {
 		font-size: 30px;
@@ -5778,8 +5760,8 @@ left: 50px;
 		display: none!important;
 	}
 	.bytoviafooter {
-	display: none;
-}
+		display: none;
+	}
 	.modul-content ul li a {
 		padding: 16px 1px 0px 250px;
 	}
@@ -5791,19 +5773,19 @@ left: 50px;
 	}
 	.modul-content ul li a .time span {
 		font-size: 17px;
-		}
+	}
 	.modul-content ul li a .time span.iconFont {
 		display: none;
-		}
+	}
 	.titleline > div > div strong span {
 		font-size: 15px;
-}
+	}
 	.titleline > div > div strong.activn span.activesub {
 		font-size: 15px;
-}
-.modul-content ul li a .information12 {
-	font-size: 10px;
-}
+	}
+	.modul-content ul li a .information12 {
+		font-size: 10px;
+	}
 }
 @media only screen and (min-width:345px) and (max-width: 376px) {
 	.modul-content ul li a .imagenews {
@@ -5813,8 +5795,8 @@ left: 50px;
 		padding: 10px 1px 0px 220px
 	}
 	.bytoviafooter {
-	display: none;
-}
+		display: none;
+	}
 }
 @media only screen and (min-width:320px) and (max-width: 344px) {
 	.modul-content ul li a .titlenewsstrong {
@@ -5836,38 +5818,37 @@ left: 50px;
 		margin-left: 0px;
 	}
 	.bytoviafooter {
-	display: none;
-}
-
+		display: none;
+	}
 }
 @media only screen and (max-width: 319px) {
-.modul-content1 ul li a {
+	.modul-content1 ul li a {
 		 min-height: 200px;
-}
-.bytoviafooter {
-	display: none;
-}
-.partners1 div a {
-	margin-left: 0px;
-}
-.adidasfooter {
-	margin-left: 10px;
-}
-#gototop {
-	display: none!important;
-}
-.modul-content1 ul li a .titlenewsstrong1 {
-    position: relative;
-    font-size: 14px;
-    top: 159px;
-    width: 213px;
-    float: left;
-    margin-left: -224px;
-    text-align: center;
-}
-.modul-content1 ul li a .textnews {
-	display: none;
-}
+	}
+	.bytoviafooter {
+		display: none;
+	}
+	.partners1 div a {
+		margin-left: 0px;
+	}
+	.adidasfooter {
+		margin-left: 10px;
+	}
+	#gototop {
+		display: none!important;
+	}
+	.modul-content1 ul li a .titlenewsstrong1 {
+    	position: relative;
+    	font-size: 14px;
+    	top: 159px;
+    	width: 213px;
+    	float: left;
+    	margin-left: -224px;
+    	text-align: center;
+	}
+	.modul-content1 ul li a .textnews {
+		display: none;
+	}
 	#menuafterscroll {
 		display: none!important;
 	}
@@ -5877,20 +5858,20 @@ left: 50px;
 	.homepagecenterhead > div > span {
 		font-size: 20px;
 	}
-.homepagecenterhead > div {
+	.homepagecenterhead > div {
 	    height: 59px;
-}
-.modul-content1 {
-	height: 100%;
-	display: inline;
-	width: 95%;
-}
-.homepagegallery > div {
-	height: 58px;
-}
-.carousel-indicators {
-	display: none;
-}
+	}
+	.modul-content1 {
+		height: 100%;
+		display: inline;
+		width: 95%;
+	}
+	.homepagegallery > div {
+		height: 58px;
+	}
+	.carousel-indicators {
+		display: none;
+	}
 	.well-sm {
     	display: none;
     }
@@ -5898,151 +5879,150 @@ left: 50px;
     	font-size: 20px;
     }
     .footerhead > div {
-    height: 57px;
-    width: 95%;
-}
+    	height: 57px;
+    	width: 95%;
+	}
 	#headerTop {
-    color: #FFF;
-    font-size: 8px;
-}
-.carousel-inner {
-	height: 200px;
-}
-.subtitcarousel {
-    position: relative;
-    float: left;
-    top: 0px;
-    font-family: MouseoSans_500;
-    font-weight: normal;
-    font-size: 22px;
-    background-color: rgba(164, 28, 21, 0.6);
-    width: 100%;
-    height: 30px;
-}
-.subtitcarousel a strong {
-	position: relative;
-    top: -6px;
-    font-size: 13px;
-}
-#headerTitle strong {
-	font-size: 15px;
-}
-#headerLogo {
-	display: none;
-}
-#headerLogo1{
-	position: absolute;
-	top: 15px;
-	left: 90%;
-	margin-left: -75px;
-	opacity: 1;
-	display: inline;
-}
-.sponsorList {
-	float: left;
-}
-#headerNavs {
-	display: none;
-}
-.wrappernewsnextmatch {
-	display: none;
-}
-.homepagecenterhead > div > span {
-	font-size: 1.5em;
-}
-.hpnewstitle .title {
-	font-size: 12px;
-}
-.gallery1 {
-	display: none;
-}
-.gallery2 {
-	display: none;
-}
-.homepagegallery > div > span {
-	font-size: 1.5em;
-}
-#social {
-	display: none!important;
-}
-.social767 {
-	display: none!important;
-}
-.urzadbyt {
-	display: none!important;
-}
-.partners div a.drutexfooter {
-	left: -40px;
-}
-.partners div a.polsatsport {
-	top: 270px;
-	left: -55px;
-}
-.backgroundcolorsponsor {
-	display: none;
-}
-.div-779{
-	display: none;
-}
-.gallery {
-	height: 218px;
-}
-.daneklubu {
-	left: -55px;
-	width: 100%;
-}
-.menumini {
-	left: 50px;
-	width: 100%;
-}
-.homepagecenter {
-	display: none;
-}
-
-.titleline > div > div strong.activn span:first-child {
+    	color: #FFF;
+    	font-size: 8px;
+	}
+	.carousel-inner {
+		height: 200px;
+	}
+	.subtitcarousel {
+    	position: relative;
+    	float: left;
+    	top: 0px;
+    	font-family: MouseoSans_500;
+    	font-weight: normal;
+    	font-size: 22px;
+    	background-color: rgba(164, 28, 21, 0.6);
+    	width: 100%;
+    	height: 30px;
+	}
+	.subtitcarousel a strong {
+		position: relative;
+    	top: -6px;
+    	font-size: 13px;
+	}
+	#headerTitle strong {
+		font-size: 15px;
+	}
+	#headerLogo {
+		display: none;
+	}
+	#headerLogo1{
+		position: absolute;
+		top: 15px;
+		left: 90%;
+		margin-left: -75px;
+		opacity: 1;
+		display: inline;
+	}
+	.sponsorList {
+		float: left;
+	}
+	#headerNavs {
+		display: none;
+	}
+	.wrappernewsnextmatch {
+		display: none;
+	}
+	.homepagecenterhead > div > span {
+		font-size: 1.5em;
+	}
+	.hpnewstitle .title {
+		font-size: 12px;
+	}
+	.gallery1 {
+		display: none;
+	}
+	.gallery2 {
+		display: none;
+	}
+	.homepagegallery > div > span {
+		font-size: 1.5em;
+	}
+	#social {
+		display: none!important;
+	}
+	.social767 {
+		display: none!important;
+	}
+	.urzadbyt {
+		display: none!important;
+	}
+	.partners div a.drutexfooter {
+		left: -40px;
+	}
+	.partners div a.polsatsport {
+		top: 270px;
+		left: -55px;
+	}
+	.backgroundcolorsponsor {
+		display: none;
+	}
+	.div-779{
+		display: none;
+	}
+	.gallery {
+		height: 218px;
+	}
+	.daneklubu {
+		left: -55px;
+		width: 100%;
+	}
+	.menumini {
+		left: 50px;
+		width: 100%;
+	}
+	.homepagecenter {
+		display: none;
+	}
+	.titleline > div > div strong.activn span:first-child {
 	    border-bottom: 2px solid #B51D16;
 	    text-transform: uppercase;
-}
-.container-fluid > .navbar-header {
-	background-color: #000;
-}
-.dropdown-toggle {
-	background-color: #000!important;
-}
-#mynavbar-content ul li{
-	background-color: #000;
-}
-.gallery3 {
-	height: 189px;
-}
-.gallery3 img {
-	width: 279px;
-}
-.backgroundcolormenumini {
-	height: 100%;
-}
-.menumini {
-	left: 0px;
-	font-size: 10px;
-}
-.social {
-	display: none;
-}
-.daneklubu {
-	left: -61px;
-	font-size: 12px;
-	top: 90px;
-}
-.widget-title {
-	font-size: 15px;
-}
-.imgadress {
-	top:15px;
-}
-#pagename .wrapper h1 {
-	font-size: 25px;
-}
-.modul-content ul li a .titlenewsstrong {
+	}
+	.container-fluid > .navbar-header {
+		background-color: #000;
+	}
+	.dropdown-toggle {
+		background-color: #000!important;
+	}
+	#mynavbar-content ul li{
+		background-color: #000;
+	}
+	.gallery3 {
+		height: 189px;
+	}
+	.gallery3 img {
+		width: 279px;
+	}
+	.backgroundcolormenumini {
+		height: 100%;
+	}
+	.menumini {
+		left: 0px;
+		font-size: 10px;
+	}
+	.social {
+		display: none;
+	}
+	.daneklubu {
+		left: -61px;
+		font-size: 12px;
+		top: 90px;
+	}
+	.widget-title {
+		font-size: 15px;
+	}
+	.imgadress {
+		top:15px;
+	}
+	#pagename .wrapper h1 {
+		font-size: 25px;
+	}
+	.modul-content ul li a .titlenewsstrong {
 		font-size: 11px;
     	margin-top: 100px;
     	margin-left: -270px;
@@ -6080,25 +6060,25 @@ left: 50px;
 	font-size: 17px;
     margin-top: 150px;
     margin-left: -229px;
-}
-.modul-content11 ul li a .textnews {
-	display: none;
-}
-.filterposition1 {
-	display: none!important;
-}
-.filterposition2 {
-	display: none!important;
-}
-.select {
-	display: none;
-}
-.heading {
-	display: none;
-}
-#pagename11 .wrapper h1 {
-	font-size: 15px;
-}
+	}
+	.modul-content11 ul li a .textnews {
+		display: none;
+	}
+	.filterposition1 {
+		display: none!important;
+	}
+	.filterposition2 {
+		display: none!important;
+	}
+	.select {
+		display: none;
+	}
+	.heading {
+		display: none;
+	}
+	#pagename11 .wrapper h1 {
+		font-size: 15px;
+	}
 }
 /*najbliższe mecze */ 
 @media only screen and (min-width: 678px) and (max-width: 1400px){
@@ -6185,8 +6165,6 @@ left: 50px;
 	.mecz_herby1 {
 		display: none;
 	}
-	
-
 }
 @media only screen and (max-width: 500px){ 
 	.tb_mecz_title {
@@ -6201,22 +6179,22 @@ left: 50px;
 	.mecz_herby1 {
 		display: none;
 	}
-	}
+}
 @media only screen and (max-width: 400px) {
 	.mecz_herby {
 		display: none;
 	}
 	.mecz_herby1 {
-	display: block;
-	text-align: center;
-	padding-top: 35px;
-}
+		display: block;
+		text-align: center;
+		padding-top: 35px;
+	}
 	.button_zielony {
-	height: 30px;
+		height: 30px;
 	}
 	.button_zielony a {
-	padding: 7px 0px 5px 20px;
-	font-size: 12.06px;
+		padding: 7px 0px 5px 20px;
+		font-size: 12.06px;
 	}
 }
 @media only screen and (max-width: 356px) {
@@ -6242,8 +6220,7 @@ left: 50px;
 	.mecz_herby1 {
     	text-align: center;
     	padding-top: 35px;
-	
-}
+	}
 }
 /*klub*/
 @media only screen and (max-width: 1500px) {
@@ -6252,8 +6229,7 @@ left: 50px;
 	}
 	 #pagename .wrapper h1 {
     	margin-bottom: 0px;
-}
-
+	}
 }
 @media only screen and (max-width: 959px) {
 	#content {
@@ -6283,17 +6259,17 @@ left: 50px;
     	text-align: center;
     	width: 100%;
     	margin-left: 0px;
-}
+	}
 	.wiceprezes1 {
 		text-align: center;
     	width: 100%;
     	margin-left: 0px;
-}
+	}
 	.sekretarz1 {
 		text-align: center;
     	width: 100%;
     	margin-left: 0px;
-}
+	}
 	.pagetitle h1 {
 		font-size: 32px;
 	}
@@ -6319,54 +6295,54 @@ left: 50px;
 		padding-top: 0px;
 	}
 	.wrapper-inner {
-    width: 97%;
+    	width: 97%;
 	}
 
 }
 @media only screen and (max-width: 1010px) {
 	#content1 {
-	display: block;
-	background-color: #9C9C9C;
-	display: block;
+		display: block;
+		background-color: #9C9C9C;
+		display: block;
 	}
 	#content1 .wrapper {
-	background-color: white;
+		background-color: white;
 	}
 	#content1 .wrapper-inner::after {
-    background: #000 none repeat scroll 0% 0%;
-    bottom: 5px;
-    content: "";
-    height: 5px;
-    left: 0px;
-    margin: 0px 1.47%;
-    position: absolute;
-    right: 0px;
+    	background: #000 none repeat scroll 0% 0%;
+    	bottom: 5px;
+    	content: "";
+    	height: 5px;
+    	left: 0px;
+    	margin: 0px 1.47%;
+    	position: absolute;
+    	right: 0px;
 	}
 }
 @media only screen and (max-width: 444px) {
 	#content1 {
-	display: block;
-	background-color: #9C9C9C;
+		display: block;
+		background-color: #9C9C9C;
 	}
 	#content1 .wrapper {
-	background-color: white;
+		background-color: white;
 	}
 	#content1 .wrapper-inner::after {
-    background: #000 none repeat scroll 0% 0%;
-    bottom: 5px;
-    content: "";
-    height: 5px;	
-    left: 0px;
-    margin: 0px 1.47%;
-    position: absolute;
-    right: 0px;
+    	background: #000 none repeat scroll 0% 0%;
+    	bottom: 5px;
+    	content: "";
+    	height: 5px;	
+    	left: 0px;
+    	margin: 0px 1.47%;
+    	position: absolute;
+    	right: 0px;
 	}
 }
 @media only screen and (max-width: 444px) { 
-		.module-titled {
-			display: block;
-		}
+	.module-titled {
+		display: block;
 	}
+}
 /*juniorzy*/
 @media only screen and (max-width: 717px) { 
 	.juniorwidthimg {
@@ -6466,17 +6442,17 @@ left: 50px;
 		float: left;
 		text-transform: uppercase;
     	margin-top: 20px;
-}
+	}
 	.tableposition11 a {
 		margin-top: 20px;
     	text-decoration: none;
     	color: #000;
     	text-transform: none;
-}	
+	}	
 	.tableIleaguebig {
     	width: 95%;
 
-}
+	}
 	.tableposition1 {
 		display: none;
 	}
@@ -6486,7 +6462,7 @@ left: 50px;
     	color: #000;
     	border: none;
     	margin-left: 5px;
-}
+	}
 	.tableIleaguebig > thead > tr > th {
 		font-size: 7px;
 	}
@@ -6496,7 +6472,7 @@ left: 50px;
 	.tableIleaguebig1 {
     	width: 90%;
     	margin-left: 0px;
-}
+	}
 	.tableIleaguebig1 > tbody > tr > td {
 		font-size: 12px;
 	}
@@ -6529,7 +6505,7 @@ left: 50px;
 	.tableIleaguebig1 {
     	width: 90%;
     	margin-left: 0px;
-}
+	}
 	.tableIleaguebig1 > tbody > tr > td {
 		font-size: 7px;
 	}
@@ -6556,7 +6532,6 @@ left: 50px;
 	.btd-module-match {
 		display: none;
 	}
-
 	.kolortla {
 		background-color: #fff;
 	}
@@ -6574,6 +6549,12 @@ left: 50px;
 /*dla dzieci*/ 
 @media only screen and (max-width:321px) {
 	.teasermedia {
+		display: none;
+	}
+}
+/*index*/
+@media only screen and (max-width:745px) {
+	.gallery2 {
 		display: none;
 	}
 }
