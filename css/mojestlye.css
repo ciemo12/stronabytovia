@@ -6461,7 +6461,6 @@ left: 50px;
 		position: relative;
 		float: left;
 		text-transform: uppercase;
-		left: 5%;
     	margin-top: 20px;
 }
 	.tableposition11 a {
@@ -6484,4 +6483,57 @@ left: 50px;
     	border: none;
     	margin-left: 5px;
 }
+	.tableIleaguebig > thead > tr > th {
+		font-size: 7px;
+	}
+	.tableIleaguebig > tbody > tr > td {
+		font-size: 12px;
+	}
+	.tableIleaguebig1 {
+    	width: 90%;
+    	margin-left: 0px;
 }
+	.tableIleaguebig1 > tbody > tr > td {
+		font-size: 12px;
+	}
+	.tableIleaguebig1 > thead > tr > th {
+		font-size: 7px;
+	}
+	.panel-default > .panel-heading {
+		height: 71px;
+	}
+	.panel-title > a {
+		font-size: 1.5em;
+	}
+}
+@media only screen and (max-width: 500px) { 
+	.tableIleaguebig > tbody > tr > td {
+		font-size: 7px;
+	}
+	.homepagecenter {
+		display: block;
+	}
+	.homepagecenterhead > div {
+		height: 43px;
+	}
+	.homepagecenterhead > div > span {
+		font-size: 1.4em;
+		display: block;
+		height: 42px;
+		width: 25%;
+	}
+	.tableIleaguebig1 {
+    	width: 90%;
+    	margin-left: 0px;
+}
+	.tableIleaguebig1 > tbody > tr > td {
+		font-size: 7px;
+	}
+	.tableIleaguebig1 > thead > tr > th {
+		font-size: 7px;
+	}
+	
+}
+@media only screen and (max-width: 449px) { 
+
+	}
