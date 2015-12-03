@@ -3732,7 +3732,7 @@ a {
 .subpage-article {
     padding-right: 15px;
 }
-.heading {
+.heading1 {
     width: 100%;
     min-height: 60px;
     line-height: 60px;
@@ -6383,3 +6383,75 @@ left: 50px;
 	#headerLogo1 {
 		display: none;
 	}
+}
+/*terminarz*/
+@media only screen and (max-width: 980px) {
+	 .backgroundDefault11 {
+	 	display: none!important;
+	 }
+	 .heading1 {
+    	width: 100%;
+    	min-height: 60px;
+    	line-height: 60px;
+    	margin-bottom: 10px;
+    	clear: both;
+    	margin-top: 20px;
+	}	
+}
+@media only screen and (max-width: 859px) {
+	 .backgroundDefault11 {
+	 	display: none!important;
+	 }
+	 .heading1 {
+    	width: 100%;
+    	min-height: 60px;
+    	line-height: 60px;
+    	margin-bottom: 10px;
+    	clear: both;
+    	margin-top: 20px;
+	}	
+	.schedule table tbody td.team {
+    	width: 22%;
+    	font-size: 10px;
+	}
+	.schedule table tbody td.date-short {
+		width: 12.5%;
+    	border-top: 1px solid black; 
+    	font-size: 10px;
+	}
+	.schedule table tbody td.score {
+		width: 12%;
+    	border-top: 1px solid black;
+    	font-size: 10px;
+	}
+}
+@media only screen and (max-width: 650px) {
+	 .backgroundDefault11 {
+	 	display: none!important;
+	 }
+	 .heading1 {
+    	width: 100%;
+    	min-height: 60px;
+    	line-height: 60px;
+    	margin-bottom: 10px;
+    	clear: both;
+    	margin-top: 20px;
+	}	
+	.schedule table tbody td.team {
+    	width: 22%;
+    	font-size: 7px;
+	}
+	.schedule table tbody td.date-short {
+		width: 12.5%;
+    	border-top: 1px solid black; 
+    	font-size: 7px;
+	}
+	.schedule table tbody td.score {
+		width: 12%;
+    	border-top: 1px solid black;
+    	font-size: 7px;
+	}
+	.title h5 {
+		font-size: 15px;
+	}
+}
