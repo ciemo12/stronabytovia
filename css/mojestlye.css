@@ -6455,3 +6455,33 @@ left: 50px;
 		font-size: 15px;
 	}
 }
+/*tabele*/
+@media only screen and (max-width: 1143px) {
+	.tableposition11 {
+		position: relative;
+		float: left;
+		text-transform: uppercase;
+		left: 5%;
+    	margin-top: 20px;
+}
+	.tableposition11 a {
+		margin-top: 20px;
+    	text-decoration: none;
+    	color: #000;
+    	text-transform: none;
+}	
+	.tableIleaguebig {
+    	width: 95%;
+
+}
+	.tableposition1 {
+		display: none;
+	}
+	.tableIleaguebig {
+    	width: 95%;
+    	font-family: MouseoSans_500;
+    	color: #000;
+    	border: none;
+    	margin-left: 5px;
+}
+}
