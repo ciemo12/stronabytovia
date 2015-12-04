@@ -520,6 +520,14 @@ hr {
 	height: 50%;
 
 }
+.backgroundcolormenumini .wrapper {
+	height: 100%;
+}
+.wrapperwidthfooter {
+	width: 100%;
+	height: 100%;
+	padding: 15px;
+}
 .obramowanieheader {
  	padding-bottom: 5px;
  	border-bottom: 3.5px solid #B70C0C;
@@ -2188,12 +2196,11 @@ ul li:hover .hpnewsimage img{
 	margin-top: 0;
 }
 .menumini {
-	padding: 0px;
-	width: 350px;
-	position: relative;
-	top: 96px;
-	height: 80px;
-	float: left;
+	width: 33%;
+    position: relative;
+    top: 96px;
+    height: 80px;
+    float: left;
 }
 .menumini ul {
 	text-decoration: none;
@@ -2221,17 +2228,18 @@ ul li:hover .hpnewsimage img{
 }
 .daneklubu {
 	position: relative;
-	color: #CCC;
-	float: right;
-	top: 74px;
-	left: -40px;
+    color: #CCC;
+    float: right;
+    top: 74px;
+    left: -40px;
+    width: 30%;
 }
 .social {
 	position: relative;
-	float: left;
- 	top:95px;
- 	width: 217px;
- 	left: 2px;
+    float: left;
+    top: 95px;
+    width: 30%;
+    text-align: center;	
  }
 .list-follow {
 	width: 100%;
