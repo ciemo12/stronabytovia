@@ -446,9 +446,9 @@ hr {
 }
 
 .partners div a.drutexfooter{
-    width: 220px;
+    width: 33%;
     height: 100px;
-    background: url('../photos/drutexfooter1.png');
+    background: url('../photos/drutexfooter1.png') no-repeat scroll 0% 0%;
     text-decoration: none;
     display: inline-block;
    position: absolute;
@@ -456,7 +456,7 @@ hr {
    left: 0px;
 }
 .partners div a.drutexfooter:hover{
-    background: url('../photos/drutexfooter.png');
+    background: url('../photos/drutexfooter.png') no-repeat scroll 0% 0%;
 }
 .partners div a.adidasfooter{
 	text-decoration: none;
@@ -464,17 +464,17 @@ hr {
    position: absolute;
    float: left;
    left: 0px;
-	width: 300px;
+	width: 33%;
     height: 200px;
-    background: url('../photos/Adidas-Web1.png');
+    background: url('../photos/Adidas-Web1.png') no-repeat scroll 0% 0%;
 }
 .partners div a.adidasfooter:hover{
-    background: url('../photos/Adidas-Web11.png');
+    background: url('../photos/Adidas-Web11.png') no-repeat scroll 0% 0%;
 }
 .partners div a.urzadbyt {
-	width: 161px;
+	width: 33%;
 	height: 176px;
-	background: url("../photos/urzadfooter1.png");
+	background: url("../photos/urzadfooter1.png") no-repeat scroll 0% 0%;
 	text-decoration: none;
 	display: inline-block;
 	position: absolute;
@@ -484,12 +484,12 @@ hr {
 	margin-left: 199px;
 }
 .partners div a.urzadbyt:hover{
-    background: url('../photos/urzadfooter.png');
+    background: url('../photos/urzadfooter.png') no-repeat scroll 0% 0%;
 }
 .partners div a.polsatsport{
-	width: 275px;
+	width: 33%;
 	height: 80px;
-	background: url("../photos/polsatfooter1.png");
+	background: url("../photos/polsatfooter1.png") no-repeat scroll 0% 0%;
 	display: inline-block;
 	position: absolute;
 	float: left;
@@ -497,7 +497,7 @@ hr {
 	top: 183px;
 }
 .partners div a.polsatsport:hover {
-	background: url('../photos/polsatfooter.png');
+	background: url('../photos/polsatfooter.png') no-repeat scroll 0% 0%;
 }
 .drutexfooter {
 	width: 100px;
@@ -4595,9 +4595,6 @@ a {
 	.wrappernextmatchcenter {
 		display: none;
 	}
-    .partners div a.urzadbyt {
-    	display: none;
-	}
 	.gallery3 {
 		display: none;
 	}
@@ -4660,22 +4657,6 @@ a {
     	text-transform: uppercase;
     	height: 85px;
     	width: 98%;
-	}
-	.partners div a.drutexfooter {
-    	background: url('../photos/drutexfooter1.png');
-    	text-decoration: none;
-    	display: inline-block;
-    	position: absolute;
-    	float: left;
-    	margin-left: 140px;
-	}
-	.partners div a.polsatsport {
-    	background: transparent url("../photos/polsatfooter1.png") repeat scroll 0% 0%;
-    	display: inline-block;
-    	position: absolute;
-    	float: left;
-    	left: 400px;
-    	top: 167px;
 	}
 	#footersite {
     	width: 100%;
@@ -5112,16 +5093,6 @@ a {
 		display: inline;
 		visibility: visible;
 	}
-	.partners div a.drutexfooter {
-		left: 111px;
-	}
-	.partners div a.urzadbyt {
-		left: 16px;
-   		top: 245px;
-	}
-	.polsatsport {
-		display: none!important;
-	}
 	.footerhead {
     	width: 97%;
 	}
@@ -5453,16 +5424,6 @@ a {
 	.imgadress {
 		top:15px;
 	}
-	.partners div a.polsatsport {
-		top: 270px;
-		left: -55px;
-	}
-	.partners div a.drutexfooter {
-		left: -40px;
-	}
-	.urzadbyt {
-		display: none!important;
-	}
 	.filterposition1 {
 		display: none!important;
 	}
@@ -5646,13 +5607,6 @@ a {
 	}
 	.imgadress {
 		top:15px;
-	}
-	.partners div a.polsatsport {
-		top: 270px;
-		left: -55px;
-	}
-	.partners div a.drutexfooter {
-		left: -40px;
 	}
 	#pagename .wrapper h1 {
 		font-size: 30px;
@@ -5874,16 +5828,6 @@ a {
 	}
 	.social767 {
 		display: none!important;
-	}
-	.urzadbyt {
-		display: none!important;
-	}
-	.partners div a.drutexfooter {
-		left: -40px;
-	}
-	.partners div a.polsatsport {
-		top: 270px;
-		left: -55px;
 	}
 	.backgroundcolorsponsor {
 		display: none;
@@ -6543,5 +6487,17 @@ a {
 	}
 	.imgadress {
 		left: 150px;
+	}
+}
+/*partners*/ 
+@media only screen and (max-width: 1110px) { 
+	.partners div a.drutexfooter{
+    	width: 30%;
+    }
+	.partners div a.polsatsport {
+		width: 30%;
+	}
+	.partners div a.urzadbyt {
+		width: 30%;
 	}
 }
