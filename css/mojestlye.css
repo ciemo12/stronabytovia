@@ -438,11 +438,11 @@ hr {
 .partners div {
 	float: left;
 	margin-bottom: 25px;
-	width: 100%;
+	width: 33%;
 }
 .partners div a {
-	margin-left:66px;
 	opacity: 0.5;
+	margin-left:0px;
 }
 
 .partners div a.drutexfooter{
@@ -451,9 +451,8 @@ hr {
     background: url('../photos/drutexfooter1.png') no-repeat scroll 0% 0%;
     text-decoration: none;
     display: inline-block;
-   position: absolute;
-   float: left;
-   left: 0px;
+   	position: relative;
+   	float: left;
 }
 .partners div a.drutexfooter:hover{
     background: url('../photos/drutexfooter.png') no-repeat scroll 0% 0%;
@@ -461,9 +460,8 @@ hr {
 .partners div a.adidasfooter{
 	text-decoration: none;
     display: inline-block;
-   position: absolute;
-   float: left;
-   left: 0px;
+   	position: relative;
+   	float: left;
 	width: 33%;
     height: 200px;
     background: url('../photos/Adidas-Web1.png') no-repeat scroll 0% 0%;
@@ -474,27 +472,22 @@ hr {
 .partners div a.urzadbyt {
 	width: 33%;
 	height: 176px;
-	background: url("../photos/urzadfooter1.png") no-repeat scroll 0% 0%;
+	background: url("../photos/urzadfooter1.png") no-repeat scroll 63% 0%;
 	text-decoration: none;
 	display: inline-block;
-	position: absolute;
+	position: relative;
 	float: left;
-	left: 250px;
-	top: 140px;
-	margin-left: 199px;
 }
 .partners div a.urzadbyt:hover{
-    background: url('../photos/urzadfooter.png') no-repeat scroll 0% 0%;
+    background: url('../photos/urzadfooter.png') no-repeat scroll 63% 0%;
 }
 .partners div a.polsatsport{
 	width: 33%;
 	height: 80px;
 	background: url("../photos/polsatfooter1.png") no-repeat scroll 0% 0%;
 	display: inline-block;
-	position: absolute;
+	position: relative;
 	float: left;
-	left: 650px;
-	top: 183px;
 }
 .partners div a.polsatsport:hover {
 	background: url('../photos/polsatfooter.png') no-repeat scroll 0% 0%;
@@ -4661,7 +4654,7 @@ a {
 	#footersite {
     	width: 100%;
     	background-color: #080808;
-    	height: 380px;
+    	height: 480px;
     	position: relative;
 	}
 	.bytoviafooter1 {
@@ -6492,12 +6485,12 @@ a {
 /*partners*/ 
 @media only screen and (max-width: 1110px) { 
 	.partners div a.drutexfooter{
-    	width: 30%;
+    	width: 100%;
     }
 	.partners div a.polsatsport {
-		width: 30%;
+		width: 100%;
 	}
 	.partners div a.urzadbyt {
-		width: 30%;
+		width: 100%;
 	}
 }
