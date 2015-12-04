@@ -6325,10 +6325,10 @@ a {
 		height: 43px;
 	}
 	.homepagecenterhead > div > span {
-		font-size: 1.4em;
+		font-size: 1.2em;
 		display: block;
 		height: 42px;
-		width: 25%;
+		width: 50%;
 	}
 	.tableIleaguebig1 {
     	width: 90%;
@@ -6555,11 +6555,7 @@ a {
 
 } 
 /*homepage*/
+}
 @media only screen and (max-width: 528px) { 
-	.hpnewstitle {
-		display: none;
-	}
-	.homepagecenterhead {
-		display: none;
-	}
+	
 }
