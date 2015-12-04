@@ -446,16 +446,16 @@ hr {
 }
 
 .partners div a.drutexfooter{
-    width: 33%;
+    width: 100%;
     height: 100px;
-    background: url('../photos/drutexfooter1.png') no-repeat scroll 0% 0%;
+    background: url('../photos/drutexfooter1.png') no-repeat scroll 70% 0%;
     text-decoration: none;
     display: inline-block;
    	position: relative;
    	float: left;
 }
 .partners div a.drutexfooter:hover{
-    background: url('../photos/drutexfooter.png') no-repeat scroll 0% 0%;
+    background: url('../photos/drutexfooter.png') no-repeat scroll 70% 0%;
 }
 .partners div a.adidasfooter{
 	text-decoration: none;
@@ -470,7 +470,7 @@ hr {
     background: url('../photos/Adidas-Web11.png') no-repeat scroll 0% 0%;
 }
 .partners div a.urzadbyt {
-	width: 33%;
+	width: 100%;
 	height: 176px;
 	background: url("../photos/urzadfooter1.png") no-repeat scroll 63% 0%;
 	text-decoration: none;
@@ -482,15 +482,16 @@ hr {
     background: url('../photos/urzadfooter.png') no-repeat scroll 63% 0%;
 }
 .partners div a.polsatsport{
-	width: 33%;
+	width: 100%;
 	height: 80px;
-	background: url("../photos/polsatfooter1.png") no-repeat scroll 0% 0%;
+	background: url("../photos/polsatfooter1.png") no-repeat scroll 50% 0%;
 	display: inline-block;
 	position: relative;
 	float: left;
+	top: 25px;
 }
 .partners div a.polsatsport:hover {
-	background: url('../photos/polsatfooter.png') no-repeat scroll 0% 0%;
+	background: url('../photos/polsatfooter.png') no-repeat scroll 50% 0%;
 }
 .drutexfooter {
 	width: 100px;
