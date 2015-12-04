@@ -406,7 +406,7 @@ hr {
 
  .footerhead {
 	height:85px;
-	margin-bottom: 4.0404%;
+	margin-bottom: 7.0404%;
 	color: white;
 }
 .footerhead > div {
@@ -4283,9 +4283,6 @@ a {
 	.partners1 {
 		display: inline;
 	}
-	.partners {
-		display: none;
-	}
 	.partners1 div a.adidasfooter1{
 		text-decoration: none;
     	display: inline-block;
@@ -4651,12 +4648,6 @@ a {
     	text-transform: uppercase;
     	height: 85px;
     	width: 98%;
-	}
-	#footersite {
-    	width: 100%;
-    	background-color: #080808;
-    	height: 480px;
-    	position: relative;
 	}
 	.bytoviafooter1 {
     	position: absolute;
@@ -5104,9 +5095,6 @@ a {
 	}
 	.modul-content1 {
 		display: none;
-	}
-	#footersite {
-		height: 500px;
 	}
 	.modul-content1 {
 		display: none;
@@ -6411,7 +6399,7 @@ a {
    	 	margin-bottom: 2px;
     	display: block;
     	z-index: 2;
-    	top: 330px;
+    	top: 430px;
 	}
 }
 @media only screen and (max-width: 856px) { 
@@ -6430,7 +6418,7 @@ a {
    	 	margin-bottom: 2px;
     	display: block;
     	z-index: 2;
-    	top: 330px;
+    	top: 430px;
 	}
 }
 @media only screen and (max-width: 839px) { 
@@ -6494,4 +6482,67 @@ a {
 	.partners div a.urzadbyt {
 		width: 100%;
 	}
+	.bytoviafooter {
+		top: 430px;
+	}
+}
+@media only screen and (max-width: 1110px) { 
+	.partners div {
+		width: 50%;
+	}
+	#footersite {
+		height: 580px;
+	}
+	.bytoviafooter {
+		top: 530px;
+	}
+}
+@media only screen and (max-width: 599px) { 
+	.partners div {
+		width: 100%;
+	}	
+	#footersite {
+		height: 680px;
+	}
+	.bytoviafooter {
+		top: 630px;
+	}
+	.partners div a.drutexfooter {
+		background:url('../photos/drutexfooter1.png') no-repeat scroll 61% 0%;
+	}
+	.partners div a.drutexfooter:hover {
+		background:url('../photos/drutexfooter.png') no-repeat scroll 61% 0%;
+	}
+	.partners div a.urzadbyt {
+		background: url("../photos/urzadfooter1.png") no-repeat scroll 56% 0%;
+	}
+	.partners div a.urzadbyt:hover {
+		background: url("../photos/urzadfooter.png") no-repeat scroll 56% 0%;
+	}
+	.partners div a.polsatsport {
+    	background: url("../photos/polsatfooter1.png") no-repeat scroll 50% 0%;
+    }
+    .partners div a.polsatsport:hover {
+    	background: url("../photos/polsatfooter.png") no-repeat scroll 50% 0%;
+    }
+}
+@media only screen and (max-width: 351px) { 
+	.partners div a.drutexfooter {
+		background:url('../photos/drutexfooter1.png') no-repeat scroll 61% 0%;
+	}
+	.partners div a.drutexfooter:hover {
+		background:url('../photos/drutexfooter.png') no-repeat scroll 61% 0%;
+	}
+	.partners div a.urzadbyt {
+		background: url("../photos/urzadfooter1.png") no-repeat scroll 56% 0%;
+	}
+	.partners div a.urzadbyt:hover {
+		background: url("../photos/urzadfooter.png") no-repeat scroll 56% 0%;
+	}
+	.partners div a.polsatsport {
+    	background: url("../photos/polsatfooter1.png") no-repeat scroll 50% 0%;
+    }
+    .partners div a.polsatsport:hover {
+    	background: url("../photos/polsatfooter.png") no-repeat scroll 50% 0%;
+    }
 }
