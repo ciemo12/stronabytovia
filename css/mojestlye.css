@@ -4692,9 +4692,7 @@ a {
     	z-index: 2;
     	top: 430px;
 	}
-	.bytoviafooter {
-		display: none;
-	}
+	
 	.logo11 img{
 		margin-top: 28px;
 	}
@@ -4903,9 +4901,6 @@ a {
 	.wrappernewsnextmatch {
 		display: none;
 	}
-	#footersite {
-		display: none!important;
-	}
 	.backgroundcolorsponsor {
 		display: none;
 	}
@@ -4983,9 +4978,6 @@ a {
     .hpnewstitle .title {
     	font-size: 10px;
     }
-    .bytoviafooter {
-		display: none;
-	}
 	.bytoviafooter1 {
 		display: none;
 	}
@@ -4998,15 +4990,6 @@ a {
 	}
 	.backgroundcolormenumini {
 		height: 100%;
-	}
-	.menumini {
-		width: 318px;
-		margin-left: 150px;
-	}
-	.daneklubu {
-		width: 243px;
-		left:-325px;
-		top: 210px
 	}
 	#headerNavs {
 		display: none;
@@ -5053,8 +5036,8 @@ a {
 		width: 90%;
 		height: 90%;
 	}
-.wrappernewsnextmatch {
-	display: none;
+	.wrappernewsnextmatch {
+		display: none;
 	}
 	ol { 
 		height: 4em;
@@ -5157,14 +5140,8 @@ a {
 	.modul-content1 {
 		display: none;
 	}
-	.list-follow {
-		margin-left: 183px;
-	}
 	#footersite {
 		height: 500px;
-	}
-	.bytoviafooter {
-		top: 450px;
 	}
 	.modul-content1 {
 		display: none;
@@ -5216,9 +5193,6 @@ a {
 	#pagename .wrapper h1 {
 		font-size: 40px;
 	}
-	.bytoviafooter {
-		display: none;
-	}
 	.textnews {
 		display: none!important;
 	}
@@ -5245,9 +5219,6 @@ a {
 	}
 	.textnews {
 		display: none!important;
-	}
-	.bytoviafooter {
-		display: none;
 	}
 	.modul-content ul li a {
 		padding: 16px 1px 0px 250px;
@@ -5333,9 +5304,6 @@ a {
 	}
 	.homepagecenterhead > div > span {
 		font-size: 20px;
-	}
-	.bytoviafooter {
-		display: none;
 	}	
 	.bytoviafooter1 {
 		display: none;
@@ -5445,12 +5413,6 @@ a {
 	.gallery {
 		height: 218px;
 	}
-	.daneklubu {
-		left: -55px;
-	}
-	.menumini {
-	left: 50px;
-	}
 	.homepagecenter {
 		display: none;
 	}
@@ -5484,18 +5446,6 @@ a {
 	}
 	.backgroundcolormenumini {
 		height: 100%;
-	}
-	.menumini {
-		left: 0px;
-		font-size: 10px;
-	}
-	.social {
-		display: none;
-	}
-	.daneklubu {
-		left: -70px;
-		font-size: 12px;
-		top: 90px;
 	}
 	.widget-title {
 		font-size: 15px;
@@ -5535,9 +5485,6 @@ a {
 @media only screen and (min-width:320px) and (max-width: 395px) {
 	.modul-content1 ul li a {
 		 min-height: 200px;
-	}
-	.bytoviafooter {
-		display: none;
 	}
 	.partners {
 		display: inline;
@@ -5656,12 +5603,7 @@ a {
 	.gallery {
 		height: 218px;
 	}
-	.daneklubu {
-		left: -55px;
-	}
-	.menumini {
-	left: 50px;
-	}
+
 	.homepagecenter {
 		display: none;
 	}
@@ -5698,18 +5640,6 @@ a {
 	}
 	.backgroundcolormenumini {
 		height: 100%;
-	}
-	.menumini {
-		left: 0px;
-		font-size: 10px;
-	}
-	.social {
-		display: none;
-	}
-	.daneklubu {
-		left: -70px;
-		font-size: 12px;
-		top: 90px;
 	}
 	.widget-title {
 		font-size: 15px;
@@ -5767,9 +5697,6 @@ a {
 	.textnews {
 		display: none!important;
 	}
-	.bytoviafooter {
-		display: none;
-	}
 	.modul-content ul li a {
 		padding: 16px 1px 0px 250px;
 	}
@@ -5802,9 +5729,6 @@ a {
 	.modul-content ul li a {
 		padding: 10px 1px 0px 220px
 	}
-	.bytoviafooter {
-		display: none;
-	}
 }
 @media only screen and (min-width:320px) and (max-width: 344px) {
 	.modul-content ul li a .titlenewsstrong {
@@ -5825,16 +5749,10 @@ a {
 	.buttonpositionnews {
 		margin-left: 0px;
 	}
-	.bytoviafooter {
-		display: none;
-	}
 }
 @media only screen and (max-width: 319px) {
 	.modul-content1 ul li a {
 		 min-height: 200px;
-	}
-	.bytoviafooter {
-		display: none;
 	}
 	.partners1 div a {
 		margin-left: 0px;
@@ -5976,14 +5894,6 @@ a {
 	.gallery {
 		height: 218px;
 	}
-	.daneklubu {
-		left: -55px;
-		width: 100%;
-	}
-	.menumini {
-		left: 50px;
-		width: 100%;
-	}
 	.homepagecenter {
 		display: none;
 	}
@@ -6008,18 +5918,6 @@ a {
 	}
 	.backgroundcolormenumini {
 		height: 100%;
-	}
-	.menumini {
-		left: 0px;
-		font-size: 10px;
-	}
-	.social {
-		display: none;
-	}
-	.daneklubu {
-		left: -61px;
-		font-size: 12px;
-		top: 90px;
 	}
 	.widget-title {
 		font-size: 15px;
@@ -6564,5 +6462,86 @@ a {
 @media only screen and (max-width:745px) {
 	.gallery2 {
 		display: none;
+	}
+}
+/*footer*/ 
+@media only screen and (max-width: 1009px) {
+	.bytoviafooter {
+		position: absolute;
+    	left: 50%;
+    	margin-left: -42px;
+   	 	margin-bottom: 2px;
+    	display: block;
+    	z-index: 2;
+    	top: 330px;
+	}
+}
+@media only screen and (max-width: 856px) { 
+	#homepage {
+		-webkit-margin-after: 0em;
+	}
+	#social {
+		display: none;
+	}
+}
+@media only screen and (max-width: 856px) { 
+	.bytoviafooter {
+		position: absolute;
+    	left: 50%;
+    	margin-left: -42px;
+   	 	margin-bottom: 2px;
+    	display: block;
+    	z-index: 2;
+    	top: 330px;
+	}
+}
+@media only screen and (max-width: 839px) { 
+	.widget-title {
+    	text-transform: uppercase;
+    	font-size: 15px;
+	}
+	.imgadress {
+    	position: relative;
+    	float: left;
+    	left: 150px;
+    	top: 18px;
+	}
+	.wrapperwidthfooter {
+		font-size: 8px;
+	}
+}
+@media only screen and (max-width: 689px) { 
+	.social {
+		position: relative;
+		top: 110px;
+		width: 100%;
+	}
+	.menumini {
+		width: 45%;
+	}
+	.daneklubu {
+		width: 45%;
+		left: 0px;
+	}
+}
+@media only screen and (max-width: 476px) { 
+	.menumini {
+		width: 50%;
+	}
+	.daneklubu {
+		width: 50%;
+	}
+}
+@media only screen and (max-width: 435px) { 
+	.menumini {
+		width: 100%;
+		text-align: left;
+	}
+	.daneklubu {
+		width: 100%;
+		text-align: left;
+	}
+	.imgadress {
+		left: 150px;
 	}
 }
