@@ -6554,3 +6554,12 @@ a {
 	}
 
 } 
+/*homepage*/
+@media only screen and (max-width: 528px) { 
+	.hpnewstitle {
+		display: none;
+	}
+	.homepagecenterhead {
+		display: none;
+	}
+}
