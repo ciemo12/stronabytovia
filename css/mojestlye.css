@@ -17,7 +17,6 @@ body {
     src:url('../fonts/MuseoSans_500.otf');}
 header {
 	z-index: 100;
-	min-width: 320px;
 	color: #FFF;
 	font-family: MouseoSans_500;
 }
@@ -5746,7 +5745,7 @@ a {
 	}
 	#headerTop {
     	color: #FFF;
-    	font-size: 8px;
+    	font-size: 6px;
 	}
 	.carousel-inner {
 		height: 200px;
@@ -6192,9 +6191,6 @@ a {
 	.homepagecenterheadjun > div {
 		height: 58px;
 	}
-	#headerLogo1 {
-		display: none;
-	}
 }
 /*terminarz*/
 @media only screen and (max-width: 980px) {
@@ -6546,3 +6542,15 @@ a {
     	background: url("../photos/polsatfooter.png") no-repeat scroll 50% 0%;
     }
 }
+/*headerLogo1*/ 
+@media only screen and (max-width: 528px) { 
+	.headerLogo1 {
+		display: block;
+	}
+}
+@media only screen and (max-width: 435px) { 
+	.sponsorList {
+		display: none;
+	}
+
+} 
