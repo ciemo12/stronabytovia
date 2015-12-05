@@ -3983,6 +3983,46 @@ a {
 .clearfix2 {
 	display: none;
 }
+/*informacje*/
+.headline-wrapper {
+	text-align: center;
+    margin-top: 35px;
+}
+.headline-wrapper h1 {
+	font-family: MouseoSans_500;
+    font-weight: normal;
+    font-size: 60px;
+}
+.btd-module.width-100 {
+	width: 100%;
+}
+.btd-module-itb {
+    float: left;
+    padding: 0 1.5625%;
+    position: relative;
+    margin-bottom: 40px;
+    width: 100%;
+}
+.btd-module-itb .text-image {
+	float: left;
+    height: 100%;
+    width: 100%;
+}
+.btd-module-itb .text-image .image1 {
+	text-align: center;
+    margin-bottom: 20px;
+}
+.btd-module-itb .text-image .image1 img {
+	width: 100%;
+}
+.btd-module-itb .text-image .text {
+	float: left;
+    line-height: 1.625em;
+}
+.btd-module-itb .text-image .text p {
+	text-align: inherit;
+	font-family: MouseoSans_500;
+}
 /*RWD*/
 @media only screen and (max-width: 1038px) {
 	.tableposition {
@@ -6542,10 +6582,12 @@ a {
 	}
 
 } 
-/*homepage*/
+
+/*info*/
 }
-@media only screen and (max-width: 528px) { 
-	 {
-		display: none!important;
-	}
+@media only screen and (max-width: 616px) { 
+	 .headline-wrapper {
+	 	font-size: 25px;
+	 }
+	
 }
