@@ -6318,18 +6318,6 @@ a {
 	.tableIleaguebig > tbody > tr > td {
 		font-size: 7px;
 	}
-	.homepagecenter {
-		display: block;
-	}
-	.homepagecenterhead > div {
-		height: 43px;
-	}
-	.homepagecenterhead > div > span {
-		font-size: 1.2em;
-		display: block;
-		height: 42px;
-		width: 50%;
-	}
 	.tableIleaguebig1 {
     	width: 90%;
     	margin-left: 0px;
@@ -6557,5 +6545,7 @@ a {
 /*homepage*/
 }
 @media only screen and (max-width: 528px) { 
-	
+	 {
+		display: none!important;
+	}
 }
