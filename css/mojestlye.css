@@ -6580,14 +6580,10 @@ a {
 	.sponsorList {
 		display: none;
 	}
-
 } 
-
 /*info*/
-}
 @media only screen and (max-width: 616px) { 
-	 .headline-wrapper {
-	 	font-size: 25px;
-	 }
-	
+	.headline-wrapper h1 {
+	 	font-size: 30px;
+	 }	
 }
